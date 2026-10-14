@@ -4,6 +4,10 @@ Research code and selected scientific evidence for **Change-Impact Analysis of R
 
 This repository contains the implementation, tests, research contracts, permitted BPI Challenge 2019 derivatives, synthetic fixtures, and selected saved measurements. The contracts and retention policies are constructed for the study. The evaluated archive is one public procurement dataset; repeated partitions, rule variants and timing rounds are not independent organizations or deployment studies.
 
+## Provenance correction
+
+[ERRATA.md](ERRATA.md) corrects one description that associated the constructed `To Bill` return control with an upstream execution whose actual order status was `To Receive and Bill`. The original scientific source and saved results are preserved; diagnostic counts and manuscript conclusions are unchanged. The paper-pinned `v1.0.0` remains immutable. Version `v1.0.1` adds this documentation-only correction.
+
 ## Reproduce the core evidence
 
 Run from the repository root with Python 3.11 or later. Python 3.12.3 was used for the clean checks. Every invocation needs a new output directory.
