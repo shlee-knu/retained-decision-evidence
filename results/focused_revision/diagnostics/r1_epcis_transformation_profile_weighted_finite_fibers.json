@@ -1,0 +1,867 @@
+{
+  "timing": {
+    "name": "epcis_transformation_profile",
+    "method": "finite_fibers",
+    "workload": "weighted",
+    "setup": {
+      "cpu_ns": 21430560,
+      "wall_ns": 21431441
+    },
+    "dependency_import": {
+      "cpu_ns": 0,
+      "wall_ns": 0
+    },
+    "core_setup": {
+      "cpu_ns": 21430560,
+      "wall_ns": 21431441
+    },
+    "core_batch": {
+      "cpu_ns": 32303286,
+      "wall_ns": 32303305
+    },
+    "first_report": {
+      "cpu_ns": 39231,
+      "wall_ns": 38283
+    },
+    "setup_plus_first": {
+      "cpu_ns": 21469791,
+      "wall_ns": 21469724
+    },
+    "batch": {
+      "cpu_ns": 32303286,
+      "wall_ns": 32303305
+    },
+    "serialization": {
+      "cpu_ns": 4023592,
+      "wall_ns": 4021646
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 27736545,
+      "wall_ns": 27737661
+    },
+    "checks": 480,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 648,
+    "diagnosed_classes": 56,
+    "status_counts": {
+      "safe": 288,
+      "insufficient": 360
+    },
+    "output_bytes": 404938,
+    "output_sha256": "d30da3d8a2bbf0de10bdba94b56e55b104cbc02a2249fd216881aadd5331dcae",
+    "process_peak_rss_kib": {
+      "before_setup": 26584,
+      "after_setup": 26964,
+      "after_first_report": 26964,
+      "after_batch": 26964
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "2": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "3": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "273": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "274": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "275": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "absent",
+          "nonempty",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "absent",
+          "absent",
+          "nonempty",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "276": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "277": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "278": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "absent",
+          "nonempty",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "absent",
+          "absent",
+          "nonempty",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "37": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "absent",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "absent",
+          "absent",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "4": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "5": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "300": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "301": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "302": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "empty",
+          "nonempty",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "absent",
+          "empty",
+          "nonempty",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "303": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "304": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "305": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "empty",
+          "nonempty",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "absent",
+          "empty",
+          "nonempty",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "44": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "empty",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "absent",
+          "empty",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "145": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "146": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "147": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "nonempty",
+          "absent",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "absent",
+          "nonempty",
+          "absent",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "148": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "149": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "150": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "nonempty",
+          "absent",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "absent",
+          "nonempty",
+          "absent",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "13": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "absent",
+          "nonempty",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "absent",
+          "nonempty",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "336": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "337": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "338": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "absent",
+          "absent",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "present",
+          "absent",
+          "absent",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "339": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "340": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "341": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "absent",
+          "absent",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "present",
+          "absent",
+          "absent",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "48": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "absent",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "present",
+          "absent",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "345": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "346": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "347": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "absent",
+          "empty",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "present",
+          "absent",
+          "empty",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "348": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "349": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "350": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "absent",
+          "empty",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "present",
+          "absent",
+          "empty",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "49": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "absent",
+          "empty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "present",
+          "absent",
+          "empty",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "6": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "absent",
+          "nonempty",
+          "absent",
+          "absent",
+          "vendor"
+        ],
+        [
+          "present",
+          "absent",
+          "nonempty",
+          "absent",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "363": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "364": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "365": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "empty",
+          "absent",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "present",
+          "empty",
+          "absent",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "366": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "367": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "368": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "empty",
+          "absent",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "present",
+          "empty",
+          "absent",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "53": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "empty",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "present",
+          "empty",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "372": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "373": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "374": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "empty",
+          "empty",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "present",
+          "empty",
+          "empty",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "375": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "376": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "377": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "empty",
+          "empty",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "present",
+          "empty",
+          "empty",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "54": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "empty",
+          "empty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "present",
+          "empty",
+          "empty",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "7": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "empty",
+          "nonempty",
+          "absent",
+          "absent",
+          "vendor"
+        ],
+        [
+          "present",
+          "empty",
+          "nonempty",
+          "absent",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    },
+    "0": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "present",
+          "nonempty",
+          "absent",
+          "absent",
+          "absent",
+          "vendor"
+        ],
+        [
+          "present",
+          "nonempty",
+          "absent",
+          "absent",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        32
+      ]
+    }
+  }
+}

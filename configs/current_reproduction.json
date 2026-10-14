@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "baseline_tag": "ICSE_NIER_2026_ALPHA",
+  "baseline_commit": "569647bac55bd4079a1d66c8d75525ae3aa71deb",
+  "portable_bundle": {
+    "path": "results/alpha_revision_20261010/audit_report/run",
+    "logical_sha256": "7c220d921dd6c5254a4bfe5e5016cac9bd647dded7d16b7141338a845e651582"
+  },
+  "archived_source_overrides": {
+    "src/logistics_validation/audit_report.py": {
+      "preserved_path": "paper/history/ICSE_NIER_2026_ALPHA/source_code/src/logistics_validation/audit_report.py",
+      "sha256": "b0c9fca31d347440fc7a641c6fb1ffeac017c8af251a45ef59b037c71f95634b"
+    }
+  },
+  "scope": "Current corrected portable verifier plus preserved historical scientific evidence; platform replay executes current source separately. This tag is a preservation name and does not change the IEEE Access manuscript format or venue."
+}

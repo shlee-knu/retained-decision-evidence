@@ -1,0 +1,433 @@
+{
+  "timing": {
+    "name": "epcis_object_profile",
+    "method": "finite_fibers",
+    "workload": "weighted",
+    "setup": {
+      "cpu_ns": 5147615,
+      "wall_ns": 5148154
+    },
+    "dependency_import": {
+      "cpu_ns": 0,
+      "wall_ns": 0
+    },
+    "core_setup": {
+      "cpu_ns": 5147615,
+      "wall_ns": 5148154
+    },
+    "core_batch": {
+      "cpu_ns": 8762087,
+      "wall_ns": 8761530
+    },
+    "first_report": {
+      "cpu_ns": 40713,
+      "wall_ns": 40714
+    },
+    "setup_plus_first": {
+      "cpu_ns": 5188328,
+      "wall_ns": 5188868
+    },
+    "batch": {
+      "cpu_ns": 8762087,
+      "wall_ns": 8761530
+    },
+    "serialization": {
+      "cpu_ns": 1525546,
+      "wall_ns": 1525730
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 8873897,
+      "wall_ns": 8874544
+    },
+    "checks": 256,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 324,
+    "diagnosed_classes": 33,
+    "status_counts": {
+      "safe": 224,
+      "insufficient": 100
+    },
+    "output_bytes": 113830,
+    "output_sha256": "f1197d15f91f9a4c7b5688fda5943a134138c744d26e44a0f4ddd8126939e10c",
+    "process_peak_rss_kib": {
+      "before_setup": 26776,
+      "after_setup": 26776,
+      "after_first_report": 26776,
+      "after_batch": 26776
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "6": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "9": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "10": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "11": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "empty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "empty",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "0": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "nonempty",
+          "absent",
+          "absent",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "nonempty",
+          "absent",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "15": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "16": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "113": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "114": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "115": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "17": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "18": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "122": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "empty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "empty",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "123": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "124": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "35": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "nonempty",
+          "absent",
+          "absent",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "nonempty",
+          "absent",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "36": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "37": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "19": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "20": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "140": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "DELETE",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "DELETE",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "141": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "142": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "21": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "22": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "149": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "DELETE",
+          "empty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "DELETE",
+          "empty",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "150": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "151": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "42": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "DELETE",
+          "nonempty",
+          "absent",
+          "absent",
+          "vendor"
+        ],
+        [
+          "DELETE",
+          "nonempty",
+          "absent",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "43": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "44": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-07T13:18:38.131057+00:00",
+  "implementation_sha256": {
+    "scripts/evaluate_external_contracts.py": "a5e854c68c571ddd854756bf9a905d450225d1ba0e4893e1176dd73d8b12771a",
+    "src/logistics_validation/external_contracts.py": "6ad3098af783d232c4fb183f270fb3a5b24d0e2b8cfc1677504696827e8bae46",
+    "src/logistics_validation/external_contracts_oracle.py": "d6a33173c0da3b1b83b61f7a5afbc578cc2a3a787ad337251f5777957299948a",
+    "tests/test_external_contracts.py": "ca0210d551c9cbdc459fcfe9e03f2a7c0ed68016c451cd822cd21943df44736b"
+  },
+  "counts": {
+    "fixtures": 4282,
+    "fixture_contract_pairs": 10834,
+    "oracle_pass": 1893,
+    "condition_bounded_numeric_tied": 4914,
+    "policy_calls": 130008,
+    "condition_bounded_numeric_distinct": 4914,
+    "oracle_fail": 8939,
+    "condition_temporal_permutation_repeat_approval": 750,
+    "condition_temporal_repeated_planned_start": 250,
+    "oracle_nonapplicable": 2,
+    "condition_base_nonapplicable": 2,
+    "condition_base_missing_approval": 1,
+    "condition_numeric_over_28_digits": 1,
+    "condition_UTC_year_boundary": 2
+  },
+  "oracle_disagreements": 0,
+  "ambiguous_returned_certificate_groups": 0,
+  "observed_certificate_groups": 9264,
+  "scope": "Wholly constructed bounded-domain fixtures, not additional real cases. Numeric initial values {0,1}, amounts/totals {-1,0,1}, lengths1–3, tied/distinct timestamps; temporal permutations with two approvals and repeated starts, exact ties, lowercase t/z, offset equivalence, sub-microsecond differences; explicit no-trigger and >28-digit fixtures.",
+  "certificate_check": "Within this enumerated fixture domain, group by visible activity projection and actual queried block bytes. Each returned certificate group has exactly one independent-oracle outcome. This bounded check is not a completeness or optimality proof for arbitrary predicate domains.",
+  "invalid_values": "Visible malformed/missing numbers, invalid dates/offsets, Unicode and hidden-later-invalid domain limitations are separately exercised by tests/test_external_contracts.py."
+}

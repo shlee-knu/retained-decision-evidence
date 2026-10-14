@@ -1,0 +1,10350 @@
+{
+  "name": "epcis_object_profile",
+  "target": null,
+  "queries": [
+    {
+      "base": [],
+      "mask": 3,
+      "observed": [
+        "ADD",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 5,
+      "observed": [
+        "ADD",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 6,
+      "observed": [
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 6,
+      "observed": [
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 6,
+      "observed": [
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 6,
+      "observed": [
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 7,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 9,
+      "observed": [
+        "OBSERVE",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 9,
+      "observed": [
+        "OBSERVE",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 9,
+      "observed": [
+        "DELETE",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 9,
+      "observed": [
+        "DELETE",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 10,
+      "observed": [
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 11,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 12,
+      "observed": [
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 13,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "absent",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "absent",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "absent",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "absent",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "absent",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "absent",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "absent",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "empty",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "empty",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "empty",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "empty",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "empty",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "empty",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "empty",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "nonempty",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "nonempty",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 14,
+      "observed": [
+        "nonempty",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "absent"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "empty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 15,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "nonempty"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 19,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 19,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 19,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 19,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 21,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 21,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 21,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 21,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 22,
+      "observed": [
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 23,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "DELETE",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "DELETE",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "DELETE",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "DELETE",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 25,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 26,
+      "observed": [
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 26,
+      "observed": [
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 26,
+      "observed": [
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 26,
+      "observed": [
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 27,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 28,
+      "observed": [
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 28,
+      "observed": [
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 28,
+      "observed": [
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 28,
+      "observed": [
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 29,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "absent",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "empty",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 30,
+      "observed": [
+        "nonempty",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "ADD",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "OBSERVE",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "absent",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "empty",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "absent",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "empty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "receiving"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "shipping"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "receiving_uri"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "absent",
+        "vendor"
+      ],
+      "old_verdict": true
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "empty",
+        "vendor"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "receiving"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "shipping"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "receiving_uri"
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [],
+      "mask": 31,
+      "observed": [
+        "DELETE",
+        "nonempty",
+        "nonempty",
+        "nonempty",
+        "vendor"
+      ],
+      "old_verdict": false
+    }
+  ],
+  "weighted_requests": [
+    [
+      "0",
+      6
+    ],
+    [
+      "1",
+      6
+    ],
+    [
+      "2",
+      6
+    ],
+    [
+      "3",
+      6
+    ],
+    [
+      "4",
+      6
+    ],
+    [
+      "5",
+      6
+    ],
+    [
+      "6",
+      6
+    ],
+    [
+      "7",
+      6
+    ],
+    [
+      "8",
+      6
+    ],
+    [
+      "9",
+      6
+    ],
+    [
+      "10",
+      6
+    ],
+    [
+      "11",
+      6
+    ],
+    [
+      "12",
+      7
+    ],
+    [
+      "13",
+      7
+    ],
+    [
+      "14",
+      7
+    ],
+    [
+      "15",
+      7
+    ],
+    [
+      "16",
+      7
+    ],
+    [
+      "17",
+      7
+    ],
+    [
+      "18",
+      7
+    ],
+    [
+      "19",
+      7
+    ],
+    [
+      "20",
+      7
+    ],
+    [
+      "21",
+      7
+    ],
+    [
+      "22",
+      7
+    ],
+    [
+      "23",
+      7
+    ],
+    [
+      "24",
+      8
+    ],
+    [
+      "25",
+      8
+    ],
+    [
+      "26",
+      8
+    ],
+    [
+      "27",
+      8
+    ],
+    [
+      "28",
+      8
+    ],
+    [
+      "29",
+      8
+    ],
+    [
+      "30",
+      8
+    ],
+    [
+      "31",
+      8
+    ],
+    [
+      "32",
+      8
+    ],
+    [
+      "33",
+      8
+    ],
+    [
+      "34",
+      8
+    ],
+    [
+      "35",
+      8
+    ],
+    [
+      "36",
+      9
+    ],
+    [
+      "37",
+      9
+    ],
+    [
+      "38",
+      9
+    ],
+    [
+      "39",
+      9
+    ],
+    [
+      "40",
+      9
+    ],
+    [
+      "41",
+      9
+    ],
+    [
+      "42",
+      9
+    ],
+    [
+      "43",
+      9
+    ],
+    [
+      "44",
+      9
+    ],
+    [
+      "45",
+      9
+    ],
+    [
+      "46",
+      9
+    ],
+    [
+      "47",
+      9
+    ],
+    [
+      "48",
+      10
+    ],
+    [
+      "49",
+      10
+    ],
+    [
+      "50",
+      10
+    ],
+    [
+      "51",
+      10
+    ],
+    [
+      "52",
+      10
+    ],
+    [
+      "53",
+      10
+    ],
+    [
+      "54",
+      10
+    ],
+    [
+      "55",
+      10
+    ],
+    [
+      "56",
+      10
+    ],
+    [
+      "57",
+      10
+    ],
+    [
+      "58",
+      10
+    ],
+    [
+      "59",
+      10
+    ],
+    [
+      "60",
+      11
+    ],
+    [
+      "61",
+      11
+    ],
+    [
+      "62",
+      11
+    ],
+    [
+      "63",
+      11
+    ],
+    [
+      "64",
+      11
+    ],
+    [
+      "65",
+      11
+    ],
+    [
+      "66",
+      11
+    ],
+    [
+      "67",
+      11
+    ],
+    [
+      "68",
+      11
+    ],
+    [
+      "69",
+      11
+    ],
+    [
+      "70",
+      11
+    ],
+    [
+      "71",
+      11
+    ],
+    [
+      "72",
+      0
+    ],
+    [
+      "73",
+      0
+    ],
+    [
+      "74",
+      0
+    ],
+    [
+      "75",
+      0
+    ],
+    [
+      "76",
+      0
+    ],
+    [
+      "77",
+      0
+    ],
+    [
+      "78",
+      0
+    ],
+    [
+      "79",
+      0
+    ],
+    [
+      "80",
+      0
+    ],
+    [
+      "81",
+      0
+    ],
+    [
+      "82",
+      0
+    ],
+    [
+      "83",
+      0
+    ],
+    [
+      "84",
+      0
+    ],
+    [
+      "85",
+      0
+    ],
+    [
+      "86",
+      0
+    ],
+    [
+      "87",
+      0
+    ],
+    [
+      "88",
+      0
+    ],
+    [
+      "89",
+      0
+    ],
+    [
+      "90",
+      0
+    ],
+    [
+      "91",
+      0
+    ],
+    [
+      "92",
+      0
+    ],
+    [
+      "93",
+      0
+    ],
+    [
+      "94",
+      0
+    ],
+    [
+      "95",
+      0
+    ],
+    [
+      "96",
+      0
+    ],
+    [
+      "97",
+      0
+    ],
+    [
+      "98",
+      0
+    ],
+    [
+      "99",
+      0
+    ],
+    [
+      "100",
+      0
+    ],
+    [
+      "101",
+      0
+    ],
+    [
+      "102",
+      0
+    ],
+    [
+      "103",
+      0
+    ],
+    [
+      "104",
+      0
+    ],
+    [
+      "105",
+      0
+    ],
+    [
+      "106",
+      0
+    ],
+    [
+      "107",
+      0
+    ],
+    [
+      "108",
+      15
+    ],
+    [
+      "109",
+      15
+    ],
+    [
+      "110",
+      15
+    ],
+    [
+      "111",
+      15
+    ],
+    [
+      "112",
+      15
+    ],
+    [
+      "113",
+      15
+    ],
+    [
+      "114",
+      15
+    ],
+    [
+      "115",
+      15
+    ],
+    [
+      "116",
+      15
+    ],
+    [
+      "117",
+      15
+    ],
+    [
+      "118",
+      15
+    ],
+    [
+      "119",
+      15
+    ],
+    [
+      "120",
+      16
+    ],
+    [
+      "121",
+      16
+    ],
+    [
+      "122",
+      16
+    ],
+    [
+      "123",
+      16
+    ],
+    [
+      "124",
+      16
+    ],
+    [
+      "125",
+      16
+    ],
+    [
+      "126",
+      16
+    ],
+    [
+      "127",
+      16
+    ],
+    [
+      "128",
+      16
+    ],
+    [
+      "129",
+      16
+    ],
+    [
+      "130",
+      16
+    ],
+    [
+      "131",
+      16
+    ],
+    [
+      "132",
+      113
+    ],
+    [
+      "133",
+      113
+    ],
+    [
+      "134",
+      113
+    ],
+    [
+      "135",
+      113
+    ],
+    [
+      "136",
+      114
+    ],
+    [
+      "137",
+      114
+    ],
+    [
+      "138",
+      114
+    ],
+    [
+      "139",
+      114
+    ],
+    [
+      "140",
+      115
+    ],
+    [
+      "141",
+      115
+    ],
+    [
+      "142",
+      115
+    ],
+    [
+      "143",
+      115
+    ],
+    [
+      "144",
+      17
+    ],
+    [
+      "145",
+      17
+    ],
+    [
+      "146",
+      17
+    ],
+    [
+      "147",
+      17
+    ],
+    [
+      "148",
+      17
+    ],
+    [
+      "149",
+      17
+    ],
+    [
+      "150",
+      17
+    ],
+    [
+      "151",
+      17
+    ],
+    [
+      "152",
+      17
+    ],
+    [
+      "153",
+      17
+    ],
+    [
+      "154",
+      17
+    ],
+    [
+      "155",
+      17
+    ],
+    [
+      "156",
+      18
+    ],
+    [
+      "157",
+      18
+    ],
+    [
+      "158",
+      18
+    ],
+    [
+      "159",
+      18
+    ],
+    [
+      "160",
+      18
+    ],
+    [
+      "161",
+      18
+    ],
+    [
+      "162",
+      18
+    ],
+    [
+      "163",
+      18
+    ],
+    [
+      "164",
+      18
+    ],
+    [
+      "165",
+      18
+    ],
+    [
+      "166",
+      18
+    ],
+    [
+      "167",
+      18
+    ],
+    [
+      "168",
+      122
+    ],
+    [
+      "169",
+      122
+    ],
+    [
+      "170",
+      122
+    ],
+    [
+      "171",
+      122
+    ],
+    [
+      "172",
+      123
+    ],
+    [
+      "173",
+      123
+    ],
+    [
+      "174",
+      123
+    ],
+    [
+      "175",
+      123
+    ],
+    [
+      "176",
+      124
+    ],
+    [
+      "177",
+      124
+    ],
+    [
+      "178",
+      124
+    ],
+    [
+      "179",
+      124
+    ],
+    [
+      "180",
+      35
+    ],
+    [
+      "181",
+      35
+    ],
+    [
+      "182",
+      35
+    ],
+    [
+      "183",
+      35
+    ],
+    [
+      "184",
+      36
+    ],
+    [
+      "185",
+      36
+    ],
+    [
+      "186",
+      36
+    ],
+    [
+      "187",
+      36
+    ],
+    [
+      "188",
+      37
+    ],
+    [
+      "189",
+      37
+    ],
+    [
+      "190",
+      37
+    ],
+    [
+      "191",
+      37
+    ],
+    [
+      "192",
+      35
+    ],
+    [
+      "193",
+      35
+    ],
+    [
+      "194",
+      35
+    ],
+    [
+      "195",
+      35
+    ],
+    [
+      "196",
+      36
+    ],
+    [
+      "197",
+      36
+    ],
+    [
+      "198",
+      36
+    ],
+    [
+      "199",
+      36
+    ],
+    [
+      "200",
+      37
+    ],
+    [
+      "201",
+      37
+    ],
+    [
+      "202",
+      37
+    ],
+    [
+      "203",
+      37
+    ],
+    [
+      "204",
+      35
+    ],
+    [
+      "205",
+      35
+    ],
+    [
+      "206",
+      35
+    ],
+    [
+      "207",
+      35
+    ],
+    [
+      "208",
+      36
+    ],
+    [
+      "209",
+      36
+    ],
+    [
+      "210",
+      36
+    ],
+    [
+      "211",
+      36
+    ],
+    [
+      "212",
+      37
+    ],
+    [
+      "213",
+      37
+    ],
+    [
+      "214",
+      37
+    ],
+    [
+      "215",
+      37
+    ],
+    [
+      "216",
+      19
+    ],
+    [
+      "217",
+      19
+    ],
+    [
+      "218",
+      19
+    ],
+    [
+      "219",
+      19
+    ],
+    [
+      "220",
+      19
+    ],
+    [
+      "221",
+      19
+    ],
+    [
+      "222",
+      19
+    ],
+    [
+      "223",
+      19
+    ],
+    [
+      "224",
+      19
+    ],
+    [
+      "225",
+      19
+    ],
+    [
+      "226",
+      19
+    ],
+    [
+      "227",
+      19
+    ],
+    [
+      "228",
+      20
+    ],
+    [
+      "229",
+      20
+    ],
+    [
+      "230",
+      20
+    ],
+    [
+      "231",
+      20
+    ],
+    [
+      "232",
+      20
+    ],
+    [
+      "233",
+      20
+    ],
+    [
+      "234",
+      20
+    ],
+    [
+      "235",
+      20
+    ],
+    [
+      "236",
+      20
+    ],
+    [
+      "237",
+      20
+    ],
+    [
+      "238",
+      20
+    ],
+    [
+      "239",
+      20
+    ],
+    [
+      "240",
+      140
+    ],
+    [
+      "241",
+      140
+    ],
+    [
+      "242",
+      140
+    ],
+    [
+      "243",
+      140
+    ],
+    [
+      "244",
+      141
+    ],
+    [
+      "245",
+      141
+    ],
+    [
+      "246",
+      141
+    ],
+    [
+      "247",
+      141
+    ],
+    [
+      "248",
+      142
+    ],
+    [
+      "249",
+      142
+    ],
+    [
+      "250",
+      142
+    ],
+    [
+      "251",
+      142
+    ],
+    [
+      "252",
+      21
+    ],
+    [
+      "253",
+      21
+    ],
+    [
+      "254",
+      21
+    ],
+    [
+      "255",
+      21
+    ],
+    [
+      "256",
+      21
+    ],
+    [
+      "257",
+      21
+    ],
+    [
+      "258",
+      21
+    ],
+    [
+      "259",
+      21
+    ],
+    [
+      "260",
+      21
+    ],
+    [
+      "261",
+      21
+    ],
+    [
+      "262",
+      21
+    ],
+    [
+      "263",
+      21
+    ],
+    [
+      "264",
+      22
+    ],
+    [
+      "265",
+      22
+    ],
+    [
+      "266",
+      22
+    ],
+    [
+      "267",
+      22
+    ],
+    [
+      "268",
+      22
+    ],
+    [
+      "269",
+      22
+    ],
+    [
+      "270",
+      22
+    ],
+    [
+      "271",
+      22
+    ],
+    [
+      "272",
+      22
+    ],
+    [
+      "273",
+      22
+    ],
+    [
+      "274",
+      22
+    ],
+    [
+      "275",
+      22
+    ],
+    [
+      "276",
+      149
+    ],
+    [
+      "277",
+      149
+    ],
+    [
+      "278",
+      149
+    ],
+    [
+      "279",
+      149
+    ],
+    [
+      "280",
+      150
+    ],
+    [
+      "281",
+      150
+    ],
+    [
+      "282",
+      150
+    ],
+    [
+      "283",
+      150
+    ],
+    [
+      "284",
+      151
+    ],
+    [
+      "285",
+      151
+    ],
+    [
+      "286",
+      151
+    ],
+    [
+      "287",
+      151
+    ],
+    [
+      "288",
+      42
+    ],
+    [
+      "289",
+      42
+    ],
+    [
+      "290",
+      42
+    ],
+    [
+      "291",
+      42
+    ],
+    [
+      "292",
+      43
+    ],
+    [
+      "293",
+      43
+    ],
+    [
+      "294",
+      43
+    ],
+    [
+      "295",
+      43
+    ],
+    [
+      "296",
+      44
+    ],
+    [
+      "297",
+      44
+    ],
+    [
+      "298",
+      44
+    ],
+    [
+      "299",
+      44
+    ],
+    [
+      "300",
+      42
+    ],
+    [
+      "301",
+      42
+    ],
+    [
+      "302",
+      42
+    ],
+    [
+      "303",
+      42
+    ],
+    [
+      "304",
+      43
+    ],
+    [
+      "305",
+      43
+    ],
+    [
+      "306",
+      43
+    ],
+    [
+      "307",
+      43
+    ],
+    [
+      "308",
+      44
+    ],
+    [
+      "309",
+      44
+    ],
+    [
+      "310",
+      44
+    ],
+    [
+      "311",
+      44
+    ],
+    [
+      "312",
+      42
+    ],
+    [
+      "313",
+      42
+    ],
+    [
+      "314",
+      42
+    ],
+    [
+      "315",
+      42
+    ],
+    [
+      "316",
+      43
+    ],
+    [
+      "317",
+      43
+    ],
+    [
+      "318",
+      43
+    ],
+    [
+      "319",
+      43
+    ],
+    [
+      "320",
+      44
+    ],
+    [
+      "321",
+      44
+    ],
+    [
+      "322",
+      44
+    ],
+    [
+      "323",
+      44
+    ]
+  ],
+  "weights_are_empirical": false,
+  "original_source": "Authored complete finite selected-clause domain",
+  "suite": "authored_epcis",
+  "workloads": [
+    "unique",
+    "weighted"
+  ]
+}

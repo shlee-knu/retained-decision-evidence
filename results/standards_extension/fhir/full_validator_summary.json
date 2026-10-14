@@ -1,0 +1,1346 @@
+{
+  "engine": "Official HL7 Java Validator",
+  "version": "6.7.0",
+  "jobs": [
+    {
+      "status": "completed",
+      "exit_code": 0,
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "command": [
+        "java",
+        "-Xmx2g",
+        "-Duser.home=/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home",
+        "-jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/validator_cli.jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/6.1.0/*.json",
+        "-version",
+        "4.0.1",
+        "-ig",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-6.1.0.tgz",
+        "-profile",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result",
+        "-tx",
+        "n/a",
+        "-output",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/observation-clinical-result/6.1.0/operation_outcomes.json"
+      ],
+      "fixture_count": 29,
+      "synthetic_indices": [
+        0,
+        33,
+        65,
+        98,
+        131,
+        163,
+        196,
+        228,
+        261,
+        294,
+        326,
+        359
+      ],
+      "elapsed_seconds": 15.216041582054459,
+      "issue_categories": {
+        "unresolved_or_unchecked": 61,
+        "error": 20,
+        "warning": 45
+      },
+      "raw_issue_count": 126,
+      "fixture_sha256": {
+        "observation-0261.json": "097908f57fc44c9ce889f313d2b3565fc6ce63e5605f50111acb20580095ea7a",
+        "observation-0000.json": "c78e0550713492d20aadc594b1c848e48828ee62fbc26b618bea9b877cb34af5",
+        "observation-0359.json": "adce43b6eb3007b7a0d17c48e9a0bbe1382df7b2e7fece620aa795de2e578ec7",
+        "observation-0228.json": "ab8b7520bf129711e28327d2b2d78e4ac64fe6145bf91f2f1ce5e929253578d9",
+        "observation-0098.json": "9e447181b7b4676ffd9e6969968cd4bb2ecfaa5942add30d47344b6ed259917a",
+        "observation-0131.json": "ca0b5b499555cf3de7f694faf90f8c9998a0968c8e7c3d4c0465012e04a2de01",
+        "observation-0033.json": "f48f2313767c83b84b543b379e4e4bd155bc06a421dcc817b9511e8e59e90e50",
+        "observation-0065.json": "7467824cf3c901cb1e6a206eba5c93388aba5a6ceef454b865df42ca11749388",
+        "observation-0294.json": "0ea34693f0481896683e8dc747eac6add590594bb81c4e5a4001244bdf914f16",
+        "observation-0163.json": "d85dee0785d0607bd090eb4e8ed424ba55f8094f04dd0510e70185336c281e52",
+        "observation-0326.json": "82c46cc2d8a2adee552c37bc86bbb67093f96d8207eddc8e76b5423249bdc256",
+        "observation-0196.json": "530ae23f37ab9c81986c1e4d088a827cae1c801d1dfa9bb819f3360b1347c2e1"
+      }
+    },
+    {
+      "status": "completed",
+      "exit_code": 0,
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "command": [
+        "java",
+        "-Xmx2g",
+        "-Duser.home=/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home",
+        "-jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/validator_cli.jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/*.json",
+        "-version",
+        "4.0.1",
+        "-ig",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-7.0.0.tgz",
+        "-profile",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result",
+        "-tx",
+        "n/a",
+        "-output",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/observation-clinical-result/7.0.0/operation_outcomes.json"
+      ],
+      "fixture_count": 29,
+      "synthetic_indices": [
+        0,
+        33,
+        65,
+        98,
+        131,
+        163,
+        196,
+        228,
+        261,
+        294,
+        326,
+        359
+      ],
+      "elapsed_seconds": 18.95839391089976,
+      "issue_categories": {
+        "unresolved_or_unchecked": 61,
+        "error": 23,
+        "warning": 41
+      },
+      "raw_issue_count": 125,
+      "fixture_sha256": {
+        "observation-0261.json": "097908f57fc44c9ce889f313d2b3565fc6ce63e5605f50111acb20580095ea7a",
+        "observation-0000.json": "c78e0550713492d20aadc594b1c848e48828ee62fbc26b618bea9b877cb34af5",
+        "observation-0359.json": "adce43b6eb3007b7a0d17c48e9a0bbe1382df7b2e7fece620aa795de2e578ec7",
+        "observation-0228.json": "ab8b7520bf129711e28327d2b2d78e4ac64fe6145bf91f2f1ce5e929253578d9",
+        "observation-0098.json": "9e447181b7b4676ffd9e6969968cd4bb2ecfaa5942add30d47344b6ed259917a",
+        "observation-0131.json": "ca0b5b499555cf3de7f694faf90f8c9998a0968c8e7c3d4c0465012e04a2de01",
+        "observation-0033.json": "f48f2313767c83b84b543b379e4e4bd155bc06a421dcc817b9511e8e59e90e50",
+        "observation-0065.json": "7467824cf3c901cb1e6a206eba5c93388aba5a6ceef454b865df42ca11749388",
+        "observation-0294.json": "0ea34693f0481896683e8dc747eac6add590594bb81c4e5a4001244bdf914f16",
+        "observation-0163.json": "d85dee0785d0607bd090eb4e8ed424ba55f8094f04dd0510e70185336c281e52",
+        "observation-0326.json": "82c46cc2d8a2adee552c37bc86bbb67093f96d8207eddc8e76b5423249bdc256",
+        "observation-0196.json": "530ae23f37ab9c81986c1e4d088a827cae1c801d1dfa9bb819f3360b1347c2e1"
+      }
+    },
+    {
+      "status": "completed",
+      "exit_code": 0,
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "command": [
+        "java",
+        "-Xmx2g",
+        "-Duser.home=/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home",
+        "-jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/validator_cli.jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/*.json",
+        "-version",
+        "4.0.1",
+        "-ig",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-6.1.0.tgz",
+        "-profile",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+        "-tx",
+        "n/a",
+        "-output",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/observation-lab/6.1.0/operation_outcomes.json"
+      ],
+      "fixture_count": 31,
+      "synthetic_indices": [
+        0,
+        33,
+        65,
+        98,
+        131,
+        163,
+        196,
+        228,
+        261,
+        294,
+        326,
+        359
+      ],
+      "elapsed_seconds": 55.72936421097256,
+      "issue_categories": {
+        "unresolved_or_unchecked": 90,
+        "error": 20,
+        "warning": 43
+      },
+      "raw_issue_count": 153,
+      "fixture_sha256": {
+        "observation-0261.json": "097908f57fc44c9ce889f313d2b3565fc6ce63e5605f50111acb20580095ea7a",
+        "observation-0000.json": "c78e0550713492d20aadc594b1c848e48828ee62fbc26b618bea9b877cb34af5",
+        "observation-0359.json": "adce43b6eb3007b7a0d17c48e9a0bbe1382df7b2e7fece620aa795de2e578ec7",
+        "observation-0228.json": "ab8b7520bf129711e28327d2b2d78e4ac64fe6145bf91f2f1ce5e929253578d9",
+        "observation-0098.json": "9e447181b7b4676ffd9e6969968cd4bb2ecfaa5942add30d47344b6ed259917a",
+        "observation-0131.json": "ca0b5b499555cf3de7f694faf90f8c9998a0968c8e7c3d4c0465012e04a2de01",
+        "observation-0033.json": "f48f2313767c83b84b543b379e4e4bd155bc06a421dcc817b9511e8e59e90e50",
+        "observation-0065.json": "7467824cf3c901cb1e6a206eba5c93388aba5a6ceef454b865df42ca11749388",
+        "observation-0294.json": "0ea34693f0481896683e8dc747eac6add590594bb81c4e5a4001244bdf914f16",
+        "observation-0163.json": "d85dee0785d0607bd090eb4e8ed424ba55f8094f04dd0510e70185336c281e52",
+        "observation-0326.json": "82c46cc2d8a2adee552c37bc86bbb67093f96d8207eddc8e76b5423249bdc256",
+        "observation-0196.json": "530ae23f37ab9c81986c1e4d088a827cae1c801d1dfa9bb819f3360b1347c2e1"
+      }
+    },
+    {
+      "status": "completed",
+      "exit_code": 0,
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "command": [
+        "java",
+        "-Xmx2g",
+        "-Duser.home=/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home",
+        "-jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/validator_cli.jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/7.0.0/*.json",
+        "-version",
+        "4.0.1",
+        "-ig",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-7.0.0.tgz",
+        "-profile",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
+        "-tx",
+        "n/a",
+        "-output",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/observation-lab/7.0.0/operation_outcomes.json"
+      ],
+      "fixture_count": 31,
+      "synthetic_indices": [
+        0,
+        33,
+        65,
+        98,
+        131,
+        163,
+        196,
+        228,
+        261,
+        294,
+        326,
+        359
+      ],
+      "elapsed_seconds": 43.90823193395045,
+      "issue_categories": {
+        "unresolved_or_unchecked": 105,
+        "error": 28,
+        "warning": 43
+      },
+      "raw_issue_count": 176,
+      "fixture_sha256": {
+        "observation-0261.json": "097908f57fc44c9ce889f313d2b3565fc6ce63e5605f50111acb20580095ea7a",
+        "observation-0000.json": "c78e0550713492d20aadc594b1c848e48828ee62fbc26b618bea9b877cb34af5",
+        "observation-0359.json": "adce43b6eb3007b7a0d17c48e9a0bbe1382df7b2e7fece620aa795de2e578ec7",
+        "observation-0228.json": "ab8b7520bf129711e28327d2b2d78e4ac64fe6145bf91f2f1ce5e929253578d9",
+        "observation-0098.json": "9e447181b7b4676ffd9e6969968cd4bb2ecfaa5942add30d47344b6ed259917a",
+        "observation-0131.json": "ca0b5b499555cf3de7f694faf90f8c9998a0968c8e7c3d4c0465012e04a2de01",
+        "observation-0033.json": "f48f2313767c83b84b543b379e4e4bd155bc06a421dcc817b9511e8e59e90e50",
+        "observation-0065.json": "7467824cf3c901cb1e6a206eba5c93388aba5a6ceef454b865df42ca11749388",
+        "observation-0294.json": "0ea34693f0481896683e8dc747eac6add590594bb81c4e5a4001244bdf914f16",
+        "observation-0163.json": "d85dee0785d0607bd090eb4e8ed424ba55f8094f04dd0510e70185336c281e52",
+        "observation-0326.json": "82c46cc2d8a2adee552c37bc86bbb67093f96d8207eddc8e76b5423249bdc256",
+        "observation-0196.json": "530ae23f37ab9c81986c1e4d088a827cae1c801d1dfa9bb819f3360b1347c2e1"
+      }
+    },
+    {
+      "status": "completed",
+      "exit_code": 0,
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "command": [
+        "java",
+        "-Xmx2g",
+        "-Duser.home=/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home",
+        "-jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/validator_cli.jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/simple-observation/6.1.0/*.json",
+        "-version",
+        "4.0.1",
+        "-ig",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-6.1.0.tgz",
+        "-profile",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+        "-tx",
+        "n/a",
+        "-output",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/simple-observation/6.1.0/operation_outcomes.json"
+      ],
+      "fixture_count": 15,
+      "synthetic_indices": [
+        0,
+        33,
+        65,
+        98,
+        131,
+        163,
+        196,
+        228,
+        261,
+        294,
+        326,
+        359
+      ],
+      "elapsed_seconds": 15.625165399978869,
+      "issue_categories": {
+        "information": 2,
+        "unresolved_or_unchecked": 22,
+        "error": 19,
+        "warning": 25
+      },
+      "raw_issue_count": 68,
+      "fixture_sha256": {
+        "observation-0261.json": "097908f57fc44c9ce889f313d2b3565fc6ce63e5605f50111acb20580095ea7a",
+        "observation-0000.json": "c78e0550713492d20aadc594b1c848e48828ee62fbc26b618bea9b877cb34af5",
+        "observation-0359.json": "adce43b6eb3007b7a0d17c48e9a0bbe1382df7b2e7fece620aa795de2e578ec7",
+        "observation-0228.json": "ab8b7520bf129711e28327d2b2d78e4ac64fe6145bf91f2f1ce5e929253578d9",
+        "observation-0098.json": "9e447181b7b4676ffd9e6969968cd4bb2ecfaa5942add30d47344b6ed259917a",
+        "observation-0131.json": "ca0b5b499555cf3de7f694faf90f8c9998a0968c8e7c3d4c0465012e04a2de01",
+        "observation-0033.json": "f48f2313767c83b84b543b379e4e4bd155bc06a421dcc817b9511e8e59e90e50",
+        "observation-0065.json": "7467824cf3c901cb1e6a206eba5c93388aba5a6ceef454b865df42ca11749388",
+        "observation-0294.json": "0ea34693f0481896683e8dc747eac6add590594bb81c4e5a4001244bdf914f16",
+        "observation-0163.json": "d85dee0785d0607bd090eb4e8ed424ba55f8094f04dd0510e70185336c281e52",
+        "observation-0326.json": "82c46cc2d8a2adee552c37bc86bbb67093f96d8207eddc8e76b5423249bdc256",
+        "observation-0196.json": "530ae23f37ab9c81986c1e4d088a827cae1c801d1dfa9bb819f3360b1347c2e1"
+      }
+    },
+    {
+      "status": "completed",
+      "exit_code": 0,
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "command": [
+        "java",
+        "-Xmx2g",
+        "-Duser.home=/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home",
+        "-jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/validator_cli.jar",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/simple-observation/7.0.0/*.json",
+        "-version",
+        "4.0.1",
+        "-ig",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-7.0.0.tgz",
+        "-profile",
+        "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation",
+        "-tx",
+        "n/a",
+        "-output",
+        "/home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/simple-observation/7.0.0/operation_outcomes.json"
+      ],
+      "fixture_count": 21,
+      "synthetic_indices": [
+        0,
+        33,
+        65,
+        98,
+        131,
+        163,
+        196,
+        228,
+        261,
+        294,
+        326,
+        359
+      ],
+      "elapsed_seconds": 17.844387009972706,
+      "issue_categories": {
+        "information": 7,
+        "unresolved_or_unchecked": 24,
+        "error": 19,
+        "warning": 24
+      },
+      "raw_issue_count": 74,
+      "fixture_sha256": {
+        "observation-0261.json": "097908f57fc44c9ce889f313d2b3565fc6ce63e5605f50111acb20580095ea7a",
+        "observation-0000.json": "c78e0550713492d20aadc594b1c848e48828ee62fbc26b618bea9b877cb34af5",
+        "observation-0359.json": "adce43b6eb3007b7a0d17c48e9a0bbe1382df7b2e7fece620aa795de2e578ec7",
+        "observation-0228.json": "ab8b7520bf129711e28327d2b2d78e4ac64fe6145bf91f2f1ce5e929253578d9",
+        "observation-0098.json": "9e447181b7b4676ffd9e6969968cd4bb2ecfaa5942add30d47344b6ed259917a",
+        "observation-0131.json": "ca0b5b499555cf3de7f694faf90f8c9998a0968c8e7c3d4c0465012e04a2de01",
+        "observation-0033.json": "f48f2313767c83b84b543b379e4e4bd155bc06a421dcc817b9511e8e59e90e50",
+        "observation-0065.json": "7467824cf3c901cb1e6a206eba5c93388aba5a6ceef454b865df42ca11749388",
+        "observation-0294.json": "0ea34693f0481896683e8dc747eac6add590594bb81c4e5a4001244bdf914f16",
+        "observation-0163.json": "d85dee0785d0607bd090eb4e8ed424ba55f8094f04dd0510e70185336c281e52",
+        "observation-0326.json": "82c46cc2d8a2adee552c37bc86bbb67093f96d8207eddc8e76b5423249bdc256",
+        "observation-0196.json": "530ae23f37ab9c81986c1e4d088a827cae1c801d1dfa9bb819f3360b1347c2e1"
+      }
+    }
+  ],
+  "terminology_mode": "n/a: external terminology disabled; unresolved/unchecked issues separated",
+  "full_profile_pass_claim": false,
+  "complete_synthetic_diagnostic_comparisons": 72,
+  "selected_invariant_diagnostic_discrepancies": [],
+  "diagnostic_comparisons": [
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0261.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0000.json",
+      "expected_fragment_failure_keys": [
+        "us-core-2"
+      ],
+      "emitted_fragment_failure_keys": [
+        "us-core-2"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0359.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0228.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0098.json",
+      "expected_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0131.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0033.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0065.json",
+      "expected_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0294.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0163.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0326.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "6.1.0",
+      "file": "observation-0196.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0261.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0000.json",
+      "expected_fragment_failure_keys": [
+        "us-core-2"
+      ],
+      "emitted_fragment_failure_keys": [
+        "us-core-2"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0359.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7",
+        "us-core-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7",
+        "us-core-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0228.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0098.json",
+      "expected_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0131.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0033.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0065.json",
+      "expected_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0294.json",
+      "expected_fragment_failure_keys": [
+        "us-core-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "us-core-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0163.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0326.json",
+      "expected_fragment_failure_keys": [
+        "obs-6",
+        "us-core-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6",
+        "us-core-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-clinical-result",
+      "version": "7.0.0",
+      "file": "observation-0196.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0261.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0000.json",
+      "expected_fragment_failure_keys": [
+        "us-core-2"
+      ],
+      "emitted_fragment_failure_keys": [
+        "us-core-2"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0359.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0228.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0098.json",
+      "expected_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0131.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0033.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0065.json",
+      "expected_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0294.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0163.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0326.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "6.1.0",
+      "file": "observation-0196.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0261.json",
+      "expected_fragment_failure_keys": [
+        "obs-6",
+        "us-core-22"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6",
+        "us-core-22"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0000.json",
+      "expected_fragment_failure_keys": [
+        "us-core-2"
+      ],
+      "emitted_fragment_failure_keys": [
+        "us-core-2"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0359.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7",
+        "us-core-22",
+        "us-core-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7",
+        "us-core-22",
+        "us-core-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0228.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0098.json",
+      "expected_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0131.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "us-core-22"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "us-core-22"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0033.json",
+      "expected_fragment_failure_keys": [
+        "us-core-22"
+      ],
+      "emitted_fragment_failure_keys": [
+        "us-core-22"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0065.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "us-core-22"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "us-core-22"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0294.json",
+      "expected_fragment_failure_keys": [
+        "us-core-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "us-core-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0163.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0326.json",
+      "expected_fragment_failure_keys": [
+        "obs-6",
+        "us-core-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6",
+        "us-core-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "observation-lab",
+      "version": "7.0.0",
+      "file": "observation-0196.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0261.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0000.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0359.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0228.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0098.json",
+      "expected_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0131.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0033.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0065.json",
+      "expected_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0294.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0163.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0326.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "6.1.0",
+      "file": "observation-0196.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0261.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0000.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0359.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6",
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0228.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0098.json",
+      "expected_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-7"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0131.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0033.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0065.json",
+      "expected_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0294.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0163.json",
+      "expected_fragment_failure_keys": [],
+      "emitted_fragment_failure_keys": [],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0326.json",
+      "expected_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-6"
+      ],
+      "agreement": true
+    },
+    {
+      "profile": "simple-observation",
+      "version": "7.0.0",
+      "file": "observation-0196.json",
+      "expected_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "emitted_fragment_failure_keys": [
+        "obs-3",
+        "obs-6"
+      ],
+      "agreement": true
+    }
+  ],
+  "coverage_limit": "Emitted selected-invariant failure sets compared on a deterministic subset. Absence of a diagnostic does not independently prove execution of every rule; exhaustive selected-rule coverage is supplied separately by HL7 fhirpath.js.",
+  "cached_package_metadata": [
+    {
+      "name": "hl7.fhir.r4.core",
+      "version": "4.0.1",
+      "package_json_sha256": "7614377a54db343e48a9b3b862114f9f63ad1d5f746f6f0f7af68e55ac81c6f7",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.r4.examples",
+      "version": "4.0.1",
+      "package_json_sha256": "bde099e44e773a54044d9786e5ee710cf1da5362a2265adecec90a0d1e291626",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.uv.bulkdata",
+      "version": "2.0.0",
+      "package_json_sha256": "90a262259638bbbe215782427e5955582a442275ce22a1f6ad0de8301fb40a7c",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.uv.extensions",
+      "version": "5.1.0-snapshot1",
+      "package_json_sha256": "5756ae73fe940b33dbee7478e59b8467042bbc914d2a95ad4a75cd42f5747377",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.uv.extensions",
+      "version": "5.3.0",
+      "package_json_sha256": "620f98fe88b7b7066270ecbd4863fc349519527a613188d574bac8455cc61f21",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.uv.extensions.r4",
+      "version": "1.0.0",
+      "package_json_sha256": "7f94323f2e45588b01bafdac5a2bd4579ab3045098155f5d5459e873651bb688",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.uv.extensions.r4",
+      "version": "5.2.0",
+      "package_json_sha256": "7fef4480c841c7aecf84e77bf6e56a3c5a7467871c1b35a354c16cbfb571a08c",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.uv.extensions.r5",
+      "version": "5.2.0",
+      "package_json_sha256": "cd6beb5c47f9a717fd0a9955adbab2e75694a1faa36eabee91897ca06eb53691",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.uv.sdc",
+      "version": "3.0.0",
+      "package_json_sha256": "e40edb4a33bc43017d624c050c8d696500ea2e36454bbfcb0f9ab0ffd755b0c4",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.fhir.uv.smart-app-launch",
+      "version": "2.0.0",
+      "package_json_sha256": "c9f73a4d8d61ea8988548dbf1c66708c1d90f7f8f2bae8dbd664afc14f130b84",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "hl7.fhir.uv.smart-app-launch",
+      "version": "2.1.0",
+      "package_json_sha256": "a152a517fb485deafefc6377c5bc7e83c9999125f9c3caa0eafc5eebebd4ca58",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "hl7.fhir.xver-extensions",
+      "version": "0.1.0",
+      "package_json_sha256": "2ce40df2dedad091a02b59570ed7fc481fad328561098e969baa7ba64f955ed2",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.terminology",
+      "version": "7.4.0",
+      "package_json_sha256": "6f077b9970c74e0f3fa934e613441009577b1dd8f4f94bbd6fa7cdb2876c20d9",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.terminology.r4",
+      "version": "5.0.0",
+      "package_json_sha256": "c4b7db2edbf980dff2fc8976643fb4fcaf7886d34da280f1dc45eccd00cf272a",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.terminology.r4",
+      "version": "5.5.0",
+      "package_json_sha256": "7fa957ff9940e01e8e17577202c79760695ed253f001ba982b2cbcd1ed30eda9",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.terminology.r4",
+      "version": "6.2.0",
+      "package_json_sha256": "cce8775698113f25ac134fef93d6a51a3afd7faf5dd5178a3962ae8697a993fa",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.terminology.r5",
+      "version": "5.3.0",
+      "package_json_sha256": "324ef3f1dac309e3beeb5240955c8fe5ac071d46fb5e5a2f9e27e3d6d75089fa",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "hl7.terminology.r5",
+      "version": "7.1.0",
+      "package_json_sha256": "acc59aa9d70b9f386fd13f2adc350b739c0a47d83559ac00e9583c1a4a04b0c9",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "ihe.formatcode.fhir",
+      "version": "1.1.0",
+      "package_json_sha256": "7b0b528463f779039b63cb888b8ba6ea15af51161cfbe50772bde94e00085719",
+      "license": "CC-BY-SA-4.0"
+    },
+    {
+      "name": "us.cdc.phinvads",
+      "version": "0.12.0",
+      "package_json_sha256": "803c00388b943c25023a77272d28d61d22fd39c6ecaf271b77031633dfbbda55",
+      "license": "HHS/Open"
+    },
+    {
+      "name": "us.nlm.vsac",
+      "version": "0.11.0",
+      "package_json_sha256": "a02298065aa507bdac918fce13bca1dac7d57e148703b767ddc83d110d7d6d13",
+      "license": "US Govt"
+    },
+    {
+      "name": "us.nlm.vsac",
+      "version": "0.18.0",
+      "package_json_sha256": "563ac0c53d7d02532c72d166136687d9fc5722dad04986824f9bad9aaa58d50d",
+      "license": "US Govt"
+    }
+  ],
+  "jar_sha256": "1f1a602ff56b602006c7b435f692a988fd07d6409b923d70ac3d6f77a8663309"
+}

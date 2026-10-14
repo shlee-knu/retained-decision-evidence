@@ -1,0 +1,66 @@
+{
+  "case_id": "4507000469_00001",
+  "activities": [
+    "create",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "receive",
+    "invoice",
+    "clear"
+  ],
+  "profile": "3-way match, invoice after GR",
+  "first_times": {
+    "create": "2018-01-02T21:36:00.000Z",
+    "receive": "2018-01-02T21:36:00.000Z",
+    "invoice": "2018-04-11T10:40:00.000Z",
+    "clear": "2018-04-13T08:37:00.000Z"
+  },
+  "model": "procurement",
+  "record": {
+    "base": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "profile": 0,
+    "ranks": [
+      0,
+      0,
+      1,
+      2
+    ]
+  },
+  "mask_profile": true,
+  "mask_times": false
+}

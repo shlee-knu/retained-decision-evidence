@@ -1,0 +1,121 @@
+{
+  "event": {
+    "bundles": {
+      "results/platform_revision_20261010/opa/run/native_logs/baseline_bundle.tar.gz": {
+        "revision": "retained-evidence-baseline-v1-local-replay-20261010"
+      }
+    },
+    "decision_id": "b126e324-b348-4131-abcb-f1f13c03055c",
+    "input": {
+      "activities": [
+        "create",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "invoice",
+        "clear"
+      ],
+      "case_id": "4507000469_00001",
+      "first_times": {
+        "clear": "2018-04-13T08:37:00.000Z",
+        "create": "2018-01-02T21:36:00.000Z",
+        "invoice": "2018-04-11T10:40:00.000Z",
+        "receive": "2018-01-02T21:36:00.000Z"
+      },
+      "mask_profile": false,
+      "mask_times": false,
+      "model": "procurement",
+      "profile": "3-way match, invoice after GR",
+      "record": {
+        "base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "profile": 0,
+        "ranks": [
+          0,
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "labels": {
+      "id": "74aa4add-cf58-494d-802d-e79305774342",
+      "version": "1.21.1"
+    },
+    "level": "info",
+    "metrics": {
+      "counter_server_query_cache_hit": 1,
+      "timer_rego_external_resolve_ns": 147,
+      "timer_rego_input_parse_ns": 191958,
+      "timer_rego_query_eval_ns": 624870,
+      "timer_server_handler_ns": 839965
+    },
+    "msg": "Decision Log",
+    "path": "audit/predicates/logged_old_decision",
+    "req_id": 3,
+    "requested_by": "127.0.0.1:47914",
+    "result": true,
+    "time": "2026-10-10T01:16:46+09:00",
+    "timestamp": "2026-10-09T16:16:46.740291449Z",
+    "type": "openpolicyagent.org/decision_logs"
+  },
+  "binding": {
+    "schema_version": "opa-procurement-log-binding/v1",
+    "event_sha256": "af02157969164ae69e6391941e3b313637ecd02729ca5aba4092dca7167c620d",
+    "decision_id": "b126e324-b348-4131-abcb-f1f13c03055c",
+    "source_case_id": "4507000469_00001",
+    "decision_path": "audit/predicates/logged_old_decision",
+    "bundle": {
+      "name": "results/platform_revision_20261010/opa/run/native_logs/baseline_bundle.tar.gz",
+      "revision": "retained-evidence-baseline-v1-local-replay-20261010",
+      "archive_sha256": "ad28bffb564f640b2c9a7a0336296be91bae03cdf05e0ba719a87e5299cf4d85",
+      "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743"
+    },
+    "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "domain_version": "cartesian:v1",
+    "source_assertions": {
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "complete_fields": {
+        "activities": true,
+        "profile": true,
+        "first_times": true
+      },
+      "normalized_aliases": true
+    }
+  }
+}

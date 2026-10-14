@@ -1,0 +1,417 @@
+{
+  "scope": "Post hoc read-only sums of already recorded disjoint intervals; no fresh benchmark or end-to-end service measurement. Serialization is already in batch and not added twice. Source recovery, portable-envelope validation and durable writes remain excluded. No independent holdout or population uncertainty is claimed.",
+  "source_sha256": {
+    "results/perspective_revision/diagnostics/timings.json": "e9f5bb8ef54d714dcf08fc64271c74b48c123b863cae722e02c0e680de22ece3"
+  },
+  "cells": [
+    {
+      "name": "epcis_aggregation_profile",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.838212,
+          "cpu_ms_core_batch_median": 10.491488
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 254.186024,
+          "cpu_ms_core_batch_median": 243.129968
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 10.159063,
+          "cpu_ms_core_batch_median": 8.809318
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_aggregation_profile",
+      "workload": "weighted",
+      "methods": {
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 30.220157,
+          "cpu_ms_core_batch_median": 19.300485
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 4.512733,
+          "cpu_ms_core_batch_median": 3.17745
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 7.916138,
+          "cpu_ms_core_batch_median": 6.569836
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_object_profile",
+      "workload": "unique",
+      "methods": {
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 15.047936,
+          "cpu_ms_core_batch_median": 13.040511
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 16.51016,
+          "cpu_ms_core_batch_median": 14.534996
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 359.043524,
+          "cpu_ms_core_batch_median": 347.359046
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_object_profile",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.114109,
+          "cpu_ms_core_batch_median": 9.168124
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 39.346496,
+          "cpu_ms_core_batch_median": 27.463869
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 6.074398,
+          "cpu_ms_core_batch_median": 4.143308
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_transformation_profile",
+      "workload": "unique",
+      "methods": {
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1059.95319,
+          "cpu_ms_core_batch_median": 1044.670425
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 49.947077,
+          "cpu_ms_core_batch_median": 44.745248
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 63.755984,
+          "cpu_ms_core_batch_median": 58.514785
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_transformation_profile",
+      "workload": "weighted",
+      "methods": {
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 16.65025,
+          "cpu_ms_core_batch_median": 11.634404
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 38.194177,
+          "cpu_ms_core_batch_median": 33.118712
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 72.998833,
+          "cpu_ms_core_batch_median": 57.874516
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_edge_p0_a0_b1",
+      "workload": "unique",
+      "methods": {
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 5.236157,
+          "cpu_ms_core_batch_median": 4.735929
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 45.931439,
+          "cpu_ms_core_batch_median": 45.419358
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 142.085784,
+          "cpu_ms_core_batch_median": 131.881158
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_edge_p2_a0_b2",
+      "workload": "unique",
+      "methods": {
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 455.248716,
+          "cpu_ms_core_batch_median": 444.136273
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 19.923109,
+          "cpu_ms_core_batch_median": 18.361408
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 59.663478,
+          "cpu_ms_core_batch_median": 58.155478
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_edge_p2_a2_b3",
+      "workload": "unique",
+      "methods": {
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 14.419094,
+          "cpu_ms_core_batch_median": 13.231618
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 56.316384,
+          "cpu_ms_core_batch_median": 55.130015
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 364.738075,
+          "cpu_ms_core_batch_median": 353.972094
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_equivalent",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.659318,
+          "cpu_ms_core_batch_median": 43.927526
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 69.953941,
+          "cpu_ms_core_batch_median": 48.895224
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.215897,
+          "cpu_ms_core_batch_median": 1.385089
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_equivalent",
+      "workload": "weighted",
+      "methods": {
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1606.961826,
+          "cpu_ms_core_batch_median": 362.241935
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1523.599631,
+          "cpu_ms_core_batch_median": 303.602529
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1576.244687,
+          "cpu_ms_core_batch_median": 350.036173
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_identity",
+      "workload": "unique",
+      "methods": {
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.051451,
+          "cpu_ms_core_batch_median": 1.359822
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.134178,
+          "cpu_ms_core_batch_median": 43.576497
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 68.867912,
+          "cpu_ms_core_batch_median": 48.070621
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_identity",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1576.043619,
+          "cpu_ms_core_batch_median": 347.952487
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1603.00818,
+          "cpu_ms_core_batch_median": 357.424099
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1534.516309,
+          "cpu_ms_core_batch_median": 306.433922
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_label_change",
+      "workload": "unique",
+      "methods": {
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 70.456314,
+          "cpu_ms_core_batch_median": 49.35902
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.098068,
+          "cpu_ms_core_batch_median": 1.375747
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.363578,
+          "cpu_ms_core_batch_median": 43.773727
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_label_change",
+      "workload": "weighted",
+      "methods": {
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1537.438941,
+          "cpu_ms_core_batch_median": 308.654281
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1582.683925,
+          "cpu_ms_core_batch_median": 351.261915
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1601.710177,
+          "cpu_ms_core_batch_median": 361.154446
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_required_p2_a3",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 43.347738,
+          "cpu_ms_core_batch_median": 42.992816
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 96.468838,
+          "cpu_ms_core_batch_median": 86.551777
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1.582897,
+          "cpu_ms_core_batch_median": 1.225617
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_strict",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 52.359388,
+          "cpu_ms_core_batch_median": 42.565761
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 70.574794,
+          "cpu_ms_core_batch_median": 49.834096
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 10.91211,
+          "cpu_ms_core_batch_median": 1.432997
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_strict",
+      "workload": "weighted",
+      "methods": {
+        "incremental_smt": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1888.942568,
+          "cpu_ms_core_batch_median": 637.680488
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1811.296813,
+          "cpu_ms_core_batch_median": 580.841379
+        },
+        "finite_fibers": {
+          "rounds": 5,
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1833.002863,
+          "cpu_ms_core_batch_median": 614.470599
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    }
+  ],
+  "minimum_sum_wins": {
+    "direct_residual": 18
+  },
+  "strict_weighted_residual_reduction_vs_finite_percent": {
+    "generation_core_only": 5.472876986259196,
+    "recorded_loading_normalization_cold_batch_sum": 1.184179819799878
+  },
+  "affected_receipts": {
+    "total": 33489,
+    "classes": 3,
+    "largest_class": 33218,
+    "largest_class_percent": 99.19077906178148
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-09T16:16:28.828544+00:00",
+  "frozen_before_execution": true,
+  "primary_queries": 941,
+  "selection": "All four existing native 20-class workloads and all 861 previously frozen harder rows; no new outcome-based selection.",
+  "workloads": [
+    {
+      "name": "procurement_identity",
+      "queries": 20,
+      "input": "results/focused_revision/diagnostic_inputs/procurement_identity.json"
+    },
+    {
+      "name": "procurement_strict",
+      "queries": 20,
+      "input": "results/focused_revision/diagnostic_inputs/procurement_strict.json"
+    },
+    {
+      "name": "procurement_equivalent",
+      "queries": 20,
+      "input": "results/focused_revision/diagnostic_inputs/procurement_equivalent.json"
+    },
+    {
+      "name": "procurement_label_change",
+      "queries": 20,
+      "input": "results/focused_revision/diagnostic_inputs/procurement_label_change.json"
+    },
+    {
+      "name": "procurement_edge_p0_a0_b1",
+      "queries": 93,
+      "input": "results/perspective_revision/inputs/procurement_edge_p0_a0_b1.json"
+    },
+    {
+      "name": "procurement_required_p2_a3",
+      "queries": 52,
+      "input": "results/perspective_revision/inputs/procurement_required_p2_a3.json"
+    },
+    {
+      "name": "procurement_edge_p2_a0_b2",
+      "queries": 409,
+      "input": "results/perspective_revision/inputs/procurement_edge_p2_a0_b2.json"
+    },
+    {
+      "name": "procurement_edge_p2_a2_b3",
+      "queries": 307,
+      "input": "results/perspective_revision/inputs/procurement_edge_p2_a2_b3.json"
+    }
+  ],
+  "output_contract": "Compact semantic old-valid/status/opposed witnesses/all minimal robust fields and occurrence links; not full portable-bundle equivalence.",
+  "responsibilities": {
+    "OPA": "Independently authored Rego complete-state predicate evaluation; representative native partial evaluation and real local masked console logs.",
+    "adapter": "Supported-state enumeration, old-sufficiency checking, fiber grouping, robust-set enumeration, witness lifting, occurrence mapping and serialization."
+  },
+  "cost_boundary": "Standalone batched integration costs only, no speed ranking against in-process Python. One OPA eval process per model handles every complete supported state; startup, JSON pipes, compilation and evaluation are included. No per-row CLI startup. Research oracle cost separate; durable writes excluded from generation interval.",
+  "controls": [
+    "identity",
+    "equivalent",
+    "stale_verdict",
+    "strict profile requirement",
+    "Consignment exclusion",
+    "full retention",
+    "authentic old decision with insufficient masked observations",
+    "malformed query",
+    "literal repeated events/timestamps"
+  ],
+  "local_log_source_case_id": "4507000469_00001",
+  "local_log_source_scope": "Published repeated-event example from the complete public archive, outside the 50,931 held-out receipt cohort; separate integration control, not an additional primary diagnosis.",
+  "source_hashes": {
+    "configs/platform_audit_protocol.json": "5e1eb1eb02d9b663b81264faf9d232642e6a4b407d2a928b9bac69374abd38c3",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/second_equivalent_catalog.json": "2af4c69182674bcf4c445ad3bab7dffa5f2b497bef1b60fc414ed371e2a8aa86",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "policies/opa_audit/log_mask.rego": "5b7b7fc4cb32b656af15873a1412a0d38fd74892948989303f5162fb48dd24a2",
+    "policies/opa_audit/predicates.rego": "4fc2d2689a9cf3d33714539854fe4458783ba4f3cce7913cd6b4c9aa539e3792",
+    "results/focused_revision/diagnostic_inputs/procurement_equivalent.json": "883d0a87209178105e5cd108c3b6bd5e4d00c70becbdc9f1a49c768533e080ed",
+    "results/focused_revision/diagnostic_inputs/procurement_identity.json": "eadc4e2d1fba462b3e0797143d3ce534bdefabf50cc198e9e5b11e9fa8ffd831",
+    "results/focused_revision/diagnostic_inputs/procurement_label_change.json": "ec816221da207bb4a33469c707b99ac05e59c66db87b3fb26eea157226b4d316",
+    "results/focused_revision/diagnostic_inputs/procurement_strict.json": "213a3031529f657ba4fbbe475010b8f54bb3a5ae7f9fdb2e001781d0801f5d9e",
+    "results/perspective_revision/inputs/procurement_edge_p0_a0_b1.json": "28799dc68e358b8b2838863f278d87ac8a2d3bbcac1b5f803a7e94c1bbb57ac9",
+    "results/perspective_revision/inputs/procurement_edge_p2_a0_b2.json": "a2afc48d2ebc9aaba5a9c4a04ddac5dd7571a48fbbb849e2af0e8caa92ef8173",
+    "results/perspective_revision/inputs/procurement_edge_p2_a2_b3.json": "ff23b38f3c3a7d98b4538fd55df12d9e76d969500d51cf8ad21e3ac16b3aa67f",
+    "results/perspective_revision/inputs/procurement_required_p2_a3.json": "43dc8976a112260217bc328dabd2682d1baa9a5ee97ba54b1a6f3ac904a50cdf",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "scripts/benchmark_opa_audit.py": "54c8deb256a751f7f88b8fe1dc42a3fae882156f6387a857ec0415458bd30b28",
+    "src/logistics_validation/audit_report.py": "b0c9fca31d347440fc7a641c6fb1ffeac017c8af251a45ef59b037c71f95634b",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "src/logistics_validation/revision_diagnostics.py": "438e35aece87bf35de26df37c806da6e8263a326d9c9de98bbf34c686ec90594",
+    "tests/test_opa_audit_integration.py": "c676ce34dfe00d5a9537f31bba6f9da98c9e53e03e95b7d1b609710ba3d7e8fa"
+  },
+  "opa_binary_sha256": "668506eb17a2eaa1fce6cc0d1f42ef85125d4ac5bda5fc74d1152d0c77145031",
+  "official_sources": [
+    "https://www.openpolicyagent.org/docs/cli",
+    "https://www.openpolicyagent.org/docs/rest-api",
+    "https://www.openpolicyagent.org/docs/management-decision-logs",
+    "https://github.com/open-policy-agent/opa/releases/tag/v1.21.1"
+  ],
+  "limits": "Authored finite procurement grammar and reconstructed public-archive receipts; local OPA replay does not establish organizational adoption or full policy-engine superiority."
+}

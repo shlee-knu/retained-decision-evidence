@@ -1,0 +1,9 @@
+{
+  "created": "2026-10-07",
+  "timing": "before first experiment; supplement immutable protocol_v1",
+  "cluster_bootstrap": "Stratified by dataset and city/process profile; resample LaDe courier clusters and BPI company clusters. One canonical seed 17, prevalence 0.2; same resampling indices for all methods.",
+  "illustrative_ablation": "Add unconditional BPI profile baseline as an ablation only, not as a strong state-of-the-art competitor.",
+  "time_handling": "LaDe month/day lacks year and offset: surrogate calendar year 2000 with +08 normalization convention; no verified source absolute year or clock synchronization claim.",
+  "bpi_availability": "4TU source under maintenance; use pinned raw-XES public research repository mirror and disclose unresolved original byte identity.",
+  "timings": "Independent uncached rules-only and schema timings; include SQL connection, data insert and index construction, and PM4Py log/net construction. Adapter disk IO and raw data acquisition excluded and stated."
+}

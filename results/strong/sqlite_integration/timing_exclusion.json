@@ -1,0 +1,20 @@
+{
+  "status": "excluded_entire_attempt",
+  "start_time_local": "2026-10-07T23:16:34+09:00",
+  "known_competing_cpu_interval_local": [
+    "2026-10-07T23:17:03+09:00",
+    "2026-10-07T23:17:36+09:00"
+  ],
+  "stopped_utc": "2026-10-07T14:19:16.795789+00:00",
+  "reason": "Delayed cross-agent timing-start notification allowed unrelated tests and a catalog audit during warmup. Entire attempt discarded before any result-based method comparison. Restart all two warmups and seven measured rounds; no favorable round selection.",
+  "completed_rows": 49,
+  "phases": [
+    "measured",
+    "warmup"
+  ],
+  "last_completed_round": 0,
+  "databases": "Original validated read-only database files retained unchanged; new process and all warmups on restart.",
+  "preserved_record_path": "results/strong/sqlite_integration/calibration/interrupted_20261007T141634Z/exclusion_reason.json",
+  "preserved_record_sha256": "758dad4835a8f34374cc83c61bd30959a1147e6dd35202aca82b15e04deb1cae",
+  "review_package_scope": "Exclusion explanation retained; entire interrupted raw attempt remains locally in calibration and is excluded from canonical results and review ZIP."
+}

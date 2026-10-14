@@ -1,0 +1,165 @@
+{
+  "erpnext_files": [
+    {
+      "version": "before",
+      "commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+      "path": "erpnext/controllers/buying_controller.py",
+      "sha256": "449ba54c8b6477c9ae3e33bb2999f899813b2cc491106fe754c8b24772ce7c43",
+      "size": 42730,
+      "url": "https://github.com/frappe/erpnext/blob/c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be/erpnext/controllers/buying_controller.py"
+    },
+    {
+      "version": "before",
+      "commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+      "path": "erpnext/stock/doctype/purchase_receipt/purchase_receipt.py",
+      "sha256": "f6ae48775328ab0567e74bd71e904c830f32700bcc81e74ae3c626019bc7e8a7",
+      "size": 18646,
+      "url": "https://github.com/frappe/erpnext/blob/c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py"
+    },
+    {
+      "version": "before",
+      "commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+      "path": "erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py",
+      "sha256": "07fe0bcf5ad292b337518e362d2a85f1dffff9fe203d0ae4964bc6218db2866c",
+      "size": 32804,
+      "url": "https://github.com/frappe/erpnext/blob/c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py"
+    },
+    {
+      "version": "before",
+      "commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+      "path": "erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py",
+      "sha256": "77537db15055b706685b842b0553498a3a5d4476dc5eb7f1982224f5bbaac28b",
+      "size": 205460,
+      "url": "https://github.com/frappe/erpnext/blob/c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be/erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py"
+    },
+    {
+      "version": "before",
+      "commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+      "path": "pyproject.toml",
+      "sha256": "82a593e847a9726607aff13dbb80072bf8088b7edbf9e0f59e945c29ccebf592",
+      "size": 2530,
+      "url": "https://github.com/frappe/erpnext/blob/c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be/pyproject.toml"
+    },
+    {
+      "version": "before",
+      "commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+      "path": "license.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "size": 35149,
+      "url": "https://github.com/frappe/erpnext/blob/c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be/license.txt"
+    },
+    {
+      "version": "after",
+      "commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+      "path": "erpnext/controllers/buying_controller.py",
+      "sha256": "2611338d1acff9a13bceb89c4e685fd94ffb7a60cd23006fcd907229d0c70343",
+      "size": 43023,
+      "url": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/erpnext/controllers/buying_controller.py"
+    },
+    {
+      "version": "after",
+      "commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+      "path": "erpnext/stock/doctype/purchase_receipt/purchase_receipt.py",
+      "sha256": "47f827ab4cd81ef74180046e7b09b9503d451ae41d242335640d6c0a12750847",
+      "size": 18616,
+      "url": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py"
+    },
+    {
+      "version": "after",
+      "commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+      "path": "erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py",
+      "sha256": "bd67581f1a182d6adfa60d55af73d0abc998b75f265bcdfe89b62e97d81d661e",
+      "size": 32760,
+      "url": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py"
+    },
+    {
+      "version": "after",
+      "commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+      "path": "erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py",
+      "sha256": "77537db15055b706685b842b0553498a3a5d4476dc5eb7f1982224f5bbaac28b",
+      "size": 205460,
+      "url": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py"
+    },
+    {
+      "version": "after",
+      "commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+      "path": "pyproject.toml",
+      "sha256": "82a593e847a9726607aff13dbb80072bf8088b7edbf9e0f59e945c29ccebf592",
+      "size": 2530,
+      "url": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/pyproject.toml"
+    },
+    {
+      "version": "after",
+      "commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+      "path": "license.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "size": 35149,
+      "url": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/license.txt"
+    },
+    {
+      "version": "before",
+      "commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+      "path": "erpnext/controllers/stock_controller.py",
+      "sha256": "9da9a26dda2727739265ffd6f44826b831ae59ed3fbd6ca9507b18a11b90377f",
+      "size": 30507,
+      "url": "https://github.com/frappe/erpnext/blob/c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be/erpnext/controllers/stock_controller.py"
+    },
+    {
+      "version": "after",
+      "commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+      "path": "erpnext/controllers/stock_controller.py",
+      "sha256": "9da9a26dda2727739265ffd6f44826b831ae59ed3fbd6ca9507b18a11b90377f",
+      "size": 30507,
+      "url": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/erpnext/controllers/stock_controller.py"
+    }
+  ],
+  "upstream_regression_identical_between_versions": true,
+  "frappe_files": [
+    {
+      "commit": "ab2ea34e2ca327b2a2c647abe0ac284be088a54f",
+      "path": "frappe/model/document.py",
+      "sha256": "e4a999d05168170427a1d4810824a7d0e18cf66e334170f80dd3c14bf4ceab50",
+      "size": 86590,
+      "url": "https://github.com/frappe/frappe/blob/ab2ea34e2ca327b2a2c647abe0ac284be088a54f/frappe/model/document.py"
+    },
+    {
+      "commit": "ab2ea34e2ca327b2a2c647abe0ac284be088a54f",
+      "path": "frappe/commands/testing.py",
+      "sha256": "fa0e9bb9ca4ccb64409ec16cb6fba0b7d38fc730ad34ab25c5adb9f26d28bb9e",
+      "size": 16748,
+      "url": "https://github.com/frappe/frappe/blob/ab2ea34e2ca327b2a2c647abe0ac284be088a54f/frappe/commands/testing.py"
+    },
+    {
+      "commit": "ab2ea34e2ca327b2a2c647abe0ac284be088a54f",
+      "path": "frappe/testing/loader.py",
+      "sha256": "d82aa5fbacf7dd6cd1b99090cd4269fe15be618f7974b97f40ed33ba798d782d",
+      "size": 2743,
+      "url": "https://github.com/frappe/frappe/blob/ab2ea34e2ca327b2a2c647abe0ac284be088a54f/frappe/testing/loader.py"
+    },
+    {
+      "commit": "ab2ea34e2ca327b2a2c647abe0ac284be088a54f",
+      "path": "frappe/tests/utils/__init__.py",
+      "sha256": "1b591bd7378319b75ecc11ed866fc776f0582b221d91db75a607d2eeef4dcc24",
+      "size": 2214,
+      "url": "https://github.com/frappe/frappe/blob/ab2ea34e2ca327b2a2c647abe0ac284be088a54f/frappe/tests/utils/__init__.py"
+    },
+    {
+      "commit": "ab2ea34e2ca327b2a2c647abe0ac284be088a54f",
+      "path": "pyproject.toml",
+      "sha256": "8a2ebaab279b947a0ef18ba4605d3a427e30bb21d4229818b46097bea7d12fe6",
+      "size": 7941,
+      "url": "https://github.com/frappe/frappe/blob/ab2ea34e2ca327b2a2c647abe0ac284be088a54f/pyproject.toml"
+    },
+    {
+      "commit": "ab2ea34e2ca327b2a2c647abe0ac284be088a54f",
+      "path": "LICENSE",
+      "sha256": "bc6001a54ffcc4ab520424d7dbb85b293578efcdcb7d8f8055e00dddf942e5d7",
+      "size": 1118,
+      "url": "https://github.com/frappe/frappe/blob/ab2ea34e2ca327b2a2c647abe0ac284be088a54f/LICENSE"
+    }
+  ],
+  "final_source_status": {
+    "frappe": "",
+    "erpnext": ""
+  }
+}

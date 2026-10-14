@@ -1,0 +1,21 @@
+{
+  "query": "data.audit.predicates.new_allowed",
+  "unknowns": [
+    "input.record.profile"
+  ],
+  "class_index": 0,
+  "cost": {
+    "subprocess_wall_ns": 7226874,
+    "subprocess_cpu_ns": 10433999,
+    "metrics": {
+      "timer_rego_load_files_ns": 161872,
+      "timer_rego_module_compile_ns": 563475,
+      "timer_rego_module_parse_ns": 143501,
+      "timer_rego_partial_eval_ns": 235984,
+      "timer_rego_query_compile_ns": 15481,
+      "timer_rego_query_parse_ns": 5171
+    }
+  },
+  "residual_completion_replay_checks": 4,
+  "meaning": "OPA-native residual query/support policies, executed over every compatible completion. This artifact is not itself the adapter audit report."
+}

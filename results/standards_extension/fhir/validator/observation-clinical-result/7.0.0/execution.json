@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "exit_code": 0,
+  "profile": "observation-clinical-result",
+  "version": "7.0.0",
+  "command": [
+    "java",
+    "-Xmx2g",
+    "-Duser.home=/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home",
+    "-jar",
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/validator_cli.jar",
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/*.json",
+    "-version",
+    "4.0.1",
+    "-ig",
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-7.0.0.tgz",
+    "-profile",
+    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result",
+    "-tx",
+    "n/a",
+    "-output",
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/observation-clinical-result/7.0.0/operation_outcomes.json"
+  ],
+  "fixture_count": 29,
+  "synthetic_indices": [
+    0,
+    33,
+    65,
+    98,
+    131,
+    163,
+    196,
+    228,
+    261,
+    294,
+    326,
+    359
+  ],
+  "elapsed_seconds": 18.95839391089976,
+  "issue_categories": {
+    "unresolved_or_unchecked": 61,
+    "error": 23,
+    "warning": 41
+  },
+  "raw_issue_count": 125,
+  "fixture_sha256": {
+    "observation-0261.json": "097908f57fc44c9ce889f313d2b3565fc6ce63e5605f50111acb20580095ea7a",
+    "observation-0000.json": "c78e0550713492d20aadc594b1c848e48828ee62fbc26b618bea9b877cb34af5",
+    "observation-0359.json": "adce43b6eb3007b7a0d17c48e9a0bbe1382df7b2e7fece620aa795de2e578ec7",
+    "observation-0228.json": "ab8b7520bf129711e28327d2b2d78e4ac64fe6145bf91f2f1ce5e929253578d9",
+    "observation-0098.json": "9e447181b7b4676ffd9e6969968cd4bb2ecfaa5942add30d47344b6ed259917a",
+    "observation-0131.json": "ca0b5b499555cf3de7f694faf90f8c9998a0968c8e7c3d4c0465012e04a2de01",
+    "observation-0033.json": "f48f2313767c83b84b543b379e4e4bd155bc06a421dcc817b9511e8e59e90e50",
+    "observation-0065.json": "7467824cf3c901cb1e6a206eba5c93388aba5a6ceef454b865df42ca11749388",
+    "observation-0294.json": "0ea34693f0481896683e8dc747eac6add590594bb81c4e5a4001244bdf914f16",
+    "observation-0163.json": "d85dee0785d0607bd090eb4e8ed424ba55f8094f04dd0510e70185336c281e52",
+    "observation-0326.json": "82c46cc2d8a2adee552c37bc86bbb67093f96d8207eddc8e76b5423249bdc256",
+    "observation-0196.json": "530ae23f37ab9c81986c1e4d088a827cae1c801d1dfa9bb819f3360b1347c2e1"
+  }
+}

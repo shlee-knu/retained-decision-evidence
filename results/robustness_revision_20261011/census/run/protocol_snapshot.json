@@ -1,0 +1,62 @@
+{
+  "protocol": {
+    "schema_version": 1,
+    "prepared_date": "2026-10-11",
+    "question": "Do the complete authored-edit census conclusions survive excluding targets with an unsatisfiable profile and collapsing semantically duplicate targets?",
+    "analysis_type": "Post hoc sensitivity analysis of existing finite census; no new data, population inference or prospective holdout",
+    "baseline": "examples/baseline_catalog.json",
+    "finite_domain": "results/strong/catalog_audit/finite_tables.json.gz",
+    "observations": "results/perspective_revision/inputs/observation_classes.json",
+    "saved_rows": "results/perspective_revision/inputs/saved_census_rows.json.gz",
+    "saved_aggregate": "results/perspective_revision/inputs/census.json",
+    "independent_checker_result": "results/compact_revision/evidence/independent_census.json",
+    "predicate_implementation": "scripts/verify_compact_evidence.py",
+    "target_scope": "Exactly the 80 single-edit targets; exclude baseline and two-edit strict anchor from every sensitivity set",
+    "sets": [
+      {
+        "name": "all_edits",
+        "profile_filter": false,
+        "semantic_deduplication": false
+      },
+      {
+        "name": "all_profiles_satisfiable",
+        "profile_filter": true,
+        "semantic_deduplication": false
+      },
+      {
+        "name": "semantic_representatives",
+        "profile_filter": false,
+        "semantic_deduplication": true
+      },
+      {
+        "name": "satisfiable_semantic_representatives",
+        "profile_filter": true,
+        "semantic_deduplication": true
+      }
+    ],
+    "profile_filter": "Each of the four profiles must have at least one accepting state among the declared 8,612 complete supported states, determined directly by the authored raw predicate, never by saved status or metadata",
+    "semantic_equivalence": "Exact equality of full 8,612-entry Boolean target truth vectors, before grouping; SHA-256 is only an exported identifier",
+    "representative": "Lexicographically smallest target name in each exact truth-vector group; retain all aliases and compare all per-observation status and complete robust-family rows across aliases",
+    "equivalent_targets": "Globally baseline-equivalent edits remain eligible; after deduplication the baseline-equivalent semantic family contributes one target",
+    "denominator": "Number of selected targets times all 10,436 old-valid observation classes; original 80-edit census always retained",
+    "outcomes": "safe, stale_verdict, insufficient; partition insufficient rows into unique minimal robust additional masks P=1, T=2, PT=3",
+    "verification": "Recompute raw baseline and target truth labels, old-valid classes, status and complete robust families using the separately implemented checker; compare each saved row, aggregate counts and prior independent checker digest; exact alias row comparison",
+    "memory": "Read saved census one target at a time from the gzip JSON object; do not materialize all 834,880 rows together",
+    "interpretation": "Counts are dependent target/observation combinations in a fixed authored grammar, not independent source cases or frequencies of organizational rule changes; satisfying a profile does not establish operational plausibility"
+  },
+  "sha256": {
+    "configs/census_robustness_protocol.json": "08ea337d0cf8f450897597d8a1dffe6371c40009364154058d551054d8cb6f91",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "results/compact_revision/evidence/independent_census.json": "cb72f20dac4e4c482e4f1733708066bc816b7be2efb13b43484a87916495b19e",
+    "results/perspective_revision/inputs/census.json": "813a0e10714f11a276e83f76db51f5e748ec90291c8f8068efa429f2d87a681b",
+    "results/perspective_revision/inputs/observation_classes.json": "502b450b9501ca388823f806e31b288bf9d02dae28c921da987aa46f1ad63aab",
+    "results/perspective_revision/inputs/saved_census_rows.json.gz": "ccc7f1fd25814a5817371ca8f9a4ba581d801153094ebd09cc18bb4d0486adbb",
+    "results/strong/catalog_audit/finite_tables.json.gz": "e369afd80c9b1ebf57ea456dc2297357b5d64365e27a8efc120e50ba23bfd7af",
+    "scripts/analyze_census_robustness.py": "c374396f05aaeaa45ea04ba416c833c74ff28b6a400da490d17a802581dece9b",
+    "scripts/verify_compact_evidence.py": "db53078e37dae60f084e04590c567230c9c4bdc9b55c50a5d20db0da96934a50",
+    "tests/test_census_robustness.py": "edd753e25045610a2c46d0a4a4071cb771025c899e09203ded303a2c5ca5cba6"
+  },
+  "saved_before_result_loading_utc": "2026-10-11T10:26:56.256917+00:00",
+  "command": ".venv/bin/python scripts/analyze_census_robustness.py --output /home/shlee/nudix_workspace/logistics_event_validation_research/results/robustness_revision_20261011/census/run",
+  "replay": "Use the same command with a fresh --output directory; compare summary.json and target_summaries.json byte-for-byte."
+}

@@ -1,0 +1,23 @@
+independent oracle and22498old-validclasses ready
+classifications complete throughcartesian:v1
+classifications complete throughchronological:v1
+classifications complete throughconsignment_exclusion:v1
+classifications complete throughboth:v1
+recovery complete:strict/cartesian:v1->cartesian:v1
+recovery complete:identity/chronological:v1->cartesian:v1
+recovery complete:identity/consignment_exclusion:v1->cartesian:v1
+recovery complete:identity/both:v1->cartesian:v1
+recovery complete:identity/both:v1->chronological:v1
+recovery complete:identity/both:v1->consignment_exclusion:v1
+{
+  "status": "passed",
+  "classification_checks": 359968,
+  "status_totals": {
+    "safe": 214965,
+    "unsupported": 141096,
+    "insufficient": 2829,
+    "stale_verdict": 1078
+  },
+  "recovery_checks": 104020,
+  "elapsed_seconds": 16.51712619001046
+}

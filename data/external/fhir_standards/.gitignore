@@ -1,0 +1,5 @@
+# Reacquired from recorded versioned URLs / npm lock; hashes remain in manifests.
+packages/
+tools/validator_cli.jar
+tools/node_modules/
+tools/java-home/

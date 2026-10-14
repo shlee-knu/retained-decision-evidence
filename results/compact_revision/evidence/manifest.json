@@ -1,0 +1,41 @@
+{
+  "started_utc": "2026-10-09T00:35:41.770238+00:00",
+  "finished_utc": "2026-10-09T00:35:46.344916+00:00",
+  "verification_elapsed_seconds_not_a_benchmark": 4.574678767006844,
+  "python": "3.12.3",
+  "command": [
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/.venv/bin/python",
+    "scripts/verify_compact_evidence.py",
+    "--output",
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/results/compact_revision/evidence"
+  ],
+  "script_sha256": "db53078e37dae60f084e04590c567230c9c4bdc9b55c50a5d20db0da96934a50",
+  "input_sha256": {
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "configs/revision_diagnostic_protocol.json": "9d63370bccc5544f9cffd5d43add8bd4cfe275db172751a4b47aa0a4b63bed0e",
+    "results/strong/catalog_audit/finite_tables.json.gz": "e369afd80c9b1ebf57ea456dc2297357b5d64365e27a8efc120e50ba23bfd7af",
+    "results/perspective_revision/inputs/observation_classes.json": "502b450b9501ca388823f806e31b288bf9d02dae28c921da987aa46f1ad63aab",
+    "results/perspective_revision/inputs/saved_census_rows.json.gz": "ccc7f1fd25814a5817371ca8f9a4ba581d801153094ebd09cc18bb4d0486adbb",
+    "results/perspective_revision/inputs/census.json": "813a0e10714f11a276e83f76db51f5e748ec90291c8f8068efa429f2d87a681b",
+    "results/perspective_revision/diagnostics/timings.json": "e9f5bb8ef54d714dcf08fc64271c74b48c123b863cae722e02c0e680de22ece3",
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/panel_review_20261009/evidence_native_check.py": "fafd256969d97c582907baf02b71e0990004842c5f0c658330980f350e1c6708",
+    "results/panel_review_20261009/evidence_native_check.json": "63d212bb91e3aaddc00f131e61c04cc4f2b9005b4d567160692b6f12b3d2fbfc",
+    "results/panel_review_20261009/root_descriptive_checks.json": "79bc41c8c02bd5d7ade3950c2d4566017aba8c53910eb9691bae69a8c046c4a8"
+  },
+  "nonimported_context_code_sha256": {
+    "scripts/benchmark_revision_diagnostics.py": "ab4d528bb2c3d6be94e39e165660286c8f021cd94fa3218e05593f902b5d33ef",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "src/logistics_validation/revision_diagnostics.py": "438e35aece87bf35de26df37c806da6e8263a326d9c9de98bbf34c686ec90594"
+  },
+  "output_sha256": {
+    "independent_census.json": "cb72f20dac4e4c482e4f1733708066bc816b7be2efb13b43484a87916495b19e",
+    "native_check.json": "072dfb0eab1520d539e077e351140fed8da551959e6c9408db4dc4a4e5b71b87",
+    "run.log": "8f3cbef22776eaec4615fd9e08f42d64b2f7af51d8ce420cccb1f6ebf2ccfb34",
+    "summary.json": "8f7b9d9f40a65b910ca01878db654cc4320b944eb852f10b9478f2aa1525f316",
+    "timing_sums.json": "5a4502c2521d24de427b27ec6aec3027db1ed15d292f542186f51100d1a44f04"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "checks_passed": true,
+  "driver_exit_code": 0,
+  "original_driver_executed_without_modification": true,
+  "bindings": {
+    "reproduce.py": "b2ff64cca5c56ee2dc0972b858cee280ddb476bfdf3e6438f7c1865241b99338",
+    "run_upstream_traced.py": "02ebb3721523d48836e39040f2b5cb7beb5285e497c88f2d0261888fac1e121f",
+    "summarize.py": "c3b021546b2cd984fea1aae0bf0569ccb9967192ec7c7e91fb57fd25e62660dc",
+    "python_requirements_lock.txt": "b1956832276c7df1ba00efaf9a40564d331bc0f6d652f0c30f9195d41a67ae37",
+    "pins.json": "f28df59388d28d7451b22a09c4e285554d1f428c66d8573292ccafbf7ac307ad"
+  },
+  "erpnext_file_hashes_match_original": 14,
+  "noneditable_dependency_versions_match_lock": 159,
+  "upstream_test_bytes_identical_across_versions": true,
+  "traces": {
+    "before": {
+      "events": 197,
+      "guard_calls": 3,
+      "normalized_trace_matches_original": true,
+      "normalization": "Omit generated document/order identifiers and exception message text; preserve event order, source line, status, docstatus, is_return, linked-order count and exception type."
+    },
+    "after": {
+      "events": 276,
+      "guard_calls": 5,
+      "normalized_trace_matches_original": true,
+      "normalization": "Omit generated document/order identifiers and exception message text; preserve event order, source line, status, docstatus, is_return, linked-order count and exception type."
+    }
+  },
+  "host": {
+    "checked": true,
+    "source_checkouts": {
+      "frappe": {
+        "commit": "ab2ea34e2ca327b2a2c647abe0ac284be088a54f",
+        "clean": true
+      },
+      "erpnext": {
+        "commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+        "clean": true
+      }
+    },
+    "initialized_snapshot_sha256": "2ac9f1889aa99fb5b274ec0bb7f8e5ed162bd0d51cf4946454cd56df86f74dff",
+    "task_containers_removed": true,
+    "task_network_removed": true,
+    "preexisting_containers_preserved": [
+      {
+        "id": "39c68c0875f1",
+        "name": "access-erp-redis-20261012",
+        "running": false
+      },
+      {
+        "id": "f3ab22dc1b06",
+        "name": "access-erp-db-20261012",
+        "running": false
+      },
+      {
+        "id": "55a67353dae9",
+        "name": "access-erp-bench-20261012",
+        "running": false
+      },
+      {
+        "id": "fa7f3df31184",
+        "name": "inspection_doc_automation_prototype-app-1",
+        "running": true
+      },
+      {
+        "id": "66b134d13230",
+        "name": "conversion-rtsp-to-rtsp-admin-1",
+        "running": true
+      },
+      {
+        "id": "4e2500e46b8d",
+        "name": "conversion-rtsp-to-rtsp-mediamtx-1",
+        "running": true
+      },
+      {
+        "id": "92f6272ca7cf",
+        "name": "ttv-timescaledb",
+        "running": true
+      },
+      {
+        "id": "ddc5b855a05f",
+        "name": "ttv-mosquitto",
+        "running": true
+      },
+      {
+        "id": "b6d36024e12a",
+        "name": "rtsp-admin",
+        "running": true
+      },
+      {
+        "id": "01a1ba1ae230",
+        "name": "rtsp-http-gateway",
+        "running": true
+      },
+      {
+        "id": "4459da334cf4",
+        "name": "mediamtx",
+        "running": true
+      }
+    ]
+  },
+  "scope": "Fresh environment replay of one existing generated regression fixture; no new independent application case or performance measurement."
+}

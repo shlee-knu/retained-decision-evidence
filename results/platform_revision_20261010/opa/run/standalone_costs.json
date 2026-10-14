@@ -1,0 +1,141 @@
+{
+  "cost_claim": "Descriptive single-run integration accounting; no cross-engine speed claim",
+  "rows": [
+    {
+      "model": "procurement_identity",
+      "setup_wall_ns": 1159220604,
+      "assembly_and_encoding_wall_ns": 1259439,
+      "generation_wall_ns": 1160480043,
+      "research_oracle_wall_ns": 366892376,
+      "subprocess_wall_ns": 1116360674,
+      "subprocess_cpu_ns": 1240417000,
+      "metrics": {
+        "timer_rego_load_files_ns": 327166,
+        "timer_rego_module_compile_ns": 1017523,
+        "timer_rego_module_parse_ns": 275435,
+        "timer_rego_query_compile_ns": 45099,
+        "timer_rego_query_eval_ns": 1064102928,
+        "timer_rego_query_parse_ns": 14449
+      }
+    },
+    {
+      "model": "procurement_strict",
+      "setup_wall_ns": 1347081086,
+      "assembly_and_encoding_wall_ns": 1312286,
+      "generation_wall_ns": 1348393372,
+      "research_oracle_wall_ns": 375742745,
+      "subprocess_wall_ns": 1333635037,
+      "subprocess_cpu_ns": 1559063000,
+      "metrics": {
+        "timer_rego_load_files_ns": 215677,
+        "timer_rego_module_compile_ns": 638510,
+        "timer_rego_module_parse_ns": 189238,
+        "timer_rego_query_compile_ns": 26439,
+        "timer_rego_query_eval_ns": 1288123797,
+        "timer_rego_query_parse_ns": 9364
+      }
+    },
+    {
+      "model": "procurement_equivalent",
+      "setup_wall_ns": 1381724925,
+      "assembly_and_encoding_wall_ns": 1237957,
+      "generation_wall_ns": 1382962882,
+      "research_oracle_wall_ns": 363023762,
+      "subprocess_wall_ns": 1348353664,
+      "subprocess_cpu_ns": 1581284000,
+      "metrics": {
+        "timer_rego_load_files_ns": 331097,
+        "timer_rego_module_compile_ns": 1008761,
+        "timer_rego_module_parse_ns": 293384,
+        "timer_rego_query_compile_ns": 39687,
+        "timer_rego_query_eval_ns": 1298765418,
+        "timer_rego_query_parse_ns": 10474
+      }
+    },
+    {
+      "model": "procurement_label_change",
+      "setup_wall_ns": 1368780531,
+      "assembly_and_encoding_wall_ns": 1272442,
+      "generation_wall_ns": 1370052973,
+      "research_oracle_wall_ns": 379154606,
+      "subprocess_wall_ns": 1331423415,
+      "subprocess_cpu_ns": 1565670000,
+      "metrics": {
+        "timer_rego_load_files_ns": 244099,
+        "timer_rego_module_compile_ns": 619584,
+        "timer_rego_module_parse_ns": 207381,
+        "timer_rego_query_compile_ns": 25802,
+        "timer_rego_query_eval_ns": 1280764971,
+        "timer_rego_query_parse_ns": 9894
+      }
+    },
+    {
+      "model": "procurement_edge_p0_a0_b1",
+      "setup_wall_ns": 1429822442,
+      "assembly_and_encoding_wall_ns": 13147769,
+      "generation_wall_ns": 1442970211,
+      "research_oracle_wall_ns": 376955064,
+      "subprocess_wall_ns": 1415570688,
+      "subprocess_cpu_ns": 1656704999,
+      "metrics": {
+        "timer_rego_load_files_ns": 361092,
+        "timer_rego_module_compile_ns": 1017291,
+        "timer_rego_module_parse_ns": 311625,
+        "timer_rego_query_compile_ns": 42492,
+        "timer_rego_query_eval_ns": 1366170274,
+        "timer_rego_query_parse_ns": 12533
+      }
+    },
+    {
+      "model": "procurement_required_p2_a3",
+      "setup_wall_ns": 1411725131,
+      "assembly_and_encoding_wall_ns": 2967158,
+      "generation_wall_ns": 1414692289,
+      "research_oracle_wall_ns": 366018067,
+      "subprocess_wall_ns": 1370570304,
+      "subprocess_cpu_ns": 1611705999,
+      "metrics": {
+        "timer_rego_load_files_ns": 291673,
+        "timer_rego_module_compile_ns": 670331,
+        "timer_rego_module_parse_ns": 257139,
+        "timer_rego_query_compile_ns": 26314,
+        "timer_rego_query_eval_ns": 1319971190,
+        "timer_rego_query_parse_ns": 6766
+      }
+    },
+    {
+      "model": "procurement_edge_p2_a0_b2",
+      "setup_wall_ns": 1459480872,
+      "assembly_and_encoding_wall_ns": 54604346,
+      "generation_wall_ns": 1514085218,
+      "research_oracle_wall_ns": 466988577,
+      "subprocess_wall_ns": 1445969944,
+      "subprocess_cpu_ns": 1684167000,
+      "metrics": {
+        "timer_rego_load_files_ns": 237319,
+        "timer_rego_module_compile_ns": 618289,
+        "timer_rego_module_parse_ns": 205372,
+        "timer_rego_query_compile_ns": 26159,
+        "timer_rego_query_eval_ns": 1396925293,
+        "timer_rego_query_parse_ns": 7731
+      }
+    },
+    {
+      "model": "procurement_edge_p2_a2_b3",
+      "setup_wall_ns": 1349577461,
+      "assembly_and_encoding_wall_ns": 37437514,
+      "generation_wall_ns": 1387014975,
+      "research_oracle_wall_ns": 411180814,
+      "subprocess_wall_ns": 1335532312,
+      "subprocess_cpu_ns": 1572885999,
+      "metrics": {
+        "timer_rego_load_files_ns": 196461,
+        "timer_rego_module_compile_ns": 615640,
+        "timer_rego_module_parse_ns": 165360,
+        "timer_rego_query_compile_ns": 25183,
+        "timer_rego_query_eval_ns": 1284119086,
+        "timer_rego_query_parse_ns": 10376
+      }
+    }
+  ]
+}

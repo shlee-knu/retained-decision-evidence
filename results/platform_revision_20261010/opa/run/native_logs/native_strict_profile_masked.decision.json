@@ -1,0 +1,97 @@
+{
+  "bundles": {
+    "results/platform_revision_20261010/opa/run/native_logs/baseline_bundle.tar.gz": {
+      "revision": "retained-evidence-baseline-v1-local-replay-20261010"
+    }
+  },
+  "decision_id": "3daccec3-b49c-485f-bc43-22ecd881cb33",
+  "erased": [
+    "/input/profile",
+    "/input/record/profile"
+  ],
+  "input": {
+    "activities": [
+      "create",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "invoice",
+      "clear"
+    ],
+    "case_id": "4507000469_00001",
+    "first_times": {
+      "clear": "2018-04-13T08:37:00.000Z",
+      "create": "2018-01-02T21:36:00.000Z",
+      "invoice": "2018-04-11T10:40:00.000Z",
+      "receive": "2018-01-02T21:36:00.000Z"
+    },
+    "mask_profile": true,
+    "mask_times": false,
+    "model": "procurement",
+    "record": {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ranks": [
+        0,
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "labels": {
+    "id": "74aa4add-cf58-494d-802d-e79305774342",
+    "version": "1.21.1"
+  },
+  "level": "info",
+  "metrics": {
+    "counter_server_query_cache_hit": 0,
+    "timer_rego_external_resolve_ns": 106,
+    "timer_rego_input_parse_ns": 73699,
+    "timer_rego_query_compile_ns": 28513,
+    "timer_rego_query_eval_ns": 212930,
+    "timer_server_handler_ns": 368725
+  },
+  "msg": "Decision Log",
+  "path": "audit/predicates/logged_old_decision",
+  "req_id": 2,
+  "requested_by": "127.0.0.1:47910",
+  "result": true,
+  "time": "2026-10-10T01:16:46+09:00",
+  "timestamp": "2026-10-09T16:16:46.738839702Z",
+  "type": "openpolicyagent.org/decision_logs"
+}

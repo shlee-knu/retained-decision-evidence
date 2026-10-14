@@ -1,0 +1,5 @@
+{
+  "status": "intentionally_interrupted",
+  "reason": "Integrate additional malformed-receipt guards and strengthened independent checker before final replay. Primary episode outputs are retained; this directory has no successful full-run summary.",
+  "replacement_run": "results/repair_revision_20261010/execution/run"
+}

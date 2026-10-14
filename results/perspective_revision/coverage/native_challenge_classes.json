@@ -1,0 +1,69 @@
+{
+  "scope": "Saved native-input frequency census for new challenge targets; these target/weighted combinations were not timed.",
+  "targets": [
+    {
+      "target": "edge_p0_a0_b1",
+      "native_receipts": 50931,
+      "affected_classes": []
+    },
+    {
+      "target": "required_p2_a3",
+      "native_receipts": 50931,
+      "affected_classes": [
+        {
+          "native_class_id": 18,
+          "full_domain_class_id": 5,
+          "query": {
+            "base": [
+              0,
+              2
+            ],
+            "mask": 0,
+            "observed": [],
+            "old_verdict": false
+          },
+          "status": "insufficient",
+          "robust_masks": [
+            3
+          ],
+          "receipt_occurrences": 113
+        }
+      ]
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "native_receipts": 50931,
+      "affected_classes": []
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "native_receipts": 50931,
+      "affected_classes": [
+        {
+          "native_class_id": 8,
+          "full_domain_class_id": 16,
+          "query": {
+            "base": [
+              0,
+              3,
+              2
+            ],
+            "mask": 0,
+            "observed": [],
+            "old_verdict": false
+          },
+          "status": "insufficient",
+          "robust_masks": [
+            3
+          ],
+          "receipt_occurrences": 1
+        }
+      ]
+    }
+  ],
+  "input_sha256": {
+    "procurement_identity.json": "fc8e48220dc90f2a3b731f02190a8d20591e1f722c9a9a17e9c4d15718827be8",
+    "observation_classes.json": "502b450b9501ca388823f806e31b288bf9d02dae28c921da987aa46f1ad63aab",
+    "saved_census_rows.json.gz": "ccc7f1fd25814a5817371ca8f9a4ba581d801153094ebd09cc18bb4d0486adbb"
+  }
+}

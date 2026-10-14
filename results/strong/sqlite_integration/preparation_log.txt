@@ -1,0 +1,3 @@
+{"stage": "native-verification", "layout": "same_row", "elapsed_seconds": 13.38101774500683}
+{"stage": "native-verification", "layout": "normalized", "elapsed_seconds": 26.30439925706014}
+{"stage": "prepared", "cases": 251734, "test_cases": 50931, "native_checks": 1018620, "build_seconds": 4.9718400369165465, "verification_seconds": 26.305173519067466, "rough_nine_round_seconds_from_untimed_verification": 236.7465616716072, "database_sizes": {"same_row": 59944960, "normalized": 66670592}}

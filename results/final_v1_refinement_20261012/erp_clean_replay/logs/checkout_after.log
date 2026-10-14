@@ -1,0 +1,13 @@
+From https://github.com/frappe/erpnext
+ * branch            ff78778b7cde837bcd3128582280f34582522e5f -> FETCH_HEAD
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  c2d378a test(stock): cover purchase return against a closed purchase order
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> c2d378a
+
+HEAD is now at ff78778 fix(buying): allow purchase returns against a closed purchase order

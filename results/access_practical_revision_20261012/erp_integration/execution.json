@@ -1,0 +1,26 @@
+{
+  "before_exit_code": 1,
+  "after_exit_code": 0,
+  "before_expected_failure": "InvalidStatusError during closed-return save validation",
+  "same_database_snapshot_restored": true,
+  "isolated_redis_flushed_between_versions": true,
+  "source_and_test_unmodified": true,
+  "original_upstream_test_sha256_equal": true,
+  "offline_summary_validation_passed": true,
+  "dependency_lock_verification": "logs/verify_dependency_lock.log",
+  "services_stopped_after_experiment": true,
+  "stopped_container_names": [
+    "access-erp-bench-20261012",
+    "access-erp-db-20261012",
+    "access-erp-redis-20261012"
+  ],
+  "service_stop_note": "Bench image entrypoint running sleep infinity exited137 after requested docker stop timeout; this is post-experiment shutdown, not a test exit status. DB and Redis exited0.",
+  "external_workspace_retained": "/home/shlee/nudix_workspace/erpnext_access_integration_20261012",
+  "fresh_directory_convenience_driver_executed": false,
+  "convenience_driver_checks": [
+    "AST syntax",
+    "CLI help",
+    "source review",
+    "component provisioning/run/reset/lock operations executed in isolated environment"
+  ]
+}

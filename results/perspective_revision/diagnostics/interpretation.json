@@ -1,0 +1,1039 @@
+{
+  "summary_sha256": "15dd423e5d22610116bce41045a2d157fa996896c7b7c8e905d2c719a67b053c",
+  "median_minimum_counts": {
+    "core_batch": {
+      "cpu_ns": {
+        "direct_residual": 18
+      },
+      "wall_ns": {
+        "direct_residual": 18
+      }
+    },
+    "batch": {
+      "cpu_ns": {
+        "direct_residual": 18
+      },
+      "wall_ns": {
+        "direct_residual": 18
+      }
+    },
+    "first_report": {
+      "cpu_ns": {
+        "finite_fibers": 12,
+        "direct_residual": 6
+      },
+      "wall_ns": {
+        "finite_fibers": 12,
+        "direct_residual": 6
+      }
+    },
+    "setup_plus_first": {
+      "cpu_ns": {
+        "direct_residual": 18
+      },
+      "wall_ns": {
+        "direct_residual": 18
+      }
+    },
+    "core_setup_plus_first": {
+      "cpu_ns": {
+        "direct_residual": 18
+      },
+      "wall_ns": {
+        "direct_residual": 18
+      }
+    },
+    "core_plus_research_oracle": {
+      "cpu_ns": {
+        "direct_residual": 18
+      },
+      "wall_ns": {
+        "direct_residual": 18
+      }
+    },
+    "cold_plus_research_oracle": {
+      "cpu_ns": {
+        "direct_residual": 18
+      },
+      "wall_ns": {
+        "direct_residual": 18
+      }
+    }
+  },
+  "paired_direct_comparison": {
+    "core_batch": {
+      "finite_fibers": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 89,
+          "ties": 0,
+          "direct_losses": 1,
+          "losses": [
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 440772
+            }
+          ]
+        }
+      },
+      "incremental_smt": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      }
+    },
+    "batch": {
+      "finite_fibers": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 89,
+          "ties": 0,
+          "direct_losses": 1,
+          "losses": [
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 440772
+            }
+          ]
+        }
+      },
+      "incremental_smt": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      }
+    },
+    "first_report": {
+      "finite_fibers": {
+        "cpu_ns": {
+          "direct_wins": 30,
+          "ties": 0,
+          "direct_losses": 60,
+          "losses": [
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 70813
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 66683
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 72170
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 69844
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 65351
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 71779
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 78507
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 72632
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 73743
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 72000
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 22821
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 24708
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 21394
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 12386
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 21579
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 95098
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 87190
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 86613
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 81309
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 71866
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 4816
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 11923
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 10834
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 16773
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 7002
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 18134
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 20429
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 9396
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 23734
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 22683
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 14896
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 3018
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 4547
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 8693
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 24053
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 18899
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 11345
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 16126
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 16757
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 29318
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 6086
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 7415
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 294
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 12852
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 6336
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 22407
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 9377
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 16053
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 9058
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 17625
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 130
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 67
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 17322
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 14107
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 9035
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 16806
+            },
+            {
+              "name": "procurement_edge_p0_a0_b1",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 219293
+            },
+            {
+              "name": "procurement_edge_p0_a0_b1",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 193226
+            },
+            {
+              "name": "procurement_edge_p0_a0_b1",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 245335
+            },
+            {
+              "name": "procurement_edge_p0_a0_b1",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 237729
+            }
+          ]
+        },
+        "wall_ns": {
+          "direct_wins": 30,
+          "ties": 0,
+          "direct_losses": 60,
+          "losses": [
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 70856
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 66781
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 72212
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 69944
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 65387
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 71746
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 78484
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 72700
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 73766
+            },
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 72083
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 22836
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 24736
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 21371
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 12343
+            },
+            {
+              "name": "epcis_object_profile",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 21656
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 95237
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 87285
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 86682
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 81724
+            },
+            {
+              "name": "epcis_transformation_profile",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 72009
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 4908
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 12004
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 10941
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 16934
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 7161
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 18282
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 20542
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 9475
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 23793
+            },
+            {
+              "name": "procurement_equivalent",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 22818
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 14994
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 3055
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 4647
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 9397
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 24381
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 19011
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 11444
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 16210
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 16906
+            },
+            {
+              "name": "procurement_identity",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 29430
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 6244
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 7532
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 380
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 13031
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 6434
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 0,
+              "direct_minus_other_ns": 22484
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 9470
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 16177
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 9249
+            },
+            {
+              "name": "procurement_label_change",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 17811
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 137
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 214
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "weighted",
+              "round": 1,
+              "direct_minus_other_ns": 17486
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "weighted",
+              "round": 2,
+              "direct_minus_other_ns": 14129
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "weighted",
+              "round": 3,
+              "direct_minus_other_ns": 9152
+            },
+            {
+              "name": "procurement_strict",
+              "workload": "weighted",
+              "round": 4,
+              "direct_minus_other_ns": 16813
+            },
+            {
+              "name": "procurement_edge_p0_a0_b1",
+              "workload": "unique",
+              "round": 0,
+              "direct_minus_other_ns": 219458
+            },
+            {
+              "name": "procurement_edge_p0_a0_b1",
+              "workload": "unique",
+              "round": 1,
+              "direct_minus_other_ns": 193294
+            },
+            {
+              "name": "procurement_edge_p0_a0_b1",
+              "workload": "unique",
+              "round": 3,
+              "direct_minus_other_ns": 245472
+            },
+            {
+              "name": "procurement_edge_p0_a0_b1",
+              "workload": "unique",
+              "round": 4,
+              "direct_minus_other_ns": 237844
+            }
+          ]
+        }
+      },
+      "incremental_smt": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      }
+    },
+    "setup_plus_first": {
+      "finite_fibers": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      },
+      "incremental_smt": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      }
+    },
+    "core_setup_plus_first": {
+      "finite_fibers": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      },
+      "incremental_smt": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      }
+    },
+    "core_plus_research_oracle": {
+      "finite_fibers": {
+        "cpu_ns": {
+          "direct_wins": 89,
+          "ties": 0,
+          "direct_losses": 1,
+          "losses": [
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 1101080
+            }
+          ]
+        },
+        "wall_ns": {
+          "direct_wins": 89,
+          "ties": 0,
+          "direct_losses": 1,
+          "losses": [
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 3210133
+            }
+          ]
+        }
+      },
+      "incremental_smt": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      }
+    },
+    "cold_plus_research_oracle": {
+      "finite_fibers": {
+        "cpu_ns": {
+          "direct_wins": 89,
+          "ties": 0,
+          "direct_losses": 1,
+          "losses": [
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 1101080
+            }
+          ]
+        },
+        "wall_ns": {
+          "direct_wins": 89,
+          "ties": 0,
+          "direct_losses": 1,
+          "losses": [
+            {
+              "name": "epcis_aggregation_profile",
+              "workload": "unique",
+              "round": 2,
+              "direct_minus_other_ns": 3210133
+            }
+          ]
+        }
+      },
+      "incremental_smt": {
+        "cpu_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        },
+        "wall_ns": {
+          "direct_wins": 90,
+          "ties": 0,
+          "direct_losses": 0,
+          "losses": []
+        }
+      }
+    }
+  }
+}

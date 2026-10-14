@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "cohorts": {
+    "full_archive": {
+      "case_denominator_per_target": 251734,
+      "four_target_case_pairs": 1006936,
+      "distinct_affected_ids": 524,
+      "affected_target_case_pairs": 524,
+      "P_first_additional_logical_reads": 908,
+      "aggregates": {
+        "affected": 524,
+        "P_reads": 524,
+        "T_reads_after_P": 384,
+        "stop_after_P": 140
+      },
+      "targets": {
+        "edge_p0_a0_b1": {
+          "counts": {},
+          "profiles": {},
+          "sorted_affected_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "required_p2_a3": {
+          "counts": {
+            "affected": 516,
+            "P_reads": 516,
+            "T_reads_after_P": 384,
+            "stop_after_P": 132
+          },
+          "profiles": {
+            "3-way match, invoice before GR": 132,
+            "2-way match": 384
+          },
+          "sorted_affected_ids_sha256": "a31272c69960c2a2c48e1a65794f2a850ee100c8e425454e576877a5344254bb"
+        },
+        "edge_p2_a0_b2": {
+          "counts": {},
+          "profiles": {},
+          "sorted_affected_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "edge_p2_a2_b3": {
+          "counts": {
+            "affected": 8,
+            "P_reads": 8,
+            "T_reads_after_P": 0,
+            "stop_after_P": 8
+          },
+          "profiles": {
+            "3-way match, invoice before GR": 8
+          },
+          "sorted_affected_ids_sha256": "6761ec1858cf6b689d530f64580289b2a59446b2a7dea6acc9793f56b4a5b145"
+        }
+      }
+    },
+    "heldout_receipts": {
+      "case_denominator_per_target": 50931,
+      "four_target_case_pairs": 203724,
+      "distinct_affected_ids": 114,
+      "affected_target_case_pairs": 114,
+      "P_first_additional_logical_reads": 199,
+      "aggregates": {
+        "affected": 114,
+        "P_reads": 114,
+        "T_reads_after_P": 85,
+        "stop_after_P": 29
+      },
+      "targets": {
+        "edge_p0_a0_b1": {
+          "counts": {},
+          "profiles": {},
+          "sorted_affected_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "required_p2_a3": {
+          "counts": {
+            "affected": 113,
+            "P_reads": 113,
+            "T_reads_after_P": 85,
+            "stop_after_P": 28
+          },
+          "profiles": {
+            "3-way match, invoice before GR": 28,
+            "2-way match": 85
+          },
+          "sorted_affected_ids_sha256": "9a7e4a7f0e8e6d8c76b98a1e21357bbc1a40c049e571a0a8faaaf29d2be26a2e"
+        },
+        "edge_p2_a0_b2": {
+          "counts": {},
+          "profiles": {},
+          "sorted_affected_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "edge_p2_a2_b3": {
+          "counts": {
+            "affected": 1,
+            "P_reads": 1,
+            "T_reads_after_P": 0,
+            "stop_after_P": 1
+          },
+          "profiles": {
+            "3-way match, invoice before GR": 1
+          },
+          "sorted_affected_ids_sha256": "013fb84d8c4439a3426b532098637927525cc42d191990b369cde6cac53cfaf0"
+        }
+      }
+    }
+  },
+  "matches_panel_check_including_target_id_hashes": true,
+  "two_block_classes_derived_by_new_census": 16,
+  "scope": "Post hoc descriptive recount of four authored changes and archived structural-order retention. Full archive is not a new independent holdout; no organizational migration or performance claim. Robust {P,T} guarantees every completion; P-first may stop after P for a particular observed value.",
+  "previous_analysis": "results/panel_review_20261009/evidence_native_check.py and .json"
+}

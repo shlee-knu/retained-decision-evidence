@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source_reconciliation": {
+    "status": "passed",
+    "reports": 25,
+    "artifacts": 8,
+    "bundle_sha256": "4ff678abe1e1683f4f215c04071e9645b3c1ee007663cd48cb2c520ce2572d7d",
+    "verification": "raw old sufficiency, new status, all minimal robust sets, literal witnesses and bindings",
+    "boundary": "Integrity and conditional finite semantics; no authentication or live freshness",
+    "affected_ids": 33489,
+    "affected_classes": 3,
+    "original_source_reconciliation": true
+  },
+  "tamper_rejections": {
+    "affected_id_and_manifest_rehash": "affected ID content binding mismatch",
+    "review_and_manifest_rehash": "review content binding mismatch"
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "path": "data/provenance/LaDe_README.md",
+    "url": "https://huggingface.co/datasets/Cainiao-AI/LaDe/raw/be2cec02775cafc8d52230303f32134382bcc50b/README.md",
+    "size": 9957,
+    "sha256": "f05130057d53d5ddc49fb87ed886d574a49899c31798f29df97ce2b90762d90c",
+    "upstream_sha256": null,
+    "license": "Apache-2.0 (dataset card)",
+    "acquired_utc": "2026-10-06T18:15:17.251402+00:00"
+  },
+  {
+    "path": "data/raw/lade/delivery_cq.csv",
+    "url": "https://huggingface.co/datasets/Cainiao-AI/LaDe/resolve/be2cec02775cafc8d52230303f32134382bcc50b/delivery/delivery_cq.csv",
+    "size": 145068417,
+    "sha256": "114a35e9a31f817a3c9efb8513924688706bcedfa85ccd69df696eb5e8eddea2",
+    "upstream_sha256": "114a35e9a31f817a3c9efb8513924688706bcedfa85ccd69df696eb5e8eddea2",
+    "license": "Apache-2.0 (dataset card)",
+    "acquired_utc": "2026-10-06T18:15:08.179621+00:00"
+  },
+  {
+    "path": "data/raw/lade/delivery_hz.csv",
+    "url": "https://huggingface.co/datasets/Cainiao-AI/LaDe/resolve/be2cec02775cafc8d52230303f32134382bcc50b/delivery/delivery_hz.csv",
+    "size": 286893611,
+    "sha256": "9969df2a5c79dadc6149c384e3632eccc0417d01a2575a74db2310e786541c22",
+    "upstream_sha256": "9969df2a5c79dadc6149c384e3632eccc0417d01a2575a74db2310e786541c22",
+    "license": "Apache-2.0 (dataset card)",
+    "acquired_utc": "2026-10-06T18:15:16.914145+00:00"
+  },
+  {
+    "path": "data/raw/lade/delivery_jl.csv",
+    "url": "https://huggingface.co/datasets/Cainiao-AI/LaDe/resolve/be2cec02775cafc8d52230303f32134382bcc50b/delivery/delivery_jl.csv",
+    "size": 4736342,
+    "sha256": "12e2cf4664dd5b4475d39dddee8872f5a03b3082f08f0eece7f103baee6c6e73",
+    "upstream_sha256": null,
+    "license": "Apache-2.0 (dataset card)",
+    "acquired_utc": "2026-10-06T18:15:03.842558+00:00"
+  },
+  {
+    "path": "data/raw/lade/delivery_sh.csv",
+    "url": "https://huggingface.co/datasets/Cainiao-AI/LaDe/resolve/be2cec02775cafc8d52230303f32134382bcc50b/delivery/delivery_sh.csv",
+    "size": 228069571,
+    "sha256": "da875abddbb01ac324106b9b9ce33181e5e8530e77359a12ee68567fd1cc3bbf",
+    "upstream_sha256": "da875abddbb01ac324106b9b9ce33181e5e8530e77359a12ee68567fd1cc3bbf",
+    "license": "Apache-2.0 (dataset card)",
+    "acquired_utc": "2026-10-06T18:15:10.786848+00:00"
+  },
+  {
+    "path": "data/raw/lade/delivery_yt.csv",
+    "url": "https://huggingface.co/datasets/Cainiao-AI/LaDe/resolve/be2cec02775cafc8d52230303f32134382bcc50b/delivery/delivery_yt.csv",
+    "size": 31532960,
+    "sha256": "aa5bca7fdaa8c89d4ab50a2ed2b94fb09f608acc49fc1108a1a612e9c0f5a7ad",
+    "upstream_sha256": "aa5bca7fdaa8c89d4ab50a2ed2b94fb09f608acc49fc1108a1a612e9c0f5a7ad",
+    "license": "Apache-2.0 (dataset card)",
+    "acquired_utc": "2026-10-06T18:15:10.866898+00:00"
+  },
+  {
+    "path": "data/standards/epcis-json-schema.json",
+    "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-json-schema.json",
+    "size": 55680,
+    "sha256": "cfabd8620cc4dd67a53e6aa397bc26379f8b05bb9147c8a37a60bbec69a62572",
+    "upstream_sha256": null,
+    "license": "GS1 terms; retain source, not relicensed",
+    "acquired_utc": "2026-10-06T18:15:19.011755+00:00"
+  },
+  {
+    "path": "data/standards/epcis-shacl.ttl",
+    "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-shacl.ttl",
+    "size": 36297,
+    "sha256": "7db2547a7a55e7d6e6f19c0ad472d1f0987ef19f3d04a43b195bca55c0cc7f42",
+    "upstream_sha256": null,
+    "license": "GS1 terms; retain source, not relicensed",
+    "acquired_utc": "2026-10-06T18:15:19.343982+00:00"
+  }
+]

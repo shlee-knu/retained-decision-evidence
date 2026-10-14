@@ -1,0 +1,65 @@
+test_purchase_return_against_closed_purchase_order (erpnext.stock.doctype.purchase_receipt.test_purchase_receipt.TestPurchaseReceipt.test_purchase_return_against_closed_purchase_order) ... ERROR
+
+======================================================================
+ERROR: test_purchase_return_against_closed_purchase_order (erpnext.stock.doctype.purchase_receipt.test_purchase_receipt.TestPurchaseReceipt.test_purchase_return_against_closed_purchase_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/bench/apps/erpnext/erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py", line 744, in test_purchase_return_against_closed_purchase_order
+    second_return.submit()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/workspace/bench/apps/frappe/frappe/utils/typing_validations.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 1795, in submit
+    return self._submit()
+           ~~~~~~~~~~~~^^
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 1776, in _submit
+    return self.save()
+           ~~~~~~~~~^^
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 810, in save
+    return self._save(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 832, in _save
+    return self.insert()
+           ~~~~~~~~~~~^^
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 739, in insert
+    self.run_before_save_methods()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 1860, in run_before_save_methods
+    self.run_method("validate")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 1701, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 2107, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 2081, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+                              ~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/bench/apps/frappe/frappe/model/document.py", line 1698, in fn
+    return method_object(*args, **kwargs)
+  File "/workspace/bench/apps/erpnext/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py", line 260, in validate
+    self.check_for_on_hold_or_closed_status("Purchase Order", "purchase_order")
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/bench/apps/erpnext/erpnext/controllers/stock_controller.py", line 568, in check_for_on_hold_or_closed_status
+    frappe.throw("<br>".join(errors), frappe.InvalidStatusError)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/bench/apps/frappe/frappe/utils/messages.py", line 159, in throw
+    msgprint(
+    ~~~~~~~~^
+    	msg,
+     ^^^^
+    ...<7 lines>...
+    	allow_dangerous_html=allow_dangerous_html,
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/workspace/bench/apps/frappe/frappe/utils/messages.py", line 118, in msgprint
+    _raise_exception()
+    ~~~~~~~~~~~~~~~~^^
+  File "/workspace/bench/apps/frappe/frappe/utils/messages.py", line 59, in _raise_exception
+    raise exc
+frappe.exceptions.InvalidStatusError: <strong>Purchase Order</strong> <strong>PUR-ORD-2026-00001</strong> status is <strong>Closed</strong>.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.926s
+
+FAILED (errors=1)

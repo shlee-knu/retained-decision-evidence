@@ -1,0 +1,9 @@
+{
+  "source_receipts": 50931,
+  "source_sha256": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+  "exact_source_order_id_class_reconciliation": true,
+  "independent_affected_id_set_equality": true,
+  "independent_affected_ids": 33489,
+  "literal_witness_checks": 66978,
+  "method": "Strictly parse every original receipt, reconstruct normalized query and class, bind snapshot/catalog/domain, independently diagnose each class using direct predicates, and compare the exact affected ID set. Lift and raw-check both witnesses on every affected literal receipt."
+}

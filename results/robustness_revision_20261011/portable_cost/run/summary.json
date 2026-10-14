@@ -1,0 +1,133 @@
+{
+  "protocol": "configs/portable_audit_cost_protocol.json",
+  "protocol_sha256": "ef0951266fd8e6db91187a4f22128a79f93975cb153b4c72b28b78fdfe9a5e87",
+  "script_sha256": "5520f16c3f4542ddaecf0c97d66c621396dda1d67406ca91fcca2170ec167dab",
+  "summary": {
+    "report_construction": {
+      "median_ms": 33.514399,
+      "min_ms": 33.279752,
+      "max_ms": 35.66017,
+      "rounds": 5
+    },
+    "exact_id_construction": {
+      "median_ms": 3.553398,
+      "min_ms": 3.518931,
+      "max_ms": 3.653443,
+      "rounds": 5
+    },
+    "payload_serialization": {
+      "median_ms": 101.950241,
+      "min_ms": 101.128601,
+      "max_ms": 103.113094,
+      "rounds": 5
+    },
+    "detached_bundle_verification": {
+      "median_ms": 31.427217,
+      "min_ms": 30.771332,
+      "max_ms": 32.573288,
+      "rounds": 5
+    },
+    "directory_verification": {
+      "median_ms": 92.074723,
+      "min_ms": 89.540667,
+      "max_ms": 93.011035,
+      "rounds": 5
+    },
+    "directory_with_original_source_reconciliation": {
+      "median_ms": 1535.264315,
+      "min_ms": 1524.630684,
+      "max_ms": 1546.784039,
+      "rounds": 5
+    },
+    "import_load_ms": {
+      "median_ms": 7.33962,
+      "min_ms": 7.160583,
+      "max_ms": 9.430391,
+      "rounds": 5
+    },
+    "input_setup_ms": {
+      "median_ms": 9.871315,
+      "min_ms": 9.780467,
+      "max_ms": 10.052977,
+      "rounds": 5
+    },
+    "child_body_ms": {
+      "median_ms": 1833.242112,
+      "min_ms": 1824.103284,
+      "max_ms": 1847.40067,
+      "rounds": 5
+    },
+    "subprocess_wall_ms": {
+      "median_ms": 1869.096356,
+      "min_ms": 1859.872657,
+      "max_ms": 1881.991999,
+      "rounds": 5
+    }
+  },
+  "payload_bytes": {
+    "bundle_json": 125065,
+    "affected_ids_gzip": 92732
+  },
+  "environment": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "executable": "/home/shlee/nudix_workspace/logistics_event_validation_research/.venv/bin/python",
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+    "cpu_model": "12th Gen Intel(R) Core(TM) i9-12900K",
+    "affinity": [
+      0
+    ],
+    "pid": 2980224,
+    "perf_counter": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "hash_seed": "0"
+  },
+  "verification": "All six processes reproduced pinned report semantics, regenerated JSON/ID bytes, and passed every verification scope.",
+  "nonadditive_scopes": {
+    "detached_bundle_verification": "In-memory bundle; finite raw semantics and source-code hashes. Excludes bundle file parsing and exact-ID sidecars.",
+    "directory_verification": "Existing verify_directory with verify_sources=False: includes file reads, JSON/gzip decoding, file digests, detached semantic verification and exact-ID/sidecar consistency. Does not prove the ID set against the original mapping. This reads the fixed existing exported directory; regenerated report objects equal it, and the exact-ID gzip is byte-identical. Its JSON field ordering is the prior exporter ordering.",
+    "directory_with_original_source_reconciliation": "Existing verify_directory with verify_sources=True: contains all directory verification plus pinned derived-archive/source hashes, 50,931 native receipt/query mappings and exact affected-ID source reconciliation. Sources are derived public-data artifacts, not a fresh parse of the original XES."
+  },
+  "source_sha256": {
+    "configs/focused_diagnostic_protocol.json": "8da44d148a17e34a827195af792926ff4cca3fe7357f1940314a50f5601b3b89",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "results/alpha_revision_20261010/audit_report/run/affected_receipt_ids.jsonl.gz": "8fc9839b48fabf28810f204de9cd46868c7475530cfbf7c3eaafb78a202f2a0c",
+    "results/alpha_revision_20261010/audit_report/run/bundle.json": "62edbeae2779f5a0642c51bad0d4143986ca15c3015625c05a136ec1a1ff4226",
+    "results/alpha_revision_20261010/audit_report/run/change_review.json": "5d0bc1ab69b0a2514872d44be629f07a3b1b212e47197031e114123ee8e495ef",
+    "results/alpha_revision_20261010/audit_report/run/manifest.json": "aeec167b635ec84f421126c5e7ab992da0fd827e3abca889f0ed2c744a1550e7",
+    "results/alpha_revision_20261010/audit_report/run/verification.json": "6152256bb1e2cae0f3c730bca4d3102790a87227e146a45a1af8cac0a41d4d38",
+    "results/focused_revision/diagnostic_inputs/epcis_object_profile.json": "95af45fce0767d177cfdfdd8381e4996dcfe64fd9459e0c169c4b93fc0225365",
+    "results/focused_revision/diagnostic_inputs/procurement_label_change.json": "ec816221da207bb4a33469c707b99ac05e59c66db87b3fb26eea157226b4d316",
+    "results/focused_revision/diagnostic_inputs/procurement_strict.json": "213a3031529f657ba4fbbe475010b8f54bb3a5ae7f9fdb2e001781d0801f5d9e",
+    "results/focused_revision/diagnostics/r0_epcis_object_profile_unique_finite_fibers.json": "17001e474efc4051b654ed79ea8e2f9e1bb27589a9bc68370f5c18aa0ca8cab5",
+    "results/focused_revision/diagnostics/r0_procurement_label_change_unique_finite_fibers.json": "a834b75bb024caa1ac8d4a6b8bb176e2004a95eb4f21af083952bb904e18edc4",
+    "results/focused_revision/diagnostics/r0_procurement_strict_unique_finite_fibers.json": "00969ca33bfe99c26170115f4d3d1e85d2b503e1d9a076561e45b0938c8e7602",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "scripts/benchmark_portable_audit_cost.py": "5520f16c3f4542ddaecf0c97d66c621396dda1d67406ca91fcca2170ec167dab",
+    "scripts/export_audit_report.py": "edda52aca3bfaf2e50095d07d276a2f07e0ec0e2aed1c668494ab302060f60a8",
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7",
+    "src/logistics_validation/audit_report.py": "f77eb25af3bcb1f43bb1351cd0bee1d894995e3c7689ae6ba5c2fcb31040a2aa",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "src/logistics_validation/model.py": "19d723337567a230ae680a4786a14bbe0af56eb43543885cc8c0c3a850015264",
+    "src/logistics_validation/revision_diagnostics.py": "438e35aece87bf35de26df37c806da6e8263a326d9c9de98bbf34c686ec90594",
+    "src/logistics_validation/standards_epcis.py": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5",
+    "tests/test_portable_audit_cost.py": "0d1bee2d5a8e0c6c2e344fd4018bcb46653e8c7ede3ce2a671024ba6a312d04d"
+  },
+  "measurement_boundaries": {
+    "report_construction": "Actual make_bundle API over 25 requests; raw summary computation, witnesses, bindings and source-code hashing included. Uses prepared inputs and retained provenance. Excludes all input/spec loading, saved-diagnostic comparison, directory review/manifest construction, file writing and subsequent verification; not monolithic export() runtime.",
+    "exact_id_construction": "Filters 50,931 stored receipt/class mappings using freshly recomputed strict statuses; constructs 33,489 rows. Does not compute 50,931 individual report payloads.",
+    "payload_serialization": "Matches existing indented bundle JSON and deterministic exact-ID gzip bytes in memory. Excludes review/manifest/verification JSON serialization and all filesystem writes.",
+    "setup": "Import load and JSON/spec reconstruction separately reported; parent subprocess wall time includes startup, all stages, post-timing correctness checks and result serialization.",
+    "excluded": "No fsync/durable writes, physical acquisition savings, remote network, access authentication, concurrent load control or human decision effects. File reads in verification may hit shared OS caches.",
+    "interpretation": "Medians and ranges of five same-host rounds are descriptive, not confidence intervals. Verification scopes overlap; their times cannot be summed. No comparison with previous-host benchmarks is paired or a speedup estimate.",
+    "integrity": "All verification APIs receive an independently fixed expected bundle digest from this protocol. Hashes and mock envelopes bind content; they do not authenticate issuers or prove live freshness."
+  }
+}

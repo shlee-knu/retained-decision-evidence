@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-15",
+  "python_version": "3.12.3",
+  "scope": "Local verification of the selected public research package. No publication or authentication performed.",
+  "core_evidence": {
+    "status": "passed",
+    "saved_evidence_checks": 167,
+    "independent_census_comparisons": 834880,
+    "reconstructed_occurrences": 50931,
+    "affected_ids": 33489,
+    "saved_opa_cases": 941
+  },
+  "clean_environment_audit": {
+    "status": "passed",
+    "environment": "Fresh venv with requirements-current.txt only",
+    "tests_passed": 297
+  },
+  "complete_workflow_integrity": {
+    "status": "passed",
+    "child_executions": 44,
+    "frozen_source_and_input_files": 20,
+    "fresh_timing_measurements": false
+  },
+  "saved_erp_replay_integrity": {
+    "status": "passed",
+    "dependency_versions": 159,
+    "erp_source_hashes": 14,
+    "installed_host_checked": false,
+    "fresh_docker_execution": false
+  },
+  "optional_experiments_not_rerun": [
+    "Actual OPA executable replay",
+    "Fresh timing benchmarks",
+    "ERPNext application installation",
+    "External FHIR/EPCIS validators",
+    "Raw external XES parsing"
+  ],
+  "source_preservation": {
+    "copied_scientific_files": 1371,
+    "source_hash_mismatches": 0
+  },
+  "release_manifest": "PUBLIC_RELEASE_MANIFEST.json"
+}

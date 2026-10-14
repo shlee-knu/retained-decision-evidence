@@ -1,0 +1,265 @@
+{
+  "name": "fhir_simple_observation_6.1.0_to_7.0.0",
+  "blocks": [
+    "value",
+    "dataAbsentReason",
+    "component",
+    "hasMember",
+    "referenceRange"
+  ],
+  "states": 360,
+  "old_pass": 112,
+  "new_pass": 112,
+  "label_changes": 0,
+  "certificate_family_changes": 0,
+  "label_preserved_certificate_family_changes": 0,
+  "valid_old_observation_classes": 1056,
+  "classification": {
+    "safe": 1056
+  },
+  "witness_pairs": 0,
+  "generated_receipts": 360,
+  "generated_receipt_status": {
+    "safe": 360
+  },
+  "pointwise_minimum_additional_blocks": 0,
+  "historical_old_blocks": 960,
+  "source_bindings": {
+    "domain_sha256": "7a951ff0429ac540ac17f6a85afc6b9af9af15f9f0e0129988e204d112711a26",
+    "old_predicate_sha256": "751d5a36a40de6f572d687d20772d4278ba83bb1526c0b41c7c9018148d4a9d3",
+    "new_predicate_sha256": "751d5a36a40de6f572d687d20772d4278ba83bb1526c0b41c7c9018148d4a9d3"
+  },
+  "static_delta_plan": {
+    "false": {
+      "mask": 0,
+      "reason": "verified_label_implication"
+    },
+    "true": {
+      "mask": 0,
+      "reason": "verified_label_implication"
+    }
+  },
+  "metadata": {
+    "standard": "FHIR R4 / US Core",
+    "profile": "simple-observation",
+    "old_version": "6.1.0",
+    "new_version": "7.0.0",
+    "scope": "selected machine-readable invariant fragment; not whole-profile conformance",
+    "old_constraints": [
+      {
+        "key": "obs-6",
+        "path": "Observation",
+        "expression": "dataAbsentReason.empty() or value.empty()",
+        "severity": "error"
+      },
+      {
+        "key": "obs-7",
+        "path": "Observation",
+        "expression": "value.empty() or component.code.where(coding.intersect(%resource.code.coding).exists()).empty()",
+        "severity": "error"
+      },
+      {
+        "key": "obs-3",
+        "path": "Observation.referenceRange",
+        "expression": "low.exists() or high.exists() or text.exists()",
+        "severity": "error"
+      }
+    ],
+    "new_constraints": [
+      {
+        "key": "obs-6",
+        "path": "Observation",
+        "expression": "dataAbsentReason.empty() or value.empty()",
+        "severity": "error"
+      },
+      {
+        "key": "obs-7",
+        "path": "Observation",
+        "expression": "value.empty() or component.code.where(coding.intersect(%resource.code.coding).exists()).empty()",
+        "severity": "error"
+      },
+      {
+        "key": "obs-3",
+        "path": "Observation.referenceRange",
+        "expression": "low.exists() or high.exists() or text.exists()",
+        "severity": "error"
+      }
+    ],
+    "new_dependencies": [
+      "value",
+      "dataAbsentReason",
+      "component",
+      "referenceRange"
+    ],
+    "changed_dependencies": [],
+    "transition_kind": "identity",
+    "whole_profile_transition_kind": "not classified; full delta inventory retained",
+    "array_scope": "unbounded complete root arrays, exists/all predicate abstraction; representatives have at most two members",
+    "fragment_domain": "Well-typed selected roots without primitive/other extensions, nulls or empty serialized arrays; absent/string/Quantity value choices only. Complete code is visible background, fixed in the finite universe; native mapping uses each complete resource's code.",
+    "cost_boundary": "old validation and fixture/projection preparation are already-incurred setup; only retained observations constitute receipt evidence",
+    "source_urls": [
+      "https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-simple-observation.json",
+      "https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-simple-observation.json"
+    ],
+    "public_examples_manifest": "data/external/fhir_standards/examples_manifest.json"
+  },
+  "setup_cpu_ns": {
+    "model_compilation": 6643024,
+    "codec_check": 5062747,
+    "shared_planner_compilation": 15727732,
+    "synthetic_receipt_preparation": 14230906
+  },
+  "checks": 1062,
+  "replay": [
+    {
+      "layout": "separate",
+      "strategy": "full_fragment",
+      "cases": 360,
+      "median_cpu_us_per_case": 42.102783333333335,
+      "median_wall_us_per_case": 42.10250833333333,
+      "logical_blocks": 1800,
+      "explicitly_requested_blocks": 1800,
+      "newly_observed_blocks": 1800,
+      "source_requests": 1800,
+      "source_bytes": 184932,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 365840
+    },
+    {
+      "layout": "separate",
+      "strategy": "fresh_guarded",
+      "cases": 360,
+      "median_cpu_us_per_case": 35.434441666666665,
+      "median_wall_us_per_case": 35.43378055555555,
+      "logical_blocks": 960,
+      "explicitly_requested_blocks": 960,
+      "newly_observed_blocks": 960,
+      "source_requests": 960,
+      "source_bytes": 97804,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 245000
+    },
+    {
+      "layout": "separate",
+      "strategy": "ordinary_cached",
+      "cases": 360,
+      "median_cpu_us_per_case": 28.644288888888887,
+      "median_wall_us_per_case": 28.643099999999997,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 246440,
+      "emitted_bytes": 245000
+    },
+    {
+      "layout": "separate",
+      "strategy": "static_delta",
+      "cases": 360,
+      "median_cpu_us_per_case": 29.927963888888886,
+      "median_wall_us_per_case": 29.927152777777778,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 246440,
+      "emitted_bytes": 245000
+    },
+    {
+      "layout": "separate",
+      "strategy": "receipt_audit",
+      "cases": 360,
+      "median_cpu_us_per_case": 34.506436111111114,
+      "median_wall_us_per_case": 34.50565277777778,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 246440,
+      "emitted_bytes": 245000
+    },
+    {
+      "layout": "bundled",
+      "strategy": "full_fragment",
+      "cases": 360,
+      "median_cpu_us_per_case": 41.55766666666666,
+      "median_wall_us_per_case": 41.556050000000006,
+      "logical_blocks": 1800,
+      "explicitly_requested_blocks": 360,
+      "newly_observed_blocks": 1800,
+      "source_requests": 360,
+      "source_bytes": 211572,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 365840
+    },
+    {
+      "layout": "bundled",
+      "strategy": "fresh_guarded",
+      "cases": 360,
+      "median_cpu_us_per_case": 45.09792777777778,
+      "median_wall_us_per_case": 45.09686388888889,
+      "logical_blocks": 1800,
+      "explicitly_requested_blocks": 360,
+      "newly_observed_blocks": 1800,
+      "source_requests": 360,
+      "source_bytes": 211572,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 365840
+    },
+    {
+      "layout": "bundled",
+      "strategy": "ordinary_cached",
+      "cases": 360,
+      "median_cpu_us_per_case": 28.963713888888886,
+      "median_wall_us_per_case": 28.962352777777777,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 246440,
+      "emitted_bytes": 245000
+    },
+    {
+      "layout": "bundled",
+      "strategy": "static_delta",
+      "cases": 360,
+      "median_cpu_us_per_case": 30.285711111111112,
+      "median_wall_us_per_case": 30.283952777777777,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 246440,
+      "emitted_bytes": 245000
+    },
+    {
+      "layout": "bundled",
+      "strategy": "receipt_audit",
+      "cases": 360,
+      "median_cpu_us_per_case": 34.52153888888889,
+      "median_wall_us_per_case": 34.52077777777778,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 246440,
+      "emitted_bytes": 245000
+    }
+  ]
+}

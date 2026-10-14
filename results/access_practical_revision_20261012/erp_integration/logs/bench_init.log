@@ -1,0 +1,23 @@
+Setting Up Environment
+$ uv venv env --seed --python python3
+Using CPython 3.14.8 interpreter at: /home/frappe/.pyenv/versions/3.14.8/bin/python3
+Creating virtual environment with seed packages at: env
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+ + pip==26.2.1
+Getting frappe
+$ git clone file:///workspace/frappe --branch access-pinned --depth 1 --origin upstream
+Cloning into 'frappe'...
+Installing frappe
+$ uv pip install --quiet -e /workspace/bench/apps/frappe  --python /workspace/bench/env/bin/python
+$ yarn install --check-files
+yarn install v1.22.22
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+[4/5] Linking dependencies...
+[5/5] Building fresh packages...
+Done in 12.46s.
+Found existing apps updating states...
+SUCCESS: Bench bench initialized

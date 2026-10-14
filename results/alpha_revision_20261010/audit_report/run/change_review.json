@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "kind": "synthetic change-owner decision record using public receipts",
+  "bundle_sha256": "7c220d921dd6c5254a4bfe5e5016cac9bd647dded7d16b7141338a845e651582",
+  "native_receipts": 50931,
+  "strict_status_counts": {
+    "insufficient": 33489,
+    "safe": 17442
+  },
+  "affected_classes": [
+    {
+      "class_index": 0,
+      "count": 33218,
+      "representative_request_id": "strict:2000000002_00001",
+      "required_additional_blocks": [
+        "profile"
+      ],
+      "reason": "Strict Consignment exclusion separates old-compatible profiles; retained T is insufficient.",
+      "guarantee_control_request_id": "guarantee-control:2000000002_00001"
+    },
+    {
+      "class_index": 6,
+      "count": 269,
+      "representative_request_id": "strict:4507001104_00001",
+      "required_additional_blocks": [
+        "profile"
+      ],
+      "reason": "Strict Consignment exclusion separates old-compatible profiles; retained T is insufficient.",
+      "guarantee_control_request_id": "guarantee-control:4507001104_00001"
+    },
+    {
+      "class_index": 14,
+      "count": 2,
+      "representative_request_id": "strict:4507015502_00070",
+      "required_additional_blocks": [
+        "profile"
+      ],
+      "reason": "Strict Consignment exclusion separates old-compatible profiles; retained T is insufficient.",
+      "guarantee_control_request_id": "guarantee-control:4507015502_00070"
+    }
+  ],
+  "affected_id_index": {
+    "path": "affected_receipt_ids.jsonl.gz",
+    "sha256": "8fc9839b48fabf28810f204de9cd46868c7475530cfbf7c3eaafb78a202f2a0c",
+    "count": 33489,
+    "unique_ids": 33489
+  },
+  "exact_mapping_source": {
+    "path": "results/focused_revision/diagnostic_inputs/procurement_strict.json",
+    "sha256": "213a3031529f657ba4fbbe475010b8f54bb3a5ae7f9fdb2e001781d0801f5d9e",
+    "fields": [
+      "queries",
+      "weighted_requests",
+      "exemplars"
+    ]
+  },
+  "actions": [
+    {
+      "owner": "rule author",
+      "action": "review three affected observation classes and their opposed raw witnesses",
+      "basis": "affected_classes representative_request_id refers to portable reports"
+    },
+    {
+      "owner": "evidence custodian",
+      "action": "retain 17,442 safe attestations; acquire P for the 33,489 indexed receipts before issuing a new strict verdict",
+      "basis": "all minimal robust sets for every affected class equal [profile]"
+    },
+    {
+      "owner": "execution owner",
+      "action": "use the previously measured fresh guarded SQLite path for execution; preserve these reports as offline audit evidence",
+      "basis": "No new runtime claim: existing comparison reports fresh guarded execution faster in the measured SQLite setting."
+    },
+    {
+      "owner": "evidence custodian",
+      "action": "update the retained verdict for the label-change example without acquiring a block",
+      "basis": {
+        "request_id": "label-change:4507000402_00010",
+        "status": "stale_verdict",
+        "robust_additional_sets": [
+          []
+        ]
+      }
+    }
+  ],
+  "guarantee_control": "With an applicable snapshot-level Consignment exclusion attestation, all three strict classes become safe with the empty additional set. This is conditional admission, not proof of hidden actual profile membership.",
+  "boundary": "Authored stakeholder rules; no measured human decision speed/accuracy, live deployment, or new performance improvement."
+}

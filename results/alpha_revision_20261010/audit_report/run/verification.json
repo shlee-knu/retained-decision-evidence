@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "reports": 25,
+  "artifacts": 8,
+  "bundle_sha256": "7c220d921dd6c5254a4bfe5e5016cac9bd647dded7d16b7141338a845e651582",
+  "verification": "raw old sufficiency, new status, all minimal robust sets, literal witnesses and bindings",
+  "boundary": "Integrity and conditional finite semantics; no authentication or live freshness"
+}

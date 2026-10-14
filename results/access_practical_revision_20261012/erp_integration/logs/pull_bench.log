@@ -1,0 +1,31 @@
+latest: Pulling from frappe/bench
+4f4fb700ef54: Pulling fs layer
+9750e947cf30: Pulling fs layer
+1f093aa528e8: Pulling fs layer
+ecc510c1e359: Pulling fs layer
+d8f0f2ab9191: Pulling fs layer
+a60bb09448fa: Pulling fs layer
+419d400256a5: Pulling fs layer
+d6a5ce4174e3: Pulling fs layer
+4f4fb700ef54: Already exists
+44136fa355b3: Download complete
+c7236c1843f8: Download complete
+a60bb09448fa: Download complete
+419d400256a5: Download complete
+ecc510c1e359: Download complete
+02ae20a169ce: Download complete
+9750e947cf30: Download complete
+ecc510c1e359: Pull complete
+1f093aa528e8: Download complete
+d6a5ce4174e3: Download complete
+d8f0f2ab9191: Download complete
+d8f0f2ab9191: Pull complete
+a60bb09448fa: Pull complete
+419d400256a5: Pull complete
+4f4fb700ef54: Pull complete
+1f093aa528e8: Pull complete
+9750e947cf30: Pull complete
+d6a5ce4174e3: Pull complete
+Digest: sha256:8c500a20cb1933d0427c1568dcf3c8c37021c0e07be1ac268539fd7fe14ef557
+Status: Downloaded newer image for frappe/bench:latest
+docker.io/frappe/bench:latest

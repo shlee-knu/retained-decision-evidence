@@ -1,0 +1,777 @@
+{
+  "timing": {
+    "name": "procurement_required_p2_a3",
+    "suite": "challenge",
+    "method": "direct_residual",
+    "workload": "unique",
+    "input_loading": {
+      "cpu_ns": 239906,
+      "wall_ns": 239012
+    },
+    "input_normalization": {
+      "cpu_ns": 128329,
+      "wall_ns": 128357
+    },
+    "setup": {
+      "cpu_ns": 2952,
+      "wall_ns": 2940
+    },
+    "dependency_import": {
+      "cpu_ns": 0,
+      "wall_ns": 0
+    },
+    "core_setup": {
+      "cpu_ns": 2952,
+      "wall_ns": 2940
+    },
+    "core_batch": {
+      "cpu_ns": 1220354,
+      "wall_ns": 1220374
+    },
+    "first_report": {
+      "cpu_ns": 79801,
+      "wall_ns": 79798
+    },
+    "setup_plus_first": {
+      "cpu_ns": 82753,
+      "wall_ns": 82738
+    },
+    "core_setup_plus_first": {
+      "cpu_ns": 82753,
+      "wall_ns": 82738
+    },
+    "batch": {
+      "cpu_ns": 1220354,
+      "wall_ns": 1220374
+    },
+    "serialization": {
+      "cpu_ns": 264805,
+      "wall_ns": 263813
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 182805452,
+      "wall_ns": 182838965
+    },
+    "checks": 336,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 52,
+    "diagnosed_classes": 52,
+    "status_counts": {
+      "insufficient": 20,
+      "safe": 16,
+      "stale_verdict": 16
+    },
+    "output_bytes": 12910,
+    "output_sha256": "8d3b88a00d14077a4560b5298e75192595a2c077c7f2df9bc50bf5d42a1c98e4",
+    "process_peak_rss_kib": {
+      "before_setup": 45576,
+      "after_setup": 45576,
+      "after_first_report": 45576,
+      "after_batch": 45576
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "0": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        3
+      ]
+    },
+    "1": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        3
+      ]
+    },
+    "2": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          2,
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        2
+      ]
+    },
+    "3": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          2,
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        2
+      ]
+    },
+    "4": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          2,
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        2
+      ]
+    },
+    "5": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          2,
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        2
+      ]
+    },
+    "6": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "9": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "10": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            1
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "11": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "12": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            1
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "13": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "14": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "15": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            1
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "16": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            1,
+            0,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            2
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "17": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            1,
+            2,
+            0
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            2,
+            0
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "18": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "19": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            1,
+            0,
+            2
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            2
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "20": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          0,
+          [
+            2,
+            0,
+            1
+          ]
+        ],
+        [
+          2,
+          [
+            2,
+            0,
+            1
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "21": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "22": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "23": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "24": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "25": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "26": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "27": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "28": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "29": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "30": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "31": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "32": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "33": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "34": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "35": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "36": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "37": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "38": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "39": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "40": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "41": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "42": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "43": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "44": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "45": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "46": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "47": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "48": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "49": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "50": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "51": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

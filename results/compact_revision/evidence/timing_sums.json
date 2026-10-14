@@ -1,0 +1,5218 @@
+{
+  "status": "passed",
+  "cells": [
+    {
+      "name": "epcis_aggregation_profile",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 570312,
+                "input_normalization": 797827,
+                "batch": 10532986,
+                "sum": 11901125,
+                "core_batch": 10532986
+              },
+              "wall_ns": {
+                "input_loading": 569521,
+                "input_normalization": 798020,
+                "batch": 10557575,
+                "sum": 11925116,
+                "core_batch": 10557575
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 534974,
+                "input_normalization": 784701,
+                "batch": 10491488,
+                "sum": 11811163,
+                "core_batch": 10491488
+              },
+              "wall_ns": {
+                "input_loading": 534144,
+                "input_normalization": 784989,
+                "batch": 10491829,
+                "sum": 11810962,
+                "core_batch": 10491829
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 539086,
+                "input_normalization": 808581,
+                "batch": 10490545,
+                "sum": 11838212,
+                "core_batch": 10490545
+              },
+              "wall_ns": {
+                "input_loading": 538495,
+                "input_normalization": 808876,
+                "batch": 10490991,
+                "sum": 11838362,
+                "core_batch": 10490991
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 581851,
+                "input_normalization": 814043,
+                "batch": 10566171,
+                "sum": 11962065,
+                "core_batch": 10566171
+              },
+              "wall_ns": {
+                "input_loading": 580999,
+                "input_normalization": 814289,
+                "batch": 10566552,
+                "sum": 11961840,
+                "core_batch": 10566552
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 564581,
+                "input_normalization": 795854,
+                "batch": 10288417,
+                "sum": 11648852,
+                "core_batch": 10288417
+              },
+              "wall_ns": {
+                "input_loading": 563629,
+                "input_normalization": 796087,
+                "batch": 10288852,
+                "sum": 11648568,
+                "core_batch": 10288852
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.838212,
+          "cpu_ms_core_batch_median": 10.491488,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.838362,
+          "wall_ms_core_batch_median": 10.491829
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 575942,
+                "input_normalization": 780326,
+                "batch": 260178789,
+                "sum": 261535057,
+                "core_batch": 250914487
+              },
+              "wall_ns": {
+                "input_loading": 575095,
+                "input_normalization": 780554,
+                "batch": 260246571,
+                "sum": 261602220,
+                "core_batch": 250981114
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 562531,
+                "input_normalization": 805840,
+                "batch": 252519087,
+                "sum": 253887458,
+                "core_batch": 242939935
+              },
+              "wall_ns": {
+                "input_loading": 561961,
+                "input_normalization": 806094,
+                "batch": 252590717,
+                "sum": 253958772,
+                "core_batch": 243010496
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 535874,
+                "input_normalization": 806775,
+                "batch": 252074852,
+                "sum": 253417501,
+                "core_batch": 242496484
+              },
+              "wall_ns": {
+                "input_loading": 535657,
+                "input_normalization": 807111,
+                "batch": 252137639,
+                "sum": 253480407,
+                "core_batch": 242558198
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 563552,
+                "input_normalization": 794393,
+                "batch": 252828079,
+                "sum": 254186024,
+                "core_batch": 243129968
+              },
+              "wall_ns": {
+                "input_loading": 563169,
+                "input_normalization": 794703,
+                "batch": 252858450,
+                "sum": 254216322,
+                "core_batch": 243158760
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 586245,
+                "input_normalization": 812596,
+                "batch": 271231817,
+                "sum": 272630658,
+                "core_batch": 261484271
+              },
+              "wall_ns": {
+                "input_loading": 585462,
+                "input_normalization": 812928,
+                "batch": 271268368,
+                "sum": 272666758,
+                "core_batch": 261519539
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 254.186024,
+          "cpu_ms_core_batch_median": 243.129968,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 254.216322,
+          "wall_ms_core_batch_median": 243.15876
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 577723,
+                "input_normalization": 787484,
+                "batch": 8847001,
+                "sum": 10212208,
+                "core_batch": 8847001
+              },
+              "wall_ns": {
+                "input_loading": 576810,
+                "input_normalization": 787706,
+                "batch": 8847357,
+                "sum": 10211873,
+                "core_batch": 8847357
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 575937,
+                "input_normalization": 770816,
+                "batch": 8659782,
+                "sum": 10006535,
+                "core_batch": 8659782
+              },
+              "wall_ns": {
+                "input_loading": 575032,
+                "input_normalization": 771025,
+                "batch": 8660153,
+                "sum": 10006210,
+                "core_batch": 8660153
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 555714,
+                "input_normalization": 794031,
+                "batch": 8809318,
+                "sum": 10159063,
+                "core_batch": 8809318
+              },
+              "wall_ns": {
+                "input_loading": 555038,
+                "input_normalization": 794252,
+                "batch": 10931763,
+                "sum": 12281053,
+                "core_batch": 10931763
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 555342,
+                "input_normalization": 807856,
+                "batch": 8844794,
+                "sum": 10207992,
+                "core_batch": 8844794
+              },
+              "wall_ns": {
+                "input_loading": 555134,
+                "input_normalization": 825123,
+                "batch": 8845146,
+                "sum": 10225403,
+                "core_batch": 8845146
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 537891,
+                "input_normalization": 794843,
+                "batch": 8460742,
+                "sum": 9793476,
+                "core_batch": 8460742
+              },
+              "wall_ns": {
+                "input_loading": 536958,
+                "input_normalization": 795131,
+                "batch": 8461113,
+                "sum": 9793202,
+                "core_batch": 8461113
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 10.159063,
+          "cpu_ms_core_batch_median": 8.809318,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 10.211873,
+          "wall_ms_core_batch_median": 8.845146
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_aggregation_profile",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 531216,
+                "input_normalization": 819827,
+                "batch": 6565095,
+                "sum": 7916138,
+                "core_batch": 6565095
+              },
+              "wall_ns": {
+                "input_loading": 530612,
+                "input_normalization": 820108,
+                "batch": 6565361,
+                "sum": 7916081,
+                "core_batch": 6565361
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 519582,
+                "input_normalization": 841575,
+                "batch": 6731309,
+                "sum": 8092466,
+                "core_batch": 6731309
+              },
+              "wall_ns": {
+                "input_loading": 518929,
+                "input_normalization": 841865,
+                "batch": 6731601,
+                "sum": 8092395,
+                "core_batch": 6731601
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 540943,
+                "input_normalization": 804124,
+                "batch": 6608229,
+                "sum": 7953296,
+                "core_batch": 6608229
+              },
+              "wall_ns": {
+                "input_loading": 540093,
+                "input_normalization": 804363,
+                "batch": 6608511,
+                "sum": 7952967,
+                "core_batch": 6608511
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 522790,
+                "input_normalization": 815798,
+                "batch": 6473922,
+                "sum": 7812510,
+                "core_batch": 6473922
+              },
+              "wall_ns": {
+                "input_loading": 522138,
+                "input_normalization": 816115,
+                "batch": 6474166,
+                "sum": 7812419,
+                "core_batch": 6474166
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 499035,
+                "input_normalization": 785736,
+                "batch": 6569836,
+                "sum": 7854607,
+                "core_batch": 6569836
+              },
+              "wall_ns": {
+                "input_loading": 497956,
+                "input_normalization": 785978,
+                "batch": 6570121,
+                "sum": 7854055,
+                "core_batch": 6570121
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 7.916138,
+          "cpu_ms_core_batch_median": 6.569836,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 7.916081,
+          "wall_ms_core_batch_median": 6.570121
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 501529,
+                "input_normalization": 763940,
+                "batch": 28954688,
+                "sum": 30220157,
+                "core_batch": 19078531
+              },
+              "wall_ns": {
+                "input_loading": 500878,
+                "input_normalization": 764278,
+                "batch": 28956013,
+                "sum": 30221169,
+                "core_batch": 19078401
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 566488,
+                "input_normalization": 762807,
+                "batch": 28491205,
+                "sum": 29820500,
+                "core_batch": 19060765
+              },
+              "wall_ns": {
+                "input_loading": 565456,
+                "input_normalization": 763026,
+                "batch": 28492519,
+                "sum": 29821001,
+                "core_batch": 19060938
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 558742,
+                "input_normalization": 806699,
+                "batch": 28831916,
+                "sum": 30197357,
+                "core_batch": 19300485
+              },
+              "wall_ns": {
+                "input_loading": 557914,
+                "input_normalization": 807010,
+                "batch": 28833186,
+                "sum": 30198110,
+                "core_batch": 19300693
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 525370,
+                "input_normalization": 798375,
+                "batch": 29445589,
+                "sum": 30769334,
+                "core_batch": 19782931
+              },
+              "wall_ns": {
+                "input_loading": 524702,
+                "input_normalization": 798496,
+                "batch": 29467321,
+                "sum": 30790519,
+                "core_batch": 19783118
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 578986,
+                "input_normalization": 792189,
+                "batch": 31655776,
+                "sum": 33026951,
+                "core_batch": 19473473
+              },
+              "wall_ns": {
+                "input_loading": 577968,
+                "input_normalization": 792445,
+                "batch": 31689985,
+                "sum": 33060398,
+                "core_batch": 19506400
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 30.220157,
+          "cpu_ms_core_batch_median": 19.300485,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 30.221169,
+          "wall_ms_core_batch_median": 19.300693
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 518265,
+                "input_normalization": 793239,
+                "batch": 3207310,
+                "sum": 4518814,
+                "core_batch": 3207310
+              },
+              "wall_ns": {
+                "input_loading": 517792,
+                "input_normalization": 793480,
+                "batch": 3207412,
+                "sum": 4518684,
+                "core_batch": 3207412
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 530678,
+                "input_normalization": 797526,
+                "batch": 3275229,
+                "sum": 4603433,
+                "core_batch": 3275229
+              },
+              "wall_ns": {
+                "input_loading": 530554,
+                "input_normalization": 797916,
+                "batch": 3275318,
+                "sum": 4603788,
+                "core_batch": 3275318
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 518448,
+                "input_normalization": 801695,
+                "batch": 3177450,
+                "sum": 4497593,
+                "core_batch": 3177450
+              },
+              "wall_ns": {
+                "input_loading": 517878,
+                "input_normalization": 801858,
+                "batch": 3177578,
+                "sum": 4497314,
+                "core_batch": 3177578
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 549577,
+                "input_normalization": 788469,
+                "batch": 3174687,
+                "sum": 4512733,
+                "core_batch": 3174687
+              },
+              "wall_ns": {
+                "input_loading": 548542,
+                "input_normalization": 788743,
+                "batch": 3174795,
+                "sum": 4512080,
+                "core_batch": 3174795
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 518414,
+                "input_normalization": 785002,
+                "batch": 3148082,
+                "sum": 4451498,
+                "core_batch": 3148082
+              },
+              "wall_ns": {
+                "input_loading": 517600,
+                "input_normalization": 785382,
+                "batch": 3148182,
+                "sum": 4451164,
+                "core_batch": 3148182
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 4.512733,
+          "cpu_ms_core_batch_median": 3.17745,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 4.51208,
+          "wall_ms_core_batch_median": 3.177578
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_object_profile",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 845295,
+                "input_normalization": 1165860,
+                "batch": 14557389,
+                "sum": 16568544,
+                "core_batch": 14557389
+              },
+              "wall_ns": {
+                "input_loading": 844473,
+                "input_normalization": 1166200,
+                "batch": 14558064,
+                "sum": 16568737,
+                "core_batch": 14558064
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 813666,
+                "input_normalization": 1184379,
+                "batch": 14712279,
+                "sum": 16710324,
+                "core_batch": 14712279
+              },
+              "wall_ns": {
+                "input_loading": 812754,
+                "input_normalization": 1184778,
+                "batch": 14712916,
+                "sum": 16710448,
+                "core_batch": 14712916
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 808156,
+                "input_normalization": 1167008,
+                "batch": 14534996,
+                "sum": 16510160,
+                "core_batch": 14534996
+              },
+              "wall_ns": {
+                "input_loading": 807384,
+                "input_normalization": 1168095,
+                "batch": 15735217,
+                "sum": 17710696,
+                "core_batch": 15735217
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 833824,
+                "input_normalization": 1161602,
+                "batch": 14414527,
+                "sum": 16409953,
+                "core_batch": 14414527
+              },
+              "wall_ns": {
+                "input_loading": 832906,
+                "input_normalization": 1162037,
+                "batch": 14415175,
+                "sum": 16410118,
+                "core_batch": 14415175
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 805366,
+                "input_normalization": 1165151,
+                "batch": 14436820,
+                "sum": 16407337,
+                "core_batch": 14436820
+              },
+              "wall_ns": {
+                "input_loading": 804608,
+                "input_normalization": 1165403,
+                "batch": 14437438,
+                "sum": 16407449,
+                "core_batch": 14437438
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 16.51016,
+          "cpu_ms_core_batch_median": 14.534996,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 16.568737,
+          "wall_ms_core_batch_median": 14.558064
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 818443,
+                "input_normalization": 1173129,
+                "batch": 357051952,
+                "sum": 359043524,
+                "core_batch": 347359046
+              },
+              "wall_ns": {
+                "input_loading": 817628,
+                "input_normalization": 1173478,
+                "batch": 357162195,
+                "sum": 359153301,
+                "core_batch": 347468073
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 831278,
+                "input_normalization": 1167363,
+                "batch": 360087826,
+                "sum": 362086467,
+                "core_batch": 350428427
+              },
+              "wall_ns": {
+                "input_loading": 830517,
+                "input_normalization": 1167604,
+                "batch": 360204411,
+                "sum": 362202532,
+                "core_batch": 350543941
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 851782,
+                "input_normalization": 1144844,
+                "batch": 361633697,
+                "sum": 363630323,
+                "core_batch": 351910028
+              },
+              "wall_ns": {
+                "input_loading": 851815,
+                "input_normalization": 1145107,
+                "batch": 361705420,
+                "sum": 363702342,
+                "core_batch": 351980523
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 799340,
+                "input_normalization": 1173189,
+                "batch": 354602918,
+                "sum": 356575447,
+                "core_batch": 344978933
+              },
+              "wall_ns": {
+                "input_loading": 799094,
+                "input_normalization": 1173559,
+                "batch": 354720842,
+                "sum": 356693495,
+                "core_batch": 345095559
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 814043,
+                "input_normalization": 1136581,
+                "batch": 352924909,
+                "sum": 354875533,
+                "core_batch": 343455812
+              },
+              "wall_ns": {
+                "input_loading": 813236,
+                "input_normalization": 1136877,
+                "batch": 352992339,
+                "sum": 354942452,
+                "core_batch": 343521888
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 359.043524,
+          "cpu_ms_core_batch_median": 347.359046,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 359.153301,
+          "wall_ms_core_batch_median": 347.468073
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 837807,
+                "input_normalization": 1169618,
+                "batch": 13040511,
+                "sum": 15047936,
+                "core_batch": 13040511
+              },
+              "wall_ns": {
+                "input_loading": 836971,
+                "input_normalization": 1169943,
+                "batch": 13041049,
+                "sum": 15047963,
+                "core_batch": 13041049
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 810318,
+                "input_normalization": 1175142,
+                "batch": 13353391,
+                "sum": 15338851,
+                "core_batch": 13353391
+              },
+              "wall_ns": {
+                "input_loading": 809809,
+                "input_normalization": 1175463,
+                "batch": 13353997,
+                "sum": 15339269,
+                "core_batch": 13353997
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 810285,
+                "input_normalization": 1192489,
+                "batch": 13176346,
+                "sum": 15179120,
+                "core_batch": 13176346
+              },
+              "wall_ns": {
+                "input_loading": 809547,
+                "input_normalization": 1192875,
+                "batch": 13176914,
+                "sum": 15179336,
+                "core_batch": 13176914
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 796729,
+                "input_normalization": 1163032,
+                "batch": 13012955,
+                "sum": 14972716,
+                "core_batch": 13012955
+              },
+              "wall_ns": {
+                "input_loading": 796298,
+                "input_normalization": 1163361,
+                "batch": 13013544,
+                "sum": 14973203,
+                "core_batch": 13013544
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 822019,
+                "input_normalization": 1156967,
+                "batch": 12799778,
+                "sum": 14778764,
+                "core_batch": 12799778
+              },
+              "wall_ns": {
+                "input_loading": 821120,
+                "input_normalization": 1157235,
+                "batch": 12800360,
+                "sum": 14778715,
+                "core_batch": 12800360
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 15.047936,
+          "cpu_ms_core_batch_median": 13.040511,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 15.047963,
+          "wall_ms_core_batch_median": 13.041049
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_object_profile",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 765095,
+                "input_normalization": 1180890,
+                "batch": 9168124,
+                "sum": 11114109,
+                "core_batch": 9168124
+              },
+              "wall_ns": {
+                "input_loading": 764406,
+                "input_normalization": 1181194,
+                "batch": 9168504,
+                "sum": 11114104,
+                "core_batch": 9168504
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 755364,
+                "input_normalization": 1177453,
+                "batch": 9120382,
+                "sum": 11053199,
+                "core_batch": 9120382
+              },
+              "wall_ns": {
+                "input_loading": 754617,
+                "input_normalization": 1177791,
+                "batch": 9120792,
+                "sum": 11053200,
+                "core_batch": 9120792
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 781977,
+                "input_normalization": 1190554,
+                "batch": 9199483,
+                "sum": 11172014,
+                "core_batch": 9199483
+              },
+              "wall_ns": {
+                "input_loading": 781002,
+                "input_normalization": 1190859,
+                "batch": 9199872,
+                "sum": 11171733,
+                "core_batch": 9199872
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 747252,
+                "input_normalization": 1140204,
+                "batch": 10194480,
+                "sum": 12081936,
+                "core_batch": 10194480
+              },
+              "wall_ns": {
+                "input_loading": 746366,
+                "input_normalization": 1140482,
+                "batch": 10201981,
+                "sum": 12088829,
+                "core_batch": 10201981
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 711733,
+                "input_normalization": 1149765,
+                "batch": 9052317,
+                "sum": 10913815,
+                "core_batch": 9052317
+              },
+              "wall_ns": {
+                "input_loading": 711058,
+                "input_normalization": 1150118,
+                "batch": 9052684,
+                "sum": 10913860,
+                "core_batch": 9052684
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.114109,
+          "cpu_ms_core_batch_median": 9.168124,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.114104,
+          "wall_ms_core_batch_median": 9.168504
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 747721,
+                "input_normalization": 1176604,
+                "batch": 36765696,
+                "sum": 38690021,
+                "core_batch": 27075695
+              },
+              "wall_ns": {
+                "input_loading": 747095,
+                "input_normalization": 1176934,
+                "batch": 36783086,
+                "sum": 38707115,
+                "core_batch": 27091887
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 765834,
+                "input_normalization": 1179599,
+                "batch": 37401063,
+                "sum": 39346496,
+                "core_batch": 27504735
+              },
+              "wall_ns": {
+                "input_loading": 765158,
+                "input_normalization": 1180028,
+                "batch": 37402757,
+                "sum": 39347943,
+                "core_batch": 27505133
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 743778,
+                "input_normalization": 1203211,
+                "batch": 37659285,
+                "sum": 39606274,
+                "core_batch": 27463869
+              },
+              "wall_ns": {
+                "input_loading": 743265,
+                "input_normalization": 1203618,
+                "batch": 37660997,
+                "sum": 39607880,
+                "core_batch": 27464023
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 744676,
+                "input_normalization": 1178977,
+                "batch": 37451904,
+                "sum": 39375557,
+                "core_batch": 27513289
+              },
+              "wall_ns": {
+                "input_loading": 744130,
+                "input_normalization": 1179424,
+                "batch": 37453577,
+                "sum": 39377131,
+                "core_batch": 27513702
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 774181,
+                "input_normalization": 1172962,
+                "batch": 36282625,
+                "sum": 38229768,
+                "core_batch": 26747864
+              },
+              "wall_ns": {
+                "input_loading": 773093,
+                "input_normalization": 1173264,
+                "batch": 36301029,
+                "sum": 38247386,
+                "core_batch": 26748419
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 39.346496,
+          "cpu_ms_core_batch_median": 27.463869,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 39.347943,
+          "wall_ms_core_batch_median": 27.464023
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 765795,
+                "input_normalization": 1164975,
+                "batch": 4125124,
+                "sum": 6055894,
+                "core_batch": 4125124
+              },
+              "wall_ns": {
+                "input_loading": 764810,
+                "input_normalization": 1165343,
+                "batch": 4125281,
+                "sum": 6055434,
+                "core_batch": 4125281
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 735300,
+                "input_normalization": 1195790,
+                "batch": 4143308,
+                "sum": 6074398,
+                "core_batch": 4143308
+              },
+              "wall_ns": {
+                "input_loading": 734532,
+                "input_normalization": 1196249,
+                "batch": 4150155,
+                "sum": 6080936,
+                "core_batch": 4150155
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 763146,
+                "input_normalization": 1167832,
+                "batch": 4186746,
+                "sum": 6117724,
+                "core_batch": 4186746
+              },
+              "wall_ns": {
+                "input_loading": 762547,
+                "input_normalization": 1168243,
+                "batch": 4186884,
+                "sum": 6117674,
+                "core_batch": 4186884
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 772018,
+                "input_normalization": 1187768,
+                "batch": 4190586,
+                "sum": 6150372,
+                "core_batch": 4190586
+              },
+              "wall_ns": {
+                "input_loading": 771076,
+                "input_normalization": 1188082,
+                "batch": 4190711,
+                "sum": 6149869,
+                "core_batch": 4190711
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 714348,
+                "input_normalization": 1174279,
+                "batch": 4091941,
+                "sum": 5980568,
+                "core_batch": 4091941
+              },
+              "wall_ns": {
+                "input_loading": 713484,
+                "input_normalization": 1174617,
+                "batch": 4092083,
+                "sum": 5980184,
+                "core_batch": 4092083
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 6.074398,
+          "cpu_ms_core_batch_median": 4.143308,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 6.080936,
+          "wall_ms_core_batch_median": 4.150155
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_transformation_profile",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 2053649,
+                "input_normalization": 3184165,
+                "batch": 58615076,
+                "sum": 63852890,
+                "core_batch": 58615076
+              },
+              "wall_ns": {
+                "input_loading": 2052638,
+                "input_normalization": 3184677,
+                "batch": 58626282,
+                "sum": 63863597,
+                "core_batch": 58626282
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 2015126,
+                "input_normalization": 3162439,
+                "batch": 58389704,
+                "sum": 63567269,
+                "core_batch": 58389704
+              },
+              "wall_ns": {
+                "input_loading": 2014653,
+                "input_normalization": 3163063,
+                "batch": 58416985,
+                "sum": 63594701,
+                "core_batch": 58416985
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 2072929,
+                "input_normalization": 3168270,
+                "batch": 58514785,
+                "sum": 63755984,
+                "core_batch": 58514785
+              },
+              "wall_ns": {
+                "input_loading": 2072476,
+                "input_normalization": 3169024,
+                "batch": 58517470,
+                "sum": 63758970,
+                "core_batch": 58517470
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 2010556,
+                "input_normalization": 3149636,
+                "batch": 57115307,
+                "sum": 62275499,
+                "core_batch": 57115307
+              },
+              "wall_ns": {
+                "input_loading": 2009752,
+                "input_normalization": 3150249,
+                "batch": 57117897,
+                "sum": 62277898,
+                "core_batch": 57117897
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 2096961,
+                "input_normalization": 3255215,
+                "batch": 58894893,
+                "sum": 64247069,
+                "core_batch": 58894893
+              },
+              "wall_ns": {
+                "input_loading": 2096765,
+                "input_normalization": 3255773,
+                "batch": 58902766,
+                "sum": 64255304,
+                "core_batch": 58902766
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 63.755984,
+          "cpu_ms_core_batch_median": 58.514785,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 63.75897,
+          "wall_ms_core_batch_median": 58.51747
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 2042921,
+                "input_normalization": 3161808,
+                "batch": 1058349937,
+                "sum": 1063554666,
+                "core_batch": 1047970516
+              },
+              "wall_ns": {
+                "input_loading": 2042236,
+                "input_normalization": 3172089,
+                "batch": 1058529066,
+                "sum": 1063743391,
+                "core_batch": 1048148281
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 2068870,
+                "input_normalization": 3228609,
+                "batch": 1052851678,
+                "sum": 1058149157,
+                "core_batch": 1042242987
+              },
+              "wall_ns": {
+                "input_loading": 2067921,
+                "input_normalization": 3229261,
+                "batch": 1053033284,
+                "sum": 1058330466,
+                "core_batch": 1042423328
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 2017680,
+                "input_normalization": 3106870,
+                "batch": 1054828640,
+                "sum": 1059953190,
+                "core_batch": 1044670425
+              },
+              "wall_ns": {
+                "input_loading": 2016701,
+                "input_normalization": 3107496,
+                "batch": 1055036759,
+                "sum": 1060160956,
+                "core_batch": 1044877301
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 2016920,
+                "input_normalization": 3165713,
+                "batch": 1061429979,
+                "sum": 1066612612,
+                "core_batch": 1051148520
+              },
+              "wall_ns": {
+                "input_loading": 2016655,
+                "input_normalization": 3166229,
+                "batch": 1061617789,
+                "sum": 1066800673,
+                "core_batch": 1051335045
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 1963075,
+                "input_normalization": 3127479,
+                "batch": 1045430372,
+                "sum": 1050520926,
+                "core_batch": 1035486579
+              },
+              "wall_ns": {
+                "input_loading": 1962405,
+                "input_normalization": 3128025,
+                "batch": 1045618134,
+                "sum": 1050708564,
+                "core_batch": 1035672938
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1059.95319,
+          "cpu_ms_core_batch_median": 1044.670425,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1060.160956,
+          "wall_ms_core_batch_median": 1044.877301
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 2047965,
+                "input_normalization": 3153864,
+                "batch": 44745248,
+                "sum": 49947077,
+                "core_batch": 44745248
+              },
+              "wall_ns": {
+                "input_loading": 2047214,
+                "input_normalization": 3154244,
+                "batch": 44755404,
+                "sum": 49956862,
+                "core_batch": 44755404
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 2048885,
+                "input_normalization": 3098609,
+                "batch": 44475030,
+                "sum": 49622524,
+                "core_batch": 44475030
+              },
+              "wall_ns": {
+                "input_loading": 2048062,
+                "input_normalization": 3099224,
+                "batch": 44477061,
+                "sum": 49624347,
+                "core_batch": 44477061
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 2034782,
+                "input_normalization": 3103942,
+                "batch": 44724243,
+                "sum": 49862967,
+                "core_batch": 44724243
+              },
+              "wall_ns": {
+                "input_loading": 2033860,
+                "input_normalization": 3104502,
+                "batch": 44734368,
+                "sum": 49872730,
+                "core_batch": 44734368
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 2006055,
+                "input_normalization": 3176045,
+                "batch": 45457567,
+                "sum": 50639667,
+                "core_batch": 45457567
+              },
+              "wall_ns": {
+                "input_loading": 2005606,
+                "input_normalization": 3176608,
+                "batch": 45459673,
+                "sum": 50641887,
+                "core_batch": 45459673
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 2030978,
+                "input_normalization": 3147187,
+                "batch": 44873720,
+                "sum": 50051885,
+                "core_batch": 44873720
+              },
+              "wall_ns": {
+                "input_loading": 2030403,
+                "input_normalization": 3147737,
+                "batch": 44875787,
+                "sum": 50053927,
+                "core_batch": 44875787
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 49.947077,
+          "cpu_ms_core_batch_median": 44.745248,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 49.956862,
+          "wall_ms_core_batch_median": 44.755404
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "epcis_transformation_profile",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 1850553,
+                "input_normalization": 3224912,
+                "batch": 33118712,
+                "sum": 38194177,
+                "core_batch": 33118712
+              },
+              "wall_ns": {
+                "input_loading": 1849711,
+                "input_normalization": 3225393,
+                "batch": 33145030,
+                "sum": 38220134,
+                "core_batch": 33145030
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 1845277,
+                "input_normalization": 3162303,
+                "batch": 32773778,
+                "sum": 37781358,
+                "core_batch": 32773778
+              },
+              "wall_ns": {
+                "input_loading": 1844694,
+                "input_normalization": 3162919,
+                "batch": 32783537,
+                "sum": 37791150,
+                "core_batch": 32783537
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 1896690,
+                "input_normalization": 3160981,
+                "batch": 33039196,
+                "sum": 38096867,
+                "core_batch": 33039196
+              },
+              "wall_ns": {
+                "input_loading": 1896209,
+                "input_normalization": 3161552,
+                "batch": 33040568,
+                "sum": 38098329,
+                "core_batch": 33040568
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 1900410,
+                "input_normalization": 3218274,
+                "batch": 33303311,
+                "sum": 38421995,
+                "core_batch": 33303311
+              },
+              "wall_ns": {
+                "input_loading": 1900266,
+                "input_normalization": 3218735,
+                "batch": 33323907,
+                "sum": 38442908,
+                "core_batch": 33323907
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 1864591,
+                "input_normalization": 3202204,
+                "batch": 33144365,
+                "sum": 38211160,
+                "core_batch": 33144365
+              },
+              "wall_ns": {
+                "input_loading": 1863824,
+                "input_normalization": 3202673,
+                "batch": 33145874,
+                "sum": 38212371,
+                "core_batch": 33145874
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 38.194177,
+          "cpu_ms_core_batch_median": 33.118712,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 38.212371,
+          "wall_ms_core_batch_median": 33.14503
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 1847029,
+                "input_normalization": 3182720,
+                "batch": 67969084,
+                "sum": 72998833,
+                "core_batch": 57874516
+              },
+              "wall_ns": {
+                "input_loading": 1846638,
+                "input_normalization": 3183305,
+                "batch": 67972195,
+                "sum": 73002138,
+                "core_batch": 57876220
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 1866726,
+                "input_normalization": 3190472,
+                "batch": 67964571,
+                "sum": 73021769,
+                "core_batch": 58011721
+              },
+              "wall_ns": {
+                "input_loading": 1866559,
+                "input_normalization": 3191019,
+                "batch": 67992968,
+                "sum": 73050546,
+                "core_batch": 58038564
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 1867480,
+                "input_normalization": 3153267,
+                "batch": 66476278,
+                "sum": 71497025,
+                "core_batch": 56586154
+              },
+              "wall_ns": {
+                "input_loading": 1866920,
+                "input_normalization": 3163141,
+                "batch": 66479319,
+                "sum": 71509380,
+                "core_batch": 56587950
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 1877632,
+                "input_normalization": 3162589,
+                "batch": 68533464,
+                "sum": 73573685,
+                "core_batch": 58421744
+              },
+              "wall_ns": {
+                "input_loading": 1877148,
+                "input_normalization": 3163185,
+                "batch": 68536682,
+                "sum": 73577015,
+                "core_batch": 58423559
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 1846702,
+                "input_normalization": 3131494,
+                "batch": 67174421,
+                "sum": 72152617,
+                "core_batch": 57311460
+              },
+              "wall_ns": {
+                "input_loading": 1846443,
+                "input_normalization": 3132616,
+                "batch": 67192358,
+                "sum": 72171417,
+                "core_batch": 57328064
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 72.998833,
+          "cpu_ms_core_batch_median": 57.874516,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 73.002138,
+          "wall_ms_core_batch_median": 57.87622
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 1882241,
+                "input_normalization": 3190450,
+                "batch": 11748104,
+                "sum": 16820795,
+                "core_batch": 11748104
+              },
+              "wall_ns": {
+                "input_loading": 1881788,
+                "input_normalization": 3191063,
+                "batch": 11748604,
+                "sum": 16821455,
+                "core_batch": 11748604
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 1835891,
+                "input_normalization": 3163935,
+                "batch": 11651098,
+                "sum": 16650924,
+                "core_batch": 11651098
+              },
+              "wall_ns": {
+                "input_loading": 1835100,
+                "input_normalization": 3164547,
+                "batch": 11681446,
+                "sum": 16681093,
+                "core_batch": 11681446
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 1865583,
+                "input_normalization": 3144882,
+                "batch": 11634404,
+                "sum": 16644869,
+                "core_batch": 11634404
+              },
+              "wall_ns": {
+                "input_loading": 1865162,
+                "input_normalization": 3145588,
+                "batch": 11664249,
+                "sum": 16674999,
+                "core_batch": 11664249
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 1897559,
+                "input_normalization": 3158033,
+                "batch": 11594658,
+                "sum": 16650250,
+                "core_batch": 11594658
+              },
+              "wall_ns": {
+                "input_loading": 1896681,
+                "input_normalization": 3158579,
+                "batch": 11602352,
+                "sum": 16657612,
+                "core_batch": 11602352
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 1871374,
+                "input_normalization": 3127623,
+                "batch": 11536006,
+                "sum": 16535003,
+                "core_batch": 11536006
+              },
+              "wall_ns": {
+                "input_loading": 1870421,
+                "input_normalization": 3128282,
+                "batch": 11536500,
+                "sum": 16535203,
+                "core_batch": 11536500
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 16.65025,
+          "cpu_ms_core_batch_median": 11.634404,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 16.674999,
+          "wall_ms_core_batch_median": 11.664249
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_edge_p0_a0_b1",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 301284,
+                "input_normalization": 218180,
+                "batch": 45815400,
+                "sum": 46334864,
+                "core_batch": 45815400
+              },
+              "wall_ns": {
+                "input_loading": 300700,
+                "input_normalization": 218196,
+                "batch": 45823771,
+                "sum": 46342667,
+                "core_batch": 45823771
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 292180,
+                "input_normalization": 219901,
+                "batch": 45419358,
+                "sum": 45931439,
+                "core_batch": 45419358
+              },
+              "wall_ns": {
+                "input_loading": 291520,
+                "input_normalization": 219952,
+                "batch": 45442756,
+                "sum": 45954228,
+                "core_batch": 45442756
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 284459,
+                "input_normalization": 242794,
+                "batch": 49389672,
+                "sum": 49916925,
+                "core_batch": 49389672
+              },
+              "wall_ns": {
+                "input_loading": 283998,
+                "input_normalization": 242854,
+                "batch": 49392075,
+                "sum": 49918927,
+                "core_batch": 49392075
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 288161,
+                "input_normalization": 212327,
+                "batch": 44762311,
+                "sum": 45262799,
+                "core_batch": 44762311
+              },
+              "wall_ns": {
+                "input_loading": 287784,
+                "input_normalization": 212347,
+                "batch": 44764342,
+                "sum": 45264473,
+                "core_batch": 44764342
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 318857,
+                "input_normalization": 215698,
+                "batch": 44444470,
+                "sum": 44979025,
+                "core_batch": 44444470
+              },
+              "wall_ns": {
+                "input_loading": 317850,
+                "input_normalization": 215806,
+                "batch": 44566044,
+                "sum": 45099700,
+                "core_batch": 44566044
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 45.931439,
+          "cpu_ms_core_batch_median": 45.419358,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 45.954228,
+          "wall_ms_core_batch_median": 45.442756
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 316473,
+                "input_normalization": 220667,
+                "batch": 141454641,
+                "sum": 141991781,
+                "core_batch": 131881158
+              },
+              "wall_ns": {
+                "input_loading": 315650,
+                "input_normalization": 220712,
+                "batch": 141476857,
+                "sum": 142013219,
+                "core_batch": 131894861
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 292841,
+                "input_normalization": 215318,
+                "batch": 140545013,
+                "sum": 141053172,
+                "core_batch": 131117685
+              },
+              "wall_ns": {
+                "input_loading": 291876,
+                "input_normalization": 215355,
+                "batch": 140583500,
+                "sum": 141090731,
+                "core_batch": 131155018
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 314042,
+                "input_normalization": 225440,
+                "batch": 144189095,
+                "sum": 144728577,
+                "core_batch": 134726859
+              },
+              "wall_ns": {
+                "input_loading": 312980,
+                "input_normalization": 225510,
+                "batch": 144232545,
+                "sum": 144771035,
+                "core_batch": 134769202
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 270919,
+                "input_normalization": 217928,
+                "batch": 141596937,
+                "sum": 142085784,
+                "core_batch": 131873703
+              },
+              "wall_ns": {
+                "input_loading": 270492,
+                "input_normalization": 217948,
+                "batch": 141616663,
+                "sum": 142105103,
+                "core_batch": 131891911
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 293758,
+                "input_normalization": 218658,
+                "batch": 146905926,
+                "sum": 147418342,
+                "core_batch": 137220595
+              },
+              "wall_ns": {
+                "input_loading": 292871,
+                "input_normalization": 218771,
+                "batch": 146912811,
+                "sum": 147424453,
+                "core_batch": 137226271
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 142.085784,
+          "cpu_ms_core_batch_median": 131.881158,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 142.105103,
+          "wall_ms_core_batch_median": 131.894861
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 288342,
+                "input_normalization": 219178,
+                "batch": 4736142,
+                "sum": 5243662,
+                "core_batch": 4736142
+              },
+              "wall_ns": {
+                "input_loading": 287693,
+                "input_normalization": 219295,
+                "batch": 4736290,
+                "sum": 5243278,
+                "core_batch": 4736290
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 296689,
+                "input_normalization": 222989,
+                "batch": 4605430,
+                "sum": 5125108,
+                "core_batch": 4605430
+              },
+              "wall_ns": {
+                "input_loading": 295678,
+                "input_normalization": 223092,
+                "batch": 4605600,
+                "sum": 5124370,
+                "core_batch": 4605600
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 279387,
+                "input_normalization": 226605,
+                "batch": 4739242,
+                "sum": 5245234,
+                "core_batch": 4739242
+              },
+              "wall_ns": {
+                "input_loading": 278749,
+                "input_normalization": 226689,
+                "batch": 4739410,
+                "sum": 5244848,
+                "core_batch": 4739410
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 284819,
+                "input_normalization": 210575,
+                "batch": 4691022,
+                "sum": 5186416,
+                "core_batch": 4691022
+              },
+              "wall_ns": {
+                "input_loading": 295532,
+                "input_normalization": 210591,
+                "batch": 4691187,
+                "sum": 5197310,
+                "core_batch": 4691187
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 285730,
+                "input_normalization": 214498,
+                "batch": 4735929,
+                "sum": 5236157,
+                "core_batch": 4735929
+              },
+              "wall_ns": {
+                "input_loading": 284828,
+                "input_normalization": 214506,
+                "batch": 4736212,
+                "sum": 5235546,
+                "core_batch": 4736212
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 5.236157,
+          "cpu_ms_core_batch_median": 4.735929,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 5.235546,
+          "wall_ms_core_batch_median": 4.736212
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_edge_p2_a0_b2",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 613508,
+                "input_normalization": 946567,
+                "batch": 59476991,
+                "sum": 61037066,
+                "core_batch": 59476991
+              },
+              "wall_ns": {
+                "input_loading": 612474,
+                "input_normalization": 946765,
+                "batch": 59495943,
+                "sum": 61055182,
+                "core_batch": 59495943
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 618907,
+                "input_normalization": 931158,
+                "batch": 59641176,
+                "sum": 61191241,
+                "core_batch": 59641176
+              },
+              "wall_ns": {
+                "input_loading": 617994,
+                "input_normalization": 931377,
+                "batch": 59656984,
+                "sum": 61206355,
+                "core_batch": 59656984
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 599935,
+                "input_normalization": 904573,
+                "batch": 58155478,
+                "sum": 59659986,
+                "core_batch": 58155478
+              },
+              "wall_ns": {
+                "input_loading": 598981,
+                "input_normalization": 904673,
+                "batch": 58158173,
+                "sum": 59661827,
+                "core_batch": 58158173
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 597204,
+                "input_normalization": 916453,
+                "batch": 58149821,
+                "sum": 59663478,
+                "core_batch": 58149821
+              },
+              "wall_ns": {
+                "input_loading": 597027,
+                "input_normalization": 916649,
+                "batch": 58185456,
+                "sum": 59699132,
+                "core_batch": 58185456
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 619976,
+                "input_normalization": 910710,
+                "batch": 57233635,
+                "sum": 58764321,
+                "core_batch": 57233635
+              },
+              "wall_ns": {
+                "input_loading": 619085,
+                "input_normalization": 910874,
+                "batch": 57243660,
+                "sum": 58773619,
+                "core_batch": 57243660
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 59.663478,
+          "cpu_ms_core_batch_median": 58.155478,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 59.699132,
+          "wall_ms_core_batch_median": 58.185456
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 661677,
+                "input_normalization": 917172,
+                "batch": 448285174,
+                "sum": 449864023,
+                "core_batch": 438774172
+              },
+              "wall_ns": {
+                "input_loading": 660699,
+                "input_normalization": 917441,
+                "batch": 448377791,
+                "sum": 449955931,
+                "core_batch": 438865592
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 608571,
+                "input_normalization": 987863,
+                "batch": 455358768,
+                "sum": 456955202,
+                "core_batch": 445478545
+              },
+              "wall_ns": {
+                "input_loading": 608094,
+                "input_normalization": 987964,
+                "batch": 455482744,
+                "sum": 457078802,
+                "core_batch": 445587530
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 620035,
+                "input_normalization": 913887,
+                "batch": 454195422,
+                "sum": 455729344,
+                "core_batch": 444761434
+              },
+              "wall_ns": {
+                "input_loading": 619175,
+                "input_normalization": 914018,
+                "batch": 454272739,
+                "sum": 455805932,
+                "core_batch": 444837612
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 647289,
+                "input_normalization": 933100,
+                "batch": 447029933,
+                "sum": 448610322,
+                "core_batch": 437274607
+              },
+              "wall_ns": {
+                "input_loading": 646375,
+                "input_normalization": 933263,
+                "batch": 447134120,
+                "sum": 448713758,
+                "core_batch": 437377612
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 633503,
+                "input_normalization": 917195,
+                "batch": 453698018,
+                "sum": 455248716,
+                "core_batch": 444136273
+              },
+              "wall_ns": {
+                "input_loading": 632608,
+                "input_normalization": 917374,
+                "batch": 453801737,
+                "sum": 455351719,
+                "core_batch": 444238909
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 455.248716,
+          "cpu_ms_core_batch_median": 444.136273,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 455.351719,
+          "wall_ms_core_batch_median": 444.238909
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 630030,
+                "input_normalization": 931671,
+                "batch": 18361408,
+                "sum": 19923109,
+                "core_batch": 18361408
+              },
+              "wall_ns": {
+                "input_loading": 629310,
+                "input_normalization": 931873,
+                "batch": 18362212,
+                "sum": 19923395,
+                "core_batch": 18362212
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 624137,
+                "input_normalization": 950028,
+                "batch": 18440115,
+                "sum": 20014280,
+                "core_batch": 18440115
+              },
+              "wall_ns": {
+                "input_loading": 623543,
+                "input_normalization": 950243,
+                "batch": 18452596,
+                "sum": 20026382,
+                "core_batch": 18452596
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 631897,
+                "input_normalization": 903689,
+                "batch": 17960795,
+                "sum": 19496381,
+                "core_batch": 17960795
+              },
+              "wall_ns": {
+                "input_loading": 631176,
+                "input_normalization": 903830,
+                "batch": 17961587,
+                "sum": 19496593,
+                "core_batch": 17961587
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 609492,
+                "input_normalization": 891192,
+                "batch": 17627949,
+                "sum": 19128633,
+                "core_batch": 17627949
+              },
+              "wall_ns": {
+                "input_loading": 608919,
+                "input_normalization": 891332,
+                "batch": 17628747,
+                "sum": 19128998,
+                "core_batch": 17628747
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 631642,
+                "input_normalization": 933611,
+                "batch": 19628290,
+                "sum": 21193543,
+                "core_batch": 19628290
+              },
+              "wall_ns": {
+                "input_loading": 631024,
+                "input_normalization": 933797,
+                "batch": 19629124,
+                "sum": 21193945,
+                "core_batch": 19629124
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 19.923109,
+          "cpu_ms_core_batch_median": 18.361408,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 19.923395,
+          "wall_ms_core_batch_median": 18.362212
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_edge_p2_a2_b3",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 531569,
+                "input_normalization": 678071,
+                "batch": 54494570,
+                "sum": 55704210,
+                "core_batch": 54494570
+              },
+              "wall_ns": {
+                "input_loading": 530898,
+                "input_normalization": 678180,
+                "batch": 54497011,
+                "sum": 55706089,
+                "core_batch": 54497011
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 522345,
+                "input_normalization": 693723,
+                "batch": 56211428,
+                "sum": 57427496,
+                "core_batch": 56211428
+              },
+              "wall_ns": {
+                "input_loading": 521484,
+                "input_normalization": 693827,
+                "batch": 56223623,
+                "sum": 57438934,
+                "core_batch": 56223623
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 496005,
+                "input_normalization": 690364,
+                "batch": 55130015,
+                "sum": 56316384,
+                "core_batch": 55130015
+              },
+              "wall_ns": {
+                "input_loading": 495641,
+                "input_normalization": 690434,
+                "batch": 55132545,
+                "sum": 56318620,
+                "core_batch": 55132545
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 507026,
+                "input_normalization": 676376,
+                "batch": 53332625,
+                "sum": 54516027,
+                "core_batch": 53332625
+              },
+              "wall_ns": {
+                "input_loading": 506419,
+                "input_normalization": 676457,
+                "batch": 53347675,
+                "sum": 54530551,
+                "core_batch": 53347675
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 504619,
+                "input_normalization": 703047,
+                "batch": 55972826,
+                "sum": 57180492,
+                "core_batch": 55972826
+              },
+              "wall_ns": {
+                "input_loading": 504041,
+                "input_normalization": 703223,
+                "batch": 55986635,
+                "sum": 57193899,
+                "core_batch": 55986635
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 56.316384,
+          "cpu_ms_core_batch_median": 55.130015,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 56.31862,
+          "wall_ms_core_batch_median": 55.132545
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 529985,
+                "input_normalization": 677857,
+                "batch": 360818499,
+                "sum": 362026341,
+                "core_batch": 351166913
+              },
+              "wall_ns": {
+                "input_loading": 529464,
+                "input_normalization": 677921,
+                "batch": 360888155,
+                "sum": 362095540,
+                "core_batch": 351235402
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 535920,
+                "input_normalization": 695270,
+                "batch": 365248009,
+                "sum": 366479199,
+                "core_batch": 355901340
+              },
+              "wall_ns": {
+                "input_loading": 535010,
+                "input_normalization": 695458,
+                "batch": 365321042,
+                "sum": 366551510,
+                "core_batch": 355973280
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 518852,
+                "input_normalization": 711863,
+                "batch": 363121652,
+                "sum": 364352367,
+                "core_batch": 353610438
+              },
+              "wall_ns": {
+                "input_loading": 517963,
+                "input_normalization": 712090,
+                "batch": 363178851,
+                "sum": 364408904,
+                "core_batch": 353666327
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 521463,
+                "input_normalization": 725131,
+                "batch": 365377494,
+                "sum": 366624088,
+                "core_batch": 355426552
+              },
+              "wall_ns": {
+                "input_loading": 520774,
+                "input_normalization": 725379,
+                "batch": 365506288,
+                "sum": 366752441,
+                "core_batch": 355515684
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 534243,
+                "input_normalization": 715201,
+                "batch": 363488631,
+                "sum": 364738075,
+                "core_batch": 353972094
+              },
+              "wall_ns": {
+                "input_loading": 533335,
+                "input_normalization": 715449,
+                "batch": 363601227,
+                "sum": 364850011,
+                "core_batch": 354083600
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 364.738075,
+          "cpu_ms_core_batch_median": 353.972094,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 364.850011,
+          "wall_ms_core_batch_median": 354.0836
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 524151,
+                "input_normalization": 688531,
+                "batch": 13251874,
+                "sum": 14464556,
+                "core_batch": 13251874
+              },
+              "wall_ns": {
+                "input_loading": 523112,
+                "input_normalization": 688629,
+                "batch": 13252424,
+                "sum": 14464165,
+                "core_batch": 13252424
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 500330,
+                "input_normalization": 698652,
+                "batch": 13437120,
+                "sum": 14636102,
+                "core_batch": 13437120
+              },
+              "wall_ns": {
+                "input_loading": 499811,
+                "input_normalization": 698738,
+                "batch": 13437692,
+                "sum": 14636241,
+                "core_batch": 13437692
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 520606,
+                "input_normalization": 689891,
+                "batch": 13021969,
+                "sum": 14232466,
+                "core_batch": 13021969
+              },
+              "wall_ns": {
+                "input_loading": 519824,
+                "input_normalization": 690020,
+                "batch": 13022518,
+                "sum": 14232362,
+                "core_batch": 13022518
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 518255,
+                "input_normalization": 682817,
+                "batch": 12987486,
+                "sum": 14188558,
+                "core_batch": 12987486
+              },
+              "wall_ns": {
+                "input_loading": 517220,
+                "input_normalization": 682919,
+                "batch": 12988031,
+                "sum": 14188170,
+                "core_batch": 12988031
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 497227,
+                "input_normalization": 690249,
+                "batch": 13231618,
+                "sum": 14419094,
+                "core_batch": 13231618
+              },
+              "wall_ns": {
+                "input_loading": 496558,
+                "input_normalization": 690474,
+                "batch": 13232188,
+                "sum": 14419220,
+                "core_batch": 13232188
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 14.419094,
+          "cpu_ms_core_batch_median": 13.231618,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 14.41922,
+          "wall_ms_core_batch_median": 13.232188
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_equivalent",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9599761,
+                "input_normalization": 433905,
+                "batch": 44197034,
+                "sum": 54230700,
+                "core_batch": 44197034
+              },
+              "wall_ns": {
+                "input_loading": 9599786,
+                "input_normalization": 434054,
+                "batch": 44208213,
+                "sum": 54242053,
+                "core_batch": 44208213
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9796234,
+                "input_normalization": 440584,
+                "batch": 44080751,
+                "sum": 54317569,
+                "core_batch": 44080751
+              },
+              "wall_ns": {
+                "input_loading": 9796502,
+                "input_normalization": 440786,
+                "batch": 44082734,
+                "sum": 54320022,
+                "core_batch": 44082734
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9136937,
+                "input_normalization": 437599,
+                "batch": 43632449,
+                "sum": 53206985,
+                "core_batch": 43632449
+              },
+              "wall_ns": {
+                "input_loading": 9137138,
+                "input_normalization": 437862,
+                "batch": 43642766,
+                "sum": 53217766,
+                "core_batch": 43642766
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9300630,
+                "input_normalization": 431162,
+                "batch": 43927526,
+                "sum": 53659318,
+                "core_batch": 43927526
+              },
+              "wall_ns": {
+                "input_loading": 9300746,
+                "input_normalization": 431279,
+                "batch": 43929507,
+                "sum": 53661532,
+                "core_batch": 43929507
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9505720,
+                "input_normalization": 419679,
+                "batch": 43619761,
+                "sum": 53545160,
+                "core_batch": 43619761
+              },
+              "wall_ns": {
+                "input_loading": 9534051,
+                "input_normalization": 420057,
+                "batch": 43621711,
+                "sum": 53575819,
+                "core_batch": 43621711
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.659318,
+          "cpu_ms_core_batch_median": 43.927526,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.661532,
+          "wall_ms_core_batch_median": 43.929507
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9169722,
+                "input_normalization": 408886,
+                "batch": 59829022,
+                "sum": 69407630,
+                "core_batch": 48606901
+              },
+              "wall_ns": {
+                "input_loading": 9169409,
+                "input_normalization": 409111,
+                "batch": 59864584,
+                "sum": 69443104,
+                "core_batch": 48640735
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9555479,
+                "input_normalization": 441040,
+                "batch": 61254849,
+                "sum": 71251368,
+                "core_batch": 49603041
+              },
+              "wall_ns": {
+                "input_loading": 9554915,
+                "input_normalization": 441386,
+                "batch": 61266256,
+                "sum": 71262557,
+                "core_batch": 49612674
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9245372,
+                "input_normalization": 450934,
+                "batch": 61639734,
+                "sum": 71336040,
+                "core_batch": 49856805
+              },
+              "wall_ns": {
+                "input_loading": 9245883,
+                "input_normalization": 451311,
+                "batch": 61655344,
+                "sum": 71352538,
+                "core_batch": 49870767
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9294578,
+                "input_normalization": 429453,
+                "batch": 60229910,
+                "sum": 69953941,
+                "core_batch": 48800465
+              },
+              "wall_ns": {
+                "input_loading": 9294674,
+                "input_normalization": 429746,
+                "batch": 60253814,
+                "sum": 69978234,
+                "core_batch": 48801919
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9192144,
+                "input_normalization": 418216,
+                "batch": 59809062,
+                "sum": 69419422,
+                "core_batch": 48895224
+              },
+              "wall_ns": {
+                "input_loading": 9191589,
+                "input_normalization": 418438,
+                "batch": 59825644,
+                "sum": 69435671,
+                "core_batch": 48910303
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 69.953941,
+          "cpu_ms_core_batch_median": 48.895224,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 69.978234,
+          "wall_ms_core_batch_median": 48.910303
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9285252,
+                "input_normalization": 425573,
+                "batch": 1363980,
+                "sum": 11074805,
+                "core_batch": 1363980
+              },
+              "wall_ns": {
+                "input_loading": 9285649,
+                "input_normalization": 425874,
+                "batch": 1363972,
+                "sum": 11075495,
+                "core_batch": 1363972
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9437222,
+                "input_normalization": 438793,
+                "batch": 1359138,
+                "sum": 11235153,
+                "core_batch": 1359138
+              },
+              "wall_ns": {
+                "input_loading": 9436961,
+                "input_normalization": 439119,
+                "batch": 1359123,
+                "sum": 11235203,
+                "core_batch": 1359123
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9417081,
+                "input_normalization": 436678,
+                "batch": 1385488,
+                "sum": 11239247,
+                "core_batch": 1385488
+              },
+              "wall_ns": {
+                "input_loading": 9416891,
+                "input_normalization": 437080,
+                "batch": 1385468,
+                "sum": 11239439,
+                "core_batch": 1385468
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9273325,
+                "input_normalization": 456548,
+                "batch": 1402268,
+                "sum": 11132141,
+                "core_batch": 1402268
+              },
+              "wall_ns": {
+                "input_loading": 9286073,
+                "input_normalization": 457031,
+                "batch": 1402262,
+                "sum": 11145366,
+                "core_batch": 1402262
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9411394,
+                "input_normalization": 419414,
+                "batch": 1385089,
+                "sum": 11215897,
+                "core_batch": 1385089
+              },
+              "wall_ns": {
+                "input_loading": 9411494,
+                "input_normalization": 419656,
+                "batch": 1385104,
+                "sum": 11216254,
+                "core_batch": 1385104
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.215897,
+          "cpu_ms_core_batch_median": 1.385089,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.216254,
+          "wall_ms_core_batch_median": 1.385104
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_equivalent",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 231550219,
+                "input_normalization": 997929625,
+                "batch": 350247451,
+                "sum": 1579727295,
+                "core_batch": 350247451
+              },
+              "wall_ns": {
+                "input_loading": 231577158,
+                "input_normalization": 998138575,
+                "batch": 350324954,
+                "sum": 1580040687,
+                "core_batch": 350324954
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 227115949,
+                "input_normalization": 1000953920,
+                "batch": 351237941,
+                "sum": 1579307810,
+                "core_batch": 351237941
+              },
+              "wall_ns": {
+                "input_loading": 227168306,
+                "input_normalization": 1001157960,
+                "batch": 351268860,
+                "sum": 1579595126,
+                "core_batch": 351268860
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 228895299,
+                "input_normalization": 997313215,
+                "batch": 350036173,
+                "sum": 1576244687,
+                "core_batch": 350036173
+              },
+              "wall_ns": {
+                "input_loading": 228974281,
+                "input_normalization": 997490943,
+                "batch": 350101371,
+                "sum": 1576566595,
+                "core_batch": 350101371
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 232072294,
+                "input_normalization": 980647597,
+                "batch": 341939419,
+                "sum": 1554659310,
+                "core_batch": 341939419
+              },
+              "wall_ns": {
+                "input_loading": 232093398,
+                "input_normalization": 980886813,
+                "batch": 342009174,
+                "sum": 1554989385,
+                "core_batch": 342009174
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 227500675,
+                "input_normalization": 1001161388,
+                "batch": 343844899,
+                "sum": 1572506962,
+                "core_batch": 343844899
+              },
+              "wall_ns": {
+                "input_loading": 227594067,
+                "input_normalization": 1001297550,
+                "batch": 343936570,
+                "sum": 1572828187,
+                "core_batch": 343936570
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1576.244687,
+          "cpu_ms_core_batch_median": 350.036173,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1576.566595,
+          "wall_ms_core_batch_median": 350.101371
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 231804524,
+                "input_normalization": 983220070,
+                "batch": 372329878,
+                "sum": 1587354472,
+                "core_batch": 362135517
+              },
+              "wall_ns": {
+                "input_loading": 231840543,
+                "input_normalization": 983385368,
+                "batch": 372421323,
+                "sum": 1587647234,
+                "core_batch": 362225675
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 231668112,
+                "input_normalization": 1009816482,
+                "batch": 377566732,
+                "sum": 1619051326,
+                "core_batch": 367329687
+              },
+              "wall_ns": {
+                "input_loading": 231715281,
+                "input_normalization": 1010015374,
+                "batch": 377607753,
+                "sum": 1619338408,
+                "core_batch": 367369373
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 230111930,
+                "input_normalization": 1011719799,
+                "batch": 377246033,
+                "sum": 1619077762,
+                "core_batch": 366357642
+              },
+              "wall_ns": {
+                "input_loading": 230149335,
+                "input_normalization": 1011889142,
+                "batch": 377305756,
+                "sum": 1619344233,
+                "core_batch": 366406996
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 230300783,
+                "input_normalization": 1004195303,
+                "batch": 372465740,
+                "sum": 1606961826,
+                "core_batch": 362241935
+              },
+              "wall_ns": {
+                "input_loading": 230322629,
+                "input_normalization": 1004363369,
+                "batch": 372538433,
+                "sum": 1607224431,
+                "core_batch": 362312796
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 228090671,
+                "input_normalization": 988752797,
+                "batch": 363596521,
+                "sum": 1580439989,
+                "core_batch": 353490812
+              },
+              "wall_ns": {
+                "input_loading": 228189174,
+                "input_normalization": 988902354,
+                "batch": 363685793,
+                "sum": 1580777321,
+                "core_batch": 353578727
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1606.961826,
+          "cpu_ms_core_batch_median": 362.241935,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1607.224431,
+          "wall_ms_core_batch_median": 362.312796
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 223369142,
+                "input_normalization": 997168007,
+                "batch": 303062482,
+                "sum": 1523599631,
+                "core_batch": 303062482
+              },
+              "wall_ns": {
+                "input_loading": 223402518,
+                "input_normalization": 997384790,
+                "batch": 303124360,
+                "sum": 1523911668,
+                "core_batch": 303124360
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 225701614,
+                "input_normalization": 971465744,
+                "batch": 300445440,
+                "sum": 1497612798,
+                "core_batch": 300445440
+              },
+              "wall_ns": {
+                "input_loading": 225737543,
+                "input_normalization": 971695196,
+                "batch": 300478873,
+                "sum": 1497911612,
+                "core_batch": 300478873
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 228029181,
+                "input_normalization": 995483976,
+                "batch": 303602529,
+                "sum": 1527115686,
+                "core_batch": 303602529
+              },
+              "wall_ns": {
+                "input_loading": 228085807,
+                "input_normalization": 995675487,
+                "batch": 303652071,
+                "sum": 1527413365,
+                "core_batch": 303652071
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 236258240,
+                "input_normalization": 1007049902,
+                "batch": 306888716,
+                "sum": 1550196858,
+                "core_batch": 306888716
+              },
+              "wall_ns": {
+                "input_loading": 236279259,
+                "input_normalization": 1007223153,
+                "batch": 306943048,
+                "sum": 1550445460,
+                "core_batch": 306943048
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 229593013,
+                "input_normalization": 978568118,
+                "batch": 304921284,
+                "sum": 1513082415,
+                "core_batch": 304921284
+              },
+              "wall_ns": {
+                "input_loading": 229665873,
+                "input_normalization": 978760718,
+                "batch": 304983721,
+                "sum": 1513410312,
+                "core_batch": 304983721
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1523.599631,
+          "cpu_ms_core_batch_median": 303.602529,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1523.911668,
+          "wall_ms_core_batch_median": 303.652071
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_identity",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9298230,
+                "input_normalization": 445141,
+                "batch": 43803536,
+                "sum": 53546907,
+                "core_batch": 43803536
+              },
+              "wall_ns": {
+                "input_loading": 9298079,
+                "input_normalization": 445487,
+                "batch": 43816166,
+                "sum": 53559732,
+                "core_batch": 43816166
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9426717,
+                "input_normalization": 426436,
+                "batch": 43673067,
+                "sum": 53526220,
+                "core_batch": 43673067
+              },
+              "wall_ns": {
+                "input_loading": 9426346,
+                "input_normalization": 426647,
+                "batch": 43690530,
+                "sum": 53543523,
+                "core_batch": 43690530
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9248346,
+                "input_normalization": 425683,
+                "batch": 43452276,
+                "sum": 53126305,
+                "core_batch": 43452276
+              },
+              "wall_ns": {
+                "input_loading": 9248694,
+                "input_normalization": 425738,
+                "batch": 43484194,
+                "sum": 53158626,
+                "core_batch": 43484194
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9129934,
+                "input_normalization": 427747,
+                "batch": 43576497,
+                "sum": 53134178,
+                "core_batch": 43576497
+              },
+              "wall_ns": {
+                "input_loading": 9129709,
+                "input_normalization": 427922,
+                "batch": 43593694,
+                "sum": 53151325,
+                "core_batch": 43593694
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 8988463,
+                "input_normalization": 401450,
+                "batch": 42355313,
+                "sum": 51745226,
+                "core_batch": 42355313
+              },
+              "wall_ns": {
+                "input_loading": 8988545,
+                "input_normalization": 401609,
+                "batch": 42365080,
+                "sum": 51755234,
+                "core_batch": 42365080
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.134178,
+          "cpu_ms_core_batch_median": 43.576497,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.158626,
+          "wall_ms_core_batch_median": 43.593694
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9148958,
+                "input_normalization": 438925,
+                "batch": 59630335,
+                "sum": 69218218,
+                "core_batch": 48070621
+              },
+              "wall_ns": {
+                "input_loading": 9148919,
+                "input_normalization": 439202,
+                "batch": 59633000,
+                "sum": 69221121,
+                "core_batch": 48071866
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9115939,
+                "input_normalization": 423850,
+                "batch": 59328123,
+                "sum": 68867912,
+                "core_batch": 48069558
+              },
+              "wall_ns": {
+                "input_loading": 9116361,
+                "input_normalization": 424188,
+                "batch": 59352708,
+                "sum": 68893257,
+                "core_batch": 48070772
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9244136,
+                "input_normalization": 440610,
+                "batch": 59984389,
+                "sum": 69669135,
+                "core_batch": 48711160
+              },
+              "wall_ns": {
+                "input_loading": 9243873,
+                "input_normalization": 440998,
+                "batch": 59987143,
+                "sum": 69672014,
+                "core_batch": 48712434
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9190325,
+                "input_normalization": 401021,
+                "batch": 59197168,
+                "sum": 68788514,
+                "core_batch": 48352538
+              },
+              "wall_ns": {
+                "input_loading": 9190309,
+                "input_normalization": 401205,
+                "batch": 59212997,
+                "sum": 68804511,
+                "core_batch": 48367146
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9105491,
+                "input_normalization": 405855,
+                "batch": 57954687,
+                "sum": 67466033,
+                "core_batch": 47098925
+              },
+              "wall_ns": {
+                "input_loading": 9113386,
+                "input_normalization": 406094,
+                "batch": 57957354,
+                "sum": 67476834,
+                "core_batch": 47100241
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 68.867912,
+          "cpu_ms_core_batch_median": 48.070621,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 68.893257,
+          "wall_ms_core_batch_median": 48.071866
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9207862,
+                "input_normalization": 435786,
+                "batch": 1359822,
+                "sum": 11003470,
+                "core_batch": 1359822
+              },
+              "wall_ns": {
+                "input_loading": 9208031,
+                "input_normalization": 435960,
+                "batch": 1359801,
+                "sum": 11003792,
+                "core_batch": 1359801
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9278050,
+                "input_normalization": 417319,
+                "batch": 1356082,
+                "sum": 11051451,
+                "core_batch": 1356082
+              },
+              "wall_ns": {
+                "input_loading": 9277689,
+                "input_normalization": 417508,
+                "batch": 1356105,
+                "sum": 11051302,
+                "core_batch": 1356105
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9565132,
+                "input_normalization": 447871,
+                "batch": 1373433,
+                "sum": 11386436,
+                "core_batch": 1373433
+              },
+              "wall_ns": {
+                "input_loading": 9565151,
+                "input_normalization": 448199,
+                "batch": 1373458,
+                "sum": 11386808,
+                "core_batch": 1373458
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9360189,
+                "input_normalization": 458884,
+                "batch": 1403164,
+                "sum": 11222237,
+                "core_batch": 1403164
+              },
+              "wall_ns": {
+                "input_loading": 9360228,
+                "input_normalization": 459411,
+                "batch": 1403175,
+                "sum": 11222814,
+                "core_batch": 1403175
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9048583,
+                "input_normalization": 413997,
+                "batch": 1343339,
+                "sum": 10805919,
+                "core_batch": 1343339
+              },
+              "wall_ns": {
+                "input_loading": 9048659,
+                "input_normalization": 414152,
+                "batch": 1343313,
+                "sum": 10806124,
+                "core_batch": 1343313
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.051451,
+          "cpu_ms_core_batch_median": 1.359822,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.051302,
+          "wall_ms_core_batch_median": 1.359801
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_identity",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 227994999,
+                "input_normalization": 997639364,
+                "batch": 347952487,
+                "sum": 1573586850,
+                "core_batch": 347952487
+              },
+              "wall_ns": {
+                "input_loading": 228058351,
+                "input_normalization": 997805966,
+                "batch": 348001992,
+                "sum": 1573866309,
+                "core_batch": 348001992
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 235499926,
+                "input_normalization": 1017422539,
+                "batch": 351191895,
+                "sum": 1604114360,
+                "core_batch": 351191895
+              },
+              "wall_ns": {
+                "input_loading": 235557718,
+                "input_normalization": 1017607993,
+                "batch": 351257386,
+                "sum": 1604423097,
+                "core_batch": 351257386
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 229444572,
+                "input_normalization": 1001451307,
+                "batch": 347551474,
+                "sum": 1578447353,
+                "core_batch": 347551474
+              },
+              "wall_ns": {
+                "input_loading": 229480958,
+                "input_normalization": 1001708699,
+                "batch": 347625350,
+                "sum": 1578815007,
+                "core_batch": 347625350
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 235113525,
+                "input_normalization": 991273856,
+                "batch": 349656238,
+                "sum": 1576043619,
+                "core_batch": 349656238
+              },
+              "wall_ns": {
+                "input_loading": 235146394,
+                "input_normalization": 991476534,
+                "batch": 349687889,
+                "sum": 1576310817,
+                "core_batch": 349687889
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 225624521,
+                "input_normalization": 998738608,
+                "batch": 346601379,
+                "sum": 1570964508,
+                "core_batch": 346601379
+              },
+              "wall_ns": {
+                "input_loading": 225770095,
+                "input_normalization": 998975080,
+                "batch": 346652915,
+                "sum": 1571398090,
+                "core_batch": 346652915
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1576.043619,
+          "cpu_ms_core_batch_median": 347.952487,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1576.310817,
+          "wall_ms_core_batch_median": 348.001992
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 233296067,
+                "input_normalization": 975841511,
+                "batch": 365554173,
+                "sum": 1574691751,
+                "core_batch": 355682833
+              },
+              "wall_ns": {
+                "input_loading": 233342568,
+                "input_normalization": 976019580,
+                "batch": 365638473,
+                "sum": 1575000621,
+                "core_batch": 355765709
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 233948658,
+                "input_normalization": 997906160,
+                "batch": 371153362,
+                "sum": 1603008180,
+                "core_batch": 361125582
+              },
+              "wall_ns": {
+                "input_loading": 233991452,
+                "input_normalization": 998082511,
+                "batch": 371211247,
+                "sum": 1603285210,
+                "core_batch": 361182290
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 223983161,
+                "input_normalization": 1015148489,
+                "batch": 373211323,
+                "sum": 1612342973,
+                "core_batch": 362981243
+              },
+              "wall_ns": {
+                "input_loading": 224017868,
+                "input_normalization": 1015367244,
+                "batch": 373294184,
+                "sum": 1612679296,
+                "core_batch": 363062952
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 232075970,
+                "input_normalization": 1007042150,
+                "batch": 367744190,
+                "sum": 1606862310,
+                "core_batch": 357424099
+              },
+              "wall_ns": {
+                "input_loading": 232106643,
+                "input_normalization": 1007220252,
+                "batch": 367795389,
+                "sum": 1607122284,
+                "core_batch": 357473973
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 223705940,
+                "input_normalization": 997713024,
+                "batch": 365234277,
+                "sum": 1586653241,
+                "core_batch": 354981532
+              },
+              "wall_ns": {
+                "input_loading": 223764840,
+                "input_normalization": 997942794,
+                "batch": 365286961,
+                "sum": 1586994595,
+                "core_batch": 355032822
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1603.00818,
+          "cpu_ms_core_batch_median": 357.424099,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1603.28521,
+          "wall_ms_core_batch_median": 357.473973
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 222427931,
+                "input_normalization": 996623448,
+                "batch": 304314610,
+                "sum": 1523365989,
+                "core_batch": 304314610
+              },
+              "wall_ns": {
+                "input_loading": 222466350,
+                "input_normalization": 996787153,
+                "batch": 304356976,
+                "sum": 1523610479,
+                "core_batch": 304356976
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 232169857,
+                "input_normalization": 1010252174,
+                "batch": 307143618,
+                "sum": 1549565649,
+                "core_batch": 307143618
+              },
+              "wall_ns": {
+                "input_loading": 232214423,
+                "input_normalization": 1010505312,
+                "batch": 307214482,
+                "sum": 1549934217,
+                "core_batch": 307214482
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 236868093,
+                "input_normalization": 975937862,
+                "batch": 307632369,
+                "sum": 1520438324,
+                "core_batch": 307632369
+              },
+              "wall_ns": {
+                "input_loading": 236889321,
+                "input_normalization": 976150180,
+                "batch": 307706516,
+                "sum": 1520746017,
+                "core_batch": 307706516
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 227499017,
+                "input_normalization": 1004308103,
+                "batch": 302709189,
+                "sum": 1534516309,
+                "core_batch": 302709189
+              },
+              "wall_ns": {
+                "input_loading": 227551952,
+                "input_normalization": 1004481564,
+                "batch": 302771823,
+                "sum": 1534805339,
+                "core_batch": 302771823
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 233857505,
+                "input_normalization": 1001143533,
+                "batch": 306433922,
+                "sum": 1541434960,
+                "core_batch": 306433922
+              },
+              "wall_ns": {
+                "input_loading": 233940980,
+                "input_normalization": 1001351009,
+                "batch": 306487382,
+                "sum": 1541779371,
+                "core_batch": 306487382
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1534.516309,
+          "cpu_ms_core_batch_median": 306.433922,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1534.805339,
+          "wall_ms_core_batch_median": 306.487382
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_label_change",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9053882,
+                "input_normalization": 427362,
+                "batch": 42954483,
+                "sum": 52435727,
+                "core_batch": 42954483
+              },
+              "wall_ns": {
+                "input_loading": 9053592,
+                "input_normalization": 427625,
+                "batch": 42956409,
+                "sum": 52437626,
+                "core_batch": 42956409
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9165708,
+                "input_normalization": 424143,
+                "batch": 43773727,
+                "sum": 53363578,
+                "core_batch": 43773727
+              },
+              "wall_ns": {
+                "input_loading": 9165327,
+                "input_normalization": 424312,
+                "batch": 43788081,
+                "sum": 53377720,
+                "core_batch": 43788081
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9099206,
+                "input_normalization": 441088,
+                "batch": 44119965,
+                "sum": 53660259,
+                "core_batch": 44119965
+              },
+              "wall_ns": {
+                "input_loading": 9099645,
+                "input_normalization": 441354,
+                "batch": 44144664,
+                "sum": 53685663,
+                "core_batch": 44144664
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9319927,
+                "input_normalization": 442700,
+                "batch": 43434910,
+                "sum": 53197537,
+                "core_batch": 43434910
+              },
+              "wall_ns": {
+                "input_loading": 9329357,
+                "input_normalization": 443100,
+                "batch": 43436880,
+                "sum": 53209337,
+                "core_batch": 43436880
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9185723,
+                "input_normalization": 445793,
+                "batch": 44034822,
+                "sum": 53666338,
+                "core_batch": 44034822
+              },
+              "wall_ns": {
+                "input_loading": 9185653,
+                "input_normalization": 446031,
+                "batch": 44036863,
+                "sum": 53668547,
+                "core_batch": 44036863
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.363578,
+          "cpu_ms_core_batch_median": 43.773727,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 53.37772,
+          "wall_ms_core_batch_median": 43.788081
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9239455,
+                "input_normalization": 427169,
+                "batch": 58906686,
+                "sum": 68573310,
+                "core_batch": 47612871
+              },
+              "wall_ns": {
+                "input_loading": 9239782,
+                "input_normalization": 427356,
+                "batch": 58933474,
+                "sum": 68600612,
+                "core_batch": 47638359
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9486040,
+                "input_normalization": 433971,
+                "batch": 62592973,
+                "sum": 72512984,
+                "core_batch": 50948761
+              },
+              "wall_ns": {
+                "input_loading": 9485874,
+                "input_normalization": 434264,
+                "batch": 62615364,
+                "sum": 72535502,
+                "core_batch": 50968715
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9167777,
+                "input_normalization": 423783,
+                "batch": 60864754,
+                "sum": 70456314,
+                "core_batch": 49359020
+              },
+              "wall_ns": {
+                "input_loading": 9167636,
+                "input_normalization": 423944,
+                "batch": 60878158,
+                "sum": 70469738,
+                "core_batch": 49370728
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9082632,
+                "input_normalization": 431263,
+                "batch": 61562492,
+                "sum": 71076387,
+                "core_batch": 50239161
+              },
+              "wall_ns": {
+                "input_loading": 9082502,
+                "input_normalization": 431466,
+                "batch": 61578213,
+                "sum": 71092181,
+                "core_batch": 50253656
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9315652,
+                "input_normalization": 447352,
+                "batch": 60124173,
+                "sum": 69887177,
+                "core_batch": 48486806
+              },
+              "wall_ns": {
+                "input_loading": 9316260,
+                "input_normalization": 447632,
+                "batch": 60126790,
+                "sum": 69890682,
+                "core_batch": 48488053
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 70.456314,
+          "cpu_ms_core_batch_median": 49.35902,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 70.469738,
+          "wall_ms_core_batch_median": 49.370728
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9205391,
+                "input_normalization": 400941,
+                "batch": 1376544,
+                "sum": 10982876,
+                "core_batch": 1376544
+              },
+              "wall_ns": {
+                "input_loading": 9205643,
+                "input_normalization": 401100,
+                "batch": 1376584,
+                "sum": 10983327,
+                "core_batch": 1376584
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9251583,
+                "input_normalization": 504139,
+                "batch": 1395473,
+                "sum": 11151195,
+                "core_batch": 1395473
+              },
+              "wall_ns": {
+                "input_loading": 9251716,
+                "input_normalization": 504799,
+                "batch": 1395491,
+                "sum": 11152006,
+                "core_batch": 1395491
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9306646,
+                "input_normalization": 416295,
+                "batch": 1375127,
+                "sum": 11098068,
+                "core_batch": 1375127
+              },
+              "wall_ns": {
+                "input_loading": 9306456,
+                "input_normalization": 416670,
+                "batch": 1375115,
+                "sum": 11098241,
+                "core_batch": 1375115
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9347797,
+                "input_normalization": 414338,
+                "batch": 1374135,
+                "sum": 11136270,
+                "core_batch": 1374135
+              },
+              "wall_ns": {
+                "input_loading": 9347625,
+                "input_normalization": 414571,
+                "batch": 1374157,
+                "sum": 11136353,
+                "core_batch": 1374157
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9255463,
+                "input_normalization": 440953,
+                "batch": 1375747,
+                "sum": 11072163,
+                "core_batch": 1375747
+              },
+              "wall_ns": {
+                "input_loading": 9255400,
+                "input_normalization": 441326,
+                "batch": 1375760,
+                "sum": 11072486,
+                "core_batch": 1375760
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.098068,
+          "cpu_ms_core_batch_median": 1.375747,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 11.098241,
+          "wall_ms_core_batch_median": 1.37576
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_label_change",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 227802935,
+                "input_normalization": 1004300199,
+                "batch": 351261915,
+                "sum": 1583365049,
+                "core_batch": 351261915
+              },
+              "wall_ns": {
+                "input_loading": 227846140,
+                "input_normalization": 1004498116,
+                "batch": 351339829,
+                "sum": 1583684085,
+                "core_batch": 351339829
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 229162152,
+                "input_normalization": 998527652,
+                "batch": 354994121,
+                "sum": 1582683925,
+                "core_batch": 354994121
+              },
+              "wall_ns": {
+                "input_loading": 229195460,
+                "input_normalization": 998739331,
+                "batch": 355037963,
+                "sum": 1582972754,
+                "core_batch": 355037963
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 230986828,
+                "input_normalization": 1000973017,
+                "batch": 351506195,
+                "sum": 1583466040,
+                "core_batch": 351506195
+              },
+              "wall_ns": {
+                "input_loading": 231051657,
+                "input_normalization": 1001132729,
+                "batch": 351559790,
+                "sum": 1583744176,
+                "core_batch": 351559790
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 231039753,
+                "input_normalization": 994881705,
+                "batch": 350855499,
+                "sum": 1576776957,
+                "core_batch": 350855499
+              },
+              "wall_ns": {
+                "input_loading": 231082524,
+                "input_normalization": 995050828,
+                "batch": 350956853,
+                "sum": 1577090205,
+                "core_batch": 350956853
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 227145194,
+                "input_normalization": 970503708,
+                "batch": 348445548,
+                "sum": 1546094450,
+                "core_batch": 348445548
+              },
+              "wall_ns": {
+                "input_loading": 227198576,
+                "input_normalization": 970651039,
+                "batch": 348523674,
+                "sum": 1546373289,
+                "core_batch": 348523674
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1582.683925,
+          "cpu_ms_core_batch_median": 351.261915,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1582.972754,
+          "wall_ms_core_batch_median": 351.339829
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 228939597,
+                "input_normalization": 1001029776,
+                "batch": 371740804,
+                "sum": 1601710177,
+                "core_batch": 361154446
+              },
+              "wall_ns": {
+                "input_loading": 228959344,
+                "input_normalization": 1001263232,
+                "batch": 371826881,
+                "sum": 1602049457,
+                "core_batch": 361239240
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 229702460,
+                "input_normalization": 994673557,
+                "batch": 371066015,
+                "sum": 1595442032,
+                "core_batch": 360622037
+              },
+              "wall_ns": {
+                "input_loading": 229770319,
+                "input_normalization": 994864355,
+                "batch": 371134380,
+                "sum": 1595769054,
+                "core_batch": 360688920
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 233967095,
+                "input_normalization": 1001569461,
+                "batch": 375245604,
+                "sum": 1610782160,
+                "core_batch": 365060102
+              },
+              "wall_ns": {
+                "input_loading": 236617925,
+                "input_normalization": 1001744560,
+                "batch": 375321347,
+                "sum": 1613683832,
+                "core_batch": 365134641
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 232213236,
+                "input_normalization": 1000911286,
+                "batch": 371959097,
+                "sum": 1605083619,
+                "core_batch": 361419237
+              },
+              "wall_ns": {
+                "input_loading": 252270306,
+                "input_normalization": 1001122176,
+                "batch": 372045741,
+                "sum": 1625438223,
+                "core_batch": 361504350
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 225752336,
+                "input_normalization": 1006740925,
+                "batch": 357497242,
+                "sum": 1589990503,
+                "core_batch": 347541199
+              },
+              "wall_ns": {
+                "input_loading": 225796766,
+                "input_normalization": 1006923861,
+                "batch": 357570478,
+                "sum": 1590291105,
+                "core_batch": 347613239
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1601.710177,
+          "cpu_ms_core_batch_median": 361.154446,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1602.049457,
+          "wall_ms_core_batch_median": 361.23924
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 231781243,
+                "input_normalization": 1002605600,
+                "batch": 307771978,
+                "sum": 1542158821,
+                "core_batch": 307771978
+              },
+              "wall_ns": {
+                "input_loading": 231835547,
+                "input_normalization": 1002817957,
+                "batch": 307837728,
+                "sum": 1542491232,
+                "core_batch": 307837728
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 227300671,
+                "input_normalization": 1001483989,
+                "batch": 308654281,
+                "sum": 1537438941,
+                "core_batch": 308654281
+              },
+              "wall_ns": {
+                "input_loading": 227339232,
+                "input_normalization": 1012578168,
+                "batch": 308693239,
+                "sum": 1548610639,
+                "core_batch": 308693239
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 227544865,
+                "input_normalization": 997270929,
+                "batch": 308678559,
+                "sum": 1533494353,
+                "core_batch": 308678559
+              },
+              "wall_ns": {
+                "input_loading": 227601071,
+                "input_normalization": 997450633,
+                "batch": 308736992,
+                "sum": 1533788696,
+                "core_batch": 308736992
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 231074964,
+                "input_normalization": 970303889,
+                "batch": 308994886,
+                "sum": 1510373739,
+                "core_batch": 308994886
+              },
+              "wall_ns": {
+                "input_loading": 231132521,
+                "input_normalization": 970475857,
+                "batch": 309054695,
+                "sum": 1510663073,
+                "core_batch": 309054695
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 229544372,
+                "input_normalization": 1004494060,
+                "batch": 304933934,
+                "sum": 1538972366,
+                "core_batch": 304933934
+              },
+              "wall_ns": {
+                "input_loading": 229629341,
+                "input_normalization": 1004648517,
+                "batch": 305003200,
+                "sum": 1539281058,
+                "core_batch": 305003200
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1537.438941,
+          "cpu_ms_core_batch_median": 308.654281,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1539.281058,
+          "wall_ms_core_batch_median": 308.693239
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_required_p2_a3",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 227385,
+                "input_normalization": 125667,
+                "batch": 42919684,
+                "sum": 43272736,
+                "core_batch": 42919684
+              },
+              "wall_ns": {
+                "input_loading": 226332,
+                "input_normalization": 125698,
+                "batch": 42921639,
+                "sum": 43273669,
+                "core_batch": 42921639
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 223333,
+                "input_normalization": 131568,
+                "batch": 43325941,
+                "sum": 43680842,
+                "core_batch": 43325941
+              },
+              "wall_ns": {
+                "input_loading": 222190,
+                "input_normalization": 131616,
+                "batch": 43340898,
+                "sum": 43694704,
+                "core_batch": 43340898
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 230899,
+                "input_normalization": 124023,
+                "batch": 42992816,
+                "sum": 43347738,
+                "core_batch": 42992816
+              },
+              "wall_ns": {
+                "input_loading": 229869,
+                "input_normalization": 124060,
+                "batch": 42994803,
+                "sum": 43348732,
+                "core_batch": 42994803
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 232246,
+                "input_normalization": 127353,
+                "batch": 42981923,
+                "sum": 43341522,
+                "core_batch": 42981923
+              },
+              "wall_ns": {
+                "input_loading": 231436,
+                "input_normalization": 127393,
+                "batch": 42996120,
+                "sum": 43354949,
+                "core_batch": 42996120
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 225783,
+                "input_normalization": 130717,
+                "batch": 43337270,
+                "sum": 43693770,
+                "core_batch": 43337270
+              },
+              "wall_ns": {
+                "input_loading": 224810,
+                "input_normalization": 130765,
+                "batch": 43349665,
+                "sum": 43705240,
+                "core_batch": 43349665
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 43.347738,
+          "cpu_ms_core_batch_median": 42.992816,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 43.354949,
+          "wall_ms_core_batch_median": 42.99612
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 216379,
+                "input_normalization": 133147,
+                "batch": 94541892,
+                "sum": 94891418,
+                "core_batch": 84846572
+              },
+              "wall_ns": {
+                "input_loading": 215758,
+                "input_normalization": 133134,
+                "batch": 94546305,
+                "sum": 94895197,
+                "core_batch": 84849790
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 224824,
+                "input_normalization": 134045,
+                "batch": 100564862,
+                "sum": 100923731,
+                "core_batch": 90911725
+              },
+              "wall_ns": {
+                "input_loading": 223769,
+                "input_normalization": 134154,
+                "batch": 100584992,
+                "sum": 100942915,
+                "core_batch": 90930717
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 248162,
+                "input_normalization": 127672,
+                "batch": 99079219,
+                "sum": 99455053,
+                "core_batch": 89107589
+              },
+              "wall_ns": {
+                "input_loading": 247157,
+                "input_normalization": 127792,
+                "batch": 99101570,
+                "sum": 99476519,
+                "core_batch": 89128407
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 200031,
+                "input_normalization": 140052,
+                "batch": 93951254,
+                "sum": 94291337,
+                "core_batch": 84489150
+              },
+              "wall_ns": {
+                "input_loading": 199819,
+                "input_normalization": 140232,
+                "batch": 93964252,
+                "sum": 94304303,
+                "core_batch": 84500980
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 220374,
+                "input_normalization": 139826,
+                "batch": 96108638,
+                "sum": 96468838,
+                "core_batch": 86551777
+              },
+              "wall_ns": {
+                "input_loading": 219618,
+                "input_normalization": 140027,
+                "batch": 96130213,
+                "sum": 96489858,
+                "core_batch": 86572117
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 96.468838,
+          "cpu_ms_core_batch_median": 86.551777,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 96.489858,
+          "wall_ms_core_batch_median": 86.572117
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 221158,
+                "input_normalization": 126338,
+                "batch": 1225617,
+                "sum": 1573113,
+                "core_batch": 1225617
+              },
+              "wall_ns": {
+                "input_loading": 220106,
+                "input_normalization": 126355,
+                "batch": 1225653,
+                "sum": 1572114,
+                "core_batch": 1225653
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 225382,
+                "input_normalization": 128338,
+                "batch": 1232717,
+                "sum": 1586437,
+                "core_batch": 1232717
+              },
+              "wall_ns": {
+                "input_loading": 224326,
+                "input_normalization": 128346,
+                "batch": 1232743,
+                "sum": 1585415,
+                "core_batch": 1232743
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 222642,
+                "input_normalization": 127091,
+                "batch": 1233164,
+                "sum": 1582897,
+                "core_batch": 1233164
+              },
+              "wall_ns": {
+                "input_loading": 221846,
+                "input_normalization": 127156,
+                "batch": 1233173,
+                "sum": 1582175,
+                "core_batch": 1233173
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 239083,
+                "input_normalization": 122041,
+                "batch": 1213863,
+                "sum": 1574987,
+                "core_batch": 1213863
+              },
+              "wall_ns": {
+                "input_loading": 237602,
+                "input_normalization": 122084,
+                "batch": 1213903,
+                "sum": 1573589,
+                "core_batch": 1213903
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 239906,
+                "input_normalization": 128329,
+                "batch": 1220354,
+                "sum": 1588589,
+                "core_batch": 1220354
+              },
+              "wall_ns": {
+                "input_loading": 239012,
+                "input_normalization": 128357,
+                "batch": 1220374,
+                "sum": 1587743,
+                "core_batch": 1220374
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1.582897,
+          "cpu_ms_core_batch_median": 1.225617,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1.582175,
+          "wall_ms_core_batch_median": 1.225653
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_strict",
+      "workload": "unique",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9357640,
+                "input_normalization": 435987,
+                "batch": 42565761,
+                "sum": 52359388,
+                "core_batch": 42565761
+              },
+              "wall_ns": {
+                "input_loading": 9358105,
+                "input_normalization": 436210,
+                "batch": 42575954,
+                "sum": 52370269,
+                "core_batch": 42575954
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9264941,
+                "input_normalization": 429455,
+                "batch": 41660935,
+                "sum": 51355331,
+                "core_batch": 41660935
+              },
+              "wall_ns": {
+                "input_loading": 9264660,
+                "input_normalization": 429567,
+                "batch": 41662827,
+                "sum": 51357054,
+                "core_batch": 41662827
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9630763,
+                "input_normalization": 441953,
+                "batch": 43042513,
+                "sum": 53115229,
+                "core_batch": 43042513
+              },
+              "wall_ns": {
+                "input_loading": 9630379,
+                "input_normalization": 442369,
+                "batch": 43044465,
+                "sum": 53117213,
+                "core_batch": 43044465
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9267412,
+                "input_normalization": 434729,
+                "batch": 42322830,
+                "sum": 52024971,
+                "core_batch": 42322830
+              },
+              "wall_ns": {
+                "input_loading": 9267215,
+                "input_normalization": 435012,
+                "batch": 42348925,
+                "sum": 52051152,
+                "core_batch": 42348925
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9317477,
+                "input_normalization": 435286,
+                "batch": 42719158,
+                "sum": 52471921,
+                "core_batch": 42719158
+              },
+              "wall_ns": {
+                "input_loading": 9329686,
+                "input_normalization": 435547,
+                "batch": 42721098,
+                "sum": 52486331,
+                "core_batch": 42721098
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 52.359388,
+          "cpu_ms_core_batch_median": 42.565761,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 52.370269,
+          "wall_ms_core_batch_median": 42.575954
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9255701,
+                "input_normalization": 443177,
+                "batch": 61517886,
+                "sum": 71216764,
+                "core_batch": 49914638
+              },
+              "wall_ns": {
+                "input_loading": 9256295,
+                "input_normalization": 443423,
+                "batch": 61533444,
+                "sum": 71233162,
+                "core_batch": 49928439
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9199812,
+                "input_normalization": 411065,
+                "batch": 60099579,
+                "sum": 69710456,
+                "core_batch": 49137352
+              },
+              "wall_ns": {
+                "input_loading": 9199819,
+                "input_normalization": 411247,
+                "batch": 60102335,
+                "sum": 69713401,
+                "core_batch": 49138795
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 9431802,
+                "input_normalization": 436962,
+                "batch": 62253986,
+                "sum": 72122750,
+                "core_batch": 50488214
+              },
+              "wall_ns": {
+                "input_loading": 9432408,
+                "input_normalization": 437335,
+                "batch": 62275457,
+                "sum": 72145200,
+                "core_batch": 50507940
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9283735,
+                "input_normalization": 415479,
+                "batch": 60875580,
+                "sum": 70574794,
+                "core_batch": 49834096
+              },
+              "wall_ns": {
+                "input_loading": 9283707,
+                "input_normalization": 415694,
+                "batch": 60893393,
+                "sum": 70592794,
+                "core_batch": 49850525
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9082673,
+                "input_normalization": 444468,
+                "batch": 60306592,
+                "sum": 69833733,
+                "core_batch": 48879537
+              },
+              "wall_ns": {
+                "input_loading": 9082833,
+                "input_normalization": 444939,
+                "batch": 60317711,
+                "sum": 69845483,
+                "core_batch": 48889172
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 70.574794,
+          "cpu_ms_core_batch_median": 49.834096,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 70.592794,
+          "wall_ms_core_batch_median": 49.850525
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 9092766,
+                "input_normalization": 408787,
+                "batch": 1394721,
+                "sum": 10896274,
+                "core_batch": 1394721
+              },
+              "wall_ns": {
+                "input_loading": 9092890,
+                "input_normalization": 408928,
+                "batch": 1394716,
+                "sum": 10896534,
+                "core_batch": 1394716
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 9121064,
+                "input_normalization": 417298,
+                "batch": 1435183,
+                "sum": 10973545,
+                "core_batch": 1435183
+              },
+              "wall_ns": {
+                "input_loading": 9120821,
+                "input_normalization": 417511,
+                "batch": 1435195,
+                "sum": 10973527,
+                "core_batch": 1435195
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 8993379,
+                "input_normalization": 410772,
+                "batch": 1383471,
+                "sum": 10787622,
+                "core_batch": 1383471
+              },
+              "wall_ns": {
+                "input_loading": 8993301,
+                "input_normalization": 411078,
+                "batch": 1383455,
+                "sum": 10787834,
+                "core_batch": 1383455
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 9029470,
+                "input_normalization": 449643,
+                "batch": 1432997,
+                "sum": 10912110,
+                "core_batch": 1432997
+              },
+              "wall_ns": {
+                "input_loading": 9029544,
+                "input_normalization": 449947,
+                "batch": 1433021,
+                "sum": 10912512,
+                "core_batch": 1433021
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 9208151,
+                "input_normalization": 450973,
+                "batch": 1433288,
+                "sum": 11092412,
+                "core_batch": 1433288
+              },
+              "wall_ns": {
+                "input_loading": 9208127,
+                "input_normalization": 451479,
+                "batch": 1433280,
+                "sum": 11092886,
+                "core_batch": 1433280
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 10.91211,
+          "cpu_ms_core_batch_median": 1.432997,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 10.912512,
+          "wall_ms_core_batch_median": 1.433021
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    },
+    {
+      "name": "procurement_strict",
+      "workload": "weighted",
+      "methods": {
+        "finite_fibers": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 227030090,
+                "input_normalization": 984261786,
+                "batch": 618837853,
+                "sum": 1830129729,
+                "core_batch": 618837853
+              },
+              "wall_ns": {
+                "input_loading": 227059136,
+                "input_normalization": 984484620,
+                "batch": 618975093,
+                "sum": 1830518849,
+                "core_batch": 618975093
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 249135598,
+                "input_normalization": 1002021728,
+                "batch": 613760414,
+                "sum": 1864917740,
+                "core_batch": 613760414
+              },
+              "wall_ns": {
+                "input_loading": 249199347,
+                "input_normalization": 1002186635,
+                "batch": 613892103,
+                "sum": 1865278085,
+                "core_batch": 613892103
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 227510197,
+                "input_normalization": 988270291,
+                "batch": 614470599,
+                "sum": 1830251087,
+                "core_batch": 614470599
+              },
+              "wall_ns": {
+                "input_loading": 227558282,
+                "input_normalization": 988451057,
+                "batch": 614586097,
+                "sum": 1830595436,
+                "core_batch": 614586097
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 229401047,
+                "input_normalization": 989046841,
+                "batch": 614554975,
+                "sum": 1833002863,
+                "core_batch": 614554975
+              },
+              "wall_ns": {
+                "input_loading": 229429978,
+                "input_normalization": 989386005,
+                "batch": 614679192,
+                "sum": 1833495175,
+                "core_batch": 614679192
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 244743639,
+                "input_normalization": 1032787823,
+                "batch": 604183824,
+                "sum": 1881715286,
+                "core_batch": 604183824
+              },
+              "wall_ns": {
+                "input_loading": 244768626,
+                "input_normalization": 1032984711,
+                "batch": 604326568,
+                "sum": 1882079905,
+                "core_batch": 604326568
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1833.002863,
+          "cpu_ms_core_batch_median": 614.470599,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1833.495175,
+          "wall_ms_core_batch_median": 614.586097
+        },
+        "incremental_smt": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 223160259,
+                "input_normalization": 1010340395,
+                "batch": 647802345,
+                "sum": 1881302999,
+                "core_batch": 637680488
+              },
+              "wall_ns": {
+                "input_loading": 223236714,
+                "input_normalization": 1010526088,
+                "batch": 647928468,
+                "sum": 1881691270,
+                "core_batch": 637805356
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 235220060,
+                "input_normalization": 1007528542,
+                "batch": 647148730,
+                "sum": 1889897332,
+                "core_batch": 637080045
+              },
+              "wall_ns": {
+                "input_loading": 235250240,
+                "input_normalization": 1007712895,
+                "batch": 647288246,
+                "sum": 1890251381,
+                "core_batch": 637218262
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 229869697,
+                "input_normalization": 993392476,
+                "batch": 649169246,
+                "sum": 1872431419,
+                "core_batch": 638535155
+              },
+              "wall_ns": {
+                "input_loading": 229890311,
+                "input_normalization": 993591623,
+                "batch": 649292466,
+                "sum": 1872774400,
+                "core_batch": 638656756
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 224163380,
+                "input_normalization": 1000750204,
+                "batch": 664028984,
+                "sum": 1888942568,
+                "core_batch": 653710785
+              },
+              "wall_ns": {
+                "input_loading": 224212218,
+                "input_normalization": 1000949946,
+                "batch": 664147149,
+                "sum": 1889309313,
+                "core_batch": 653827426
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 223845919,
+                "input_normalization": 1061229632,
+                "batch": 645560343,
+                "sum": 1930635894,
+                "core_batch": 635140994
+              },
+              "wall_ns": {
+                "input_loading": 223884289,
+                "input_normalization": 1061472120,
+                "batch": 645658795,
+                "sum": 1931015204,
+                "core_batch": 635237169
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1888.942568,
+          "cpu_ms_core_batch_median": 637.680488,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1889.309313,
+          "wall_ms_core_batch_median": 637.805356
+        },
+        "direct_residual": {
+          "rounds": 5,
+          "per_round_disjoint_intervals": [
+            {
+              "round": 0,
+              "cpu_ns": {
+                "input_loading": 228552264,
+                "input_normalization": 997423749,
+                "batch": 582736935,
+                "sum": 1808712948,
+                "core_batch": 582736935
+              },
+              "wall_ns": {
+                "input_loading": 228629783,
+                "input_normalization": 997626845,
+                "batch": 582836113,
+                "sum": 1809092741,
+                "core_batch": 582836113
+              }
+            },
+            {
+              "round": 1,
+              "cpu_ns": {
+                "input_loading": 233339372,
+                "input_normalization": 1012770314,
+                "batch": 583974588,
+                "sum": 1830084274,
+                "core_batch": 583974588
+              },
+              "wall_ns": {
+                "input_loading": 233389304,
+                "input_normalization": 1012941583,
+                "batch": 584363862,
+                "sum": 1830694749,
+                "core_batch": 584363862
+              }
+            },
+            {
+              "round": 2,
+              "cpu_ns": {
+                "input_loading": 234672259,
+                "input_normalization": 997583597,
+                "batch": 579040957,
+                "sum": 1811296813,
+                "core_batch": 579040957
+              },
+              "wall_ns": {
+                "input_loading": 234693585,
+                "input_normalization": 997753874,
+                "batch": 579181329,
+                "sum": 1811628788,
+                "core_batch": 579181329
+              }
+            },
+            {
+              "round": 3,
+              "cpu_ns": {
+                "input_loading": 229510792,
+                "input_normalization": 986236778,
+                "batch": 576740916,
+                "sum": 1792488486,
+                "core_batch": 576740916
+              },
+              "wall_ns": {
+                "input_loading": 229571959,
+                "input_normalization": 986515673,
+                "batch": 576823763,
+                "sum": 1792911395,
+                "core_batch": 576823763
+              }
+            },
+            {
+              "round": 4,
+              "cpu_ns": {
+                "input_loading": 233408458,
+                "input_normalization": 1059241626,
+                "batch": 580841379,
+                "sum": 1873491463,
+                "core_batch": 580841379
+              },
+              "wall_ns": {
+                "input_loading": 233450471,
+                "input_normalization": 1059466050,
+                "batch": 580954654,
+                "sum": 1873871175,
+                "core_batch": 580954654
+              }
+            }
+          ],
+          "cpu_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1811.296813,
+          "cpu_ms_core_batch_median": 580.841379,
+          "wall_ms_median_of_recorded_loading_normalization_cold_batch_sum": 1811.628788,
+          "wall_ms_core_batch_median": 580.954654
+        }
+      },
+      "minimum_sum_method": "direct_residual"
+    }
+  ],
+  "measured_rows": 270,
+  "warmup_rows_excluded": 54,
+  "minimum_sum_wins": {
+    "direct_residual": 18
+  },
+  "strict_weighted_residual_reduction_vs_finite_percent": {
+    "generation_core_only": 5.472876986259196,
+    "recorded_loading_normalization_cold_batch_sum": 1.184179819799878
+  },
+  "matches_all_panel_cpu_summaries": true,
+  "scope": "Post hoc sums within each saved measured round, then median across five rounds. No fresh benchmark. Batch includes setup, cold dependency import and serialization; serialization is not added again. Source recovery, hardened portable-envelope validation, durable writes and service overhead are excluded."
+}

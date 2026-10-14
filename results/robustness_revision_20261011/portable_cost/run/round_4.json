@@ -1,0 +1,95 @@
+{
+  "round": 3,
+  "measured": true,
+  "mode": "measured",
+  "import_load_ms": 7.160583,
+  "input_setup_ms": 9.780467,
+  "child_body_ms": 1847.40067,
+  "stages": [
+    {
+      "stage": "report_construction",
+      "elapsed_ms": 33.279752
+    },
+    {
+      "stage": "exact_id_construction",
+      "elapsed_ms": 3.553398
+    },
+    {
+      "stage": "payload_serialization",
+      "elapsed_ms": 103.113094
+    },
+    {
+      "stage": "detached_bundle_verification",
+      "elapsed_ms": 31.863573
+    },
+    {
+      "stage": "directory_verification",
+      "elapsed_ms": 92.307466
+    },
+    {
+      "stage": "directory_with_original_source_reconciliation",
+      "elapsed_ms": 1546.784039
+    }
+  ],
+  "verification": {
+    "detached_bundle_verification": {
+      "status": "passed",
+      "reports": 25,
+      "artifacts": 8,
+      "bundle_sha256": "7c220d921dd6c5254a4bfe5e5016cac9bd647dded7d16b7141338a845e651582",
+      "verification": "raw old sufficiency, new status, all minimal robust sets, literal witnesses and bindings",
+      "boundary": "Integrity and conditional finite semantics; no authentication or live freshness"
+    },
+    "directory_verification": {
+      "status": "passed",
+      "reports": 25,
+      "artifacts": 8,
+      "bundle_sha256": "7c220d921dd6c5254a4bfe5e5016cac9bd647dded7d16b7141338a845e651582",
+      "verification": "raw old sufficiency, new status, all minimal robust sets, literal witnesses and bindings",
+      "boundary": "Integrity and conditional finite semantics; no authentication or live freshness",
+      "affected_ids": 33489,
+      "affected_classes": 3,
+      "original_source_reconciliation": false
+    },
+    "directory_with_original_source_reconciliation": {
+      "status": "passed",
+      "reports": 25,
+      "artifacts": 8,
+      "bundle_sha256": "7c220d921dd6c5254a4bfe5e5016cac9bd647dded7d16b7141338a845e651582",
+      "verification": "raw old sufficiency, new status, all minimal robust sets, literal witnesses and bindings",
+      "boundary": "Integrity and conditional finite semantics; no authentication or live freshness",
+      "affected_ids": 33489,
+      "affected_classes": 3,
+      "original_source_reconciliation": true
+    }
+  },
+  "payload_bytes": {
+    "bundle_json": 125065,
+    "affected_ids_gzip": 92732
+  },
+  "generated_bundle_sha256": "7c220d921dd6c5254a4bfe5e5016cac9bd647dded7d16b7141338a845e651582",
+  "generated_id_content_sha256": "0f53ade263745060a94a33a77875a3eab3f67c97af66bc09cc1181f8fb9e672f",
+  "strict_class_status_counts": {
+    "insufficient": 3,
+    "safe": 17
+  },
+  "environment": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "executable": "/home/shlee/nudix_workspace/logistics_event_validation_research/.venv/bin/python",
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+    "cpu_model": "12th Gen Intel(R) Core(TM) i9-12900K",
+    "affinity": [
+      0
+    ],
+    "pid": 2980421,
+    "perf_counter": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "hash_seed": "0"
+  },
+  "subprocess_wall_ms": 1881.991999,
+  "stderr": ""
+}

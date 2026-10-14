@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "scope": "Three genuine local OPA decision logs for one public archive case; separate integration controls outside the primary 941 class requests. Conditional binding checks, not issuer authentication. No source acquisition or portable-bundle export is performed by the importer/planner.",
+  "native_manifest": {
+    "path": "/home/shlee/nudix_workspace/logistics_event_validation_research/results/platform_revision_20261010/opa/run/native_logs/manifest.json",
+    "sha256": "57a3c964ac344c2ed906bcd565372db81f5a6bee99e4ba17576c44c9db07f463"
+  },
+  "source_reconciliation": {
+    "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "case_id": "4507000469_00001",
+    "complete_original_blocks_match_requests": true,
+    "normalized_aliases_match_raw": true,
+    "source_in_heldout_receipt_cohort": false
+  },
+  "archived_policy_sha256": "4fc2d2689a9cf3d33714539854fe4458783ba4f3cce7913cd6b4c9aa539e3792",
+  "archived_mask_policy_sha256": "5b7b7fc4cb32b656af15873a1412a0d38fd74892948989303f5162fb48dd24a2",
+  "native_controls": [
+    {
+      "name": "native_strict_profile_masked",
+      "decision_id": "3daccec3-b49c-485f-bc43-22ecd881cb33",
+      "source_case_id": "4507000469_00001",
+      "status": "insufficient",
+      "retained_blocks": [
+        "first_times"
+      ],
+      "robust_additional_sets": [
+        [
+          "profile"
+        ]
+      ]
+    },
+    {
+      "name": "native_full_retention",
+      "decision_id": "b126e324-b348-4131-abcb-f1f13c03055c",
+      "source_case_id": "4507000469_00001",
+      "status": "safe",
+      "retained_blocks": [
+        "first_times",
+        "profile"
+      ],
+      "robust_additional_sets": [
+        []
+      ]
+    },
+    {
+      "name": "insufficient_old_both_masked",
+      "decision_id": "14497e10-1324-4d7d-9f9c-3d1f8f9b4135",
+      "source_case_id": "4507000469_00001",
+      "status": "invalid_receipt",
+      "retained_blocks": [],
+      "robust_additional_sets": []
+    }
+  ],
+  "tests": {
+    "command": [
+      "/home/shlee/nudix_workspace/logistics_event_validation_research/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_opa_log_adapter.py"
+    ],
+    "returncode": 0,
+    "stdout": ".....................................................                    [100%]\n53 passed in 0.07s\n"
+  },
+  "source_hashes": {
+    "scripts/check_opa_log_adapter.py": "eea76ada0f8f81c095cf7a8d2bdee32ae6281c0f83627dcce4f38b9ec3ec41fa",
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7",
+    "src/logistics_validation/audit_report.py": "b0c9fca31d347440fc7a641c6fb1ffeac017c8af251a45ef59b037c71f95634b",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "src/logistics_validation/model.py": "19d723337567a230ae680a4786a14bbe0af56eb43543885cc8c0c3a850015264",
+    "src/logistics_validation/opa_log_adapter.py": "064ec02f00b9d18b219ba3585646e29e9b42833dda96330015feda3a3c07e8b8",
+    "src/logistics_validation/revision_diagnostics.py": "438e35aece87bf35de26df37c806da6e8263a326d9c9de98bbf34c686ec90594",
+    "src/logistics_validation/standards_epcis.py": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5",
+    "tests/test_opa_log_adapter.py": "493b1b35080f3cfd6dcc8748408276cac643b2e1ad5dec98ee2bf5e29fa0257b"
+  },
+  "files": {
+    "insufficient_old_both_masked.input.json": "bc199fefb900be1db2c1cb4e1c620bbb45fbaebc84a8db099d73fa3d668812ea",
+    "insufficient_old_both_masked.output.json": "f3f513580ddec05d153a6a74b81340f62bbabddddd61fe061f4196b4b5a75790",
+    "native_full_retention.input.json": "6fa3405e2421e367faff6047d7fd084703f8248a46b6125d5bf1dc55be2ab267",
+    "native_full_retention.output.json": "803ed18337ec73fd371e480088356f386eb63f1aca89b99af003c27a39889f01",
+    "native_strict_profile_masked.input.json": "86b273d84ae7dc70810a9388c827c3ae0e8e266c36232ebd699280280a872f56",
+    "native_strict_profile_masked.output.json": "18bcc8345f951f0611cc20ae44205e11524547cc6545399831b3faeebbdd2ed8",
+    "pytest.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pytest.stdout.txt": "21465461ac841699b21982bc08c74d4bcc96c737a353065b786740317c0df522"
+  }
+}

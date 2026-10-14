@@ -1,0 +1,63 @@
+{
+  "prepared_utc": "2026-10-10T03:10:57.863488+00:00",
+  "protocol_sha256": "d2cb49ff40bf3454eac1c227be949bc0f220e65cfbc3266a3330bb5f94e0520a",
+  "source_and_independent_check_hashes": {
+    "configs/repair_execution_protocol.json": "d2cb49ff40bf3454eac1c227be949bc0f220e65cfbc3266a3330bb5f94e0520a",
+    "results/repair_revision_20261010/methods/check_repair_ledger.py": "ed36ab5bc10d18814e3df798984d446723904ce4250b11f945946068570e425a",
+    "results/repair_revision_20261010/methods/check_repair_methods.py": "ee341dbf021ea441ea77b28c5c4cb5f2539775e4942548613d8e6a9fdf73170e",
+    "results/repair_revision_20261010/methods/independent_expected_cases.json": "432aebfa469d7f1ab3ce5982877b3976d00dd60b37cf9b632fa4bc1875007ac5",
+    "scripts/run_receipt_repair.py": "d4c0ece2b7f8cc61f9b5f504b77a19c34cb314363732dd243d81970829dd234d",
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7",
+    "src/logistics_validation/audit_report.py": "f77eb25af3bcb1f43bb1351cd0bee1d894995e3c7689ae6ba5c2fcb31040a2aa",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "src/logistics_validation/model.py": "19d723337567a230ae680a4786a14bbe0af56eb43543885cc8c0c3a850015264",
+    "src/logistics_validation/receipt_repair.py": "faa0e1856cf8148e6577fcf0933e3a0d05e2855f4c79a1b002e2eb40cd35d031",
+    "src/logistics_validation/revision_diagnostics.py": "438e35aece87bf35de26df37c806da6e8263a326d9c9de98bbf34c686ec90594",
+    "src/logistics_validation/standards_epcis.py": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5",
+    "tests/test_receipt_repair.py": "2cd00a3f127f29af72a8e04463d857de75ede4c044d57b87e3208224e0c93c07"
+  },
+  "input_hashes": {
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/perspective_revision/coverage/native_challenge_classes.json": "1dfef05cd09d2331d966b64334b313d60eaaf91d486e4814e653835b4b810765",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "results/compact_revision/evidence/native_check.json": "072dfb0eab1520d539e077e351140fed8da551959e6c9408db4dc4a4e5b71b87",
+    "results/platform_revision_20261010/log_adapter/insufficient_old_both_masked.input.json": "bc199fefb900be1db2c1cb4e1c620bbb45fbaebc84a8db099d73fa3d668812ea",
+    "results/platform_revision_20261010/log_adapter/native_full_retention.input.json": "6fa3405e2421e367faff6047d7fd084703f8248a46b6125d5bf1dc55be2ab267",
+    "results/platform_revision_20261010/log_adapter/native_strict_profile_masked.input.json": "86b273d84ae7dc70810a9388c827c3ae0e8e266c36232ebd699280280a872f56",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/audit_report.py": "f77eb25af3bcb1f43bb1351cd0bee1d894995e3c7689ae6ba5c2fcb31040a2aa",
+    "src/logistics_validation/opa_log_adapter.py": "064ec02f00b9d18b219ba3585646e29e9b42833dda96330015feda3a3c07e8b8",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "scripts/revalidate_receipt.py": "83a9eb3ca226fd0350a9f8cb078072056eeb1a30ffe4812c686579a02be7d733"
+  },
+  "known_reconciliation_targets": {
+    "target_case_counts": {
+      "edge_p0_a0_b1": 0,
+      "required_p2_a3": 113,
+      "edge_p2_a0_b2": 0,
+      "edge_p2_a2_b3": 1
+    },
+    "all_authorized": {
+      "adaptive_replacements": 114,
+      "adaptive_P_reads": 114,
+      "adaptive_T_reads": 85,
+      "robust_replacements": 114,
+      "robust_P_reads": 114,
+      "robust_T_reads": 114
+    },
+    "profile_only_times_unavailable": {
+      "adaptive_replacements": 29,
+      "adaptive_unresolved": 85,
+      "adaptive_P_reads": 114,
+      "adaptive_T_reads": 0,
+      "robust_replacements": 0,
+      "robust_unresolved": 114,
+      "robust_source_reads": 0
+    }
+  },
+  "scope": "Source/test/checker hash freeze before replay; outcome counts already known from previous work."
+}

@@ -1,0 +1,27 @@
+7-alpine: Pulling from library/redis
+7eb50503c2b0: Pulling fs layer
+83234986c742: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+4eb14bae0e1d: Pulling fs layer
+1522f9c6f453: Pulling fs layer
+16333ee0c00f: Pulling fs layer
+9928009b15c8: Pulling fs layer
+4f4fb700ef54: Already exists
+7eb50503c2b0: Download complete
+4eb14bae0e1d: Download complete
+83234986c742: Download complete
+1522f9c6f453: Download complete
+9928009b15c8: Download complete
+16333ee0c00f: Download complete
+16333ee0c00f: Pull complete
+7eb50503c2b0: Pull complete
+83234986c742: Pull complete
+54779914f171: Download complete
+1522f9c6f453: Pull complete
+3beebc06c4ca: Download complete
+4f4fb700ef54: Pull complete
+9928009b15c8: Pull complete
+4eb14bae0e1d: Pull complete
+Digest: sha256:858f009f9709ce576febc734aa78b8f6d624b82571f9ddb6bda4377c833b3499
+Status: Downloaded newer image for redis:7-alpine
+docker.io/library/redis:7-alpine

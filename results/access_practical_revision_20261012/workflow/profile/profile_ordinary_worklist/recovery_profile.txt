@@ -1,0 +1,48 @@
+         148294859 function calls (139671336 primitive calls) in 35.786 seconds
+
+   Ordered by: cumulative time
+   List reduced from 120 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.388    0.388   36.040   36.040 benchmark_equal_workflow.py:69(recovery)
+    50931    0.967    0.000   33.586    0.001 ordinary_audit_workflow.py:132(execute)
+   270702    2.736    0.000   16.871    0.000 audit_report.py:94(receipt_query)
+   135351    1.396    0.000   12.918    0.000 ordinary_audit_workflow.py:46(summary)
+8539586/387216    4.382    0.000    9.058    0.000 copy.py:118(deepcopy)
+757902/286749    1.415    0.000    8.306    0.000 copy.py:217(_deepcopy_dict)
+   873324    3.217    0.000    7.010    0.000 catalog_audit.py:183(reference_time)
+  1167228    1.920    0.000    3.661    0.000 {built-in method builtins.all}
+   541404    0.307    0.000    3.432    0.000 audit_report.py:68(_hash)
+   814000    1.471    0.000    2.805    0.000 ordinary_audit_workflow.py:31(decision)
+   219771    0.264    0.000    2.380    0.000 __init__.py:183(dumps)
+   219771    0.228    0.000    2.070    0.000 encoder.py:183(encode)
+   494248    0.307    0.000    1.979    0.000 {built-in method builtins.sorted}
+   219771    1.757    0.000    1.757    0.000 encoder.py:205(iterencode)
+  1163784    0.217    0.000    1.671    0.000 fractions.py:953(__lt__)
+  1163784    0.656    0.000    1.454    0.000 fractions.py:931(_richcmp)
+   101862    0.084    0.000    1.442    0.000 benchmark_audit_workflow.py:41(json_bytes)
+ 35191260    1.435    0.000    1.435    0.000 audit_report.py:69(<genexpr>)
+   320238    0.400    0.000    1.421    0.000 copy.py:191(_deepcopy_list)
+   117909    0.079    0.000    1.330    0.000 audit_report.py:54(digest)
+ 17179639    1.268    0.000    1.268    0.000 {method 'get' of 'dict' objects}
+  1746648    0.899    0.000    1.181    0.000 fractions.py:186(__new__)
+   873324    0.277    0.000    1.172    0.000 fractions.py:613(forward)
+   117909    0.079    0.000    1.142    0.000 audit_report.py:50(canonical)
+  5270239    0.571    0.000    0.900    0.000 {built-in method builtins.isinstance}
+    33489    0.125    0.000    0.858    0.000 receipt_repair.py:56(read)
+   873324    0.449    0.000    0.838    0.000 fractions.py:710(_add)
+  1448266    0.427    0.000    0.731    0.000 {built-in method builtins.any}
+ 11016104    0.656    0.000    0.656    0.000 {built-in method builtins.id}
+  6188698    0.571    0.000    0.571    0.000 {method 'index' of 'tuple' objects}
+  1078140    0.401    0.000    0.555    0.000 copy.py:231(_keep_alive)
+    50931    0.035    0.000    0.523    0.000 gzip.py:291(write)
+  2618330    0.449    0.000    0.505    0.000 fractions.py:906(__hash__)
+   270702    0.177    0.000    0.487    0.000 {built-in method fromkeys}
+    50931    0.025    0.000    0.470    0.000 {method 'write' of '_io.BufferedWriter' objects}
+     2243    0.001    0.000    0.445    0.000 gzip.py:129(write)
+     2243    0.006    0.000    0.444    0.000 gzip.py:302(_write_raw)
+     2243    0.423    0.000    0.423    0.000 {method 'compress' of 'zlib.Compress' objects}
+   873324    0.400    0.000    0.400    0.000 {method 'fullmatch' of 're.Pattern' objects}
+  1167068    0.180    0.000    0.329    0.000 <frozen abc>:117(__instancecheck__)
+
+

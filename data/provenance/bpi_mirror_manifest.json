@@ -1,0 +1,21 @@
+{
+  "availability": {
+    "original_url": "https://data.4tu.nl/file/35ed7122-966a-484e-a0e1-749b64e3366d/864493d1-3a58-47f6-ad6f-27f95f995828",
+    "original_doi": "10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "maintenance": true
+  },
+  "source": {
+    "path": "data/raw/bpi/BPI_Challenge_2019.xes",
+    "url": "https://media.githubusercontent.com/media/arafatro/CaRuD/f9053eec5c91bd5432bc7d97a0d0e77021a10209/data/BPI_Challenge_2019.xes",
+    "size": 728558522,
+    "sha256": "af63bc687fc4152f2123b05c3af7772b37ef3fce2d3f67f812666c9e356baae7",
+    "upstream_sha256": "af63bc687fc4152f2123b05c3af7772b37ef3fce2d3f67f812666c9e356baae7",
+    "license": "CC-BY-4.0 (original DataCite record)",
+    "acquired_utc": "2026-10-06T18:16:22.204603+00:00",
+    "original_doi": "10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+    "mirror_commit": "f9053eec5c91bd5432bc7d97a0d0e77021a10209",
+    "fidelity": "Pinned mirror hash checked; original repository byte identity not independently verified during maintenance"
+  }
+}

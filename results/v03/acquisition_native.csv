@@ -1,0 +1,9 @@
+variant,policy,n,profile_queries,time_queries,no_metadata_cases,one_block_cases,two_block_cases,payload_bytes,disagreements
+permissive,always_both,251734,251734,251734,0,0,251734,47033159,0
+permissive,profile_first,251734,234964,196464,16770,38500,196464,40908671,0
+permissive,time_first,251734,67246,234964,16770,167718,67246,38038046,0
+permissive,structural_order,251734,67246,196464,16770,206218,28746,33538746,0
+strict_consignment,always_both,251734,251734,251734,0,0,251734,47033159,0
+strict_consignment,profile_first,251734,207370,196464,44364,10906,196464,39695997,0
+strict_consignment,time_first,251734,207370,207370,44364,0,207370,40690315,0
+strict_consignment,structural_order,251734,207370,196464,44364,10906,196464,39695997,0

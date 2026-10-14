@@ -1,0 +1,443 @@
+[
+  {
+    "command": [
+      "git",
+      "init",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012/frappe"
+    ],
+    "label": "git_init_frappe",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.0022017955780029297
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012/frappe",
+      "remote",
+      "add",
+      "origin",
+      "https://github.com/frappe/frappe.git"
+    ],
+    "label": "git_remote_frappe",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.0010936260223388672
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012/frappe",
+      "fetch",
+      "--depth",
+      "2",
+      "origin",
+      "ab2ea34e2ca327b2a2c647abe0ac284be088a54f"
+    ],
+    "label": "git_fetch_frappe",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 2.1405787467956543
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012/frappe",
+      "checkout",
+      "-b",
+      "access-pinned",
+      "ab2ea34e2ca327b2a2c647abe0ac284be088a54f"
+    ],
+    "label": "git_checkout_frappe",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.2214982509613037
+  },
+  {
+    "command": [
+      "git",
+      "init",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012/erpnext"
+    ],
+    "label": "git_init_erpnext",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.007608890533447266
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012/erpnext",
+      "remote",
+      "add",
+      "origin",
+      "https://github.com/frappe/erpnext.git"
+    ],
+    "label": "git_remote_erpnext",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.0013649463653564453
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012/erpnext",
+      "fetch",
+      "--depth",
+      "2",
+      "origin",
+      "ff78778b7cde837bcd3128582280f34582522e5f"
+    ],
+    "label": "git_fetch_erpnext",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 2.977309465408325
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012/erpnext",
+      "checkout",
+      "-b",
+      "access-pinned",
+      "ff78778b7cde837bcd3128582280f34582522e5f"
+    ],
+    "label": "git_checkout_erpnext",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.25601983070373535
+  },
+  {
+    "command": [
+      "docker",
+      "pull",
+      "frappe/bench@sha256:8c500a20cb1933d0427c1568dcf3c8c37021c0e07be1ac268539fd7fe14ef557"
+    ],
+    "label": "pull_bench_image",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 1.9663610458374023
+  },
+  {
+    "command": [
+      "docker",
+      "pull",
+      "mariadb@sha256:6422478cb8e159f080fb1d8ccf65101e26fe51385787fde7d16c3b165a331f15"
+    ],
+    "label": "pull_database_image",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 1.920802116394043
+  },
+  {
+    "command": [
+      "docker",
+      "pull",
+      "redis@sha256:858f009f9709ce576febc734aa78b8f6d624b82571f9ddb6bda4377c833b3499"
+    ],
+    "label": "pull_redis_image",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 1.8699214458465576
+  },
+  {
+    "command": [
+      "docker",
+      "network",
+      "create",
+      "access-erp-7d73d602205d"
+    ],
+    "label": "network",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.05917930603027344
+  },
+  {
+    "command": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "access-erp-7d73d602205d-db",
+      "--network",
+      "access-erp-7d73d602205d",
+      "--network-alias",
+      "db",
+      "--cpus",
+      "2",
+      "--memory",
+      "4g",
+      "-e",
+      "MARIADB_ROOT_PASSWORD=access-local-test",
+      "-e",
+      "MARIADB_ROOT_HOST=%",
+      "mariadb@sha256:6422478cb8e159f080fb1d8ccf65101e26fe51385787fde7d16c3b165a331f15",
+      "--character-set-server=utf8mb4",
+      "--collation-server=utf8mb4_unicode_ci",
+      "--skip-character-set-client-handshake",
+      "--innodb-flush-log-at-trx-commit=2",
+      "--sync-binlog=0"
+    ],
+    "label": "database",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.596527099609375
+  },
+  {
+    "command": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "access-erp-7d73d602205d-redis",
+      "--network",
+      "access-erp-7d73d602205d",
+      "--network-alias",
+      "redis",
+      "--cpus",
+      "1",
+      "--memory",
+      "1g",
+      "redis@sha256:858f009f9709ce576febc734aa78b8f6d624b82571f9ddb6bda4377c833b3499"
+    ],
+    "label": "redis",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.30330920219421387
+  },
+  {
+    "command": [
+      "docker",
+      "run",
+      "-d",
+      "--name",
+      "access-erp-7d73d602205d-app",
+      "--network",
+      "access-erp-7d73d602205d",
+      "--cpus",
+      "3",
+      "--memory",
+      "12g",
+      "-v",
+      "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012:/workspace",
+      "-v",
+      "/home/shlee/nudix_workspace/logistics_event_validation_research/results/final_v1_refinement_20261012/erp_clean_replay:/evidence",
+      "-w",
+      "/workspace",
+      "frappe/bench@sha256:8c500a20cb1933d0427c1568dcf3c8c37021c0e07be1ac268539fd7fe14ef557",
+      "sleep",
+      "infinity"
+    ],
+    "label": "app",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.5448696613311768
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "bench init --frappe-path file:///workspace/frappe --frappe-branch access-pinned --skip-assets --skip-redis-config-generation --no-backups bench"
+    ],
+    "label": "bench_init",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 18.16472864151001
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "bench set-config -g db_host db && bench set-config -g redis_cache redis://redis:6379/0 && bench set-config -g redis_queue redis://redis:6379/1 && bench set-config -g redis_socketio redis://redis:6379/2"
+    ],
+    "label": "config",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 2.517564535140991
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "bench get-app --skip-assets --branch access-pinned file:///workspace/erpnext && git -C apps/erpnext restore banking/yarn.lock && bench pip install '-e' 'apps/frappe[test]'"
+    ],
+    "label": "install_apps",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 9.838785171508789
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "bench pip install -r /evidence/python_requirements_lock.txt"
+    ],
+    "label": "lock_runtime_dependencies",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.755969762802124
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "bench new-site test_site --db-host db --db-root-username root --db-root-password access-local-test --admin-password access-local-admin --mariadb-user-host-login-scope=% --install-app erpnext && bench --site test_site set-config allow_tests true"
+    ],
+    "label": "site_install",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 108.22140407562256
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "env/bin/python -m pip freeze --all > /evidence/python_freeze.txt"
+    ],
+    "label": "freeze",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.7233870029449463
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "git -C apps/erpnext fetch --depth 1 https://github.com/frappe/erpnext.git c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be && git -C apps/erpnext checkout --detach c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be"
+    ],
+    "label": "checkout_before",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 1.6005449295043945
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench/sites",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "/workspace/bench/env/bin/python /evidence/run_upstream_traced.py --label before --out /evidence"
+    ],
+    "label": "test_before",
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "elapsed_s": 62.8872549533844
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "access-erp-7d73d602205d-db",
+      "mariadb",
+      "-uroot",
+      "-paccess-local-test",
+      "-e",
+      "DROP DATABASE `_9a0eff2f01a55626`"
+    ],
+    "label": "reset_test_database",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 16.024076223373413
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "access-erp-7d73d602205d-redis",
+      "redis-cli",
+      "FLUSHALL"
+    ],
+    "label": "flush_isolated_cache",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.10253381729125977
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "git -C apps/erpnext fetch --depth 1 https://github.com/frappe/erpnext.git ff78778b7cde837bcd3128582280f34582522e5f && git -C apps/erpnext checkout --detach ff78778b7cde837bcd3128582280f34582522e5f"
+    ],
+    "label": "checkout_after",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 1.384624719619751
+  },
+  {
+    "command": [
+      "docker",
+      "exec",
+      "-w",
+      "/workspace/bench/sites",
+      "access-erp-7d73d602205d-app",
+      "bash",
+      "-lc",
+      "/workspace/bench/env/bin/python /evidence/run_upstream_traced.py --label after --out /evidence"
+    ],
+    "label": "test_after",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 54.17300295829773
+  },
+  {
+    "command": [
+      "python3",
+      "/home/shlee/nudix_workspace/logistics_event_validation_research/results/final_v1_refinement_20261012/erp_clean_replay/summarize.py",
+      "--output",
+      "/home/shlee/nudix_workspace/logistics_event_validation_research/results/final_v1_refinement_20261012/erp_clean_replay"
+    ],
+    "label": "validate_results",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "elapsed_s": 0.026654720306396484
+  }
+]

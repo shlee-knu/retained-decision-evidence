@@ -1,0 +1,18 @@
+{
+  "frozen_before_new_variant_evaluation": true,
+  "design_date": "2026-10-07",
+  "scope": "Fixed four-milestone first-occurrence predicate fragment; not an arbitrary declarative language",
+  "alphabet": ["create", "receive", "invoice", "clear"],
+  "profiles": ["3-way match, invoice after GR", "3-way match, invoice before GR", "2-way match", "Consignment"],
+  "single_edit_grammar": {"toggle_required_membership_per_profile": 4, "add_forbidden_membership_per_profile": 4, "toggle_nonself_directed_position_and_time_edge_per_profile": 12},
+  "single_edit_catalogs": 80,
+  "additional_catalogs": ["baseline", "strict_consignment_forbids_invoice_and_clear"],
+  "syntactic_catalogs_including_anchors": 82,
+  "finite_base_and_clock_states": 2153,
+  "finite_complete_states": 8612,
+  "comparison": "Each variant against baseline only; retain label-changing and unsatisfiable-profile variants; group globally equivalent complete truth vectors and report multiplicity",
+  "certificate_loss": "A mask sufficient under baseline but not sufficient under new catalog at an anchor whose evaluated verdict is preserved; not a minimal-family set difference",
+  "cohorts": ["all 251734 acquired BPI2019 cases", "existing purchase-document hash split seed17 test 50931 cases"],
+  "witness_order": "number of distinct milestones, number of clock levels, first-occurrence permutation, clock ranks, profile index, mask; minimal only under this explicit quotient order",
+  "limitations": ["All catalog-profile and timestamp-weak-order completions are admissible", "Finite state counts are coverage counts, not empirical probabilities", "Single edits are authored controls, not sampled business policies", "Minimum certificate cost is a per-completion clairvoyant lower bound, not a globally optimal adaptive policy"]
+}

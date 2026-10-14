@@ -1,0 +1,37 @@
+{
+  "command": [
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/.venv/bin/python",
+    "scripts/analyze_native_change_projection.py",
+    "--output",
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/results/beta_improvement_20261012/native_projection/run"
+  ],
+  "input_sha256": {
+    "configs/native_change_projection_protocol.json": "c87a5243aa90f77d8ea5a7eb9878014c3ce163c8392b29bf4deb5cc0db6b0588",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "results/compact_revision/evidence/native_check.json": "072dfb0eab1520d539e077e351140fed8da551959e6c9408db4dc4a4e5b71b87",
+    "results/perspective_revision/inputs/observation_classes.json": "502b450b9501ca388823f806e31b288bf9d02dae28c921da987aa46f1ad63aab",
+    "results/perspective_revision/inputs/saved_census_rows.json.gz": "ccc7f1fd25814a5817371ca8f9a4ba581d801153094ebd09cc18bb4d0486adbb",
+    "results/robustness_revision_20261011/census/run/summary.json": "12824d8b14df3e07c5526a769cf10fabfb0ddf9870f632b5ee2c68aff27b121d",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/strong/catalog_audit/finite_tables.json.gz": "e369afd80c9b1ebf57ea456dc2297357b5d64365e27a8efc120e50ba23bfd7af",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "scripts/analyze_census_robustness.py": "c374396f05aaeaa45ea04ba416c833c74ff28b6a400da490d17a802581dece9b",
+    "scripts/analyze_native_change_projection.py": "d7c9bfc75635245605d37750b8bab217cc5c9ae882a1cb27b1c5d13df108a955",
+    "scripts/verify_compact_evidence.py": "db53078e37dae60f084e04590c567230c9c4bdc9b55c50a5d20db0da96934a50",
+    "tests/test_native_change_projection.py": "e6ffc0a9efbcf61ba2b4223c4bedad8c0f3536a79c94bc9da78a51055210d669"
+  },
+  "output_sha256": {
+    "insufficient_target_case_index.jsonl.gz": "197d37f20ef6eb2546cc181f623026ea66ba356770c269ba1261cd3c47587213",
+    "manuscript_insert.txt": "c843b514425ee91126672d3266d9016c994e1bd61ed96ac6e6e013cc321b7a92",
+    "native_case_mapping.jsonl.gz": "f7f822211631f616db9ebbe87ae8e2de42fe7f40fe9b04509567d1132dae4414",
+    "native_classes.json": "7fc3b2bb52699d5502911ba19593a437a39cf9a66617bc2c3ec62544e5bf7ff5",
+    "protocol_snapshot.json": "273037e950f6723bb355f563d888ef576533d1fee5d17fd03fd7feba8692a88b",
+    "summary.json": "06c6391c63ccceb9ffb2be1dc25b4811866d6bbe4c42784c0493317ebc90eb45",
+    "target_summaries.json": "dba1bf54cea94e6f1515e1cd259253cc07d2d46f82b8dc71262e3d835eef23fd",
+    "verification.json": "592c8a768b2a7bbb39c12614befa78a066b464198c163351e517c62a0e527779"
+  },
+  "elapsed_seconds_not_a_benchmark": 12.416447460069321,
+  "completed_utc": "2026-10-11T17:35:15.175008+00:00"
+}

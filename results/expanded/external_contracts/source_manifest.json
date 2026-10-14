@@ -1,0 +1,32 @@
+{
+  "verified_utc": "2026-10-07T13:20:10.483830+00:00",
+  "sources": [
+    {
+      "dataset": "traffic",
+      "path": "data/external/road_traffic_fine/Road_Traffic_Fine_Management_Process.xes.gz",
+      "url": "https://ndownloader.figshare.com/files/24018146",
+      "doi": "10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5",
+      "sha256": "dc9e0e65c964c8ce2a720687ecf17d8204a5cced5db2267c717ed39ada665da8",
+      "md5": "dc4cae9a592938af92932ca6c043baeb",
+      "bytes": 3454978,
+      "cases": 150370,
+      "events": 561470,
+      "license": "4TU General Terms of Use; noncommercial",
+      "hashes_verified": true
+    },
+    {
+      "dataset": "travel",
+      "path": "data/external/bpi2020/PermitLog.xes.gz",
+      "url": "https://ndownloader.figshare.com/files/24075929",
+      "doi": "10.4121/uuid:ea03d361-a7cd-4f5e-83d8-5fbdf0362550",
+      "sha256": "9e23befe5394c13caff4428c00a6cee08647b1749f270a78cd05d99f861c5a8b",
+      "md5": "b6e9ff00d946f6ad4c91eb6fb550aee4",
+      "bytes": 1938192,
+      "cases": 7065,
+      "events": 86581,
+      "license": "CC BY-NC 4.0",
+      "hashes_verified": true
+    }
+  ],
+  "redistribution": "Originals and case-level derivatives retain source terms. This evidence directory contains aggregate results and no copies of raw event logs."
+}

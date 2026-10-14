@@ -1,0 +1,16 @@
+{
+  "python": "Python 3.14.8",
+  "bench": "5.31.0",
+  "node": "v24.21.0",
+  "database": "mariadb from 11.8.9-MariaDB, client 15.2 for debian-linux-gnu (x86_64) using  EditLine wrapper",
+  "redis": "Redis server v=7.4.11 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=40ff01a501d8e4b6",
+  "python_dependencies": "python_freeze.txt and python_requirements_lock.txt",
+  "timing_use": "correctness integration only; not performance benchmark",
+  "headless": true,
+  "application_source_modified": false,
+  "upstream_test_modified": false,
+  "published_ports": [],
+  "scheduler": "disabled",
+  "services": "isolated app, MariaDB, Redis; no worker/web/browser required",
+  "database_server": "11.8.9-MariaDB-ubu2404"
+}

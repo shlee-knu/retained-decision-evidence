@@ -1,0 +1,1189 @@
+model,state_id,state,old_selected_clauses,new_selected_clauses,official_schema_200,official_schema_201,schema_vs_selected_old_disagreement,failed_prose_clauses
+epcis_object_profile,0,"[""ADD"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,1,"[""ADD"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,2,"[""ADD"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,3,"[""ADD"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,4,"[""ADD"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,5,"[""ADD"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,6,"[""ADD"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,7,"[""ADD"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,8,"[""ADD"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,9,"[""ADD"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,10,"[""ADD"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,11,"[""ADD"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,12,"[""ADD"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,13,"[""ADD"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,14,"[""ADD"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,15,"[""ADD"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,16,"[""ADD"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,17,"[""ADD"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,18,"[""ADD"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,19,"[""ADD"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,20,"[""ADD"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,21,"[""ADD"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,22,"[""ADD"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,23,"[""ADD"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,24,"[""ADD"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,25,"[""ADD"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,26,"[""ADD"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,27,"[""ADD"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,28,"[""ADD"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,29,"[""ADD"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,30,"[""ADD"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,31,"[""ADD"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,32,"[""ADD"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,33,"[""ADD"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,34,"[""ADD"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,35,"[""ADD"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,36,"[""ADD"", ""empty"", ""absent"", ""absent"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,37,"[""ADD"", ""empty"", ""absent"", ""absent"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,38,"[""ADD"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,39,"[""ADD"", ""empty"", ""absent"", ""absent"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,40,"[""ADD"", ""empty"", ""absent"", ""empty"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,41,"[""ADD"", ""empty"", ""absent"", ""empty"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,42,"[""ADD"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,43,"[""ADD"", ""empty"", ""absent"", ""empty"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,44,"[""ADD"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,45,"[""ADD"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,46,"[""ADD"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,47,"[""ADD"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,48,"[""ADD"", ""empty"", ""empty"", ""absent"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,49,"[""ADD"", ""empty"", ""empty"", ""absent"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,50,"[""ADD"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,51,"[""ADD"", ""empty"", ""empty"", ""absent"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,52,"[""ADD"", ""empty"", ""empty"", ""empty"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,53,"[""ADD"", ""empty"", ""empty"", ""empty"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,54,"[""ADD"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,55,"[""ADD"", ""empty"", ""empty"", ""empty"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,56,"[""ADD"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,57,"[""ADD"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,58,"[""ADD"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,59,"[""ADD"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,60,"[""ADD"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,61,"[""ADD"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,62,"[""ADD"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,63,"[""ADD"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,64,"[""ADD"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,65,"[""ADD"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,66,"[""ADD"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,67,"[""ADD"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,68,"[""ADD"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,69,"[""ADD"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,70,"[""ADD"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,71,"[""ADD"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,72,"[""ADD"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,73,"[""ADD"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,74,"[""ADD"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,75,"[""ADD"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,76,"[""ADD"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,77,"[""ADD"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,78,"[""ADD"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,79,"[""ADD"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,80,"[""ADD"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,81,"[""ADD"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,82,"[""ADD"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,83,"[""ADD"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,84,"[""ADD"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,85,"[""ADD"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,86,"[""ADD"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,87,"[""ADD"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,88,"[""ADD"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,89,"[""ADD"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,90,"[""ADD"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,91,"[""ADD"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,92,"[""ADD"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,93,"[""ADD"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,94,"[""ADD"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,95,"[""ADD"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,96,"[""ADD"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,97,"[""ADD"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,98,"[""ADD"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,99,"[""ADD"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,100,"[""ADD"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,101,"[""ADD"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,102,"[""ADD"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,103,"[""ADD"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,104,"[""ADD"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,105,"[""ADD"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,106,"[""ADD"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,107,"[""ADD"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,108,"[""OBSERVE"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,109,"[""OBSERVE"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,110,"[""OBSERVE"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,111,"[""OBSERVE"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,112,"[""OBSERVE"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,113,"[""OBSERVE"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,114,"[""OBSERVE"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,115,"[""OBSERVE"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,116,"[""OBSERVE"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,117,"[""OBSERVE"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,118,"[""OBSERVE"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,119,"[""OBSERVE"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,120,"[""OBSERVE"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,121,"[""OBSERVE"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,122,"[""OBSERVE"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,123,"[""OBSERVE"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,124,"[""OBSERVE"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,125,"[""OBSERVE"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,126,"[""OBSERVE"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,127,"[""OBSERVE"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,128,"[""OBSERVE"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,129,"[""OBSERVE"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,130,"[""OBSERVE"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,131,"[""OBSERVE"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,132,"[""OBSERVE"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,133,"[""OBSERVE"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,134,"[""OBSERVE"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,135,"[""OBSERVE"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,136,"[""OBSERVE"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,137,"[""OBSERVE"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,138,"[""OBSERVE"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,139,"[""OBSERVE"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,140,"[""OBSERVE"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,141,"[""OBSERVE"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,142,"[""OBSERVE"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,143,"[""OBSERVE"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,144,"[""OBSERVE"", ""empty"", ""absent"", ""absent"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,145,"[""OBSERVE"", ""empty"", ""absent"", ""absent"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,146,"[""OBSERVE"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,147,"[""OBSERVE"", ""empty"", ""absent"", ""absent"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,148,"[""OBSERVE"", ""empty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,149,"[""OBSERVE"", ""empty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,150,"[""OBSERVE"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,151,"[""OBSERVE"", ""empty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,152,"[""OBSERVE"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,153,"[""OBSERVE"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,154,"[""OBSERVE"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,155,"[""OBSERVE"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,156,"[""OBSERVE"", ""empty"", ""empty"", ""absent"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,157,"[""OBSERVE"", ""empty"", ""empty"", ""absent"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,158,"[""OBSERVE"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,159,"[""OBSERVE"", ""empty"", ""empty"", ""absent"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,160,"[""OBSERVE"", ""empty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,161,"[""OBSERVE"", ""empty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,162,"[""OBSERVE"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,163,"[""OBSERVE"", ""empty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,164,"[""OBSERVE"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,165,"[""OBSERVE"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,166,"[""OBSERVE"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,167,"[""OBSERVE"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,168,"[""OBSERVE"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,169,"[""OBSERVE"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,170,"[""OBSERVE"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,171,"[""OBSERVE"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,172,"[""OBSERVE"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,173,"[""OBSERVE"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,174,"[""OBSERVE"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,175,"[""OBSERVE"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,176,"[""OBSERVE"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,177,"[""OBSERVE"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,178,"[""OBSERVE"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,179,"[""OBSERVE"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,180,"[""OBSERVE"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,181,"[""OBSERVE"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,182,"[""OBSERVE"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,183,"[""OBSERVE"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,184,"[""OBSERVE"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,185,"[""OBSERVE"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,186,"[""OBSERVE"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,187,"[""OBSERVE"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,188,"[""OBSERVE"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,189,"[""OBSERVE"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,190,"[""OBSERVE"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,191,"[""OBSERVE"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,192,"[""OBSERVE"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,193,"[""OBSERVE"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,194,"[""OBSERVE"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,195,"[""OBSERVE"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,196,"[""OBSERVE"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,197,"[""OBSERVE"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,198,"[""OBSERVE"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,199,"[""OBSERVE"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,200,"[""OBSERVE"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,201,"[""OBSERVE"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,202,"[""OBSERVE"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,203,"[""OBSERVE"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,204,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,205,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,206,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,207,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,208,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,209,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,210,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,211,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,212,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,213,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,214,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,215,"[""OBSERVE"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,216,"[""DELETE"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,217,"[""DELETE"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,218,"[""DELETE"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,219,"[""DELETE"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,220,"[""DELETE"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,221,"[""DELETE"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,222,"[""DELETE"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,223,"[""DELETE"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,224,"[""DELETE"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,225,"[""DELETE"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,226,"[""DELETE"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,227,"[""DELETE"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,228,"[""DELETE"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,229,"[""DELETE"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,230,"[""DELETE"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,231,"[""DELETE"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what""]"
+epcis_object_profile,232,"[""DELETE"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,233,"[""DELETE"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,234,"[""DELETE"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,235,"[""DELETE"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,236,"[""DELETE"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,237,"[""DELETE"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,238,"[""DELETE"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,239,"[""DELETE"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,240,"[""DELETE"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,241,"[""DELETE"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,242,"[""DELETE"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,243,"[""DELETE"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,244,"[""DELETE"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,245,"[""DELETE"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,246,"[""DELETE"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,247,"[""DELETE"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,248,"[""DELETE"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,249,"[""DELETE"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,250,"[""DELETE"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,251,"[""DELETE"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,252,"[""DELETE"", ""empty"", ""absent"", ""absent"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,253,"[""DELETE"", ""empty"", ""absent"", ""absent"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,254,"[""DELETE"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,255,"[""DELETE"", ""empty"", ""absent"", ""absent"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,256,"[""DELETE"", ""empty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,257,"[""DELETE"", ""empty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,258,"[""DELETE"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,259,"[""DELETE"", ""empty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,260,"[""DELETE"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,261,"[""DELETE"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,262,"[""DELETE"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,263,"[""DELETE"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,264,"[""DELETE"", ""empty"", ""empty"", ""absent"", ""receiving""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,265,"[""DELETE"", ""empty"", ""empty"", ""absent"", ""shipping""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,266,"[""DELETE"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,267,"[""DELETE"", ""empty"", ""empty"", ""absent"", ""vendor""]",False,False,True,True,True,"[""object_nonempty_what""]"
+epcis_object_profile,268,"[""DELETE"", ""empty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,269,"[""DELETE"", ""empty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,270,"[""DELETE"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,271,"[""DELETE"", ""empty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,272,"[""DELETE"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,273,"[""DELETE"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,274,"[""DELETE"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,275,"[""DELETE"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_nonempty_what"", ""object_ilmd_action""]"
+epcis_object_profile,276,"[""DELETE"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,277,"[""DELETE"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,278,"[""DELETE"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,279,"[""DELETE"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,280,"[""DELETE"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,281,"[""DELETE"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,282,"[""DELETE"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,283,"[""DELETE"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,284,"[""DELETE"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,285,"[""DELETE"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,286,"[""DELETE"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,287,"[""DELETE"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,288,"[""DELETE"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,289,"[""DELETE"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,290,"[""DELETE"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,291,"[""DELETE"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,292,"[""DELETE"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,293,"[""DELETE"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,294,"[""DELETE"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,295,"[""DELETE"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,296,"[""DELETE"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,297,"[""DELETE"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,298,"[""DELETE"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,299,"[""DELETE"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,300,"[""DELETE"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,301,"[""DELETE"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,302,"[""DELETE"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,303,"[""DELETE"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,304,"[""DELETE"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,305,"[""DELETE"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,306,"[""DELETE"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,307,"[""DELETE"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,308,"[""DELETE"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,309,"[""DELETE"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,310,"[""DELETE"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,311,"[""DELETE"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,312,"[""DELETE"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_object_profile,313,"[""DELETE"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_object_profile,314,"[""DELETE"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_object_profile,315,"[""DELETE"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_object_profile,316,"[""DELETE"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,317,"[""DELETE"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,318,"[""DELETE"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,319,"[""DELETE"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,320,"[""DELETE"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,321,"[""DELETE"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,322,"[""DELETE"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_object_profile,323,"[""DELETE"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""object_ilmd_action""]"
+epcis_aggregation_profile,0,"[""ADD"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,1,"[""ADD"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,2,"[""ADD"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,3,"[""ADD"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,4,"[""ADD"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,5,"[""ADD"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,6,"[""ADD"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,7,"[""ADD"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,8,"[""ADD"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,9,"[""ADD"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,10,"[""ADD"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,11,"[""ADD"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,12,"[""ADD"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,13,"[""ADD"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,14,"[""ADD"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,15,"[""ADD"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,16,"[""ADD"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,17,"[""ADD"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,18,"[""ADD"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,19,"[""ADD"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""aggregation_parent"", ""aggregation_children""]"
+epcis_aggregation_profile,20,"[""ADD"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,21,"[""ADD"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,22,"[""ADD"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,23,"[""ADD"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,24,"[""ADD"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,25,"[""ADD"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,26,"[""ADD"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,27,"[""ADD"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,28,"[""ADD"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,29,"[""ADD"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,30,"[""ADD"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,31,"[""ADD"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,32,"[""ADD"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,33,"[""ADD"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,34,"[""ADD"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,35,"[""ADD"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,36,"[""ADD"", ""present"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,37,"[""ADD"", ""present"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,38,"[""ADD"", ""present"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,39,"[""ADD"", ""present"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,40,"[""ADD"", ""present"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,41,"[""ADD"", ""present"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,42,"[""ADD"", ""present"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,43,"[""ADD"", ""present"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,44,"[""ADD"", ""present"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,45,"[""ADD"", ""present"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,46,"[""ADD"", ""present"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,47,"[""ADD"", ""present"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,48,"[""ADD"", ""present"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,49,"[""ADD"", ""present"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,50,"[""ADD"", ""present"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,51,"[""ADD"", ""present"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,52,"[""ADD"", ""present"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,53,"[""ADD"", ""present"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,54,"[""ADD"", ""present"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,55,"[""ADD"", ""present"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,56,"[""ADD"", ""present"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,57,"[""ADD"", ""present"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,58,"[""ADD"", ""present"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,59,"[""ADD"", ""present"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,60,"[""ADD"", ""present"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,61,"[""ADD"", ""present"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,62,"[""ADD"", ""present"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,63,"[""ADD"", ""present"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,64,"[""ADD"", ""present"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,65,"[""ADD"", ""present"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,66,"[""ADD"", ""present"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,67,"[""ADD"", ""present"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,68,"[""ADD"", ""present"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,69,"[""ADD"", ""present"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,70,"[""ADD"", ""present"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,71,"[""ADD"", ""present"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,72,"[""OBSERVE"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,73,"[""OBSERVE"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,74,"[""OBSERVE"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,75,"[""OBSERVE"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,76,"[""OBSERVE"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,77,"[""OBSERVE"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,78,"[""OBSERVE"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,79,"[""OBSERVE"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,80,"[""OBSERVE"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,81,"[""OBSERVE"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,82,"[""OBSERVE"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,83,"[""OBSERVE"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,84,"[""OBSERVE"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,85,"[""OBSERVE"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,86,"[""OBSERVE"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,87,"[""OBSERVE"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,88,"[""OBSERVE"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,89,"[""OBSERVE"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,90,"[""OBSERVE"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,91,"[""OBSERVE"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,92,"[""OBSERVE"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,93,"[""OBSERVE"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,94,"[""OBSERVE"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,95,"[""OBSERVE"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,96,"[""OBSERVE"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,97,"[""OBSERVE"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,98,"[""OBSERVE"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,99,"[""OBSERVE"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,100,"[""OBSERVE"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,101,"[""OBSERVE"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,102,"[""OBSERVE"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,103,"[""OBSERVE"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,104,"[""OBSERVE"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,105,"[""OBSERVE"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,106,"[""OBSERVE"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,107,"[""OBSERVE"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,108,"[""OBSERVE"", ""present"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,109,"[""OBSERVE"", ""present"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,110,"[""OBSERVE"", ""present"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,111,"[""OBSERVE"", ""present"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,112,"[""OBSERVE"", ""present"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,113,"[""OBSERVE"", ""present"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,114,"[""OBSERVE"", ""present"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,115,"[""OBSERVE"", ""present"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,116,"[""OBSERVE"", ""present"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,117,"[""OBSERVE"", ""present"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,118,"[""OBSERVE"", ""present"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,119,"[""OBSERVE"", ""present"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,120,"[""OBSERVE"", ""present"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,121,"[""OBSERVE"", ""present"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,122,"[""OBSERVE"", ""present"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,123,"[""OBSERVE"", ""present"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,124,"[""OBSERVE"", ""present"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,125,"[""OBSERVE"", ""present"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,126,"[""OBSERVE"", ""present"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,127,"[""OBSERVE"", ""present"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""aggregation_children""]"
+epcis_aggregation_profile,128,"[""OBSERVE"", ""present"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,129,"[""OBSERVE"", ""present"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,130,"[""OBSERVE"", ""present"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,131,"[""OBSERVE"", ""present"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,132,"[""OBSERVE"", ""present"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,133,"[""OBSERVE"", ""present"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,134,"[""OBSERVE"", ""present"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,135,"[""OBSERVE"", ""present"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,136,"[""OBSERVE"", ""present"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,137,"[""OBSERVE"", ""present"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,138,"[""OBSERVE"", ""present"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,139,"[""OBSERVE"", ""present"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,140,"[""OBSERVE"", ""present"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,141,"[""OBSERVE"", ""present"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,142,"[""OBSERVE"", ""present"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,143,"[""OBSERVE"", ""present"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,144,"[""DELETE"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,145,"[""DELETE"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,146,"[""DELETE"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,147,"[""DELETE"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,148,"[""DELETE"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,149,"[""DELETE"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,150,"[""DELETE"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,151,"[""DELETE"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,152,"[""DELETE"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,153,"[""DELETE"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,154,"[""DELETE"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,155,"[""DELETE"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,156,"[""DELETE"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,157,"[""DELETE"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,158,"[""DELETE"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,159,"[""DELETE"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,160,"[""DELETE"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,161,"[""DELETE"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,162,"[""DELETE"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,163,"[""DELETE"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,164,"[""DELETE"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,165,"[""DELETE"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,166,"[""DELETE"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,167,"[""DELETE"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,168,"[""DELETE"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,169,"[""DELETE"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,170,"[""DELETE"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,171,"[""DELETE"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,172,"[""DELETE"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,173,"[""DELETE"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,174,"[""DELETE"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,175,"[""DELETE"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,176,"[""DELETE"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,177,"[""DELETE"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,178,"[""DELETE"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,179,"[""DELETE"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,True,True,True,"[""aggregation_parent""]"
+epcis_aggregation_profile,180,"[""DELETE"", ""present"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,181,"[""DELETE"", ""present"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,182,"[""DELETE"", ""present"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,183,"[""DELETE"", ""present"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,184,"[""DELETE"", ""present"", ""absent"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,185,"[""DELETE"", ""present"", ""absent"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,186,"[""DELETE"", ""present"", ""absent"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,187,"[""DELETE"", ""present"", ""absent"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,188,"[""DELETE"", ""present"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,189,"[""DELETE"", ""present"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,190,"[""DELETE"", ""present"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,191,"[""DELETE"", ""present"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,192,"[""DELETE"", ""present"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,193,"[""DELETE"", ""present"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,194,"[""DELETE"", ""present"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,195,"[""DELETE"", ""present"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,196,"[""DELETE"", ""present"", ""empty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,197,"[""DELETE"", ""present"", ""empty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,198,"[""DELETE"", ""present"", ""empty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,199,"[""DELETE"", ""present"", ""empty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,200,"[""DELETE"", ""present"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,201,"[""DELETE"", ""present"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,202,"[""DELETE"", ""present"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,203,"[""DELETE"", ""present"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,204,"[""DELETE"", ""present"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,205,"[""DELETE"", ""present"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,206,"[""DELETE"", ""present"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,207,"[""DELETE"", ""present"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,208,"[""DELETE"", ""present"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,209,"[""DELETE"", ""present"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,210,"[""DELETE"", ""present"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,211,"[""DELETE"", ""present"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_aggregation_profile,212,"[""DELETE"", ""present"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_aggregation_profile,213,"[""DELETE"", ""present"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_aggregation_profile,214,"[""DELETE"", ""present"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_aggregation_profile,215,"[""DELETE"", ""present"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,0,"[""absent"", ""absent"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,1,"[""absent"", ""absent"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,2,"[""absent"", ""absent"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,3,"[""absent"", ""absent"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,4,"[""absent"", ""absent"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,5,"[""absent"", ""absent"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,6,"[""absent"", ""absent"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,7,"[""absent"", ""absent"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,8,"[""absent"", ""absent"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,9,"[""absent"", ""absent"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,10,"[""absent"", ""absent"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,11,"[""absent"", ""absent"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,12,"[""absent"", ""absent"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,13,"[""absent"", ""absent"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,14,"[""absent"", ""absent"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,15,"[""absent"", ""absent"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,16,"[""absent"", ""absent"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,17,"[""absent"", ""absent"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,18,"[""absent"", ""absent"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,19,"[""absent"", ""absent"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,20,"[""absent"", ""absent"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,21,"[""absent"", ""absent"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,22,"[""absent"", ""absent"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,23,"[""absent"", ""absent"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,24,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,25,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,26,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,27,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,28,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,29,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,30,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,31,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,32,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,33,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,34,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,35,"[""absent"", ""absent"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,36,"[""absent"", ""absent"", ""empty"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,37,"[""absent"", ""absent"", ""empty"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,38,"[""absent"", ""absent"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,39,"[""absent"", ""absent"", ""empty"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,40,"[""absent"", ""absent"", ""empty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,41,"[""absent"", ""absent"", ""empty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,42,"[""absent"", ""absent"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,43,"[""absent"", ""absent"", ""empty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,44,"[""absent"", ""absent"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,45,"[""absent"", ""absent"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,46,"[""absent"", ""absent"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,47,"[""absent"", ""absent"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,48,"[""absent"", ""absent"", ""empty"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,49,"[""absent"", ""absent"", ""empty"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,50,"[""absent"", ""absent"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,51,"[""absent"", ""absent"", ""empty"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,52,"[""absent"", ""absent"", ""empty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,53,"[""absent"", ""absent"", ""empty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,54,"[""absent"", ""absent"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,55,"[""absent"", ""absent"", ""empty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,56,"[""absent"", ""absent"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,57,"[""absent"", ""absent"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,58,"[""absent"", ""absent"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,59,"[""absent"", ""absent"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,60,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,61,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,62,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,63,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,64,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,65,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,66,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,67,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,68,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,69,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,70,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,71,"[""absent"", ""absent"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,72,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,73,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,74,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,75,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,76,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,77,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,78,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,79,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,80,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,81,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,82,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,83,"[""absent"", ""absent"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,84,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,85,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,86,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,87,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,88,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,89,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,90,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,91,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,92,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,93,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,94,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,95,"[""absent"", ""absent"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,96,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,97,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,98,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,99,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,100,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,101,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,102,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,103,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,104,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,105,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,106,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,107,"[""absent"", ""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,108,"[""absent"", ""empty"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,109,"[""absent"", ""empty"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,110,"[""absent"", ""empty"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,111,"[""absent"", ""empty"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,112,"[""absent"", ""empty"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,113,"[""absent"", ""empty"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,114,"[""absent"", ""empty"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,115,"[""absent"", ""empty"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,116,"[""absent"", ""empty"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,117,"[""absent"", ""empty"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,118,"[""absent"", ""empty"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,119,"[""absent"", ""empty"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,120,"[""absent"", ""empty"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,121,"[""absent"", ""empty"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,122,"[""absent"", ""empty"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,123,"[""absent"", ""empty"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,124,"[""absent"", ""empty"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,125,"[""absent"", ""empty"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,126,"[""absent"", ""empty"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,127,"[""absent"", ""empty"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,128,"[""absent"", ""empty"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,129,"[""absent"", ""empty"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,130,"[""absent"", ""empty"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,131,"[""absent"", ""empty"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,132,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,133,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,134,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,135,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,136,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,137,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,138,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,139,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,140,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,141,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,142,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,143,"[""absent"", ""empty"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,144,"[""absent"", ""empty"", ""empty"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,145,"[""absent"", ""empty"", ""empty"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,146,"[""absent"", ""empty"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,147,"[""absent"", ""empty"", ""empty"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,148,"[""absent"", ""empty"", ""empty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,149,"[""absent"", ""empty"", ""empty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,150,"[""absent"", ""empty"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,151,"[""absent"", ""empty"", ""empty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,152,"[""absent"", ""empty"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,153,"[""absent"", ""empty"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,154,"[""absent"", ""empty"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,155,"[""absent"", ""empty"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,156,"[""absent"", ""empty"", ""empty"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,157,"[""absent"", ""empty"", ""empty"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,158,"[""absent"", ""empty"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,159,"[""absent"", ""empty"", ""empty"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,160,"[""absent"", ""empty"", ""empty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,161,"[""absent"", ""empty"", ""empty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,162,"[""absent"", ""empty"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,163,"[""absent"", ""empty"", ""empty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,164,"[""absent"", ""empty"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,165,"[""absent"", ""empty"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,166,"[""absent"", ""empty"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,167,"[""absent"", ""empty"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,168,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,169,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,170,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,171,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,172,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,173,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,174,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,175,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,176,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,177,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,178,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,179,"[""absent"", ""empty"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,180,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,181,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,182,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,183,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,184,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,185,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,186,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,187,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,188,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,189,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,190,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,191,"[""absent"", ""empty"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,192,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,193,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,194,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,195,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,196,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,197,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,198,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,199,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,200,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,201,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,202,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,203,"[""absent"", ""empty"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,204,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,205,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,206,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,207,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,208,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,209,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,210,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,211,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,212,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,213,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,214,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,215,"[""absent"", ""empty"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,216,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,217,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,218,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,219,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,220,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,221,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,222,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,223,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,224,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,225,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,226,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,227,"[""absent"", ""nonempty"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,228,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,229,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,230,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,231,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,232,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,233,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,234,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,235,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,236,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,237,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,238,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,239,"[""absent"", ""nonempty"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,240,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,241,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,242,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,243,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,244,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,245,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,246,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,247,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,248,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,249,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,250,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,251,"[""absent"", ""nonempty"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,252,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,253,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,254,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,255,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,256,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,257,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,258,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,259,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,260,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,261,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,262,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,263,"[""absent"", ""nonempty"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,264,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,265,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,266,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,267,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,268,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,269,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,270,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,271,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,272,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,273,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,274,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,275,"[""absent"", ""nonempty"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,276,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,277,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,278,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,279,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,280,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,281,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,282,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,283,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,284,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,285,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,286,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,287,"[""absent"", ""nonempty"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,288,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,289,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,290,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,291,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,292,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,293,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,294,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,295,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,296,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,297,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,298,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,299,"[""absent"", ""nonempty"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,300,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,301,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,302,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,303,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,304,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,305,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,306,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,307,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,308,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,309,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,310,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,311,"[""absent"", ""nonempty"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,312,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,313,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,314,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,315,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,316,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,317,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,318,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,319,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,320,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,321,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,322,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,323,"[""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,324,"[""present"", ""absent"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,325,"[""present"", ""absent"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,326,"[""present"", ""absent"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,327,"[""present"", ""absent"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,328,"[""present"", ""absent"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,329,"[""present"", ""absent"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,330,"[""present"", ""absent"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,331,"[""present"", ""absent"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,332,"[""present"", ""absent"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,333,"[""present"", ""absent"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,334,"[""present"", ""absent"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,335,"[""present"", ""absent"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,336,"[""present"", ""absent"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,337,"[""present"", ""absent"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,338,"[""present"", ""absent"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,339,"[""present"", ""absent"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,340,"[""present"", ""absent"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,341,"[""present"", ""absent"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,342,"[""present"", ""absent"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,343,"[""present"", ""absent"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,344,"[""present"", ""absent"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,345,"[""present"", ""absent"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,346,"[""present"", ""absent"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,347,"[""present"", ""absent"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,348,"[""present"", ""absent"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,349,"[""present"", ""absent"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,350,"[""present"", ""absent"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,351,"[""present"", ""absent"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,352,"[""present"", ""absent"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,353,"[""present"", ""absent"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,354,"[""present"", ""absent"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,355,"[""present"", ""absent"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,356,"[""present"", ""absent"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,357,"[""present"", ""absent"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,358,"[""present"", ""absent"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,359,"[""present"", ""absent"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,360,"[""present"", ""absent"", ""empty"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,361,"[""present"", ""absent"", ""empty"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,362,"[""present"", ""absent"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,363,"[""present"", ""absent"", ""empty"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,364,"[""present"", ""absent"", ""empty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,365,"[""present"", ""absent"", ""empty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,366,"[""present"", ""absent"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,367,"[""present"", ""absent"", ""empty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,368,"[""present"", ""absent"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,369,"[""present"", ""absent"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,370,"[""present"", ""absent"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,371,"[""present"", ""absent"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,372,"[""present"", ""absent"", ""empty"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,373,"[""present"", ""absent"", ""empty"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,374,"[""present"", ""absent"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,375,"[""present"", ""absent"", ""empty"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,376,"[""present"", ""absent"", ""empty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,377,"[""present"", ""absent"", ""empty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,378,"[""present"", ""absent"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,379,"[""present"", ""absent"", ""empty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,380,"[""present"", ""absent"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,381,"[""present"", ""absent"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,382,"[""present"", ""absent"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,383,"[""present"", ""absent"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,384,"[""present"", ""absent"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,385,"[""present"", ""absent"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,386,"[""present"", ""absent"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,387,"[""present"", ""absent"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,388,"[""present"", ""absent"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,389,"[""present"", ""absent"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,390,"[""present"", ""absent"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,391,"[""present"", ""absent"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,392,"[""present"", ""absent"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,393,"[""present"", ""absent"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,394,"[""present"", ""absent"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,395,"[""present"", ""absent"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,396,"[""present"", ""absent"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,397,"[""present"", ""absent"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,398,"[""present"", ""absent"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,399,"[""present"", ""absent"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,400,"[""present"", ""absent"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,401,"[""present"", ""absent"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,402,"[""present"", ""absent"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,403,"[""present"", ""absent"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,404,"[""present"", ""absent"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,405,"[""present"", ""absent"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,406,"[""present"", ""absent"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,407,"[""present"", ""absent"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,408,"[""present"", ""absent"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,409,"[""present"", ""absent"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,410,"[""present"", ""absent"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,411,"[""present"", ""absent"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,412,"[""present"", ""absent"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,413,"[""present"", ""absent"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,414,"[""present"", ""absent"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,415,"[""present"", ""absent"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,416,"[""present"", ""absent"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,417,"[""present"", ""absent"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,418,"[""present"", ""absent"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,419,"[""present"", ""absent"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,420,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,421,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,422,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,423,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,424,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,425,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,426,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,427,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,428,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,429,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,430,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,431,"[""present"", ""absent"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,432,"[""present"", ""empty"", ""absent"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,433,"[""present"", ""empty"", ""absent"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,434,"[""present"", ""empty"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,435,"[""present"", ""empty"", ""absent"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,436,"[""present"", ""empty"", ""absent"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,437,"[""present"", ""empty"", ""absent"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,438,"[""present"", ""empty"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,439,"[""present"", ""empty"", ""absent"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,440,"[""present"", ""empty"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,441,"[""present"", ""empty"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,442,"[""present"", ""empty"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,443,"[""present"", ""empty"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,444,"[""present"", ""empty"", ""absent"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,445,"[""present"", ""empty"", ""absent"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,446,"[""present"", ""empty"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,447,"[""present"", ""empty"", ""absent"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,448,"[""present"", ""empty"", ""absent"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,449,"[""present"", ""empty"", ""absent"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,450,"[""present"", ""empty"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,451,"[""present"", ""empty"", ""absent"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,452,"[""present"", ""empty"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,453,"[""present"", ""empty"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,454,"[""present"", ""empty"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,455,"[""present"", ""empty"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,456,"[""present"", ""empty"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,457,"[""present"", ""empty"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,458,"[""present"", ""empty"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,459,"[""present"", ""empty"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,460,"[""present"", ""empty"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,461,"[""present"", ""empty"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,462,"[""present"", ""empty"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,463,"[""present"", ""empty"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,464,"[""present"", ""empty"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,465,"[""present"", ""empty"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,466,"[""present"", ""empty"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,467,"[""present"", ""empty"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,468,"[""present"", ""empty"", ""empty"", ""absent"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,469,"[""present"", ""empty"", ""empty"", ""absent"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,470,"[""present"", ""empty"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,471,"[""present"", ""empty"", ""empty"", ""absent"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,472,"[""present"", ""empty"", ""empty"", ""absent"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,473,"[""present"", ""empty"", ""empty"", ""absent"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,474,"[""present"", ""empty"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,475,"[""present"", ""empty"", ""empty"", ""absent"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,476,"[""present"", ""empty"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,477,"[""present"", ""empty"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,478,"[""present"", ""empty"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,479,"[""present"", ""empty"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,480,"[""present"", ""empty"", ""empty"", ""empty"", ""absent"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,481,"[""present"", ""empty"", ""empty"", ""empty"", ""absent"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,482,"[""present"", ""empty"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,483,"[""present"", ""empty"", ""empty"", ""empty"", ""absent"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,484,"[""present"", ""empty"", ""empty"", ""empty"", ""empty"", ""receiving""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,485,"[""present"", ""empty"", ""empty"", ""empty"", ""empty"", ""shipping""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,486,"[""present"", ""empty"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,487,"[""present"", ""empty"", ""empty"", ""empty"", ""empty"", ""vendor""]",False,False,False,False,False,"[""transformation_io""]"
+epcis_transformation_profile,488,"[""present"", ""empty"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,489,"[""present"", ""empty"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,490,"[""present"", ""empty"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,491,"[""present"", ""empty"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,492,"[""present"", ""empty"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,493,"[""present"", ""empty"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,494,"[""present"", ""empty"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,495,"[""present"", ""empty"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,496,"[""present"", ""empty"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,497,"[""present"", ""empty"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,498,"[""present"", ""empty"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,499,"[""present"", ""empty"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,500,"[""present"", ""empty"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,501,"[""present"", ""empty"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,502,"[""present"", ""empty"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,503,"[""present"", ""empty"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,504,"[""present"", ""empty"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,505,"[""present"", ""empty"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,506,"[""present"", ""empty"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,507,"[""present"", ""empty"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,508,"[""present"", ""empty"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,509,"[""present"", ""empty"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,510,"[""present"", ""empty"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,511,"[""present"", ""empty"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,512,"[""present"", ""empty"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,513,"[""present"", ""empty"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,514,"[""present"", ""empty"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,515,"[""present"", ""empty"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,516,"[""present"", ""empty"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,517,"[""present"", ""empty"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,518,"[""present"", ""empty"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,519,"[""present"", ""empty"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,520,"[""present"", ""empty"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,521,"[""present"", ""empty"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,522,"[""present"", ""empty"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,523,"[""present"", ""empty"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,524,"[""present"", ""empty"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,525,"[""present"", ""empty"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,526,"[""present"", ""empty"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,527,"[""present"", ""empty"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,528,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,529,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,530,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,531,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,532,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,533,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,534,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,535,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,536,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,537,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,538,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,539,"[""present"", ""empty"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,540,"[""present"", ""nonempty"", ""absent"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,541,"[""present"", ""nonempty"", ""absent"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,542,"[""present"", ""nonempty"", ""absent"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,543,"[""present"", ""nonempty"", ""absent"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,544,"[""present"", ""nonempty"", ""absent"", ""absent"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,545,"[""present"", ""nonempty"", ""absent"", ""absent"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,546,"[""present"", ""nonempty"", ""absent"", ""absent"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,547,"[""present"", ""nonempty"", ""absent"", ""absent"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,548,"[""present"", ""nonempty"", ""absent"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,549,"[""present"", ""nonempty"", ""absent"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,550,"[""present"", ""nonempty"", ""absent"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,551,"[""present"", ""nonempty"", ""absent"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,552,"[""present"", ""nonempty"", ""absent"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,553,"[""present"", ""nonempty"", ""absent"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,554,"[""present"", ""nonempty"", ""absent"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,555,"[""present"", ""nonempty"", ""absent"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,556,"[""present"", ""nonempty"", ""absent"", ""empty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,557,"[""present"", ""nonempty"", ""absent"", ""empty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,558,"[""present"", ""nonempty"", ""absent"", ""empty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,559,"[""present"", ""nonempty"", ""absent"", ""empty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,560,"[""present"", ""nonempty"", ""absent"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,561,"[""present"", ""nonempty"", ""absent"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,562,"[""present"", ""nonempty"", ""absent"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,563,"[""present"", ""nonempty"", ""absent"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,564,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,565,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,566,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,567,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,568,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,569,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,570,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,571,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,572,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,573,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,574,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,575,"[""present"", ""nonempty"", ""absent"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,576,"[""present"", ""nonempty"", ""empty"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,577,"[""present"", ""nonempty"", ""empty"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,578,"[""present"", ""nonempty"", ""empty"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,579,"[""present"", ""nonempty"", ""empty"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,580,"[""present"", ""nonempty"", ""empty"", ""absent"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,581,"[""present"", ""nonempty"", ""empty"", ""absent"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,582,"[""present"", ""nonempty"", ""empty"", ""absent"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,583,"[""present"", ""nonempty"", ""empty"", ""absent"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,584,"[""present"", ""nonempty"", ""empty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,585,"[""present"", ""nonempty"", ""empty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,586,"[""present"", ""nonempty"", ""empty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,587,"[""present"", ""nonempty"", ""empty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,588,"[""present"", ""nonempty"", ""empty"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,589,"[""present"", ""nonempty"", ""empty"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,590,"[""present"", ""nonempty"", ""empty"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,591,"[""present"", ""nonempty"", ""empty"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,592,"[""present"", ""nonempty"", ""empty"", ""empty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,593,"[""present"", ""nonempty"", ""empty"", ""empty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,594,"[""present"", ""nonempty"", ""empty"", ""empty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,595,"[""present"", ""nonempty"", ""empty"", ""empty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,596,"[""present"", ""nonempty"", ""empty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,597,"[""present"", ""nonempty"", ""empty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,598,"[""present"", ""nonempty"", ""empty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,599,"[""present"", ""nonempty"", ""empty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,600,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,601,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,602,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,603,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,604,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,605,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,606,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,607,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,608,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,609,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,610,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,611,"[""present"", ""nonempty"", ""empty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,612,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,613,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,614,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,615,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,616,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,617,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,618,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,619,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,620,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,621,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,622,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,623,"[""present"", ""nonempty"", ""nonempty"", ""absent"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,624,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,625,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,626,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,627,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,628,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,629,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,630,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,631,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,632,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,633,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,634,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,635,"[""present"", ""nonempty"", ""nonempty"", ""empty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,636,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""absent"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,637,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""absent"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,638,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""absent"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,639,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""absent"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,640,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""empty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,641,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""empty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,642,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""empty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,643,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""empty"", ""vendor""]",True,False,True,True,False,[]
+epcis_transformation_profile,644,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving""]",True,True,True,True,False,[]
+epcis_transformation_profile,645,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""nonempty"", ""shipping""]",True,True,True,True,False,[]
+epcis_transformation_profile,646,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""nonempty"", ""receiving_uri""]",True,True,True,True,False,[]
+epcis_transformation_profile,647,"[""present"", ""nonempty"", ""nonempty"", ""nonempty"", ""nonempty"", ""vendor""]",True,False,True,True,False,[]

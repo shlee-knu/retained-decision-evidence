@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "failures": 0,
+  "selfcheck": {
+    "tiny_grid_functions": 64,
+    "mixed_observation_checks": 254,
+    "pair_join_and_minimal_hitting_masks": "passed"
+  },
+  "census": {
+    "states": 8612,
+    "targets": 80,
+    "old_valid_classes": 10436,
+    "target_class_status_and_complete_robust_family_comparisons": 834880,
+    "status_counts": {
+      "safe": 821432,
+      "insufficient": 2535,
+      "stale_verdict": 10913
+    },
+    "insufficient_robust_cardinalities": {
+      "1": 2519,
+      "2": 16
+    }
+  },
+  "native_cohorts": {
+    "full_archive": {
+      "case_denominator_per_target": 251734,
+      "four_target_case_pairs": 1006936,
+      "distinct_affected_ids": 524,
+      "P_first_additional_logical_reads": 908,
+      "aggregates": {
+        "affected": 524,
+        "P_reads": 524,
+        "T_reads_after_P": 384,
+        "stop_after_P": 140
+      }
+    },
+    "heldout_receipts": {
+      "case_denominator_per_target": 50931,
+      "four_target_case_pairs": 203724,
+      "distinct_affected_ids": 114,
+      "P_first_additional_logical_reads": 199,
+      "aggregates": {
+        "affected": 114,
+        "P_reads": 114,
+        "T_reads_after_P": 85,
+        "stop_after_P": 29
+      }
+    }
+  },
+  "timing_cells": 18,
+  "minimum_sum_wins": {
+    "direct_residual": 18
+  },
+  "strict_weighted_residual_reduction_vs_finite_percent": {
+    "generation_core_only": 5.472876986259196,
+    "recorded_loading_normalization_cold_batch_sum": 1.184179819799878
+  }
+}

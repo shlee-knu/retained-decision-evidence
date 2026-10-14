@@ -1,0 +1,2124 @@
+{
+  "supported_rows": [
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-armass-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-armass-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-armass-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-armass-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-leukocytes.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-leukocytes.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-leukocytes.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-leukocytes.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-glucose.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-glucose.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-glucose.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-glucose.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-impression.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-impression.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-impression.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-impression.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-capillary-refill-time-nail-bed.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-capillary-refill-time-nail-bed.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-capillary-refill-time-nail-bed.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-capillary-refill-time-nail-bed.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-qrs-dur-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-qrs-dur-ekg-lead.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-qrs-dur-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-qrs-dur-ekg-lead.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-findings.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-findings.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-findings.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-findings.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-p-r-interval-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-p-r-interval-ekg-lead.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-p-r-interval-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-p-r-interval-ekg-lead.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-q-t-interval-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-q-t-interval-ekg-lead.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-q-t-interval-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-q-t-interval-ekg-lead.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-platelets.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-platelets.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-platelets.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-platelets.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-sodium.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-sodium.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-sodium.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-sodium.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-mchc.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mchc.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-mchc.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mchc.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-hematocrit.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-hematocrit.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-hematocrit.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-hematocrit.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-mch.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mch.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-mch.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mch.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-calcium.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-calcium.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-calcium.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-calcium.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-z-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-z-score-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-z-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-z-score-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-urobilinogen.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-urobilinogen.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-urobilinogen.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-urobilinogen.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-ekg-impression.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-ekg-impression.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-ekg-impression.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-ekg-impression.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-z-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-z-score-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-z-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-z-score-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-ekg-lead.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-ekg-lead.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-creatinine.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-creatinine.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-creatinine.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-creatinine.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-t-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-t-score-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-t-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-t-score-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-chloride.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-chloride.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-chloride.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-chloride.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-bun.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-bun.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-bun.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-bun.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-erythrocytes.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-erythrocytes.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-erythrocytes.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-erythrocytes.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-mcv.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mcv.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-mcv.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mcv.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-hemoglobin.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-hemoglobin.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-cbc-hemoglobin.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-hemoglobin.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-potassium.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-potassium.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-potassium.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-potassium.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/simple-observation/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-cognitive-status.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-cognitive-status.json",
+      "source_version": "6.1.0",
+      "profile": "simple-observation",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/simple-observation/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-cognitive-status.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-cognitive-status.json",
+      "source_version": "6.1.0",
+      "profile": "simple-observation",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-total-bilirubin.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-total-bilirubin.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-total-bilirubin.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-total-bilirubin.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-t-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-t-score-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-t-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-t-score-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-heart-rate-rhythm.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-heart-rate-rhythm.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-heart-rate-rhythm.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-heart-rate-rhythm.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-armass-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-armass-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-armass-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-armass-bmd.json",
+      "source_version": "6.1.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-co2.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-co2.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/6.1.0/Observation-serum-co2.json",
+      "source_path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-co2.json",
+      "source_version": "6.1.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-leukocytes.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-leukocytes.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-leukocytes.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-leukocytes.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-qrs-dur-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-qrs-dur-ekg-lead.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-qrs-dur-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-qrs-dur-ekg-lead.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-findings.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-findings.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-findings.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-findings.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-p-r-interval-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-p-r-interval-ekg-lead.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-p-r-interval-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-p-r-interval-ekg-lead.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-mch.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mch.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-mch.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mch.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-z-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-z-score-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-z-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-z-score-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-urobilinogen.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-urobilinogen.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-urobilinogen.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-urobilinogen.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/simple-observation/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-week.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-week.json",
+      "source_version": "7.0.0",
+      "profile": "simple-observation",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/simple-observation/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-week.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-week.json",
+      "source_version": "7.0.0",
+      "profile": "simple-observation",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-bun.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-bun.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-bun.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-bun.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-erythrocytes.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-erythrocytes.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-erythrocytes.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-erythrocytes.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-heart-rate-rhythm.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-heart-rate-rhythm.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-heart-rate-rhythm.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-heart-rate-rhythm.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-armass-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-armass-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-armass-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-armass-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-co2.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-co2.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-co2.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-co2.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-armass-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-armass-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-armass-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-armass-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-glucose.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-glucose.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-glucose.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-glucose.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/simple-observation/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-day.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-day.json",
+      "source_version": "7.0.0",
+      "profile": "simple-observation",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/simple-observation/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-day.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-day.json",
+      "source_version": "7.0.0",
+      "profile": "simple-observation",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-impression.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-impression.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-impression.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-impression.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-capillary-refill-time-nail-bed.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-capillary-refill-time-nail-bed.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-capillary-refill-time-nail-bed.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-capillary-refill-time-nail-bed.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-q-t-interval-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-q-t-interval-ekg-lead.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-q-t-interval-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-q-t-interval-ekg-lead.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-platelets.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-platelets.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-platelets.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-platelets.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-sodium.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-sodium.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-sodium.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-sodium.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-mchc.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mchc.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-mchc.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mchc.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-hematocrit.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-hematocrit.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-hematocrit.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-hematocrit.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-calcium.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-calcium.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-calcium.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-calcium.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-ekg-impression.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-ekg-impression.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-ekg-impression.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-ekg-impression.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-z-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-z-score-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-z-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-z-score-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-ekg-lead.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-ekg-lead.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-ekg-lead.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/simple-observation/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-alcoholic-drinks-per-day.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-alcoholic-drinks-per-day.json",
+      "source_version": "7.0.0",
+      "profile": "simple-observation",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_uncoded",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/simple-observation/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-alcoholic-drinks-per-day.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-alcoholic-drinks-per-day.json",
+      "source_version": "7.0.0",
+      "profile": "simple-observation",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_uncoded",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-creatinine.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-creatinine.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-creatinine.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-creatinine.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-t-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-t-score-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-t-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-t-score-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-chloride.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-chloride.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-chloride.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-chloride.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-mcv.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mcv.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-mcv.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mcv.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-hemoglobin.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-hemoglobin.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-cbc-hemoglobin.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-hemoglobin.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-potassium.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-potassium.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-potassium.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-potassium.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/simple-observation/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-cognitive-status.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-cognitive-status.json",
+      "source_version": "7.0.0",
+      "profile": "simple-observation",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/simple-observation/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-cognitive-status.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-cognitive-status.json",
+      "source_version": "7.0.0",
+      "profile": "simple-observation",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "string",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-lab/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-total-bilirubin.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-total-bilirubin.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-lab/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-serum-total-bilirubin.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-total-bilirubin.json",
+      "source_version": "7.0.0",
+      "profile": "observation-lab",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "valid_ucum"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/6.1.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-t-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-t-score-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "6.1.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    },
+    {
+      "id": "official/observation-clinical-result/7.0.0/data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-t-score-bmd.json",
+      "source_path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-t-score-bmd.json",
+      "source_version": "7.0.0",
+      "profile": "observation-clinical-result",
+      "evaluated_version": "7.0.0",
+      "state": [
+        "quantity_ucum",
+        "absent",
+        "absent",
+        "absent",
+        "absent"
+      ]
+    }
+  ],
+  "unsupported_source_examples": [
+    {
+      "path": "data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-disability-status.json",
+      "package_member": "package/example/Observation-simple-observation-disability-status.json",
+      "version": "6.1.0",
+      "profiles": [
+        "simple-observation"
+      ],
+      "sha256": "f19e71457b2bcf923ef144b2ffc0651acecdc7dce596647da8ac257e566ae958",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-sdoh.json",
+      "package_member": "package/example/Observation-simple-observation-sdoh.json",
+      "version": "6.1.0",
+      "profiles": [
+        "simple-observation"
+      ],
+      "sha256": "ab265256951c2610c0990961692ceb7fccda5223a4f34346de95083c4443fc59",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/6.1.0/Observation-at-home-in-vitro-test.json",
+      "package_member": "package/example/Observation-at-home-in-vitro-test.json",
+      "version": "6.1.0",
+      "profiles": [
+        "observation-lab"
+      ],
+      "sha256": "3bf31fb0dcc9171df039959c097b5392d1cbb9eb1992b7e688e2202a7402a359",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/6.1.0/Observation-jugular-vein-distension.json",
+      "package_member": "package/example/Observation-jugular-vein-distension.json",
+      "version": "6.1.0",
+      "profiles": [
+        "observation-clinical-result"
+      ],
+      "sha256": "a5c36854e3e9391f3816db5687734742d8a5202b50041ba8eb7a22be46c9f8d7",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/6.1.0/Observation-pulse-intensity-palpation.json",
+      "package_member": "package/example/Observation-pulse-intensity-palpation.json",
+      "version": "6.1.0",
+      "profiles": [
+        "observation-clinical-result"
+      ],
+      "sha256": "6684035ed6456e78ba2a87bfd6b950507cc6a10ddc13bc8900fbdca29fa4e634",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/7.0.0/Observation-substance-use-status.json",
+      "package_member": "package/example/Observation-substance-use-status.json",
+      "version": "7.0.0",
+      "profiles": [
+        "simple-observation"
+      ],
+      "sha256": "f1b95c00532c322d883c3f92326b2bc0679fbf3b1bd2e2110de7e6ed76c2eb61",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/7.0.0/Observation-alcohol-use-status.json",
+      "package_member": "package/example/Observation-alcohol-use-status.json",
+      "version": "7.0.0",
+      "profiles": [
+        "simple-observation"
+      ],
+      "sha256": "5e5424009f6f1b94656028501b3e8c4e87faa03c442ec2dad39b95f9577548d6",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/7.0.0/Observation-jugular-vein-distension.json",
+      "package_member": "package/example/Observation-jugular-vein-distension.json",
+      "version": "7.0.0",
+      "profiles": [
+        "observation-clinical-result"
+      ],
+      "sha256": "7754372569ddc3e3010f285a72284f834ee3da4d2bcfd54992a364a24c9ad622",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-disability-status.json",
+      "package_member": "package/example/Observation-simple-observation-disability-status.json",
+      "version": "7.0.0",
+      "profiles": [
+        "simple-observation"
+      ],
+      "sha256": "951955bad039b9c18f43bec0efb8cae946c14b96c9acf2021ea92b2d237cbac5",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-sdoh.json",
+      "package_member": "package/example/Observation-simple-observation-sdoh.json",
+      "version": "7.0.0",
+      "profiles": [
+        "simple-observation"
+      ],
+      "sha256": "25c970cc66904085b8ed95bcbb2564fc00acefad58853b3ab863493dd5d0a029",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/7.0.0/Observation-at-home-in-vitro-test.json",
+      "package_member": "package/example/Observation-at-home-in-vitro-test.json",
+      "version": "7.0.0",
+      "profiles": [
+        "observation-lab"
+      ],
+      "sha256": "ce9fe2db9d951adbd674687178145f1770bcc5a61c1b57c670b937fa648f0824",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/7.0.0/Observation-pulse-intensity-palpation.json",
+      "package_member": "package/example/Observation-pulse-intensity-palpation.json",
+      "version": "7.0.0",
+      "profiles": [
+        "observation-clinical-result"
+      ],
+      "sha256": "fbebf0c7d709b6467c3550b99c49b3aacb5eedcd4964428849f8e8e54842969c",
+      "reason": "Unsupported value choice"
+    },
+    {
+      "path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-functional-status.json",
+      "package_member": "package/example/Observation-simple-observation-functional-status.json",
+      "version": "7.0.0",
+      "profiles": [
+        "simple-observation"
+      ],
+      "sha256": "1495de2f619f959b2b7711c3fe8b847a37fc7eb81a510546799226c12b601ff0",
+      "reason": "Unsupported value choice"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+         1141870954 function calls (786528377 primitive calls) in 234.270 seconds
+
+   Ordered by: cumulative time
+   List reduced from 146 to 40 due to restriction <40>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.480    0.480  234.270  234.270 benchmark_equal_workflow.py:69(recovery)
+    50931    0.812    0.000  231.481    0.005 receipt_repair.py:99(execute)
+   135351    0.306    0.000  209.125    0.002 receipt_repair.py:76(_summary)
+   135351    1.802    0.000  200.530    0.001 audit_report.py:215(raw_summary)
+   542351   12.230    0.000  197.449    0.000 audit_report.py:199(_raw_rows)
+215212968/32690308   52.007    0.000   90.549    0.000 focused_diagnostics.py:20(freeze)
+    50931    0.286    0.000   74.099    0.001 receipt_repair.py:79(verify_replacement)
+247221940/87310320   25.072    0.000   72.318    0.000 focused_diagnostics.py:21(<genexpr>)
+   814000    0.445    0.000   28.089    0.000 audit_report.py:187(_raw_label)
+  3570392   12.326    0.000   27.989    0.000 catalog_audit.py:183(reference_time)
+   814000    3.017    0.000   27.645    0.000 catalog_audit.py:206(reference_verdict)
+ 33491160   16.712    0.000   23.657    0.000 focused_diagnostics.py:29(projection)
+   814000    0.547    0.000   21.860    0.000 audit_report.py:195(_member)
+   814000    3.491    0.000   21.142    0.000 domain_audit.py:33(reference_domain_contains)
+   270702    3.081    0.000   18.042    0.000 audit_report.py:94(receipt_query)
+13426120/1201216    7.660    0.000   16.246    0.000 copy.py:118(deepcopy)
+230924392   15.131    0.000   16.179    0.000 {built-in method builtins.isinstance}
+  2697068    9.763    0.000   14.880    0.000 acquisition.py:60(exact_first_time)
+   135351    0.749    0.000   13.400    0.000 catalog_audit.py:47(weak_orders)
+  8307928    9.472    0.000   12.651    0.000 catalog_audit.py:50(<genexpr>)
+1377142/693749    2.273    0.000   11.656    0.000 copy.py:217(_deepcopy_dict)
+ 88537592    6.945    0.000    6.945    0.000 focused_diagnostics.py:30(<genexpr>)
+  3570392    1.526    0.000    6.141    0.000 fractions.py:613(forward)
+  1968791    2.372    0.000    4.510    0.000 {built-in method builtins.all}
+  7140784    3.350    0.000    4.377    0.000 fractions.py:186(__new__)
+ 30312146    3.641    0.000    3.641    0.000 {built-in method builtins.max}
+   541404    0.331    0.000    3.550    0.000 audit_report.py:68(_hash)
+   727238    1.020    0.000    3.547    0.000 copy.py:191(_deepcopy_list)
+  3570392    1.854    0.000    3.419    0.000 fractions.py:710(_add)
+  3950267    1.933    0.000    3.390    0.000 {built-in method builtins.any}
+  2391895    1.461    0.000    3.238    0.000 fractions.py:931(_richcmp)
+   219771    0.341    0.000    2.723    0.000 __init__.py:183(dumps)
+  6267460    2.578    0.000    2.578    0.000 {method 'fullmatch' of 're.Pattern' objects}
+ 29649775    2.501    0.000    2.501    0.000 {method 'get' of 'dict' objects}
+   219771    0.252    0.000    2.325    0.000 encoder.py:183(encode)
+   494248    0.364    0.000    2.091    0.000 {built-in method builtins.sorted}
+  1228111    0.248    0.000    1.989    0.000 fractions.py:957(__gt__)
+   219771    1.983    0.000    1.983    0.000 encoder.py:205(iterencode)
+  1163784    0.229    0.000    1.727    0.000 fractions.py:953(__lt__)
+   101862    0.099    0.000    1.629    0.000 benchmark_audit_workflow.py:41(json_bytes)
+
+

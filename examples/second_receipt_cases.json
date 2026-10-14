@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "snapshot_note": "All-zero digest denotes a constructed fixture snapshot, not an actual source hash.",
+  "cases": [
+    {
+      "name": "withdraw_chronological_same_catalog",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/baseline_catalog.json",
+      "before_domain": "chronological:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "insufficient",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "chronological:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "profile": "3-way match, invoice after GR"
+        },
+        "verdict": true,
+        "receipt_id": "withdraw_chronological_same_catalog"
+      }
+    },
+    {
+      "name": "withdraw_exclusion_same_catalog_preserve_literal_times",
+      "before_catalog": "examples/strict_consignment_catalog.json",
+      "after_catalog": "examples/strict_consignment_catalog.json",
+      "before_domain": "consignment_exclusion:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "insufficient",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "eef733e4d33d0bd6f052afb2b35d440c13d5df8ddc8026b9dde5d7d4b098b0c1",
+        "domain_version": "consignment_exclusion:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "first_times": {
+            "create": "2018-01-02t21:36:00.0000000001z",
+            "receive": "2018-01-03T06:36:00.0000000001+09:00",
+            "invoice": "2018-04-11T10:40:00.000000001Z",
+            "clear": "2018-04-13T08:37:00.000000000Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "withdraw_exclusion_same_catalog_preserve_literal_times"
+      }
+    },
+    {
+      "name": "withdraw_both_same_catalog",
+      "before_catalog": "examples/strict_consignment_catalog.json",
+      "after_catalog": "examples/strict_consignment_catalog.json",
+      "before_domain": "both:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "insufficient",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "eef733e4d33d0bd6f052afb2b35d440c13d5df8ddc8026b9dde5d7d4b098b0c1",
+        "domain_version": "both:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {},
+        "verdict": true,
+        "receipt_id": "withdraw_both_same_catalog"
+      }
+    },
+    {
+      "name": "equivalent_catalog_safe",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/second_equivalent_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "safe",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "first_times": {
+            "create": "2018-01-02t21:36:00.0000000001z",
+            "receive": "2018-01-03T06:36:00.0000000001+09:00",
+            "invoice": "2018-04-11T10:40:00.000000001Z",
+            "clear": "2018-04-13T08:37:00.000000000Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "equivalent_catalog_safe"
+      }
+    },
+    {
+      "name": "label_flip_remains_fully_sufficient",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/second_label_flip_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "stale_verdict",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive"
+        ],
+        "observed": {
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-01-02T21:36:00Z",
+            "receive": "2018-01-02T21:36:00Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "label_flip_remains_fully_sufficient"
+      }
+    },
+    {
+      "name": "new_domain_excludes_complete_observation",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/baseline_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "consignment_exclusion:v1",
+      "expected_status": "unsupported",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-01-02t21:36:00.0000000001z",
+            "receive": "2018-01-03T06:36:00.0000000001+09:00",
+            "invoice": "2018-04-11T10:40:00.000000001Z",
+            "clear": "2018-04-13T08:37:00.000000000Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "new_domain_excludes_complete_observation"
+      }
+    },
+    {
+      "name": "old_domain_empty_not_vacuously_valid",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/baseline_catalog.json",
+      "before_domain": "consignment_exclusion:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "invalid_receipt",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "consignment_exclusion:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-01-02t21:36:00.0000000001z",
+            "receive": "2018-01-03T06:36:00.0000000001+09:00",
+            "invoice": "2018-04-11T10:40:00.000000001Z",
+            "clear": "2018-04-13T08:37:00.000000000Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "old_domain_empty_not_vacuously_valid"
+      }
+    },
+    {
+      "name": "ambiguous_old_receipt_invalid",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/baseline_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "invalid_receipt",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "profile": "3-way match, invoice after GR"
+        },
+        "verdict": true,
+        "receipt_id": "ambiguous_old_receipt_invalid"
+      }
+    },
+    {
+      "name": "wrong_recorded_label_invalid",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/baseline_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "invalid_receipt",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2018-01-02t21:36:00.0000000001z",
+            "receive": "2018-01-03T06:36:00.0000000001+09:00",
+            "invoice": "2018-04-11T10:40:00.000000001Z",
+            "clear": "2018-04-13T08:37:00.000000000Z"
+          }
+        },
+        "verdict": false,
+        "receipt_id": "wrong_recorded_label_invalid"
+      }
+    },
+    {
+      "name": "narrowing_common_observation_safe",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/baseline_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "chronological:v1",
+      "expected_status": "safe",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "first_times": {
+            "create": "2018-01-02t21:36:00.0000000001z",
+            "receive": "2018-01-03T06:36:00.0000000001+09:00",
+            "invoice": "2018-04-11T10:40:00.000000001Z",
+            "clear": "2018-04-13T08:37:00.000000000Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "narrowing_common_observation_safe"
+      }
+    },
+    {
+      "name": "original_catalog_migration",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/strict_consignment_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "insufficient",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "first_times": {
+            "create": "2018-01-02t21:36:00.0000000001z",
+            "receive": "2018-01-03T06:36:00.0000000001+09:00",
+            "invoice": "2018-04-11T10:40:00.000000001Z",
+            "clear": "2018-04-13T08:37:00.000000000Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "original_catalog_migration"
+      }
+    },
+    {
+      "name": "identity_full_receipt",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/baseline_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "safe",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2018-01-02t21:36:00.0000000001z",
+            "receive": "2018-01-03T06:36:00.0000000001+09:00",
+            "invoice": "2018-04-11T10:40:00.000000001Z",
+            "clear": "2018-04-13T08:37:00.000000000Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "identity_full_receipt"
+      }
+    },
+    {
+      "name": "identity_structural_rejection_without_clocks",
+      "before_catalog": "examples/baseline_catalog.json",
+      "after_catalog": "examples/baseline_catalog.json",
+      "before_domain": "cartesian:v1",
+      "after_domain": "cartesian:v1",
+      "expected_status": "safe",
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive"
+        ],
+        "observed": {
+          "profile": "3-way match, invoice after GR"
+        },
+        "verdict": false,
+        "receipt_id": "identity_structural_rejection_without_clocks"
+      }
+    }
+  ]
+}

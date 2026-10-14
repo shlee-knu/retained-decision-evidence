@@ -1,0 +1,152 @@
+{
+  "import": {
+    "schema_version": "opa-procurement-log-import/v1",
+    "decision_id": "14497e10-1324-4d7d-9f9c-3d1f8f9b4135",
+    "source_case_id": "4507000469_00001",
+    "event_sha256": "ed7143493e0efbf3255edfb6b8547d2a026b84c4dab8456a20a522340aef7467",
+    "binding_sha256": "b112acd90394b65e4b487d077f47e41023f5558f5c67ed2ce05c89c0c06bda42",
+    "bundle": {
+      "name": "results/platform_revision_20261010/opa/run/native_logs/baseline_bundle.tar.gz",
+      "revision": "retained-evidence-baseline-v1-local-replay-20261010",
+      "archive_sha256": "ad28bffb564f640b2c9a7a0336296be91bae03cdf05e0ba719a87e5299cf4d85",
+      "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743"
+    },
+    "target_catalog_sha256": "eef733e4d33d0bd6f052afb2b35d440c13d5df8ddc8026b9dde5d7d4b098b0c1",
+    "receipt": {
+      "schema_version": 1,
+      "receipt_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+      "domain_version": "cartesian:v1",
+      "activities": [
+        "create",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "invoice",
+        "clear"
+      ],
+      "observed": {},
+      "verdict": true
+    },
+    "query": {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 0,
+      "observed": [],
+      "old_verdict": true
+    },
+    "mask_provenance": {
+      "erased": [
+        "/input/first_times",
+        "/input/profile",
+        "/input/record/profile",
+        "/input/record/ranks"
+      ],
+      "masked": []
+    },
+    "summary": {
+      "status": "invalid_receipt",
+      "old_valid": false,
+      "old_verdict_candidates": [
+        false,
+        true
+      ],
+      "new_verdict_candidates": [
+        false,
+        true
+      ],
+      "robust_additional_sets": [],
+      "labeled_witnesses": [],
+      "old_completion_classes": 300,
+      "new_completion_classes": 300
+    },
+    "conditional_scope": "Conditional on the supplied trusted sidecar, truthful complete original raw blocks, correctly derived normalized aliases, a fixed source snapshot and membership in the declared Cartesian domain. Digest and revision checks do not authenticate an issuer, establish hidden-domain membership or grant permission to recover masked values. This output is not a portable audit bundle."
+  },
+  "followup_plans": {
+    "no_access_declared": {
+      "semantic_status": "invalid_receipt",
+      "action": "invalid_receipt",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": null
+    },
+    "profile_authorized_and_available": {
+      "semantic_status": "invalid_receipt",
+      "action": "invalid_receipt",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": null
+    },
+    "profile_unavailable": {
+      "semantic_status": "invalid_receipt",
+      "action": "invalid_receipt",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": null
+    },
+    "profile_unauthorized": {
+      "semantic_status": "invalid_receipt",
+      "action": "invalid_receipt",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": null
+    },
+    "profile_read_failed": {
+      "semantic_status": "invalid_receipt",
+      "action": "invalid_receipt",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": null
+    }
+  }
+}

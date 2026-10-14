@@ -1,0 +1,910 @@
+{
+  "chronological -> cartesian": {
+    "baseline": {
+      "global": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-03-01T09:01:00.000Z",
+            "receive": "2018-03-01T09:01:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": {
+          "case_id": "4507013167_00010",
+          "source_trace": 42644
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    },
+    "strict_consignment": {
+      "global": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-03-01T09:01:00.000Z",
+            "receive": "2018-03-01T09:01:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": {
+          "case_id": "4507013167_00010",
+          "source_trace": 42644
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    }
+  },
+  "consignment_exclusion -> cartesian": {
+    "baseline": {
+      "global": {
+        "anchor_index": 164,
+        "completion_index": 167,
+        "lost_mask": 0,
+        "mask_name": "empty",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive",
+            "invoice"
+          ],
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive",
+            "invoice"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": false,
+        "completion_before": "unsupported",
+        "completion_after": true,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 260,
+        "completion_index": 167,
+        "lost_mask": 0,
+        "mask_name": "empty",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "invoice"
+          ],
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2018-01-02T21:40:00.000Z",
+            "receive": "2018-01-02T21:40:00.000Z",
+            "invoice": "2018-02-02T03:23:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "invoice"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": false,
+        "completion_before": "unsupported",
+        "completion_after": true,
+        "source_anchor": {
+          "case_id": "4507000472_00001",
+          "source_trace": 1037
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    },
+    "strict_consignment": {
+      "global": {
+        "anchor_index": 1412,
+        "completion_index": 1415,
+        "lost_mask": 2,
+        "mask_name": "T",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ],
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z",
+            "clear": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z",
+            "clear": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 2852,
+        "completion_index": 2855,
+        "lost_mask": 2,
+        "mask_name": "T",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "invoice",
+            "clear"
+          ],
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2018-01-02T21:36:00.000Z",
+            "receive": "2018-01-02T21:36:00.000Z",
+            "invoice": "2018-04-11T10:40:00.000Z",
+            "clear": "2018-04-13T08:37:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "invoice",
+            "clear"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-01-02T21:36:00.000Z",
+            "receive": "2018-01-02T21:36:00.000Z",
+            "invoice": "2018-04-11T10:40:00.000Z",
+            "clear": "2018-04-13T08:37:00.000Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": {
+          "case_id": "4507000469_00001",
+          "source_trace": 1034
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    }
+  },
+  "both -> cartesian": {
+    "baseline": {
+      "global": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-03-01T09:01:00.000Z",
+            "receive": "2018-03-01T09:01:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": {
+          "case_id": "4507013167_00010",
+          "source_trace": 42644
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    },
+    "strict_consignment": {
+      "global": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-03-01T09:01:00.000Z",
+            "receive": "2018-03-01T09:01:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": {
+          "case_id": "4507013167_00010",
+          "source_trace": 42644
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    }
+  },
+  "both -> chronological": {
+    "baseline": {
+      "global": {
+        "anchor_index": 164,
+        "completion_index": 167,
+        "lost_mask": 0,
+        "mask_name": "empty",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive",
+            "invoice"
+          ],
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive",
+            "invoice"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": false,
+        "completion_before": "unsupported",
+        "completion_after": true,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 260,
+        "completion_index": 167,
+        "lost_mask": 0,
+        "mask_name": "empty",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "invoice"
+          ],
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2018-01-02T21:40:00.000Z",
+            "receive": "2018-01-02T21:40:00.000Z",
+            "invoice": "2018-02-02T03:23:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "invoice"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": false,
+        "completion_before": "unsupported",
+        "completion_after": true,
+        "source_anchor": {
+          "case_id": "4507000472_00001",
+          "source_trace": 1037
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    },
+    "strict_consignment": {
+      "global": {
+        "anchor_index": 1412,
+        "completion_index": 1415,
+        "lost_mask": 0,
+        "mask_name": "empty",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ],
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z",
+            "clear": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z",
+            "clear": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 2852,
+        "completion_index": 1415,
+        "lost_mask": 0,
+        "mask_name": "empty",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "invoice",
+            "clear"
+          ],
+          "profile": "3-way match, invoice after GR",
+          "first_times": {
+            "create": "2018-01-02T21:36:00.000Z",
+            "receive": "2018-01-02T21:36:00.000Z",
+            "invoice": "2018-04-11T10:40:00.000Z",
+            "clear": "2018-04-13T08:37:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "receive",
+            "invoice",
+            "clear"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z",
+            "invoice": "2020-01-01T00:00:00Z",
+            "clear": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": {
+          "case_id": "4507000469_00001",
+          "source_trace": 1034
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    }
+  },
+  "both -> consignment_exclusion": {
+    "baseline": {
+      "global": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-03-01T09:01:00.000Z",
+            "receive": "2018-03-01T09:01:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": {
+          "case_id": "4507013167_00010",
+          "source_trace": 42644
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    },
+    "strict_consignment": {
+      "global": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:00Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": null,
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      },
+      "native_anchor": {
+        "anchor_index": 23,
+        "completion_index": 75,
+        "lost_mask": 1,
+        "mask_name": "P",
+        "anchor": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2018-03-01T09:01:00.000Z",
+            "receive": "2018-03-01T09:01:00.000Z"
+          }
+        },
+        "completion": {
+          "activities": [
+            "create",
+            "receive"
+          ],
+          "profile": "Consignment",
+          "first_times": {
+            "create": "2020-01-01T00:00:01Z",
+            "receive": "2020-01-01T00:00:00Z"
+          }
+        },
+        "anchor_verdict_before_and_after": true,
+        "completion_before": "unsupported",
+        "completion_after": false,
+        "source_anchor": {
+          "case_id": "4507013167_00010",
+          "source_trace": 42644
+        },
+        "interpretation": "Same catalog, withdrawn domain guarantee. Alternative completion was excluded before, not previously assigned the anchor verdict."
+      }
+    }
+  }
+}

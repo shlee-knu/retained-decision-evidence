@@ -1,0 +1,175 @@
+From e64838299360a64bb562e08ef41f5214f4ec5054 Mon Sep 17 00:00:00 2001
+From: Rohit Waghchaure <rohitw1991@gmail.com>
+Date: Fri, 14 Aug 2026 17:24:49 +0530
+Subject: [PATCH] feat: validate purchase receipt exchange rate parity on
+ purchase invoice
+
+---
+ .../purchase_invoice/purchase_invoice.py      | 42 ++++++++++++++
+ .../purchase_invoice/test_purchase_invoice.py | 56 ++++++++-----------
+ 2 files changed, 66 insertions(+), 32 deletions(-)
+
+diff --git a/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py b/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py
+index a03317554840..0d39d7418983 100644
+--- a/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py
++++ b/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py
+@@ -295,6 +295,7 @@ def validate(self):
+ 		BillingValidationService(self).validate_multiple_billing("Purchase Receipt", "pr_detail", "amount")
+ 		self.set_status()
+ 		self.validate_purchase_receipt_if_update_stock()
++		self.validate_exchange_rate_with_purchase_receipt()
+ 		validate_inter_company_party(
+ 			self.doctype, self.supplier, self.company, self.inter_company_invoice_reference
+ 		)
+@@ -318,6 +319,47 @@ def set_percentage_received(self):
+ 		if total_billed_qty and total_received_qty:
+ 			self.per_received = total_received_qty / total_billed_qty * 100
+ 
++	def validate_exchange_rate_with_purchase_receipt(self):
++		if self.is_internal_transfer() or not erpnext.is_perpetual_inventory_enabled(self.company):
++			return
++
++		stock_items = self.get_stock_items()
++		receipts = {
++			item.purchase_receipt
++			for item in self.items
++			if item.purchase_receipt and item.item_code in stock_items
++		}
++		if not receipts:
++			return
++
++		if frappe.db.get_single_value("Buying Settings", "set_landed_cost_based_on_purchase_invoice_rate"):
++			return
++
++		mismatched = [
++			f"{frappe.bold(row.name)} ({row.conversion_rate})"
++			for row in frappe.get_all(
++				"Purchase Receipt",
++				filters={"name": ("in", list(receipts))},
++				fields=["name", "currency", "conversion_rate"],
++			)
++			if row.currency == self.currency
++			and flt(row.conversion_rate)
++			and flt(row.conversion_rate) != flt(self.conversion_rate)
++		]
++		if not mismatched:
++			return
++
++		frappe.throw(
++			_(
++				"Exchange rate {0} does not match the exchange rate of Purchase Receipt {1}. Use the same exchange rate as the Purchase Receipt or enable {2} in {3} to adjust the landed cost based on this invoice."
++			).format(
++				frappe.bold(self.conversion_rate),
++				", ".join(mismatched),
++				frappe.bold(_("Set Landed Cost Based on Purchase Invoice Rate")),
++				get_link_to_form("Buying Settings", "Buying Settings", _("Buying Settings")),
++			)
++		)
++
+ 	def validate_invoice_hold(self):
+ 		if self.is_return:
+ 			frappe.throw(_("Return Purchase Invoice cannot be held."))
+diff --git a/erpnext/accounts/doctype/purchase_invoice/test_purchase_invoice.py b/erpnext/accounts/doctype/purchase_invoice/test_purchase_invoice.py
+index dc80f2d5ef88..04d83e07c321 100644
+--- a/erpnext/accounts/doctype/purchase_invoice/test_purchase_invoice.py
++++ b/erpnext/accounts/doctype/purchase_invoice/test_purchase_invoice.py
+@@ -583,6 +583,12 @@ def test_purchase_invoice_with_exchange_rate_difference(self):
+ 		)
+ 
+ 		frappe.db.set_single_value("Buying Settings", "set_landed_cost_based_on_purchase_invoice_rate", 0)
++		self.addCleanup(
++			frappe.db.set_single_value,
++			"Buying Settings",
++			"set_landed_cost_based_on_purchase_invoice_rate",
++			original_value,
++		)
+ 
+ 		pr = make_purchase_receipt(
+ 			company="_Test Company with perpetual inventory",
+@@ -594,25 +600,15 @@ def test_purchase_invoice_with_exchange_rate_difference(self):
+ 		pi = create_purchase_invoice(pr.name)
+ 		pi.conversion_rate = 80
+ 
++		self.assertRaises(frappe.ValidationError, pi.insert)
++
++		pi.conversion_rate = 70
+ 		pi.insert()
+ 		pi.submit()
+ 
+-		# Get exchnage gain and loss account
+ 		exchange_gain_loss_account = frappe.db.get_value("Company", pi.company, "exchange_gain_loss_account")
+-
+-		# fetching the latest GL Entry with exchange gain and loss account account
+-		amount = frappe.db.get_value(
+-			"GL Entry", {"account": exchange_gain_loss_account, "voucher_no": pi.name}, "debit"
+-		)
+-
+-		discrepancy_caused_by_exchange_rate_diff = abs(
+-			pi.items[0].base_net_amount - pr.items[0].base_net_amount
+-		)
+-
+-		self.assertEqual(discrepancy_caused_by_exchange_rate_diff, amount)
+-
+-		frappe.db.set_single_value(
+-			"Buying Settings", "set_landed_cost_based_on_purchase_invoice_rate", original_value
++		self.assertFalse(
++			frappe.db.exists("GL Entry", {"account": exchange_gain_loss_account, "voucher_no": pi.name})
+ 		)
+ 
+ 	def test_purchase_invoice_with_exchange_rate_difference_for_non_stock_item(self):
+@@ -620,7 +616,17 @@ def test_purchase_invoice_with_exchange_rate_difference_for_non_stock_item(self)
+ 			make_purchase_invoice as create_purchase_invoice,
+ 		)
+ 
+-		# Creating Purchase Invoice with USD currency
++		original_value = frappe.db.get_single_value(
++			"Buying Settings", "set_landed_cost_based_on_purchase_invoice_rate"
++		)
++		frappe.db.set_single_value("Buying Settings", "set_landed_cost_based_on_purchase_invoice_rate", 0)
++		self.addCleanup(
++			frappe.db.set_single_value,
++			"Buying Settings",
++			"set_landed_cost_based_on_purchase_invoice_rate",
++			original_value,
++		)
++
+ 		pr = frappe.new_doc("Purchase Receipt")
+ 		pr.currency = "USD"
+ 		pr.company = "_Test Company with perpetual inventory"
+@@ -634,34 +640,20 @@ def test_purchase_invoice_with_exchange_rate_difference_for_non_stock_item(self)
+ 				"rate": 100,
+ 			},
+ 		)
+-		pr.append(
+-			"items",
+-			{"item_code": "_Test Item", "qty": 1, "rate": 5, "warehouse": "Stores - TCP1"},
+-		)
+ 		pr.insert()
+ 		pr.submit()
+ 
+-		# Createing purchase invoice against Purchase Receipt
+ 		pi = create_purchase_invoice(pr.name)
+ 		pi.conversion_rate = 70
+ 		pi.credit_to = "_Test Payable USD - TCP1"
+ 		pi.insert()
+ 		pi.submit()
+ 
+-		# Get exchnage gain and loss account
+ 		exchange_gain_loss_account = frappe.db.get_value("Company", pi.company, "exchange_gain_loss_account")
+-
+-		# fetching the latest GL Entry with exchange gain and loss account account
+-		amount = frappe.db.get_value(
+-			"GL Entry", {"account": exchange_gain_loss_account, "voucher_no": pi.name}, "credit"
+-		)
+-
+-		discrepancy_caused_by_exchange_rate_diff = abs(
+-			pi.items[1].base_net_amount - pr.items[1].base_net_amount
++		self.assertFalse(
++			frappe.db.exists("GL Entry", {"account": exchange_gain_loss_account, "voucher_no": pi.name})
+ 		)
+ 
+-		self.assertEqual(flt(discrepancy_caused_by_exchange_rate_diff, 2), amount)
+-
+ 	def test_purchase_invoice_change_naming_series(self):
+ 		pi = frappe.copy_doc(self.globalTestRecords["Purchase Invoice"][1])
+ 		pi.insert()

@@ -1,0 +1,328 @@
+{
+  "classes": {
+    "7e413c4aca8320d57f7f4c455e1c178749509a5b7bedfc6c641d90a0646420cd": {
+      "observation": [
+        [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "3-way match, invoice after GR",
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 1585
+    },
+    "6bccce06f7998bf1f02bc28952d6311053664522b6c697b4847be7600ecfb615": {
+      "observation": [
+        [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "3-way match, invoice before GR",
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 31633
+    },
+    "beb48e0df486a963f89074b0aa30b92eb4b1dec914d446fee665a3a260b0e7b1": {
+      "observation": [
+        [
+          "create"
+        ],
+        null,
+        null
+      ],
+      "old_mask": 0,
+      "action": "retain",
+      "cases": 3563
+    },
+    "df94873d7b4685af88c225550196dcb39d76bdf8d4ea1df437ef1484a0616e8a": {
+      "observation": [
+        [
+          "create",
+          "invoice",
+          "receive",
+          "clear"
+        ],
+        "3-way match, invoice before GR",
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 2991
+    },
+    "7a59b56dd1cb1386e03337e717bf1a8d76ff85418ff0924809a189b8549bd324": {
+      "observation": [
+        [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        null,
+        null
+      ],
+      "old_mask": 0,
+      "action": "retain",
+      "cases": 5405
+    },
+    "3569e5cef4fd95f4da4bcf06de94338428dc93279a151c5b81c79e32cecde2c1": {
+      "observation": [
+        [
+          "create",
+          "receive"
+        ],
+        "3-way match, invoice before GR",
+        null
+      ],
+      "old_mask": 1,
+      "action": "retain",
+      "cases": 1725
+    },
+    "607c0cea444325c0da5b6632b1202f2950c36c2b65a78aaa70ab2296f5346817": {
+      "observation": [
+        [
+          "create",
+          "receive"
+        ],
+        "Consignment",
+        [
+          0,
+          1
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 2557
+    },
+    "c37c70a20a7b7f619c9eae601ff0f111ed204d49681bbc7e413ca0b1b92bf144": {
+      "observation": [
+        [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "3-way match, invoice after GR",
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 267
+    },
+    "9b28258c246a665768bb557cc6e09ed61fd8d2d2c7a59a3a2f48d23588ab95ce": {
+      "observation": [
+        [
+          "create",
+          "receive"
+        ],
+        "3-way match, invoice after GR",
+        null
+      ],
+      "old_mask": 1,
+      "action": "retain",
+      "cases": 693
+    },
+    "5194fa26e68704355d0bdacc1ec93a25c5948e043cd08745b775869005cc6643": {
+      "observation": [
+        [
+          "create",
+          "clear",
+          "invoice"
+        ],
+        null,
+        null
+      ],
+      "old_mask": 0,
+      "action": "retain",
+      "cases": 1
+    },
+    "d5a5b7fb83ad7fe96f16cd1b4d2a91f9491c3fa3fca51e49ffed02b48e5c5856": {
+      "observation": [
+        [
+          "create",
+          "clear"
+        ],
+        null,
+        null
+      ],
+      "old_mask": 0,
+      "action": "retain",
+      "cases": 52
+    },
+    "c1f8d633f1d3008dcd5885ddb31e8695d0ab1f31c11e1cc359dee9e5fdadbd8d": {
+      "observation": [
+        [
+          "create",
+          "invoice",
+          "clear",
+          "receive"
+        ],
+        "3-way match, invoice before GR",
+        null
+      ],
+      "old_mask": 1,
+      "action": "retain",
+      "cases": 5
+    },
+    "5e07f45112832d8e77d640727bb3090513e1f6ce2772f0e1afe5fc0d6d35da51": {
+      "observation": [
+        [
+          "create",
+          "invoice",
+          "clear"
+        ],
+        "3-way match, invoice before GR",
+        null
+      ],
+      "old_mask": 1,
+      "action": "retain",
+      "cases": 32
+    },
+    "6095f37fd61ab000d98dd1f902dc7644cc639531ef177a751b1830e631b31bdb": {
+      "observation": [
+        [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "3-way match, invoice before GR",
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 2
+    },
+    "2455f549f0bdda93f03630f37bd8b6ff83b052db9c4b525f85a0c14dd3b1f209": {
+      "observation": [
+        [
+          "create",
+          "invoice",
+          "receive",
+          "clear"
+        ],
+        "3-way match, invoice before GR",
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 4
+    },
+    "9a03ef54bfae8b60c2222c0f4a7f37f7885e4588ef99c236dd393f237eccaf16": {
+      "observation": [
+        [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "3-way match, invoice before GR",
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 2
+    },
+    "273be6f8e6eea7c6ccb31a28270c5807f4cdcaf012f7474d51bb64315312277b": {
+      "observation": [
+        [
+          "create",
+          "receive",
+          "clear",
+          "invoice"
+        ],
+        null,
+        null
+      ],
+      "old_mask": 0,
+      "action": "retain",
+      "cases": 3
+    },
+    "ed465a97e9988365fd6830fdfd1a188c061af00b5fedc68577e3d7265294a2ec": {
+      "observation": [
+        [
+          "create",
+          "invoice",
+          "receive"
+        ],
+        null,
+        null
+      ],
+      "old_mask": 0,
+      "action": "retain",
+      "cases": 197
+    },
+    "5a16bf2e544855e0b8e23ea098da85604e91700a99c731c127b8723edcc00963": {
+      "observation": [
+        [
+          "create",
+          "invoice"
+        ],
+        null,
+        null
+      ],
+      "old_mask": 0,
+      "action": "retain",
+      "cases": 113
+    },
+    "44beb7f2e43cc30d2e0cbf86025950151320c3f14de3a58f48d0d0f4ab057307": {
+      "observation": [
+        [
+          "create",
+          "invoice",
+          "clear"
+        ],
+        "2-way match",
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_mask": 3,
+      "action": "retain",
+      "cases": 101
+    }
+  }
+}

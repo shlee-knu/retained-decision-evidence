@@ -1,0 +1,4 @@
+{
+  "sha256": "2ac9f1889aa99fb5b274ec0bb7f8e5ed162bd0d51cf4946454cd56df86f74dff",
+  "purpose": "Same initialized test database restored before the second source-version run; dump kept only in external workdir."
+}

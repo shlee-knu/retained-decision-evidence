@@ -1,0 +1,60 @@
+{
+  "protocol_id": "public-procurement-change-v1-20261012",
+  "date": "2026-10-12",
+  "freeze_stage": "After inspection of public source changes; before running the bounded experiment. This is a local prospective protocol, not external preregistration.",
+  "question": "Can a sufficient retained observation of an actual published purchase-software guard become insufficient for evaluating that guard under its revised rule?",
+  "source": {
+    "repository": "https://github.com/frappe/erpnext",
+    "pull_request": 58126,
+    "pull_request_url": "https://github.com/frappe/erpnext/pull/58126",
+    "before_commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+    "after_commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+    "merged_commit": "fd728daccaa2f563b1b2592fdedd2a5ff796fb1b",
+    "path": "erpnext/controllers/buying_controller.py",
+    "class": "BuyingController",
+    "method": "update_ordered_and_reserved_qty",
+    "upstream_regression_path": "erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py",
+    "upstream_regression_method": "test_purchase_return_against_closed_purchase_order",
+    "license": "GPL-3.0 (upstream license.txt preserved alongside complete source files)"
+  },
+  "selection": {
+    "included": "One small published change with a directly executable changed method and upstream regression case. Both changed guard versions are pinned by full commit identifiers.",
+    "candidate_not_experiment": "PR 58177 adds a wider exchange-rate validation path; its archived metadata and patch document candidate screening only. It is not a second evaluated change.",
+    "sampling": "Convenience case selected after reading the two proposed public changes, not a representative sample of ERPNext maintenance changes."
+  },
+  "bounded_domain": {
+    "fixed_context": "A Purchase Receipt with one item linked to one existing Purchase Order and one nonempty purchase_order_item; update_ordered_qty is a recorded no-op. Other validation, database transactions, ledger effects, access control and workflow reachability are outside the experiment.",
+    "blocks": ["purchase_order.status", "is_return"],
+    "values": [["To Bill", "Closed", "Cancelled"], [false, true]],
+    "status_justification": "To Bill is an actual Purchase Order status used in the upstream reproduction. Closed and Cancelled are the two status literals in the changed method. This selected Cartesian domain is bounded; no field-distribution or deployment-prevalence inference is made.",
+    "before_predicate": "guard passes iff status is neither Closed nor Cancelled",
+    "after_predicate": "guard passes iff status is not Cancelled and (status is not Closed or is_return)",
+    "retention": ["status_only", "full"],
+    "receipt_construction": "Construct one candidate per complete state and policy; retain the old Boolean and selected fields, then admit only observations sufficient over the declared domain. These are synthetic receipts, not exported ERPNext decision logs.",
+    "historical_interpretation": "Reuse or impact assessment under the new rule. The experiment does not revoke a historically valid old decision and does not establish a production need to apply this change retroactively."
+  },
+  "execution": {
+    "model": "New local two-block adapter reuses the existing generic FiniteDiagnostics implementation, with independently authored declarative predicates. Existing BPI models and all three-engine timings remain unchanged.",
+    "source_reference": "Compile and execute the complete unmodified method AST from each archived upstream version under explicit mocks for frappe.get_lazy_doc, frappe.throw, frappe.bold, translation, document get, and purchase-order update_ordered_qty. Never supply model labels to this source execution.",
+    "reference_diagnostics": "Exhaustively classify every projection and both claimed old Boolean values using source-executed labels; derive all minimal robust query sets by pairwise opposed-completion separation and verify model witnesses separately.",
+    "upstream_tests": "Replay the changed-guard inputs corresponding to the upstream closed-return and ordinary-receipt checks. Archive the full upstream regression source; do not claim that its complete Frappe integration test was executed.",
+    "offline_reproduction": "Main analysis reads archived, hashed sources and performs no network access."
+  },
+  "outputs": [
+    "source_manifest.json and archived sources/license",
+    "source_execution.jsonl with before/after effects",
+    "observation_audit.jsonl with all admitted and rejected queries",
+    "retention_ledger.jsonl with both constructed retention policies",
+    "summary.json with all safe/stale/insufficient/invalid counts and source/model agreement",
+    "manuscript_insert.txt and table.md with explicit boundaries"
+  ],
+  "acceptance_checks": [
+    "Commit parent relation and unchanged source method extraction verified",
+    "Every selected complete input agrees between source execution and declared predicates",
+    "Every partial-input query agrees between FiniteDiagnostics and source-executed pairwise reference",
+    "Reported opposed completions preserve retained fields and have opposite source outcomes",
+    "Full-information negative control has no insufficient receipt",
+    "Invalid old claims are rejected before interpreting the new result",
+    "All outcomes, including no-effect observations, are retained"
+  ]
+}

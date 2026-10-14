@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "inputs": {
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+    "results/strong/catalog_audit/design.json": "8df7869383c5e613f364097ae1b7c14dac3b5b3fb73e70b42bcfdc3d570891f6",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "scripts/audit_catalog_certificates.py": "2f355bc08c2bcc0327c03f6238436f1b0a7d91599aba6a031869039d0e2b478f",
+    "tests/test_catalog_audit.py": "9779fee236a3c1592562cbe5ed119fe4f7a3affa1dc6fc38b188413bf7dd5b25",
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7"
+  },
+  "outputs": {
+    "results/strong/catalog_audit/summary.json": "5c20faccbe985f368ea45585e9c16beccd52ee5986794a4fe404eeffbe2db08a",
+    "results/strong/catalog_audit/witnesses.json": "0ad78dfb9bda2e8fb061617f50839ecd5baa86c45feabe915b410a7b8a81ef5a",
+    "results/strong/catalog_audit/native_projections.json": "92c4ddc377b2677d9ec13a5386bb0df23daff1998e2f8330ac235461cbb94c41",
+    "results/strong/catalog_audit/finite_tables.json.gz": "e369afd80c9b1ebf57ea456dc2297357b5d64365e27a8efc120e50ba23bfd7af",
+    "results/strong/catalog_audit/variants.csv": "4fbcd9fde4e2829da8f9193cadb1f7d4ae0ecb31b24f8a1962aef505f404c3b1"
+  },
+  "original_bpi2019_sha256": "af63bc687fc4152f2123b05c3af7772b37ef3fce2d3f67f812666c9e356baae7",
+  "source_doi": "10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+  "source_license": "CC BY 4.0"
+}

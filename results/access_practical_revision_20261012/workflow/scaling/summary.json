@@ -1,0 +1,1439 @@
+{
+  "status": "passed",
+  "scope": "Controlled native-ID subsets with no invented or repeated records. N=1,000/10,000 and full N=50,931 all retain K=20 classes by forcing one native exemplar per class before source-order filling. K=1/5/10 at N=1,000 uses classes in descending native frequency and includes each exemplar; K=20 is the n:1000 cell. The full retained archive and source index are still read in every cell, deliberately retaining fixed setup cost. Changing K also changes class complexity/repair prevalence; report composition and do not attribute time solely to K. Three measured fresh pairs per subset, with warm OS caches following the full-cohort benchmark; not extrapolation beyond 20 native classes.",
+  "cells": [
+    {
+      "selection": "n:1000",
+      "summary": {
+        "checked_api": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 4787.370848,
+              "min": 4780.04205,
+              "max": 4795.862633,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 4720.326549,
+              "min": 4700.984365,
+              "max": 4730.933711,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 762736,
+              "min": 762372,
+              "max": 762740,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1235.010497,
+                "min": 1229.262269,
+                "max": 1236.788375,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1234.796496,
+                "min": 1228.947621,
+                "max": 1236.636034,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1679.804545,
+                "min": 1677.941254,
+                "max": 1681.75017,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1679.39905,
+                "min": 1677.535797,
+                "max": 1681.403696,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 28.512588,
+                "min": 28.307584,
+                "max": 29.500884,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 28.512975,
+                "min": 28.298523,
+                "max": 29.493682,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 1685.555337,
+                "min": 1679.47982,
+                "max": 1690.354181,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1679.151983,
+                "min": 1674.90142,
+                "max": 1690.062613,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 69.714189,
+                "min": 67.9275,
+                "max": 71.179224,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 3.588078,
+                "min": 3.421963,
+                "max": 4.009446,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 93.195566,
+                "min": 81.780614,
+                "max": 96.989221,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 93.191106,
+                "min": 81.770351,
+                "max": 96.957997,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 20,
+            "affected_ids": 800,
+            "receipts": 1000,
+            "counts": {
+              "replacements": 1000,
+              "profile_reads": 800,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 800,
+              "safe": 200
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "e7f9fcdeb407f52882fe435c2a7fa0b5801ca37b938cbfedcfca646d7a2652bd",
+              "bytes": 66966
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "b65bb6f1757ae1167a01ebfcc8876c0cda6b5ced8129fbcd18a718c812c89a85",
+              "bytes": 2345
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "957b0ece3c0eefc331ab16c1b8096dd45ed1933f7fa2622a39159847d3c6b5d4",
+              "bytes": 73625
+            }
+          }
+        },
+        "ordinary_worklist": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 3254.208612,
+              "min": 3232.192424,
+              "max": 3275.5903,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 3210.282081,
+              "min": 3197.10921,
+              "max": 3231.522239,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 762860,
+              "min": 762696,
+              "max": 763032,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1201.478129,
+                "min": 1199.279149,
+                "max": 1216.230696,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1201.269742,
+                "min": 1199.074489,
+                "max": 1215.980445,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1672.594858,
+                "min": 1666.275982,
+                "max": 1679.696231,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1672.038413,
+                "min": 1665.873711,
+                "max": 1679.400127,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 5.082149,
+                "min": 5.027076,
+                "max": 5.158933,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 5.072586,
+                "min": 5.027901,
+                "max": 5.160017,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 237.071441,
+                "min": 235.762028,
+                "max": 238.458758,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 237.059259,
+                "min": 235.70667,
+                "max": 238.429776,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 47.046341,
+                "min": 37.925575,
+                "max": 47.1075,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 3.659276,
+                "min": 3.519398,
+                "max": 3.949593,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 90.854445,
+                "min": 85.155723,
+                "max": 91.57846,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 90.830023,
+                "min": 85.130424,
+                "max": 91.575206,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 20,
+            "affected_ids": 800,
+            "receipts": 1000,
+            "counts": {
+              "replacements": 1000,
+              "profile_reads": 800,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 800,
+              "safe": 200
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "e7f9fcdeb407f52882fe435c2a7fa0b5801ca37b938cbfedcfca646d7a2652bd",
+              "bytes": 66966
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "b65bb6f1757ae1167a01ebfcc8876c0cda6b5ced8129fbcd18a718c812c89a85",
+              "bytes": 2345
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "957b0ece3c0eefc331ab16c1b8096dd45ed1933f7fa2622a39159847d3c6b5d4",
+              "bytes": 73625
+            }
+          }
+        },
+        "equivalence": {
+          "all_runs_independent_readback_passed": true,
+          "replacement_stream_sha256": "983cde3b2725d4bbb39044b90b45960e0aa57e6919632cc56566a3a1ed35ed95",
+          "affected_ids_sha256": "b65bb6f1757ae1167a01ebfcc8876c0cda6b5ced8129fbcd18a718c812c89a85",
+          "witness_contract": "same valid labels/complete minimal robust sets, independently verified; literal witness choices need not be byte identical"
+        }
+      }
+    },
+    {
+      "selection": "n:10000",
+      "summary": {
+        "checked_api": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 20120.204435,
+              "min": 20042.262945,
+              "max": 20307.845321,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 20090.54111,
+              "min": 20012.427531,
+              "max": 20259.295905,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 791516,
+              "min": 791240,
+              "max": 791624,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1421.158003,
+                "min": 1420.60451,
+                "max": 1443.873102,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1420.870289,
+                "min": 1420.294285,
+                "max": 1443.591118,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1768.612866,
+                "min": 1764.556883,
+                "max": 1774.841148,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1768.24269,
+                "min": 1764.199708,
+                "max": 1774.475105,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 30.927719,
+                "min": 30.820899,
+                "max": 32.14826,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 30.927574,
+                "min": 30.820806,
+                "max": 32.148462,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 16318.663579,
+                "min": 16252.812535,
+                "max": 16474.971068,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 16315.390673,
+                "min": 16249.651954,
+                "max": 16460.937089,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 52.141709,
+                "min": 51.254269,
+                "max": 59.690692,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 25.955135,
+                "min": 25.653863,
+                "max": 26.207978,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 523.404454,
+                "min": 521.152099,
+                "max": 528.476917,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 523.285146,
+                "min": 521.094791,
+                "max": 528.367692,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 20,
+            "affected_ids": 7999,
+            "receipts": 10000,
+            "counts": {
+              "replacements": 10000,
+              "profile_reads": 7999,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 7999,
+              "safe": 2001
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "452e41cbd6683e36c1157e46a6e361e4eccd3b48abee0e97d5d760bbe030517c",
+              "bytes": 66967
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "d4b58dd50e60dd2cf3e4e71ccfa7a14cbe2d885b8a7b3c0f4b6035175b202e72",
+              "bytes": 22191
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "82aec27baa6a28e216ad67bbc0e55bebcdeef0dd7135526aec92c843f702c415",
+              "bytes": 717234
+            }
+          }
+        },
+        "ordinary_worklist": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 6080.371949,
+              "min": 6071.670138,
+              "max": 6098.944075,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 6044.122159,
+              "min": 6020.866938,
+              "max": 6064.285736,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 791416,
+              "min": 791288,
+              "max": 791536,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1403.979562,
+                "min": 1401.424123,
+                "max": 1406.409987,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1403.656674,
+                "min": 1401.186686,
+                "max": 1406.164049,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1760.74748,
+                "min": 1756.328438,
+                "max": 1769.462161,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1760.348793,
+                "min": 1755.942529,
+                "max": 1769.090401,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 7.818882,
+                "min": 7.760673,
+                "max": 7.863905,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 7.820363,
+                "min": 7.753565,
+                "max": 7.864984,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 2321.68389,
+                "min": 2308.450054,
+                "max": 2325.43394,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 2321.261526,
+                "min": 2308.002985,
+                "max": 2324.983207,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 60.726786,
+                "min": 58.901607,
+                "max": 75.8301,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 25.69268,
+                "min": 25.47095,
+                "max": 26.280803,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 525.341552,
+                "min": 521.816028,
+                "max": 530.800601,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 525.286333,
+                "min": 521.655273,
+                "max": 530.659,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 20,
+            "affected_ids": 7999,
+            "receipts": 10000,
+            "counts": {
+              "replacements": 10000,
+              "profile_reads": 7999,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 7999,
+              "safe": 2001
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "452e41cbd6683e36c1157e46a6e361e4eccd3b48abee0e97d5d760bbe030517c",
+              "bytes": 66967
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "d4b58dd50e60dd2cf3e4e71ccfa7a14cbe2d885b8a7b3c0f4b6035175b202e72",
+              "bytes": 22191
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "82aec27baa6a28e216ad67bbc0e55bebcdeef0dd7135526aec92c843f702c415",
+              "bytes": 717234
+            }
+          }
+        },
+        "equivalence": {
+          "all_runs_independent_readback_passed": true,
+          "replacement_stream_sha256": "9721dac3f1aa329a23e9d886ac63f711f2fd7103799fba1a2be0752d880c1d84",
+          "affected_ids_sha256": "d4b58dd50e60dd2cf3e4e71ccfa7a14cbe2d885b8a7b3c0f4b6035175b202e72",
+          "witness_contract": "same valid labels/complete minimal robust sets, independently verified; literal witness choices need not be byte identical"
+        }
+      }
+    },
+    {
+      "selection": "k:1",
+      "summary": {
+        "checked_api": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 4868.780862,
+              "min": 4840.835742,
+              "max": 4975.636808,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 4818.660936,
+              "min": 4804.093712,
+              "max": 4943.755006,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 762392,
+              "min": 762356,
+              "max": 762612,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1237.547055,
+                "min": 1230.349285,
+                "max": 1266.020615,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1237.262663,
+                "min": 1230.119146,
+                "max": 1265.746564,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1686.223744,
+                "min": 1681.118596,
+                "max": 1764.534745,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1680.802526,
+                "min": 1675.638278,
+                "max": 1764.162224,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 2.95392,
+                "min": 2.942976,
+                "max": 2.995496,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 2.954957,
+                "min": 2.944049,
+                "max": 2.996534,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 1834.247278,
+                "min": 1828.205346,
+                "max": 1849.179463,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1833.870331,
+                "min": 1827.863371,
+                "max": 1848.830456,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 34.59455,
+                "min": 29.025775,
+                "max": 53.513027,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 3.761488,
+                "min": 3.53927,
+                "max": 4.345735,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 58.282038,
+                "min": 56.774547,
+                "max": 66.529941,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 58.255393,
+                "min": 56.745254,
+                "max": 66.519021,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 1,
+            "affected_ids": 1000,
+            "receipts": 1000,
+            "counts": {
+              "replacements": 1000,
+              "profile_reads": 1000,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 1000
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "cd67e8ecfb0999e4e730a2ec090869ca00785c5c6f0faf201ccb59418c4e423d",
+              "bytes": 7036
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "b01457c8e5eccd83fb67b8fb8c5e8946a83c38edc87b8991f1db66465218c95d",
+              "bytes": 2884
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "0997dd9f245b557f1cd032fd042e41237833042ea61491a7be8392702d041004",
+              "bytes": 74327
+            }
+          }
+        },
+        "ordinary_worklist": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 3264.380114,
+              "min": 3254.283538,
+              "max": 3286.908466,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 3225.806879,
+              "min": 3219.774178,
+              "max": 3230.922604,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 762308,
+              "min": 762236,
+              "max": 762536,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1228.615113,
+                "min": 1207.129531,
+                "max": 1231.864032,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1228.383037,
+                "min": 1206.922928,
+                "max": 1231.629982,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1673.829728,
+                "min": 1670.6166,
+                "max": 1685.20986,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1673.472251,
+                "min": 1670.229274,
+                "max": 1684.921216,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 1.187576,
+                "min": 1.186418,
+                "max": 1.197061,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1.188856,
+                "min": 1.187854,
+                "max": 1.198369,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 262.584906,
+                "min": 260.261435,
+                "max": 270.098265,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 260.184231,
+                "min": 259.105131,
+                "max": 262.533607,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 37.689064,
+                "min": 36.545864,
+                "max": 53.764962,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 3.770661,
+                "min": 3.748132,
+                "max": 4.297988,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 62.543712,
+                "min": 58.295079,
+                "max": 62.738227,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 62.540564,
+                "min": 58.293075,
+                "max": 62.736058,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 1,
+            "affected_ids": 1000,
+            "receipts": 1000,
+            "counts": {
+              "replacements": 1000,
+              "profile_reads": 1000,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 1000
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "cd67e8ecfb0999e4e730a2ec090869ca00785c5c6f0faf201ccb59418c4e423d",
+              "bytes": 7036
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "b01457c8e5eccd83fb67b8fb8c5e8946a83c38edc87b8991f1db66465218c95d",
+              "bytes": 2884
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "0997dd9f245b557f1cd032fd042e41237833042ea61491a7be8392702d041004",
+              "bytes": 74327
+            }
+          }
+        },
+        "equivalence": {
+          "all_runs_independent_readback_passed": true,
+          "replacement_stream_sha256": "c52e60dfadc814e5445efe6c3039781c210ca505b57c0961a329e9910992f3c0",
+          "affected_ids_sha256": "b01457c8e5eccd83fb67b8fb8c5e8946a83c38edc87b8991f1db66465218c95d",
+          "witness_contract": "same valid labels/complete minimal robust sets, independently verified; literal witness choices need not be byte identical"
+        }
+      }
+    },
+    {
+      "selection": "k:5",
+      "summary": {
+        "checked_api": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 4626.472268,
+              "min": 4593.938062,
+              "max": 4626.964207,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 4559.049603,
+              "min": 4557.526689,
+              "max": 4601.184522,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 762232,
+              "min": 762172,
+              "max": 762268,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1217.395787,
+                "min": 1214.905817,
+                "max": 1234.283589,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1217.150408,
+                "min": 1214.718608,
+                "max": 1234.015531,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1665.285006,
+                "min": 1662.4309,
+                "max": 1674.160431,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1664.974712,
+                "min": 1662.069499,
+                "max": 1673.810033,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 5.321996,
+                "min": 5.248107,
+                "max": 5.52389,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 5.323109,
+                "min": 5.23121,
+                "max": 5.52501,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 1613.185487,
+                "min": 1604.467633,
+                "max": 1628.79447,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1612.892294,
+                "min": 1604.173128,
+                "max": 1628.505264,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 37.239166,
+                "min": 27.558122,
+                "max": 71.874254,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 3.228445,
+                "min": 3.194559,
+                "max": 3.314349,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 60.859251,
+                "min": 56.292722,
+                "max": 62.344008,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 60.857049,
+                "min": 56.291039,
+                "max": 62.334892,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 5,
+            "affected_ids": 812,
+            "receipts": 1000,
+            "counts": {
+              "replacements": 1000,
+              "profile_reads": 812,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 812,
+              "safe": 188
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "2648e7b86827bc6a71c824f4b66478e3517bc836c47d43e4bb21aa70968c93f5",
+              "bytes": 19431
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "504dd735d43ae800e58ce02b9af4a39c902976438c5cc8d44733299daa4ef6ba",
+              "bytes": 2362
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "09a91347281140a2b09b23da45af6a71c533b23a351decfdf41e03e4b331a0f2",
+              "bytes": 73590
+            }
+          }
+        },
+        "ordinary_worklist": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 3234.039617,
+              "min": 3209.264931,
+              "max": 3242.790647,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 3194.939991,
+              "min": 3175.874298,
+              "max": 3200.09606,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 762260,
+              "min": 762060,
+              "max": 762428,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1211.404689,
+                "min": 1205.423608,
+                "max": 1224.784209,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1211.191197,
+                "min": 1205.182898,
+                "max": 1224.515357,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1671.499188,
+                "min": 1668.516403,
+                "max": 1673.415857,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1671.186525,
+                "min": 1668.141777,
+                "max": 1673.06099,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 1.759579,
+                "min": 1.748674,
+                "max": 1.781578,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1.7607,
+                "min": 1.749908,
+                "max": 1.782566,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 237.295794,
+                "min": 237.066584,
+                "max": 238.590198,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 237.265784,
+                "min": 237.046616,
+                "max": 238.514481,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 36.634583,
+                "min": 35.879599,
+                "max": 51.064152,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 3.3832,
+                "min": 3.158713,
+                "max": 3.845725,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 60.714084,
+                "min": 60.549455,
+                "max": 67.747516,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 60.69512,
+                "min": 60.53065,
+                "max": 67.731469,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 5,
+            "affected_ids": 812,
+            "receipts": 1000,
+            "counts": {
+              "replacements": 1000,
+              "profile_reads": 812,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 812,
+              "safe": 188
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "2648e7b86827bc6a71c824f4b66478e3517bc836c47d43e4bb21aa70968c93f5",
+              "bytes": 19431
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "504dd735d43ae800e58ce02b9af4a39c902976438c5cc8d44733299daa4ef6ba",
+              "bytes": 2362
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "09a91347281140a2b09b23da45af6a71c533b23a351decfdf41e03e4b331a0f2",
+              "bytes": 73590
+            }
+          }
+        },
+        "equivalence": {
+          "all_runs_independent_readback_passed": true,
+          "replacement_stream_sha256": "2d6a13f7f9dae3d7e33d312f299f1278e49cc3a99bbe76bad1cdbd7a3236776e",
+          "affected_ids_sha256": "504dd735d43ae800e58ce02b9af4a39c902976438c5cc8d44733299daa4ef6ba",
+          "witness_contract": "same valid labels/complete minimal robust sets, independently verified; literal witness choices need not be byte identical"
+        }
+      }
+    },
+    {
+      "selection": "k:10",
+      "summary": {
+        "checked_api": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 4612.219734,
+              "min": 4599.187392,
+              "max": 4634.248339,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 4575.900914,
+              "min": 4553.741528,
+              "max": 4601.99213,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 762180,
+              "min": 762140,
+              "max": 762284,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1230.99849,
+                "min": 1202.259033,
+                "max": 1234.109985,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1230.707392,
+                "min": 1202.031207,
+                "max": 1233.906302,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1676.310238,
+                "min": 1672.783543,
+                "max": 1677.596612,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1675.968947,
+                "min": 1672.414469,
+                "max": 1677.234079,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 8.634028,
+                "min": 8.594148,
+                "max": 8.746887,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 8.634917,
+                "min": 8.594786,
+                "max": 8.748311,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 1597.49841,
+                "min": 1592.433552,
+                "max": 1622.729553,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1597.188721,
+                "min": 1592.162744,
+                "max": 1622.370153,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 38.749202,
+                "min": 34.373293,
+                "max": 48.170286,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 3.372886,
+                "min": 3.065457,
+                "max": 3.652913,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 64.909,
+                "min": 56.749803,
+                "max": 69.799528,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 64.887043,
+                "min": 56.740851,
+                "max": 69.795998,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 10,
+            "affected_ids": 805,
+            "receipts": 1000,
+            "counts": {
+              "replacements": 1000,
+              "profile_reads": 805,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 805,
+              "safe": 195
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "cc315d2701519992ca0cdc00c12019a55deb259f40b7e25311b6e1427920f508",
+              "bytes": 35233
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "401d27b087977941941a3428bea500f886a34910f07721404798cfc8b36dde47",
+              "bytes": 2359
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "762199d1ab7fd1ecc6d325f9aa64a76d1f66737705abee0b2badb71777b1b63c",
+              "bytes": 73627
+            }
+          }
+        },
+        "ordinary_worklist": {
+          "integrated_total": {
+            "wall_ms": {
+              "median": 3252.093266,
+              "min": 3238.409929,
+              "max": 3293.272675,
+              "rounds": 3
+            },
+            "cpu_ms": {
+              "median": 3216.499822,
+              "min": 3197.990394,
+              "max": 3244.541252,
+              "rounds": 3
+            },
+            "peak_rss_kib": {
+              "median": 762392,
+              "min": 762132,
+              "max": 762488,
+              "rounds": 3
+            }
+          },
+          "stages": {
+            "retained_store_read_validate_group": {
+              "wall_ms": {
+                "median": 1229.162066,
+                "min": 1220.219509,
+                "max": 1251.672813,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1228.955652,
+                "min": 1219.979432,
+                "max": 1251.213989,
+                "rounds": 3
+              }
+            },
+            "snapshot_hash_read_index": {
+              "wall_ms": {
+                "median": 1675.97577,
+                "min": 1672.092463,
+                "max": 1681.803726,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 1675.588575,
+                "min": 1671.805008,
+                "max": 1681.457506,
+                "rounds": 3
+              }
+            },
+            "class_reports_and_exact_id_list": {
+              "wall_ms": {
+                "median": 2.452497,
+                "min": 2.445112,
+                "max": 2.4911,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 2.453447,
+                "min": 2.445912,
+                "max": 2.491836,
+                "rounds": 3
+              }
+            },
+            "checked_recovery_and_ledger_encoding": {
+              "wall_ms": {
+                "median": 241.710923,
+                "min": 237.524025,
+                "max": 242.186893,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 241.662669,
+                "min": 237.447243,
+                "max": 242.125015,
+                "rounds": 3
+              }
+            },
+            "artifact_serialization_and_fsync": {
+              "wall_ms": {
+                "median": 42.899927,
+                "min": 38.236859,
+                "max": 51.329005,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 3.310852,
+                "min": 3.09816,
+                "max": 3.525039,
+                "rounds": 3
+              }
+            },
+            "persisted_readback_semantic_verification": {
+              "wall_ms": {
+                "median": 64.492258,
+                "min": 58.50079,
+                "max": 68.378212,
+                "rounds": 3
+              },
+              "cpu_ms": {
+                "median": 64.482767,
+                "min": 58.486316,
+                "max": 68.349246,
+                "rounds": 3
+              }
+            }
+          },
+          "verification": {
+            "status": "passed",
+            "reports": 10,
+            "affected_ids": 805,
+            "receipts": 1000,
+            "counts": {
+              "replacements": 1000,
+              "profile_reads": 805,
+              "first_times_reads": 0
+            },
+            "status_counts": {
+              "insufficient": 805,
+              "safe": 195
+            },
+            "independent_predicate_and_completion_check": true
+          },
+          "payload_files": {
+            "bundle.json": {
+              "sha256": "cc315d2701519992ca0cdc00c12019a55deb259f40b7e25311b6e1427920f508",
+              "bytes": 35233
+            },
+            "affected_receipt_ids.jsonl.gz": {
+              "sha256": "401d27b087977941941a3428bea500f886a34910f07721404798cfc8b36dde47",
+              "bytes": 2359
+            },
+            "repair_ledger.jsonl.gz": {
+              "sha256": "762199d1ab7fd1ecc6d325f9aa64a76d1f66737705abee0b2badb71777b1b63c",
+              "bytes": 73627
+            }
+          }
+        },
+        "equivalence": {
+          "all_runs_independent_readback_passed": true,
+          "replacement_stream_sha256": "27f0a682cc103c530a3558e8695ce239e8c0e2079a1947c68b4f6a7c6411b867",
+          "affected_ids_sha256": "401d27b087977941941a3428bea500f886a34910f07721404798cfc8b36dde47",
+          "witness_contract": "same valid labels/complete minimal robust sets, independently verified; literal witness choices need not be byte identical"
+        }
+      }
+    }
+  ]
+}

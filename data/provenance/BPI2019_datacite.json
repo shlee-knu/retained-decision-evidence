@@ -1,0 +1,342 @@
+{
+  "data": {
+    "id": "10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+      "prefix": "10.4121",
+      "suffix": "uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "van Dongen, Boudewijn",
+          "nameType": "Personal",
+          "givenName": "Boudewijn",
+          "familyName": "van Dongen",
+          "nameIdentifiers": [
+            {
+              "nameIdentifier": "0000-0002-3978-6464",
+              "nameIdentifierScheme": "https://orcid.org/"
+            }
+          ],
+          "affiliation": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "BPI Challenge 2019"
+        }
+      ],
+      "publisher": "4TU.Centre for Research Data",
+      "container": {},
+      "publicationYear": 2019,
+      "subjects": [
+        {
+          "subject": "Computation Theory and Mathematics",
+          "subjectScheme": "Australian and New Zealand Standard Research Classification (ANZSRC), 2008",
+          "classificationCode": "0802"
+        },
+        {
+          "subject": "FOS: Computer and information sciences",
+          "schemeUri": "http://www.oecd.org/science/inno/38235147.pdf",
+          "subjectScheme": "Fields of Science and Technology (FOS)"
+        },
+        {
+          "subject": "Business Process Intelligence (BPI)"
+        },
+        {
+          "subject": "Compliance Checking"
+        },
+        {
+          "subject": "IEEE Task Force on Process Mining"
+        },
+        {
+          "subject": "Process Mining"
+        },
+        {
+          "subject": "real life event logs"
+        },
+        {
+          "subject": "Time: 2018"
+        }
+      ],
+      "contributors": [
+        {
+          "name": "Eindhoven University Of Technology, Department Of Mathematics And Computer Science",
+          "nameType": "Organizational",
+          "affiliation": [],
+          "contributorType": "Other",
+          "nameIdentifiers": []
+        }
+      ],
+      "dates": [
+        {
+          "date": "2019-01-31",
+          "dateType": "Issued"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "References",
+          "relatedIdentifier": "https://icpmconference.org/icpm-2019/contests-challenges/bpi-challenge-2019/",
+          "relatedIdentifierType": "URL"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [
+        "media types: text/xml"
+      ],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "This data originated from a large multinational company operating from The Netherlands in the area of coatings and paints and we ask participants to investigate the purchase order handling process for some of its 60 subsidiaries. In particular, the process owner has compliance questions. In the data, each purchase order (or purchase document) contains one or more line items. For each line item, there are roughly four types of flows in the data: (1) 3-way matching, invoice after goods receipt: For these items, the value of the goods receipt message should be matched against the value of an invoice receipt message and the value put during creation of the item (indicated by both the GR-based flag and the Goods Receipt flags set to true). (2) 3-way matching, invoice before goods receipt: Purchase Items that do require a goods receipt message, while they do not require GR-based invoicing (indicated by the GR-based IV flag set to false and the Goods Receipt flags set to true). For such purchase items, invoices can be entered before the goods are receipt, but they are blocked until goods are received. This unblocking can be done by a user, or by a batch process at regular intervals. Invoices should only be cleared if goods are received and the value matches with the invoice and the value at creation of the item. (3) 2-way matching (no goods receipt needed): For these items, the value of the invoice should match the value at creation (in full or partially until PO value is consumed), but there is no separate goods receipt message required (indicated by both the GR-based flag and the Goods Receipt flags set to false). (4)Consignment: For these items, there are no invoices on PO level as this is handled fully in a separate process. Here we see GR indicator is set to true but the GR IV flag is set to false and also we know by item type (consignment) that we do not expect an invoice against this item. Unfortunately, the complexity of the data goes further than just this division in four categories. For each purchase item, there can be many goods receipt messages and corresponding invoices which are subsequently paid. Consider for example the process of paying rent. There is a Purchase Document with one item for paying rent, but a total of 12 goods receipt messages with (cleared) invoices with a value equal to 1/12 of the total amount. For logistical services, there may even be hundreds of goods receipt messages for one line item. Overall, for each line item, the amounts of the line item, the goods receipt messages (if applicable) and the invoices have to match for the process to be compliant. Of course, the log is anonymized, but some semantics are left in the data, for example: The resources are split between batch users and normal users indicated by their name. The batch users are automated processes executed by different systems. The normal users refer to human actors in the process. The monetary values of each event are anonymized from the original data using a linear translation respecting 0, i.e. addition of multiple invoices for a single item should still lead to the original item worth (although there may be small rounding errors for numerical reasons). Company, vendor, system and document names and IDs are anonymized in a consistent way throughout the log. The company has the key, so any result can be translated by them to business insights about real customers and real purchase documents. The event log is fully IEEE-XES compliant and is structured as follows. The case ID is a combination of the purchase document and the purchase item. There is a total of 76,349 purchase documents containing in total 251,734 items, i.e. there are 251,734 cases. In these cases, there are 1,595,923 events relating to 42 activities performed by 627 users (607 human users and 20 batch users). Sometimes the user field is empty, or NONE, which indicates no user was recorded in the source system. For each purchase item (or case) the following attributes are recorded: concept:name: A combination of the purchase document id and the item id, Purchasing Document: The purchasing document ID, Item: The item ID, Item Type: The type of the item, GR-Based Inv. Verif.: Flag indicating if GR-based invoicing is required (see above), Goods Receipt: Flag indicating if 3-way matching is required (see above), Source: The source system of this item, Doc. Category name: The name of the category of the purchasing document, Company: The subsidiary of the company from where the purchase originated, Spend classification text: A text explaining the class of purchase item, Spend area text: A text explaining the area for the purchase item, Sub spend area text: Another text explaining the area for the purchase item, Vendor: The vendor to which the purchase document was sent, Name: The name of the vendor, Document Type: The document type, Item Category: The category as explained above (3-way with GR-based invoicing, 3-way without, 2-way, consignment).",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00LjQvbWV0YWRhdGEueHNkIj4KICA8aWRlbnRpZmllciBpZGVudGlmaWVyVHlwZT0iRE9JIj4xMC40MTIxL1VVSUQ6RDA2QUZGNEItNzlGMC00NUU2LThFQzgtRTE5NzMwQzI0OEYxPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5Cb3VkZXdpam4gdmFuIERvbmdlbjwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Qm91ZGV3aWpuPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPnZhbiBEb25nZW48L2ZhbWlseU5hbWU+CiAgICAgIDxuYW1lSWRlbnRpZmllciBuYW1lSWRlbnRpZmllclNjaGVtZT0iaHR0cHM6Ly9vcmNpZC5vcmcvIj4wMDAwLTAwMDItMzk3OC02NDY0PC9uYW1lSWRlbnRpZmllcj4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+QlBJIENoYWxsZW5nZSAyMDE5PC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPjRUVS5DZW50cmUgZm9yIFJlc2VhcmNoIERhdGE8L3B1Ymxpc2hlcj4KICA8cHVibGljYXRpb25ZZWFyPjIwMTk8L3B1YmxpY2F0aW9uWWVhcj4KICA8cmVzb3VyY2VUeXBlIHJlc291cmNlVHlwZUdlbmVyYWw9IkRhdGFzZXQiPkRhdGFzZXQ8L3Jlc291cmNlVHlwZT4KICA8c3ViamVjdHM+CiAgICA8c3ViamVjdCBzdWJqZWN0U2NoZW1lPSJBdXN0cmFsaWFuIGFuZCBOZXcgWmVhbGFuZCBTdGFuZGFyZCBSZXNlYXJjaCBDbGFzc2lmaWNhdGlvbiAoQU5aU1JDKSwgMjAwOCIgY2xhc3NpZmljYXRpb25Db2RlPSIwODAyIj5Db21wdXRhdGlvbiBUaGVvcnkgYW5kIE1hdGhlbWF0aWNzPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+QnVzaW5lc3MgUHJvY2VzcyBJbnRlbGxpZ2VuY2UgKEJQSSk8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5Db21wbGlhbmNlIENoZWNraW5nPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+SUVFRSBUYXNrIEZvcmNlIG9uIFByb2Nlc3MgTWluaW5nPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+UHJvY2VzcyBNaW5pbmc8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5yZWFsIGxpZmUgZXZlbnQgbG9nczwvc3ViamVjdD4KICAgIDxzdWJqZWN0PlRpbWU6IDIwMTg8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8Y29udHJpYnV0b3JzPgogICAgPGNvbnRyaWJ1dG9yIGNvbnRyaWJ1dG9yVHlwZT0iT3RoZXIiPgogICAgICA8Y29udHJpYnV0b3JOYW1lIG5hbWVUeXBlPSJPcmdhbml6YXRpb25hbCI+RWluZGhvdmVuIFVuaXZlcnNpdHkgb2YgVGVjaG5vbG9neSwgRGVwYXJ0bWVudCBvZiBNYXRoZW1hdGljcyBhbmQgQ29tcHV0ZXIgU2NpZW5jZTwvY29udHJpYnV0b3JOYW1lPgogICAgPC9jb250cmlidXRvcj4KICA8L2NvbnRyaWJ1dG9ycz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iSXNzdWVkIj4yMDE5LTAxLTMxPC9kYXRlPgogIDwvZGF0ZXM+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGVkSWRlbnRpZmllclR5cGU9IlVSTCIgcmVsYXRpb25UeXBlPSJSZWZlcmVuY2VzIj5odHRwczovL2ljcG1jb25mZXJlbmNlLm9yZy9pY3BtLTIwMTkvY29udGVzdHMtY2hhbGxlbmdlcy9icGktY2hhbGxlbmdlLTIwMTkvPC9yZWxhdGVkSWRlbnRpZmllcj4KICA8L3JlbGF0ZWRJZGVudGlmaWVycz4KICA8Zm9ybWF0cz4KICAgIDxmb3JtYXQ+bWVkaWEgdHlwZXM6IHRleHQveG1sPC9mb3JtYXQ+CiAgPC9mb3JtYXRzPgogIDx2ZXJzaW9uPjE8L3ZlcnNpb24+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC8iPkNDIEJZIDQuMDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPlRoaXMgZGF0YSBvcmlnaW5hdGVkIGZyb20gYSBsYXJnZSBtdWx0aW5hdGlvbmFsIGNvbXBhbnkgb3BlcmF0aW5nIGZyb20gVGhlIE5ldGhlcmxhbmRzIGluIHRoZSBhcmVhIG9mIGNvYXRpbmdzIGFuZCBwYWludHMgYW5kIHdlIGFzayBwYXJ0aWNpcGFudHMgdG8gaW52ZXN0aWdhdGUgdGhlIHB1cmNoYXNlIG9yZGVyIGhhbmRsaW5nIHByb2Nlc3MgZm9yIHNvbWUgb2YgaXRzIDYwIHN1YnNpZGlhcmllcy4gSW4gcGFydGljdWxhciwgdGhlIHByb2Nlc3Mgb3duZXIgaGFzIGNvbXBsaWFuY2UgcXVlc3Rpb25zLgoKSW4gdGhlIGRhdGEsIGVhY2ggcHVyY2hhc2Ugb3JkZXIgKG9yIHB1cmNoYXNlIGRvY3VtZW50KSBjb250YWlucyBvbmUgb3IgbW9yZSBsaW5lIGl0ZW1zLiBGb3IgZWFjaCBsaW5lIGl0ZW0sIHRoZXJlIGFyZSByb3VnaGx5IGZvdXIgdHlwZXMgb2YgZmxvd3MgaW4gdGhlIGRhdGE6CgooMSkgMy13YXkgbWF0Y2hpbmcsIGludm9pY2UgYWZ0ZXIgZ29vZHMgcmVjZWlwdDogRm9yIHRoZXNlIGl0ZW1zLCB0aGUgdmFsdWUgb2YgdGhlIGdvb2RzIHJlY2VpcHQgbWVzc2FnZSBzaG91bGQgYmUgbWF0Y2hlZCBhZ2FpbnN0IHRoZSB2YWx1ZSBvZiBhbiBpbnZvaWNlIHJlY2VpcHQgbWVzc2FnZSBhbmQgdGhlIHZhbHVlIHB1dCBkdXJpbmcgY3JlYXRpb24gb2YgdGhlIGl0ZW0gKGluZGljYXRlZCBieSBib3RoIHRoZSBHUi1iYXNlZCBmbGFnIGFuZCB0aGUgR29vZHMgUmVjZWlwdCBmbGFncyBzZXQgdG8gdHJ1ZSkuCgooMikgMy13YXkgbWF0Y2hpbmcsIGludm9pY2UgYmVmb3JlIGdvb2RzIHJlY2VpcHQ6IFB1cmNoYXNlIEl0ZW1zIHRoYXQgZG8gcmVxdWlyZSBhIGdvb2RzIHJlY2VpcHQgbWVzc2FnZSwgd2hpbGUgdGhleSBkbyBub3QgcmVxdWlyZSBHUi1iYXNlZCBpbnZvaWNpbmcgKGluZGljYXRlZCBieSB0aGUgR1ItYmFzZWQgSVYgZmxhZyBzZXQgdG8gZmFsc2UgYW5kIHRoZSBHb29kcyBSZWNlaXB0IGZsYWdzIHNldCB0byB0cnVlKS4gRm9yIHN1Y2ggcHVyY2hhc2UgaXRlbXMsIGludm9pY2VzIGNhbiBiZSBlbnRlcmVkIGJlZm9yZSB0aGUgZ29vZHMgYXJlIHJlY2VpcHQsIGJ1dCB0aGV5IGFyZSBibG9ja2VkIHVudGlsIGdvb2RzIGFyZSByZWNlaXZlZC4gVGhpcyB1bmJsb2NraW5nIGNhbiBiZSBkb25lIGJ5IGEgdXNlciwgb3IgYnkgYSBiYXRjaCBwcm9jZXNzIGF0IHJlZ3VsYXIgaW50ZXJ2YWxzLiBJbnZvaWNlcyBzaG91bGQgb25seSBiZSBjbGVhcmVkIGlmIGdvb2RzIGFyZSByZWNlaXZlZCBhbmQgdGhlIHZhbHVlIG1hdGNoZXMgd2l0aCB0aGUgaW52b2ljZSBhbmQgdGhlIHZhbHVlIGF0IGNyZWF0aW9uIG9mIHRoZSBpdGVtLgoKKDMpIDItd2F5IG1hdGNoaW5nIChubyBnb29kcyByZWNlaXB0IG5lZWRlZCk6IEZvciB0aGVzZSBpdGVtcywgdGhlIHZhbHVlIG9mIHRoZSBpbnZvaWNlIHNob3VsZCBtYXRjaCB0aGUgdmFsdWUgYXQgY3JlYXRpb24gKGluIGZ1bGwgb3IgcGFydGlhbGx5IHVudGlsIFBPIHZhbHVlIGlzIGNvbnN1bWVkKSwgYnV0IHRoZXJlIGlzIG5vIHNlcGFyYXRlIGdvb2RzIHJlY2VpcHQgbWVzc2FnZSByZXF1aXJlZCAoaW5kaWNhdGVkIGJ5IGJvdGggdGhlIEdSLWJhc2VkIGZsYWcgYW5kIHRoZSBHb29kcyBSZWNlaXB0IGZsYWdzIHNldCB0byBmYWxzZSkuCgooNClDb25zaWdubWVudDogRm9yIHRoZXNlIGl0ZW1zLCB0aGVyZSBhcmUgbm8gaW52b2ljZXMgb24gUE8gbGV2ZWwgYXMgdGhpcyBpcyBoYW5kbGVkIGZ1bGx5IGluIGEgc2VwYXJhdGUgcHJvY2Vzcy4gSGVyZSB3ZSBzZWUgR1IgaW5kaWNhdG9yIGlzIHNldCB0byB0cnVlIGJ1dCB0aGUgR1IgSVYgZmxhZyBpcyBzZXQgdG8gZmFsc2UgYW5kIGFsc28gd2Uga25vdyBieSBpdGVtIHR5cGUgKGNvbnNpZ25tZW50KSB0aGF0IHdlIGRvIG5vdCBleHBlY3QgYW4gaW52b2ljZSBhZ2FpbnN0IHRoaXMgaXRlbS4KClVuZm9ydHVuYXRlbHksIHRoZSBjb21wbGV4aXR5IG9mIHRoZSBkYXRhIGdvZXMgZnVydGhlciB0aGFuIGp1c3QgdGhpcyBkaXZpc2lvbiBpbiBmb3VyIGNhdGVnb3JpZXMuIEZvciBlYWNoIHB1cmNoYXNlIGl0ZW0sIHRoZXJlIGNhbiBiZSBtYW55IGdvb2RzIHJlY2VpcHQgbWVzc2FnZXMgYW5kIGNvcnJlc3BvbmRpbmcgaW52b2ljZXMgd2hpY2ggYXJlIHN1YnNlcXVlbnRseSBwYWlkLiBDb25zaWRlciBmb3IgZXhhbXBsZSB0aGUgcHJvY2VzcyBvZiBwYXlpbmcgcmVudC4gVGhlcmUgaXMgYSBQdXJjaGFzZSBEb2N1bWVudCB3aXRoIG9uZSBpdGVtIGZvciBwYXlpbmcgcmVudCwgYnV0IGEgdG90YWwgb2YgMTIgZ29vZHMgcmVjZWlwdCBtZXNzYWdlcyB3aXRoIChjbGVhcmVkKSBpbnZvaWNlcyB3aXRoIGEgdmFsdWUgZXF1YWwgdG8gMS8xMiBvZiB0aGUgdG90YWwgYW1vdW50LiBGb3IgbG9naXN0aWNhbCBzZXJ2aWNlcywgdGhlcmUgbWF5IGV2ZW4gYmUgaHVuZHJlZHMgb2YgZ29vZHMgcmVjZWlwdCBtZXNzYWdlcyBmb3Igb25lIGxpbmUgaXRlbS4KCk92ZXJhbGwsIGZvciBlYWNoIGxpbmUgaXRlbSwgdGhlIGFtb3VudHMgb2YgdGhlIGxpbmUgaXRlbSwgdGhlIGdvb2RzIHJlY2VpcHQgbWVzc2FnZXMgKGlmIGFwcGxpY2FibGUpIGFuZCB0aGUgaW52b2ljZXMgaGF2ZSB0byBtYXRjaCBmb3IgdGhlIHByb2Nlc3MgdG8gYmUgY29tcGxpYW50LgoKT2YgY291cnNlLCB0aGUgbG9nIGlzIGFub255bWl6ZWQsIGJ1dCBzb21lIHNlbWFudGljcyBhcmUgbGVmdCBpbiB0aGUgZGF0YSwgZm9yIGV4YW1wbGU6IFRoZSByZXNvdXJjZXMgYXJlIHNwbGl0IGJldHdlZW4gYmF0Y2ggdXNlcnMgYW5kIG5vcm1hbCB1c2VycyBpbmRpY2F0ZWQgYnkgdGhlaXIgbmFtZS4gVGhlIGJhdGNoIHVzZXJzIGFyZSBhdXRvbWF0ZWQgcHJvY2Vzc2VzIGV4ZWN1dGVkIGJ5IGRpZmZlcmVudCBzeXN0ZW1zLiBUaGUgbm9ybWFsIHVzZXJzIHJlZmVyIHRvIGh1bWFuIGFjdG9ycyBpbiB0aGUgcHJvY2Vzcy4gVGhlIG1vbmV0YXJ5IHZhbHVlcyBvZiBlYWNoIGV2ZW50IGFyZSBhbm9ueW1pemVkIGZyb20gdGhlIG9yaWdpbmFsIGRhdGEgdXNpbmcgYSBsaW5lYXIgdHJhbnNsYXRpb24gcmVzcGVjdGluZyAwLCBpLmUuIGFkZGl0aW9uIG9mIG11bHRpcGxlIGludm9pY2VzIGZvciBhIHNpbmdsZSBpdGVtIHNob3VsZCBzdGlsbCBsZWFkIHRvIHRoZSBvcmlnaW5hbCBpdGVtIHdvcnRoIChhbHRob3VnaCB0aGVyZSBtYXkgYmUgc21hbGwgcm91bmRpbmcgZXJyb3JzIGZvciBudW1lcmljYWwgcmVhc29ucykuIENvbXBhbnksIHZlbmRvciwgc3lzdGVtIGFuZCBkb2N1bWVudCBuYW1lcyBhbmQgSURzIGFyZSBhbm9ueW1pemVkIGluIGEgY29uc2lzdGVudCB3YXkgdGhyb3VnaG91dCB0aGUgbG9nLiBUaGUgY29tcGFueSBoYXMgdGhlIGtleSwgc28gYW55IHJlc3VsdCBjYW4gYmUgdHJhbnNsYXRlZCBieSB0aGVtIHRvIGJ1c2luZXNzIGluc2lnaHRzIGFib3V0IHJlYWwgY3VzdG9tZXJzIGFuZCByZWFsIHB1cmNoYXNlIGRvY3VtZW50cy4KClRoZSBldmVudCBsb2cgaXMgZnVsbHkgSUVFRS1YRVMgY29tcGxpYW50IGFuZCBpcyBzdHJ1Y3R1cmVkIGFzIGZvbGxvd3MuIFRoZSBjYXNlIElEIGlzIGEgY29tYmluYXRpb24gb2YgdGhlIHB1cmNoYXNlIGRvY3VtZW50IGFuZCB0aGUgcHVyY2hhc2UgaXRlbS4gVGhlcmUgaXMgYSB0b3RhbCBvZiA3NiwzNDkgcHVyY2hhc2UgZG9jdW1lbnRzIGNvbnRhaW5pbmcgaW4gdG90YWwgMjUxLDczNCBpdGVtcywgaS5lLiB0aGVyZSBhcmUgMjUxLDczNCBjYXNlcy4gSW4gdGhlc2UgY2FzZXMsIHRoZXJlIGFyZSAxLDU5NSw5MjMgZXZlbnRzIHJlbGF0aW5nIHRvIDQyIGFjdGl2aXRpZXMgcGVyZm9ybWVkIGJ5IDYyNyB1c2VycyAoNjA3IGh1bWFuIHVzZXJzIGFuZCAyMCBiYXRjaCB1c2VycykuIFNvbWV0aW1lcyB0aGUgdXNlciBmaWVsZCBpcyBlbXB0eSwgb3IgTk9ORSwgd2hpY2ggaW5kaWNhdGVzIG5vIHVzZXIgd2FzIHJlY29yZGVkIGluIHRoZSBzb3VyY2Ugc3lzdGVtLgoKRm9yIGVhY2ggcHVyY2hhc2UgaXRlbSAob3IgY2FzZSkgdGhlIGZvbGxvd2luZyBhdHRyaWJ1dGVzIGFyZSByZWNvcmRlZDoKCmNvbmNlcHQ6bmFtZTogQSBjb21iaW5hdGlvbiBvZiB0aGUgcHVyY2hhc2UgZG9jdW1lbnQgaWQgYW5kIHRoZSBpdGVtIGlkLCBQdXJjaGFzaW5nIERvY3VtZW50OiBUaGUgcHVyY2hhc2luZyBkb2N1bWVudCBJRCwKSXRlbTogVGhlIGl0ZW0gSUQsIEl0ZW0gVHlwZTogVGhlIHR5cGUgb2YgdGhlIGl0ZW0sIEdSLUJhc2VkIEludi4gVmVyaWYuOiBGbGFnIGluZGljYXRpbmcgaWYgR1ItYmFzZWQgaW52b2ljaW5nIGlzIHJlcXVpcmVkIChzZWUgYWJvdmUpLApHb29kcyBSZWNlaXB0OiBGbGFnIGluZGljYXRpbmcgaWYgMy13YXkgbWF0Y2hpbmcgaXMgcmVxdWlyZWQgKHNlZSBhYm92ZSksIFNvdXJjZTogVGhlIHNvdXJjZSBzeXN0ZW0gb2YgdGhpcyBpdGVtLCBEb2MuIENhdGVnb3J5IG5hbWU6IFRoZSBuYW1lIG9mIHRoZSBjYXRlZ29yeSBvZiB0aGUgcHVyY2hhc2luZyBkb2N1bWVudCwKQ29tcGFueTogVGhlIHN1YnNpZGlhcnkgb2YgdGhlIGNvbXBhbnkgZnJvbSB3aGVyZSB0aGUgcHVyY2hhc2Ugb3JpZ2luYXRlZCwgU3BlbmQgY2xhc3NpZmljYXRpb24gdGV4dDogQSB0ZXh0IGV4cGxhaW5pbmcgdGhlIGNsYXNzIG9mIHB1cmNoYXNlIGl0ZW0sIFNwZW5kIGFyZWEgdGV4dDogQSB0ZXh0IGV4cGxhaW5pbmcgdGhlIGFyZWEgZm9yIHRoZSBwdXJjaGFzZSBpdGVtLCBTdWIgc3BlbmQgYXJlYSB0ZXh0OiBBbm90aGVyIHRleHQgZXhwbGFpbmluZyB0aGUgYXJlYSBmb3IgdGhlIHB1cmNoYXNlIGl0ZW0sIFZlbmRvcjogVGhlIHZlbmRvciB0byB3aGljaCB0aGUgcHVyY2hhc2UgZG9jdW1lbnQgd2FzIHNlbnQsIE5hbWU6IFRoZSBuYW1lIG9mIHRoZSB2ZW5kb3IsCkRvY3VtZW50IFR5cGU6IFRoZSBkb2N1bWVudCB0eXBlLCBJdGVtIENhdGVnb3J5OiBUaGUgY2F0ZWdvcnkgYXMgZXhwbGFpbmVkIGFib3ZlICgzLXdheSB3aXRoIEdSLWJhc2VkIGludm9pY2luZywgMy13YXkgd2l0aG91dCwgMi13YXksIGNvbnNpZ25tZW50KS48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPg==",
+      "url": "https://data.4tu.nl/articles/_/12715853/1",
+      "contentUrl": null,
+      "metadataVersion": 5,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 128,
+      "viewsOverTime": [
+        {
+          "yearMonth": "2025-03",
+          "total": 2
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 2
+        },
+        {
+          "yearMonth": "2025-04",
+          "total": 6
+        },
+        {
+          "yearMonth": "2025-08",
+          "total": 1
+        },
+        {
+          "yearMonth": "2025-10",
+          "total": 3
+        },
+        {
+          "yearMonth": "2025-12",
+          "total": 3
+        },
+        {
+          "yearMonth": "2026-01",
+          "total": 1
+        },
+        {
+          "yearMonth": "2026-05",
+          "total": 1
+        },
+        {
+          "yearMonth": "2026-06",
+          "total": 6
+        },
+        {
+          "yearMonth": "2026-07",
+          "total": 43
+        },
+        {
+          "yearMonth": "2026-08",
+          "total": 60
+        }
+      ],
+      "downloadCount": 22,
+      "downloadsOverTime": [
+        {
+          "yearMonth": "2025-03",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-04",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-08",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-10",
+          "total": 1
+        },
+        {
+          "yearMonth": "2025-12",
+          "total": 0
+        },
+        {
+          "yearMonth": "2026-01",
+          "total": 0
+        },
+        {
+          "yearMonth": "2026-05",
+          "total": 0
+        },
+        {
+          "yearMonth": "2026-06",
+          "total": 0
+        },
+        {
+          "yearMonth": "2026-07",
+          "total": 8
+        },
+        {
+          "yearMonth": "2026-08",
+          "total": 13
+        }
+      ],
+      "referenceCount": 0,
+      "citationCount": 12,
+      "citationsOverTime": [
+        {
+          "year": "2020",
+          "total": 1
+        },
+        {
+          "year": "2022",
+          "total": 1
+        },
+        {
+          "year": "2024",
+          "total": 1
+        },
+        {
+          "year": "2025",
+          "total": 1
+        },
+        {
+          "year": "2026",
+          "total": 8
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2019-01-31T09:11:26.000Z",
+      "registered": "2019-01-31T09:11:27.000Z",
+      "published": "2019",
+      "updated": "2025-05-01T05:59:27.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "delft.data4tu",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "scpr",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.4121/uuid:d06aff4b-79f0-45e6-8ec8-e19730c248f1",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1080/02331888.2026.2735944",
+            "type": "dois"
+          },
+          {
+            "id": "10.21203/rs.3.rs-10985030/v1",
+            "type": "dois"
+          },
+          {
+            "id": "10.1145/3839360",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/s44311-026-00050-y",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/978-3-032-28110-4_5",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/978-3-032-13426-4_39",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/s00500-026-11305-y",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/s10270-025-01346-6",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/s10462-025-11399-0",
+            "type": "dois"
+          },
+          {
+            "id": "10.3390/a13070161",
+            "type": "dois"
+          },
+          {
+            "id": "10.1016/j.ins.2022.05.052",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/978-3-030-37453-2_17",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

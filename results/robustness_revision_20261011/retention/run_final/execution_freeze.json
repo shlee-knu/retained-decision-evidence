@@ -1,0 +1,25 @@
+{
+  "prepared_utc": "2026-10-11T10:31:15.840418+00:00",
+  "implementation_and_protocol": {
+    "configs/retention_robustness_protocol.json": "9b6b8243309d72ace2cb18a30ace24206e6505a969036426da9659802302203a",
+    "scripts/analyze_retention_robustness.py": "88fd34171ddc889af6926467eb2c83600b4e9de5844ce7c73d8a1575a4adb5a7",
+    "tests/test_retention_robustness.py": "0914151176001cdb05207be10e26f5ba6aad9df8a4a9804b25cf82dee777813a"
+  },
+  "inputs": {
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904"
+  },
+  "prior_known_targets": {
+    "cartesian_structural_cases": 50931,
+    "cartesian_structural_retain": 17442,
+    "cartesian_structural_acquire": 33489,
+    "cartesian_structural_old_reads": 52855,
+    "cartesian_structural_additional_P_reads": 33489,
+    "cartesian_structural_old_classes": 20
+  }
+}

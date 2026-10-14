@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-10-08T13:27:28.290068+00:00",
+  "protocol_sha256": "8da44d148a17e34a827195af792926ff4cca3fe7357f1940314a50f5601b3b89",
+  "source_hashes": {
+    "configs/focused_diagnostic_protocol.json": "8da44d148a17e34a827195af792926ff4cca3fe7357f1940314a50f5601b3b89",
+    "requirements-focused.txt": "5a6aa999fe68dcead54ccafc36261bcdd03b338999388844cd5f079e261b4398",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "scripts/benchmark_focused_diagnostics.py": "98f82f6874b656dc08b2a1da85b313d2a9fc8e3c09bdb1b35cf103a58894ceef",
+    "tests/test_focused_diagnostics.py": "3e48d32eb516c0c65431df7e45a6b04fc494ebbe48743ef2f8cd55a733dfdbff",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/standards_core.py": "13190595234c6260b1b2eb2e4129e2be8fc27560c2c805f77dd035df496dc457",
+    "src/logistics_validation/standards_epcis.py": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5",
+    "scripts/revalidate_receipt.py": "83a9eb3ca226fd0350a9f8cb078072056eeb1a30ffe4812c686579a02be7d733",
+    "scripts/compare_catalogs.py": "6f2bf0eb77a5a44f100c24af4c65a14d56f7b366734d3a87daf13039f7b13121",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "examples/second_equivalent_catalog.json": "2af4c69182674bcf4c445ad3bab7dffa5f2b497bef1b60fc414ed371e2a8aa86",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0"
+  },
+  "inputs": [
+    {
+      "name": "procurement_identity",
+      "unique": 20,
+      "weighted": 50931
+    },
+    {
+      "name": "procurement_strict",
+      "unique": 20,
+      "weighted": 50931
+    },
+    {
+      "name": "procurement_equivalent",
+      "unique": 20,
+      "weighted": 50931
+    },
+    {
+      "name": "procurement_label_change",
+      "unique": 20,
+      "weighted": 50931
+    },
+    {
+      "name": "epcis_object_profile",
+      "unique": 805,
+      "weighted": 324
+    },
+    {
+      "name": "epcis_aggregation_profile",
+      "unique": 535,
+      "weighted": 216
+    },
+    {
+      "name": "epcis_transformation_profile",
+      "unique": 2085,
+      "weighted": 648
+    }
+  ],
+  "input_hashes": {
+    "procurement_identity": "eadc4e2d1fba462b3e0797143d3ce534bdefabf50cc198e9e5b11e9fa8ffd831",
+    "procurement_strict": "213a3031529f657ba4fbbe475010b8f54bb3a5ae7f9fdb2e001781d0801f5d9e",
+    "procurement_equivalent": "883d0a87209178105e5cd108c3b6bd5e4d00c70becbdc9f1a49c768533e080ed",
+    "procurement_label_change": "ec816221da207bb4a33469c707b99ac05e59c66db87b3fb26eea157226b4d316",
+    "epcis_object_profile": "95af45fce0767d177cfdfdd8381e4996dcfe64fd9459e0c169c4b93fc0225365",
+    "epcis_aggregation_profile": "7b7fc09d49485acad49c980af76343aefbfd6d8d7298ca46c5df504021afa7cd",
+    "epcis_transformation_profile": "a4662f238b1ab8b1c220b86c19f7d5f8130ae113e8603f71225c43e05c411d4f"
+  }
+}

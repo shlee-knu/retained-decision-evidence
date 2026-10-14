@@ -1,0 +1,1255 @@
+{
+  "status": "passed",
+  "states": 8612,
+  "targets": 80,
+  "old_valid_classes": 10436,
+  "raw_old_truth_labels_compared": 8612,
+  "raw_target_truth_labels_compared": 688960,
+  "target_class_status_and_complete_robust_family_comparisons": 834880,
+  "status_counts": {
+    "safe": 821432,
+    "insufficient": 2535,
+    "stale_verdict": 10913
+  },
+  "insufficient_robust_cardinalities": {
+    "1": 2519,
+    "2": 16
+  },
+  "two_block_classes": [
+    {
+      "target": "edge_p0_a0_b1",
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p0_a0_b1",
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "base": [
+        2,
+        0,
+        3
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "base": [
+        2,
+        3,
+        0
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "base": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "base": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "base": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "base": [
+        0,
+        3,
+        2
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "base": [
+        3,
+        0,
+        2
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "base": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "base": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "base": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "required_p2_a3",
+      "base": [
+        0,
+        2
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    },
+    {
+      "target": "required_p2_a3",
+      "base": [
+        1,
+        0,
+        2
+      ],
+      "mask": 0,
+      "old_verdict": false,
+      "robust_masks": [
+        3
+      ]
+    }
+  ],
+  "failures": 0,
+  "mismatches": [],
+  "derived_rows_in_saved_class_order_sha256": "77d60316fb708a23529669b4b475f38e1609781ab7d4bbb3b5f8bb3342f88ae2",
+  "per_target": [
+    {
+      "target": "edge_p0_a0_b1",
+      "status_counts": {
+        "safe": 10303,
+        "insufficient": 61,
+        "stale_verdict": 72
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 59,
+        "2": 2
+      },
+      "insufficient_robust_families": {
+        "2": 3,
+        "3": 2,
+        "1": 56
+      }
+    },
+    {
+      "target": "edge_p0_a0_b2",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p0_a0_b3",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p0_a1_b0",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p0_a1_b2",
+      "status_counts": {
+        "safe": 10283,
+        "insufficient": 5,
+        "stale_verdict": 148
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 5
+      },
+      "insufficient_robust_families": {
+        "2": 5
+      }
+    },
+    {
+      "target": "edge_p0_a1_b3",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p0_a2_b0",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p0_a2_b1",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p0_a2_b3",
+      "status_counts": {
+        "safe": 10361,
+        "insufficient": 3,
+        "stale_verdict": 72
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 3
+      },
+      "insufficient_robust_families": {
+        "2": 3
+      }
+    },
+    {
+      "target": "edge_p0_a3_b0",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p0_a3_b1",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p0_a3_b2",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p1_a0_b1",
+      "status_counts": {
+        "safe": 10411,
+        "insufficient": 1,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 1
+      },
+      "insufficient_robust_families": {
+        "2": 1
+      }
+    },
+    {
+      "target": "edge_p1_a0_b2",
+      "status_counts": {
+        "safe": 10411,
+        "insufficient": 1,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 1
+      },
+      "insufficient_robust_families": {
+        "2": 1
+      }
+    },
+    {
+      "target": "edge_p1_a0_b3",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p1_a1_b0",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p1_a1_b2",
+      "status_counts": {
+        "safe": 10420,
+        "stale_verdict": 16
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p1_a1_b3",
+      "status_counts": {
+        "safe": 10411,
+        "insufficient": 1,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 1
+      },
+      "insufficient_robust_families": {
+        "2": 1
+      }
+    },
+    {
+      "target": "edge_p1_a2_b0",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p1_a2_b1",
+      "status_counts": {
+        "safe": 10412,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p1_a2_b3",
+      "status_counts": {
+        "safe": 10411,
+        "insufficient": 1,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 1
+      },
+      "insufficient_robust_families": {
+        "2": 1
+      }
+    },
+    {
+      "target": "edge_p1_a3_b0",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p1_a3_b1",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p1_a3_b2",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p2_a0_b1",
+      "status_counts": {
+        "safe": 10404,
+        "stale_verdict": 32
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "status_counts": {
+        "safe": 9591,
+        "insufficient": 377,
+        "stale_verdict": 468
+      },
+      "insufficient_robust_cardinalities": {
+        "2": 7,
+        "1": 370
+      },
+      "insufficient_robust_families": {
+        "3": 7,
+        "1": 360,
+        "2": 10
+      }
+    },
+    {
+      "target": "edge_p2_a0_b3",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p2_a1_b0",
+      "status_counts": {
+        "safe": 10352,
+        "stale_verdict": 76,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p2_a1_b2",
+      "status_counts": {
+        "safe": 10376,
+        "stale_verdict": 60
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p2_a1_b3",
+      "status_counts": {
+        "safe": 10400,
+        "stale_verdict": 36
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p2_a2_b0",
+      "status_counts": {
+        "safe": 10344,
+        "stale_verdict": 84,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p2_a2_b1",
+      "status_counts": {
+        "safe": 10372,
+        "insufficient": 8,
+        "stale_verdict": 56
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "status_counts": {
+        "safe": 9693,
+        "insufficient": 275,
+        "stale_verdict": 468
+      },
+      "insufficient_robust_cardinalities": {
+        "2": 5,
+        "1": 270
+      },
+      "insufficient_robust_families": {
+        "3": 5,
+        "1": 260,
+        "2": 10
+      }
+    },
+    {
+      "target": "edge_p2_a3_b0",
+      "status_counts": {
+        "safe": 10344,
+        "stale_verdict": 84,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p2_a3_b1",
+      "status_counts": {
+        "safe": 10356,
+        "insufficient": 8,
+        "stale_verdict": 72
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p2_a3_b2",
+      "status_counts": {
+        "safe": 10344,
+        "stale_verdict": 84,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p3_a0_b1",
+      "status_counts": {
+        "safe": 7663,
+        "insufficient": 1370,
+        "stale_verdict": 1403
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 1370
+      },
+      "insufficient_robust_families": {
+        "1": 1370
+      }
+    },
+    {
+      "target": "edge_p3_a0_b2",
+      "status_counts": {
+        "safe": 10152,
+        "stale_verdict": 284
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p3_a0_b3",
+      "status_counts": {
+        "safe": 10152,
+        "stale_verdict": 284
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p3_a1_b0",
+      "status_counts": {
+        "safe": 9850,
+        "stale_verdict": 578,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p3_a1_b2",
+      "status_counts": {
+        "safe": 9968,
+        "stale_verdict": 468
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p3_a1_b3",
+      "status_counts": {
+        "safe": 9968,
+        "stale_verdict": 468
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p3_a2_b0",
+      "status_counts": {
+        "safe": 9934,
+        "stale_verdict": 494,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p3_a2_b1",
+      "status_counts": {
+        "safe": 10118,
+        "stale_verdict": 310,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p3_a2_b3",
+      "status_counts": {
+        "safe": 10040,
+        "stale_verdict": 396
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "edge_p3_a3_b0",
+      "status_counts": {
+        "safe": 9934,
+        "stale_verdict": 494,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p3_a3_b1",
+      "status_counts": {
+        "safe": 10118,
+        "stale_verdict": 310,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "edge_p3_a3_b2",
+      "status_counts": {
+        "safe": 10032,
+        "stale_verdict": 396,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p0_a0",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p0_a1",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p0_a2",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p0_a3",
+      "status_counts": {
+        "safe": 10420,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p1_a0",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p1_a1",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p1_a2",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p1_a3",
+      "status_counts": {
+        "safe": 10404,
+        "insufficient": 8,
+        "stale_verdict": 24
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p2_a0",
+      "status_counts": {
+        "safe": 10344,
+        "stale_verdict": 84,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p2_a1",
+      "status_counts": {
+        "safe": 10348,
+        "insufficient": 8,
+        "stale_verdict": 80
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p2_a2",
+      "status_counts": {
+        "safe": 10344,
+        "stale_verdict": 84,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p2_a3",
+      "status_counts": {
+        "safe": 10344,
+        "stale_verdict": 84,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p3_a0",
+      "status_counts": {
+        "safe": 9850,
+        "stale_verdict": 578,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p3_a1",
+      "status_counts": {
+        "safe": 9850,
+        "stale_verdict": 578,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p3_a2",
+      "status_counts": {
+        "safe": 9876,
+        "stale_verdict": 552,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "forbidden_p3_a3",
+      "status_counts": {
+        "safe": 9876,
+        "stale_verdict": 552,
+        "insufficient": 8
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 8
+      },
+      "insufficient_robust_families": {
+        "1": 8
+      }
+    },
+    {
+      "target": "required_p0_a0",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p0_a1",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p0_a2",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p0_a3",
+      "status_counts": {
+        "safe": 10431,
+        "insufficient": 1,
+        "stale_verdict": 4
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 1
+      },
+      "insufficient_robust_families": {
+        "2": 1
+      }
+    },
+    {
+      "target": "required_p1_a0",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p1_a1",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p1_a2",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p1_a3",
+      "status_counts": {
+        "safe": 10422,
+        "insufficient": 2,
+        "stale_verdict": 12
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 2
+      },
+      "insufficient_robust_families": {
+        "2": 2
+      }
+    },
+    {
+      "target": "required_p2_a0",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p2_a1",
+      "status_counts": {
+        "safe": 10432,
+        "stale_verdict": 4
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p2_a2",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p2_a3",
+      "status_counts": {
+        "safe": 10390,
+        "insufficient": 20,
+        "stale_verdict": 26
+      },
+      "insufficient_robust_cardinalities": {
+        "2": 2,
+        "1": 18
+      },
+      "insufficient_robust_families": {
+        "3": 2,
+        "1": 14,
+        "2": 4
+      }
+    },
+    {
+      "target": "required_p3_a0",
+      "status_counts": {
+        "safe": 10436
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p3_a1",
+      "status_counts": {
+        "safe": 10237,
+        "insufficient": 97,
+        "stale_verdict": 102
+      },
+      "insufficient_robust_cardinalities": {
+        "1": 97
+      },
+      "insufficient_robust_families": {
+        "1": 97
+      }
+    },
+    {
+      "target": "required_p3_a2",
+      "status_counts": {
+        "safe": 10410,
+        "stale_verdict": 26
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    },
+    {
+      "target": "required_p3_a3",
+      "status_counts": {
+        "safe": 10410,
+        "stale_verdict": 26
+      },
+      "insufficient_robust_cardinalities": {},
+      "insufficient_robust_families": {}
+    }
+  ],
+  "algorithm": "Independent named-atom raw predicates; observation membership bitsets; truth-bit intersections for status; linear marginal joins recover opposed-pair difference types; minimal hitting masks give complete robust sets.",
+  "independence": {
+    "repository_modules_imported": [],
+    "separately_written": [
+      "single-edit catalog construction",
+      "raw predicates",
+      "observation grouping",
+      "old-valid class selection",
+      "status classification",
+      "complete robust-family derivation"
+    ],
+    "shared_declared_inputs": [
+      "saved finite state enumeration",
+      "four-activity and profile/rank block interpretation",
+      "baseline JSON rules",
+      "80-single-edit grammar",
+      "saved observation JSON encoding for comparison"
+    ],
+    "comparison_only": [
+      "saved truth labels",
+      "saved observation/verdict ledger",
+      "saved census status/robust rows"
+    ],
+    "limitations": "Finite declared procurement domain only; no independent proof of domain completeness, encoder adequacy, raw-log fidelity, solver independence, or organizational representativeness. This run compares census answers, not 834880 executions of each engine."
+  }
+}

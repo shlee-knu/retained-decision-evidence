@@ -1,0 +1,220 @@
+{
+  "timing": {
+    "name": "procurement_label_change",
+    "suite": "native",
+    "method": "incremental_smt",
+    "workload": "unique",
+    "input_loading": {
+      "cpu_ns": 9239455,
+      "wall_ns": 9239782
+    },
+    "input_normalization": {
+      "cpu_ns": 427169,
+      "wall_ns": 427356
+    },
+    "setup": {
+      "cpu_ns": 11299962,
+      "wall_ns": 11300638
+    },
+    "dependency_import": {
+      "cpu_ns": 11293815,
+      "wall_ns": 11295115
+    },
+    "core_setup": {
+      "cpu_ns": 6147,
+      "wall_ns": 5523
+    },
+    "core_batch": {
+      "cpu_ns": 47612871,
+      "wall_ns": 47638359
+    },
+    "first_report": {
+      "cpu_ns": 8971487,
+      "wall_ns": 8971919
+    },
+    "setup_plus_first": {
+      "cpu_ns": 20271449,
+      "wall_ns": 20272557
+    },
+    "core_setup_plus_first": {
+      "cpu_ns": 8977634,
+      "wall_ns": 8977442
+    },
+    "batch": {
+      "cpu_ns": 58906686,
+      "wall_ns": 58933474
+    },
+    "serialization": {
+      "cpu_ns": 317151,
+      "wall_ns": 305327
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 188727334,
+      "wall_ns": 188760135
+    },
+    "checks": 104,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 20,
+    "diagnosed_classes": 20,
+    "status_counts": {
+      "safe": 19,
+      "stale_verdict": 1
+    },
+    "output_bytes": 7039,
+    "output_sha256": "0a1985ffdd15002b9668f736ebaa7fb5444c38cb8e3f96a95ce58c4e90b9d8e5",
+    "process_peak_rss_kib": {
+      "before_setup": 45576,
+      "after_setup": 45576,
+      "after_first_report": 66548,
+      "after_batch": 73460
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "0": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "1": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "2": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "3": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "4": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "5": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "6": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "9": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "10": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "11": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "12": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "13": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "14": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "15": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "16": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "17": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "18": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "19": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

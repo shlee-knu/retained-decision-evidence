@@ -1,0 +1,148 @@
+{
+  "created_utc": "2026-10-07T14:14:19.464133+00:00",
+  "status": "passed",
+  "command": [
+    "scripts/benchmark_sqlite_integration.py",
+    "--stage",
+    "prepare"
+  ],
+  "source_cases": 251734,
+  "test_cases": 50931,
+  "selected_case_ids_sha256": "f9bff263b28aa93593cc740f7957e4109bf7d7cc6bbad0252c0930f6afe5f833",
+  "source_metadata_relation_sha256": "6e3f524a1c9b2409cff3d77335ca8b0d67e08862aba5611f29ececa673d77cba",
+  "source_bytes": 4654921,
+  "logical_payload": {
+    "profile_bytes": 10765816,
+    "timestamp_bytes": 36267343
+  },
+  "databases": {
+    "same_row": {
+      "layout": "same_row",
+      "file_bytes": 59944960,
+      "file_sha256": "5e62b6c701ca7d2ff1099785639c1c5a431e853f2664e365424de5ea23e3ae27",
+      "settings": {
+        "page_size": 4096,
+        "page_count": 14635,
+        "freelist_count": 0,
+        "cache_size": -131072,
+        "mmap_size": 0,
+        "journal_mode": "delete",
+        "query_only": 1
+      },
+      "cached_statements": 128,
+      "query_plans": {
+        "profile": [
+          [
+            2,
+            0,
+            0,
+            "SEARCH metadata USING PRIMARY KEY (case_id=?)"
+          ]
+        ],
+        "first_times": [
+          [
+            2,
+            0,
+            0,
+            "SEARCH metadata USING PRIMARY KEY (case_id=?)"
+          ]
+        ],
+        "both": [
+          [
+            2,
+            0,
+            0,
+            "SEARCH metadata USING PRIMARY KEY (case_id=?)"
+          ]
+        ]
+      },
+      "sql": {
+        "profile": "SELECT profile_blob FROM metadata WHERE case_id = ?",
+        "first_times": "SELECT time_blob FROM metadata WHERE case_id = ?",
+        "both": "SELECT profile_blob, time_blob FROM metadata WHERE case_id = ?"
+      },
+      "rows": {
+        "metadata": 251734
+      }
+    },
+    "normalized": {
+      "layout": "normalized",
+      "file_bytes": 66670592,
+      "file_sha256": "75bcd4435edbeed957f7212ced5eb485bbbf71de7f2cab8d8a47cc6c4a5d9b00",
+      "settings": {
+        "page_size": 4096,
+        "page_count": 16277,
+        "freelist_count": 0,
+        "cache_size": -131072,
+        "mmap_size": 0,
+        "journal_mode": "delete",
+        "query_only": 1
+      },
+      "cached_statements": 128,
+      "query_plans": {
+        "profile": [
+          [
+            2,
+            0,
+            0,
+            "SEARCH profiles USING PRIMARY KEY (case_id=?)"
+          ]
+        ],
+        "first_times": [
+          [
+            2,
+            0,
+            0,
+            "SEARCH timestamps USING PRIMARY KEY (case_id=?)"
+          ]
+        ],
+        "both": [
+          [
+            3,
+            0,
+            0,
+            "SEARCH t USING PRIMARY KEY (case_id=?)"
+          ],
+          [
+            8,
+            0,
+            0,
+            "SEARCH p USING PRIMARY KEY (case_id=?)"
+          ]
+        ]
+      },
+      "sql": {
+        "profile": "SELECT payload FROM profiles WHERE case_id = ?",
+        "first_times": "SELECT payload FROM timestamps WHERE case_id = ?",
+        "both": "SELECT p.payload, t.payload FROM profiles AS p JOIN timestamps AS t ON p.case_id = t.case_id WHERE p.case_id = ?"
+      },
+      "rows": {
+        "profiles": 251734,
+        "timestamps": 251734
+      }
+    }
+  },
+  "source_and_implementation_sha256": {
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7",
+    "scripts/benchmark_acquisition_cost.py": "f9832c4bc221401d0629198a7d7b05ac0214057a2a187ef858a6fe54263ed13c",
+    "scripts/stress_acquisition.py": "24c02806e711fecfc5d353fd5e9ab180387d3516a3fa30d917e4073d1b7e3e15",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+    "scripts/benchmark_sqlite_integration.py": "b8e6f36c879944a5dbb5c424790d713570307b7bc4f791f946b4a83100eb2b6d",
+    "tests/test_sqlite_integration.py": "93b58c41d6af265e8ebc17ab3e248a2b66793cf201549187a4b90285a99e72a4",
+    "docs/strong_integration_design.md": "0e905f8b927de8432fb8dbdab3e7186962c3576c4427045f93e37c36d6930044"
+  },
+  "build_wall_seconds": 4.9718400369165465,
+  "build_cpu_seconds": 4.7466404209999995,
+  "insertion_commit_analyze_wall_seconds": {
+    "same_row": 0.3359958021901548,
+    "normalized": 0.4889749027788639
+  },
+  "oracle_wall_seconds_within_build": 1.6759966399986297,
+  "storage_verification_wall_seconds": 0.8519936040975153,
+  "native_verification_wall_seconds": 26.305173519067466,
+  "total_preparation_verification_wall_seconds": 32.22049504891038,
+  "peak_process_rss_kib": 232744,
+  "preparation_scope": "Compact derivative parsing, serialization, all-source database construction, exact held-out oracle construction, full stored-relation verification and native adapter verification. Original XES download/parsing/projection not included. Insertion timers include batching, commit and ANALYZE; oracle time is separately identified verification work. Other cooperating CPU work may run during this untimed preparation stage.",
+  "timing_scope": "Warm-cache read-only single-reader SQLite host experiment; no artificial delay/padding, network, concurrency, writer contention, or disk-cold claim."
+}

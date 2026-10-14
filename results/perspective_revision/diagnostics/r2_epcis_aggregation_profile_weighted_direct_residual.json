@@ -1,0 +1,304 @@
+{
+  "timing": {
+    "name": "epcis_aggregation_profile",
+    "suite": "authored_epcis",
+    "method": "direct_residual",
+    "workload": "weighted",
+    "input_loading": {
+      "cpu_ns": 518448,
+      "wall_ns": 517878
+    },
+    "input_normalization": {
+      "cpu_ns": 801695,
+      "wall_ns": 801858
+    },
+    "setup": {
+      "cpu_ns": 3386,
+      "wall_ns": 3370
+    },
+    "dependency_import": {
+      "cpu_ns": 0,
+      "wall_ns": 0
+    },
+    "core_setup": {
+      "cpu_ns": 3386,
+      "wall_ns": 3370
+    },
+    "core_batch": {
+      "cpu_ns": 3177450,
+      "wall_ns": 3177578
+    },
+    "first_report": {
+      "cpu_ns": 110285,
+      "wall_ns": 110331
+    },
+    "setup_plus_first": {
+      "cpu_ns": 113671,
+      "wall_ns": 113701
+    },
+    "core_setup_plus_first": {
+      "cpu_ns": 113671,
+      "wall_ns": 113701
+    },
+    "batch": {
+      "cpu_ns": 3177450,
+      "wall_ns": 3177578
+    },
+    "serialization": {
+      "cpu_ns": 1254315,
+      "wall_ns": 1253590
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 6714977,
+      "wall_ns": 6715888
+    },
+    "checks": 158,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 216,
+    "diagnosed_classes": 17,
+    "status_counts": {
+      "safe": 120,
+      "insufficient": 96
+    },
+    "output_bytes": 101994,
+    "output_sha256": "eae6c23b30781892ad3bb652826c2d4633739c3cf11be351f00b611b33a39612",
+    "process_peak_rss_kib": {
+      "before_setup": 45576,
+      "after_setup": 45576,
+      "after_first_report": 45576,
+      "after_batch": 45576
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "0": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "62": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "63": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "64": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "present",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "present",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "65": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "66": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "67": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "present",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "present",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "8": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "present",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "present",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "35": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "36": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "37": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "absent",
+          "absent",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "absent",
+          "absent",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "38": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "39": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "40": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "absent",
+          "empty",
+          "nonempty",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "absent",
+          "empty",
+          "nonempty",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "3": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "1": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "2": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "DELETE",
+          "present",
+          "absent",
+          "absent",
+          "vendor"
+        ],
+        [
+          "DELETE",
+          "present",
+          "absent",
+          "absent",
+          "receiving"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    }
+  }
+}

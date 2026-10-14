@@ -1,0 +1,120 @@
+{
+  "analysis": "post hoc descriptive referee check",
+  "scope": "Authored four-target changes applied to archived structural-order retention; no observed organizational migrations, live performance, or independent holdout.",
+  "denominator_note": "Per-target denominators are 251734 full cases or 50931 held-out receipts. Four-target pair denominators are four times those counts. Unique affected IDs across targets are reported separately and are disjoint here.",
+  "input_sha256": {
+    "paper/manuscript_ieee_access_applied.md": "d3c06ab15c4e48eb7ad76d13b233afb336a899264f8132b7498e92927ec87d90",
+    "paper/supplement_ieee_access_applied.md": "996fe3624fecae5131f832321cce31f4d0deb479cf569063ffeaa4e07c87c0cd",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/perspective_revision/inputs/census.json": "813a0e10714f11a276e83f76db51f5e748ec90291c8f8068efa429f2d87a681b",
+    "results/perspective_revision/coverage/native_challenge_classes.json": "1dfef05cd09d2331d966b64334b313d60eaaf91d486e4814e653835b4b810765"
+  },
+  "script_sha256": "fafd256969d97c582907baf02b71e0990004842c5f0c658330980f350e1c6708",
+  "cohorts": {
+    "full_archive": {
+      "case_denominator_per_target": 251734,
+      "four_target_case_pairs": 1006936,
+      "distinct_affected_ids": 524,
+      "affected_target_case_pairs": 524,
+      "P_first_additional_logical_reads": 908,
+      "aggregates": {
+        "affected": 524,
+        "P_reads": 524,
+        "T_reads_after_P": 384,
+        "stop_after_P": 140
+      },
+      "targets": {
+        "edge_p0_a0_b1": {
+          "counts": {},
+          "profiles": {},
+          "sorted_affected_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "required_p2_a3": {
+          "counts": {
+            "affected": 516,
+            "P_reads": 516,
+            "T_reads_after_P": 384,
+            "stop_after_P": 132
+          },
+          "profiles": {
+            "3-way match, invoice before GR": 132,
+            "2-way match": 384
+          },
+          "sorted_affected_ids_sha256": "a31272c69960c2a2c48e1a65794f2a850ee100c8e425454e576877a5344254bb"
+        },
+        "edge_p2_a0_b2": {
+          "counts": {},
+          "profiles": {},
+          "sorted_affected_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "edge_p2_a2_b3": {
+          "counts": {
+            "affected": 8,
+            "P_reads": 8,
+            "T_reads_after_P": 0,
+            "stop_after_P": 8
+          },
+          "profiles": {
+            "3-way match, invoice before GR": 8
+          },
+          "sorted_affected_ids_sha256": "6761ec1858cf6b689d530f64580289b2a59446b2a7dea6acc9793f56b4a5b145"
+        }
+      }
+    },
+    "heldout_receipts": {
+      "case_denominator_per_target": 50931,
+      "four_target_case_pairs": 203724,
+      "distinct_affected_ids": 114,
+      "affected_target_case_pairs": 114,
+      "P_first_additional_logical_reads": 199,
+      "aggregates": {
+        "affected": 114,
+        "P_reads": 114,
+        "T_reads_after_P": 85,
+        "stop_after_P": 29
+      },
+      "targets": {
+        "edge_p0_a0_b1": {
+          "counts": {},
+          "profiles": {},
+          "sorted_affected_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "required_p2_a3": {
+          "counts": {
+            "affected": 113,
+            "P_reads": 113,
+            "T_reads_after_P": 85,
+            "stop_after_P": 28
+          },
+          "profiles": {
+            "3-way match, invoice before GR": 28,
+            "2-way match": 85
+          },
+          "sorted_affected_ids_sha256": "9a7e4a7f0e8e6d8c76b98a1e21357bbc1a40c049e571a0a8faaaf29d2be26a2e"
+        },
+        "edge_p2_a0_b2": {
+          "counts": {},
+          "profiles": {},
+          "sorted_affected_ids_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "edge_p2_a2_b3": {
+          "counts": {
+            "affected": 1,
+            "P_reads": 1,
+            "T_reads_after_P": 0,
+            "stop_after_P": 1
+          },
+          "profiles": {
+            "3-way match, invoice before GR": 1
+          },
+          "sorted_affected_ids_sha256": "013fb84d8c4439a3426b532098637927525cc42d191990b369cde6cac53cfaf0"
+        }
+      }
+    }
+  },
+  "two_block_classes_independently_checked": 16,
+  "finished_utc": "2026-10-08T16:20:01.979329+00:00"
+}

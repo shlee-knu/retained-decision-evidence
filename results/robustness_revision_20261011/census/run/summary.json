@@ -1,0 +1,1105 @@
+{
+  "status": "passed",
+  "analysis_type": "Post hoc sensitivity analysis of existing finite census; no new data, population inference or prospective holdout",
+  "states": 8612,
+  "old_valid_classes": 10436,
+  "directly_recomputed_baseline_truth_labels": 8612,
+  "directly_recomputed_target_truth_labels": 688960,
+  "saved_status_and_robust_family_rows_recomputed": 834880,
+  "alias_rows_compared_exactly": 386132,
+  "canonical_rows_sha256": "77d60316fb708a23529669b4b475f38e1609781ab7d4bbb3b5f8bb3342f88ae2",
+  "per_target_row_sha256": {
+    "edge_p0_a0_b1": "96ec1bbee01b9fb36399bee06e3032ef9b8907948bf81f759dba59b8a44b9735",
+    "edge_p0_a0_b2": "6b2721d5ecc055b7e2868b250575aad9bdaf2e049e6536e19945d502085e7f8f",
+    "edge_p0_a0_b3": "78e81fed6555c254e91742a4bbc6801b14ff57690f0c9100040e4a20da185524",
+    "edge_p0_a1_b0": "3a957923fd0cd2adfa4a5ea74d83089d4a2fbd398bf9a2a764b616c4cd4ac17c",
+    "edge_p0_a1_b2": "4feffadf60de03bc187d8ce34b7bd1f71539c1a82b87c14c2d279b782b7753f6",
+    "edge_p0_a1_b3": "ab7612bc1a6728fda56fea2e0c3a4d76976e4d0ac6fb4154a8a2914ce737adc3",
+    "edge_p0_a2_b0": "8a6ef4a0432855a9576c0b7671febd6f11646d5ce958d4835c1e77e51dc382c7",
+    "edge_p0_a2_b1": "00b8f2708d52344976080f7244215c3473f0d6b03929589c6bf65f5cecdb1968",
+    "edge_p0_a2_b3": "2cd95570a5913b2a3276d693268f5a11e1b05319664a7abb11138d11cdced01e",
+    "edge_p0_a3_b0": "d6392e22b462d4b610ba9b25ba2174c9f3e155dd5bd61f91943882e466e30d5d",
+    "edge_p0_a3_b1": "cccdde203a4045278c2c97b4874ed459580291435dd54f7690cf0d2ab9f48263",
+    "edge_p0_a3_b2": "9386fb64084dc89199d8861b786440fff09c76dbff4fd952daeec301c3c8d09b",
+    "edge_p1_a0_b1": "bb96c75d534ec6f048bad70181bf0b817c3a5771b3169aa59cc1890aa706c683",
+    "edge_p1_a0_b2": "860860a120b36be346c5cf1a595cc64d98e393572b97e33a5c1aa4793f78efa5",
+    "edge_p1_a0_b3": "bf93f2888a617ad4ad2806f3e57ef079c02b43c6ddbf06f1065e0caa316ba088",
+    "edge_p1_a1_b0": "3a69eb8159c32c4667ce9af43a8214297654498ed18996c2ad9002b0f8db932e",
+    "edge_p1_a1_b2": "c7e0b7e81a52d865e70785d5697b3b8b4a776f92af6a738f26b3cdafeebbd438",
+    "edge_p1_a1_b3": "a6d1a8fe90079a75ac7582764733d573c6162718aebb51b490b394b24e2abdd9",
+    "edge_p1_a2_b0": "211b14782f03374fa40bc85d2fcbdc9b1752cc3b904a895fd9dcb8e4f2314b0b",
+    "edge_p1_a2_b1": "8b05d635d7fedead54a79b40a6b3fbfe2a92766232e15950db0e8ae37d98b7d8",
+    "edge_p1_a2_b3": "d470d060c4e062906ffa0f0469f235dac63212a5129cdb0914d92598fe92ee6d",
+    "edge_p1_a3_b0": "9197ec8532f9dcc8fb6c124d35fe7a0771bc49756ddf63680581e08c70c94fd7",
+    "edge_p1_a3_b1": "b6c0b4ff5ceec0ae42f8d424e9f1fb04a53469c83a061f3e59f94c62e3141af3",
+    "edge_p1_a3_b2": "7bd4786eacae45c1bb8414b903e4337b18f195c93bb755b292b04e1c41753db1",
+    "edge_p2_a0_b1": "8838a98f239dfc70fe00f7d57c08b30bcf7ab7e42ed6f2f8369ff705a02512f7",
+    "edge_p2_a0_b2": "a93865743365fa90e39d2253815f5d964083475ed27e289bc880f877b46fc2b5",
+    "edge_p2_a0_b3": "ac86c9726d7f1dfa8165c108562c7ede98b350cdf238e20a26732748d4ed07cb",
+    "edge_p2_a1_b0": "2e2212d18f4e1244d77e17c9cae67d287e3ac62bf58f9934093df0e956830295",
+    "edge_p2_a1_b2": "346999385f8102c59d4e51c3c3b0210847845243a3f33dc4f1c8720deddf3d23",
+    "edge_p2_a1_b3": "17b19a73eb96ecce68461596fcb3f4ed159004650204c28b0ca03cf62fb78211",
+    "edge_p2_a2_b0": "08b14683cb315007a1a4ff5588bce5cace2b4869420ea6bb2db98f83deba0469",
+    "edge_p2_a2_b1": "75fd0b601141a3ecac84400a0c56723dc25802d13a3143bbeab57e5bf9b5398f",
+    "edge_p2_a2_b3": "a8b42f51f09c80a26e6bbb1f78db670bde0bcf9808eb25a640a9252da7e10d9e",
+    "edge_p2_a3_b0": "54b136d1428e5ddc01724218354b5e47d337b4f71d78a78e3615576d322e7c12",
+    "edge_p2_a3_b1": "009c03a1b5af93fbaeac2fe5edf4a48a1a15deae3d30b524ff3c6807c21c6e82",
+    "edge_p2_a3_b2": "4b6e059990b6b6cce89c815386b405e1ef85b7909bfdff5ebabf8d57dcee62b5",
+    "edge_p3_a0_b1": "a6f5ceae1bfe6edd76e20f50a19d2aa2a5e3d751592188861942f4925ae3f9e8",
+    "edge_p3_a0_b2": "559ed8de69a14b616afb41a4f0066e02ae23b18b029fdcb8b1cbe88f8eee1c5c",
+    "edge_p3_a0_b3": "6ee6b0627b845b33e4c02f0139fa79f8ca75033a91b09c79f97224749b9c0c29",
+    "edge_p3_a1_b0": "dcd086130b83ee467f23b2aa7b3f247cfaebe3bf9d58beef395a4aab373adab7",
+    "edge_p3_a1_b2": "7b94b81cb3e4b1c88b26a132965a3b98e6f069ba8f1ffff1a4ba032c3a675cb8",
+    "edge_p3_a1_b3": "96c9c74e3e0e5c6ce35df3eb04875223e5707dff6ac2b99df7f944183ec8d669",
+    "edge_p3_a2_b0": "94b12db58db1117be5b9a6fe71b3278b75e56934e34e244ec28d927c1d61e0cb",
+    "edge_p3_a2_b1": "8ce8967a47699210d2fba68efb4ceeb0fbe2765470738cf11978b05321dc956e",
+    "edge_p3_a2_b3": "d625f37770567003bfbd1a2694e18e8dd94d1ab80cef4990c80900a70e851924",
+    "edge_p3_a3_b0": "c91c2cd03171d670474523db9d1996552faa16623e38a9c23f33e8c4df18a0d9",
+    "edge_p3_a3_b1": "88ca79e949977618dfd28837250542f49e16c8319c1aad674871126a87d63f0b",
+    "edge_p3_a3_b2": "b8402a0ba22126ad82909aa0b6eb57313dfd57057469d0aa8139a386a1c229d9",
+    "forbidden_p0_a0": "c67c9c4721cee519043dbd8e8b6239ec9718d91f26feceb3c8cbfe63c705d315",
+    "forbidden_p0_a1": "cb34742fc00c656effff73699075b01d0d30c81413ec8ee77cc890cd24a8f6a4",
+    "forbidden_p0_a2": "8940892f99042774c9172022a5774edcc65aa02892ed5e4edfb93c7a98c8951d",
+    "forbidden_p0_a3": "ab537258e3560f9630d33d703bf5c75ea29523b502a46c5db6774c2afc31fe26",
+    "forbidden_p1_a0": "511f64f0b0576157c99c70919e64cf63288c8c2c88e17181f51678151ba4e94e",
+    "forbidden_p1_a1": "1d40a4f5041d8e4b7bdfba854b1bcef08754f2f3f7d7a5d1981a8957ad3da9e5",
+    "forbidden_p1_a2": "d2928e506f9efefa69822efa0a00c8393560bcd0fdd9d80034a0e2244e1f36f9",
+    "forbidden_p1_a3": "7efcdc50e1a842ca62d498c7f48f134f02847c8a304224b1c81ca2b231a6b4ee",
+    "forbidden_p2_a0": "d933069facba2aefe544f611039430f03273314e7047f5998f18e8dfb6f7339f",
+    "forbidden_p2_a1": "830bf62301ec930cc07812b71e0ec686eb5118c3bdba1adf045ee3d51138f935",
+    "forbidden_p2_a2": "039881cc7f76608525d28ca244d6f1d95026b99b70855ea6295669705ad00b87",
+    "forbidden_p2_a3": "dcb0f23558dd865cbaa3f156154323f7037db01a89093cfca8df86efcc75e4b6",
+    "forbidden_p3_a0": "16e4dd905b92d3cb140c0fbbbd9404be2ceb963cd7a882557058628320c8cdc4",
+    "forbidden_p3_a1": "9ff3d56e49bfcd1fdfe0d113c0d87abc941a6641edbb87442c1fbc3500dc65a8",
+    "forbidden_p3_a2": "00b3e1cb31713fe6e0545214cdfad756ba4d4683055f0c163d2d43a19f216b7a",
+    "forbidden_p3_a3": "afd841676dc1e37d2169fac4a89d3c3191efbaa7bac58caa915a993cc7000a77",
+    "required_p0_a0": "ae73b7f25b61d7ee764ea4bcc2975f03807a39a4e4061a390ccc302e072220ae",
+    "required_p0_a1": "9d992dc52aa0afd14520eac456e94fd335db8aac78cc4e495e8d123fd61080ee",
+    "required_p0_a2": "9ce550b86bd4341f7044268b57e7d5d8c477ff329218dd31686b336820282b7e",
+    "required_p0_a3": "45755a34da17e970b0bbaa8b6edd8c46cddc11703f510712fb5aa11c145e4b51",
+    "required_p1_a0": "ef9ed3f3b4af1d3ace73cdd2722f26150af30aa66c557aa072debf823f0db533",
+    "required_p1_a1": "8e7735d2971c3586c0a9a8ed1dd739b9bdc0705785fe3689e72c5519f7643db7",
+    "required_p1_a2": "cb20bb0403a7bf0c12702d1c7f559043a22cd8f4a53e0dbfadf6c99dba869c81",
+    "required_p1_a3": "2b058e5b40996d0c1385db77ed016d359497f2725a7de3863577b1639360ab68",
+    "required_p2_a0": "80e0722dfc95eb515cd6121689fa35ab10c8bf8f5bad17492752a6528692123c",
+    "required_p2_a1": "104fc6f811378b51550965c69cc4821d641a23988cec0afbfda4b7e49d594be2",
+    "required_p2_a2": "f03df5126af53965e493d0e76bcfdbc2479c14cef990c076cd9b8a1196d5b23a",
+    "required_p2_a3": "3b8a18f83bdc87bd12308f2d4bcae011944e2dbb6d3fec4a29a0e856ee55ef61",
+    "required_p3_a0": "85bff6bc272ac0f3737b64f5048fea53b20d5be8c7754ae2034877d58e89e55b",
+    "required_p3_a1": "3f65a97c9016ca1055918f84f0e9af8c1d52c1055e364ce73c24b324232c1f09",
+    "required_p3_a2": "09c41429f89bac8e923c7c73c135d6a72d9b3720e9de349d4d1db26b79964d8c",
+    "required_p3_a3": "ca9143979248883cc487bed067162a69f49c55355d017f3238b7b659dd33c5fb"
+  },
+  "baseline_equivalent_syntactic_edits": 14,
+  "unsatisfiable_profile_targets": [
+    "edge_p0_a1_b0",
+    "edge_p0_a2_b0",
+    "edge_p0_a2_b1",
+    "edge_p0_a3_b0",
+    "edge_p0_a3_b1",
+    "edge_p0_a3_b2",
+    "edge_p1_a1_b0",
+    "edge_p1_a2_b0",
+    "edge_p1_a3_b0",
+    "edge_p1_a3_b1",
+    "edge_p1_a3_b2",
+    "edge_p2_a2_b0",
+    "edge_p2_a3_b0",
+    "edge_p2_a3_b2",
+    "edge_p3_a1_b0",
+    "forbidden_p0_a0",
+    "forbidden_p0_a1",
+    "forbidden_p0_a2",
+    "forbidden_p0_a3",
+    "forbidden_p1_a0",
+    "forbidden_p1_a1",
+    "forbidden_p1_a2",
+    "forbidden_p1_a3",
+    "forbidden_p2_a0",
+    "forbidden_p2_a2",
+    "forbidden_p2_a3",
+    "forbidden_p3_a0",
+    "forbidden_p3_a1"
+  ],
+  "sets": {
+    "all_edits": {
+      "targets": 80,
+      "semantic_families": 43,
+      "target_class_combinations": 834880,
+      "status_counts": {
+        "safe": 821432,
+        "stale_verdict": 10913,
+        "insufficient": 2535
+      },
+      "additional_requirements": {
+        "P": 2477,
+        "T": 42,
+        "PT": 16
+      },
+      "target_names": [
+        "edge_p0_a0_b1",
+        "edge_p0_a0_b2",
+        "edge_p0_a0_b3",
+        "edge_p0_a1_b0",
+        "edge_p0_a1_b2",
+        "edge_p0_a1_b3",
+        "edge_p0_a2_b0",
+        "edge_p0_a2_b1",
+        "edge_p0_a2_b3",
+        "edge_p0_a3_b0",
+        "edge_p0_a3_b1",
+        "edge_p0_a3_b2",
+        "edge_p1_a0_b1",
+        "edge_p1_a0_b2",
+        "edge_p1_a0_b3",
+        "edge_p1_a1_b0",
+        "edge_p1_a1_b2",
+        "edge_p1_a1_b3",
+        "edge_p1_a2_b0",
+        "edge_p1_a2_b1",
+        "edge_p1_a2_b3",
+        "edge_p1_a3_b0",
+        "edge_p1_a3_b1",
+        "edge_p1_a3_b2",
+        "edge_p2_a0_b1",
+        "edge_p2_a0_b2",
+        "edge_p2_a0_b3",
+        "edge_p2_a1_b0",
+        "edge_p2_a1_b2",
+        "edge_p2_a1_b3",
+        "edge_p2_a2_b0",
+        "edge_p2_a2_b1",
+        "edge_p2_a2_b3",
+        "edge_p2_a3_b0",
+        "edge_p2_a3_b1",
+        "edge_p2_a3_b2",
+        "edge_p3_a0_b1",
+        "edge_p3_a0_b2",
+        "edge_p3_a0_b3",
+        "edge_p3_a1_b0",
+        "edge_p3_a1_b2",
+        "edge_p3_a1_b3",
+        "edge_p3_a2_b0",
+        "edge_p3_a2_b1",
+        "edge_p3_a2_b3",
+        "edge_p3_a3_b0",
+        "edge_p3_a3_b1",
+        "edge_p3_a3_b2",
+        "forbidden_p0_a0",
+        "forbidden_p0_a1",
+        "forbidden_p0_a2",
+        "forbidden_p0_a3",
+        "forbidden_p1_a0",
+        "forbidden_p1_a1",
+        "forbidden_p1_a2",
+        "forbidden_p1_a3",
+        "forbidden_p2_a0",
+        "forbidden_p2_a1",
+        "forbidden_p2_a2",
+        "forbidden_p2_a3",
+        "forbidden_p3_a0",
+        "forbidden_p3_a1",
+        "forbidden_p3_a2",
+        "forbidden_p3_a3",
+        "required_p0_a0",
+        "required_p0_a1",
+        "required_p0_a2",
+        "required_p0_a3",
+        "required_p1_a0",
+        "required_p1_a1",
+        "required_p1_a2",
+        "required_p1_a3",
+        "required_p2_a0",
+        "required_p2_a1",
+        "required_p2_a2",
+        "required_p2_a3",
+        "required_p3_a0",
+        "required_p3_a1",
+        "required_p3_a2",
+        "required_p3_a3"
+      ]
+    },
+    "all_profiles_satisfiable": {
+      "targets": 52,
+      "semantic_families": 39,
+      "target_class_combinations": 542672,
+      "status_counts": {
+        "safe": 531982,
+        "stale_verdict": 8379,
+        "insufficient": 2311
+      },
+      "additional_requirements": {
+        "P": 2253,
+        "T": 42,
+        "PT": 16
+      },
+      "target_names": [
+        "edge_p0_a0_b1",
+        "edge_p0_a0_b2",
+        "edge_p0_a0_b3",
+        "edge_p0_a1_b2",
+        "edge_p0_a1_b3",
+        "edge_p0_a2_b3",
+        "edge_p1_a0_b1",
+        "edge_p1_a0_b2",
+        "edge_p1_a0_b3",
+        "edge_p1_a1_b2",
+        "edge_p1_a1_b3",
+        "edge_p1_a2_b1",
+        "edge_p1_a2_b3",
+        "edge_p2_a0_b1",
+        "edge_p2_a0_b2",
+        "edge_p2_a0_b3",
+        "edge_p2_a1_b0",
+        "edge_p2_a1_b2",
+        "edge_p2_a1_b3",
+        "edge_p2_a2_b1",
+        "edge_p2_a2_b3",
+        "edge_p2_a3_b1",
+        "edge_p3_a0_b1",
+        "edge_p3_a0_b2",
+        "edge_p3_a0_b3",
+        "edge_p3_a1_b2",
+        "edge_p3_a1_b3",
+        "edge_p3_a2_b0",
+        "edge_p3_a2_b1",
+        "edge_p3_a2_b3",
+        "edge_p3_a3_b0",
+        "edge_p3_a3_b1",
+        "edge_p3_a3_b2",
+        "forbidden_p2_a1",
+        "forbidden_p3_a2",
+        "forbidden_p3_a3",
+        "required_p0_a0",
+        "required_p0_a1",
+        "required_p0_a2",
+        "required_p0_a3",
+        "required_p1_a0",
+        "required_p1_a1",
+        "required_p1_a2",
+        "required_p1_a3",
+        "required_p2_a0",
+        "required_p2_a1",
+        "required_p2_a2",
+        "required_p2_a3",
+        "required_p3_a0",
+        "required_p3_a1",
+        "required_p3_a2",
+        "required_p3_a3"
+      ]
+    },
+    "semantic_representatives": {
+      "targets": 43,
+      "semantic_families": 43,
+      "target_class_combinations": 448748,
+      "status_counts": {
+        "safe": 437332,
+        "stale_verdict": 9073,
+        "insufficient": 2343
+      },
+      "additional_requirements": {
+        "P": 2285,
+        "T": 42,
+        "PT": 16
+      },
+      "target_names": [
+        "edge_p0_a0_b1",
+        "edge_p0_a0_b2",
+        "edge_p0_a1_b0",
+        "edge_p0_a1_b2",
+        "edge_p0_a2_b3",
+        "edge_p1_a0_b1",
+        "edge_p1_a0_b2",
+        "edge_p1_a1_b0",
+        "edge_p1_a1_b2",
+        "edge_p1_a1_b3",
+        "edge_p1_a2_b1",
+        "edge_p1_a2_b3",
+        "edge_p2_a0_b1",
+        "edge_p2_a0_b2",
+        "edge_p2_a1_b0",
+        "edge_p2_a1_b2",
+        "edge_p2_a1_b3",
+        "edge_p2_a2_b0",
+        "edge_p2_a2_b1",
+        "edge_p2_a2_b3",
+        "edge_p2_a3_b1",
+        "edge_p3_a0_b1",
+        "edge_p3_a0_b2",
+        "edge_p3_a0_b3",
+        "edge_p3_a1_b0",
+        "edge_p3_a1_b2",
+        "edge_p3_a1_b3",
+        "edge_p3_a2_b0",
+        "edge_p3_a2_b1",
+        "edge_p3_a2_b3",
+        "edge_p3_a3_b0",
+        "edge_p3_a3_b1",
+        "edge_p3_a3_b2",
+        "forbidden_p2_a1",
+        "forbidden_p3_a2",
+        "forbidden_p3_a3",
+        "required_p0_a3",
+        "required_p1_a3",
+        "required_p2_a1",
+        "required_p2_a3",
+        "required_p3_a1",
+        "required_p3_a2",
+        "required_p3_a3"
+      ]
+    },
+    "satisfiable_semantic_representatives": {
+      "targets": 39,
+      "semantic_families": 39,
+      "target_class_combinations": 407004,
+      "status_counts": {
+        "safe": 396314,
+        "stale_verdict": 8379,
+        "insufficient": 2311
+      },
+      "additional_requirements": {
+        "P": 2253,
+        "T": 42,
+        "PT": 16
+      },
+      "target_names": [
+        "edge_p0_a0_b1",
+        "edge_p0_a0_b2",
+        "edge_p0_a1_b2",
+        "edge_p0_a2_b3",
+        "edge_p1_a0_b1",
+        "edge_p1_a0_b2",
+        "edge_p1_a1_b2",
+        "edge_p1_a1_b3",
+        "edge_p1_a2_b1",
+        "edge_p1_a2_b3",
+        "edge_p2_a0_b1",
+        "edge_p2_a0_b2",
+        "edge_p2_a1_b0",
+        "edge_p2_a1_b2",
+        "edge_p2_a1_b3",
+        "edge_p2_a2_b1",
+        "edge_p2_a2_b3",
+        "edge_p2_a3_b1",
+        "edge_p3_a0_b1",
+        "edge_p3_a0_b2",
+        "edge_p3_a0_b3",
+        "edge_p3_a1_b2",
+        "edge_p3_a1_b3",
+        "edge_p3_a2_b0",
+        "edge_p3_a2_b1",
+        "edge_p3_a2_b3",
+        "edge_p3_a3_b0",
+        "edge_p3_a3_b1",
+        "edge_p3_a3_b2",
+        "forbidden_p2_a1",
+        "forbidden_p3_a2",
+        "forbidden_p3_a3",
+        "required_p0_a3",
+        "required_p1_a3",
+        "required_p2_a1",
+        "required_p2_a3",
+        "required_p3_a1",
+        "required_p3_a2",
+        "required_p3_a3"
+      ]
+    }
+  },
+  "semantic_groups": [
+    {
+      "representative": "edge_p0_a0_b1",
+      "aliases": [
+        "edge_p0_a0_b1"
+      ],
+      "exact_truth_vector_sha256": "668da22422bcf767c8ae4de864066e40530bdd933705bd0bdf6ec2f7ca3507e5",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 80,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p0_a0_b2",
+      "aliases": [
+        "edge_p0_a0_b2",
+        "edge_p0_a0_b3",
+        "edge_p0_a1_b3",
+        "edge_p1_a0_b3",
+        "edge_p2_a0_b3",
+        "required_p0_a0",
+        "required_p0_a1",
+        "required_p0_a2",
+        "required_p1_a0",
+        "required_p1_a1",
+        "required_p1_a2",
+        "required_p2_a0",
+        "required_p2_a2",
+        "required_p3_a0"
+      ],
+      "exact_truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": true
+    },
+    {
+      "representative": "edge_p0_a1_b0",
+      "aliases": [
+        "edge_p0_a1_b0",
+        "edge_p0_a2_b0",
+        "edge_p0_a2_b1",
+        "edge_p0_a3_b0",
+        "edge_p0_a3_b1",
+        "edge_p0_a3_b2",
+        "forbidden_p0_a0",
+        "forbidden_p0_a1",
+        "forbidden_p0_a2",
+        "forbidden_p0_a3"
+      ],
+      "exact_truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+      "all_profiles_satisfiable": false,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 0,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p0_a1_b2",
+      "aliases": [
+        "edge_p0_a1_b2"
+      ],
+      "exact_truth_vector_sha256": "2bf0e60c2cb213a74cedd52173f3f7cd0eaf8bda4aec45708022ec4bf0dfe1a3",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 156,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p0_a2_b3",
+      "aliases": [
+        "edge_p0_a2_b3"
+      ],
+      "exact_truth_vector_sha256": "b4cffd316e19e1996d2499eae67702acf507cff050aae82b7a2007bca542bed2",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 80,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p1_a0_b1",
+      "aliases": [
+        "edge_p1_a0_b1"
+      ],
+      "exact_truth_vector_sha256": "450c1146be84e1cefa3ccdff56d2b1c63f13be323542f9554b5303fb2eb9ed8a",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 48,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p1_a0_b2",
+      "aliases": [
+        "edge_p1_a0_b2"
+      ],
+      "exact_truth_vector_sha256": "c039d1c6a1459da36c38bf40ef1b3c056abce53e38ac16f1afd32a56010c26c2",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 48,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p1_a1_b0",
+      "aliases": [
+        "edge_p1_a1_b0",
+        "edge_p1_a2_b0",
+        "edge_p1_a3_b0",
+        "edge_p1_a3_b1",
+        "edge_p1_a3_b2",
+        "forbidden_p1_a0",
+        "forbidden_p1_a1",
+        "forbidden_p1_a2",
+        "forbidden_p1_a3"
+      ],
+      "exact_truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+      "all_profiles_satisfiable": false,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 0,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p1_a1_b2",
+      "aliases": [
+        "edge_p1_a1_b2"
+      ],
+      "exact_truth_vector_sha256": "fdd986583507de8f716949bc2803a1fda6171dd1f127508923d0f21546853b2e",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 8,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p1_a1_b3",
+      "aliases": [
+        "edge_p1_a1_b3"
+      ],
+      "exact_truth_vector_sha256": "2cc9a4c35eebb867eaa525c83fbf6485890e5c0803e9a9f49d5621c28db4a273",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 48,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p1_a2_b1",
+      "aliases": [
+        "edge_p1_a2_b1"
+      ],
+      "exact_truth_vector_sha256": "54a30b59dbc80a38985a7a504e01ef398185da8eba636abe3c6ec3b830342104",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 8,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p1_a2_b3",
+      "aliases": [
+        "edge_p1_a2_b3"
+      ],
+      "exact_truth_vector_sha256": "66d40493369756dcb256f3ad9f826e37ab00f63a593284820513b2aaf7a92b18",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 48,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a0_b1",
+      "aliases": [
+        "edge_p2_a0_b1"
+      ],
+      "exact_truth_vector_sha256": "8df2b89c6df70bb2da5dd2e5955f9c7c1163056c0ad47e8b70bbd36a18400600",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 52,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a0_b2",
+      "aliases": [
+        "edge_p2_a0_b2"
+      ],
+      "exact_truth_vector_sha256": "0c6be799292f87ef500efa878ccfe0f35c97be05a7df3feb74a2cc57a405dd7e",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 552,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a1_b0",
+      "aliases": [
+        "edge_p2_a1_b0"
+      ],
+      "exact_truth_vector_sha256": "1dc91a911aff88b2cd10fb1850ed9fdf3ad4a2be2581f36031717a8edd940017",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 8,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a1_b2",
+      "aliases": [
+        "edge_p2_a1_b2"
+      ],
+      "exact_truth_vector_sha256": "1af6c1288623ee9f332cc1bb1c3e12836012c35cd6e5f4b3e2b203342fd3730c",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 24,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a1_b3",
+      "aliases": [
+        "edge_p2_a1_b3"
+      ],
+      "exact_truth_vector_sha256": "f8534e01421851168cb309bc1dde99d1f421dc26fb4162e2fae20c7f5fa05aba",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 48,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a2_b0",
+      "aliases": [
+        "edge_p2_a2_b0",
+        "edge_p2_a3_b0",
+        "edge_p2_a3_b2",
+        "forbidden_p2_a0",
+        "forbidden_p2_a2",
+        "forbidden_p2_a3"
+      ],
+      "exact_truth_vector_sha256": "ea4b3183d03fc24eb06777b0c2379285326a8e0e70ae2401c3f2226e8395f068",
+      "all_profiles_satisfiable": false,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 0,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a2_b1",
+      "aliases": [
+        "edge_p2_a2_b1"
+      ],
+      "exact_truth_vector_sha256": "632b0f9583b0f20d09fe6b175c09a8303818a2e82850de3102080a6a6aae06ee",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 28,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a2_b3",
+      "aliases": [
+        "edge_p2_a2_b3"
+      ],
+      "exact_truth_vector_sha256": "0a1d961d09888bb8ca3cd51fa9f2705b6426bba301616e515d965a2bac51a8e4",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 552,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p2_a3_b1",
+      "aliases": [
+        "edge_p2_a3_b1"
+      ],
+      "exact_truth_vector_sha256": "25837fb93d26981b9133184eecfa61bb40a3ac7379a42f9d58c82efce45a9e0e",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 12,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a0_b1",
+      "aliases": [
+        "edge_p3_a0_b1"
+      ],
+      "exact_truth_vector_sha256": "ad502c622625b0fdc4b66d9a605b0f2f848d2eb8b0e59f60439a52c623342b59",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 1962
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a0_b2",
+      "aliases": [
+        "edge_p3_a0_b2"
+      ],
+      "exact_truth_vector_sha256": "4f35b5cf410b191e21089d23883ff8e0c10178d42434bc9a1ca53f4d3adf0edf",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 294
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a0_b3",
+      "aliases": [
+        "edge_p3_a0_b3"
+      ],
+      "exact_truth_vector_sha256": "e13a4e960ea9a77bc26734eeb57257ff853277773e8c28772ba0853c53b065ee",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 294
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a1_b0",
+      "aliases": [
+        "edge_p3_a1_b0",
+        "forbidden_p3_a0",
+        "forbidden_p3_a1"
+      ],
+      "exact_truth_vector_sha256": "c72685d2190ee4e998bbf0e4883505e523fd61085af158ba12507803e7c4e582",
+      "all_profiles_satisfiable": false,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 0
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a1_b2",
+      "aliases": [
+        "edge_p3_a1_b2"
+      ],
+      "exact_truth_vector_sha256": "44d2e41f0de7f4917d1b30f5d230749afc8a0d59acad70b0272173104c999978",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 110
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a1_b3",
+      "aliases": [
+        "edge_p3_a1_b3"
+      ],
+      "exact_truth_vector_sha256": "9b1c542e68f1b926369cf51d170bd2380448817935af031a8a9f7e3fa6b26cf9",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 110
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a2_b0",
+      "aliases": [
+        "edge_p3_a2_b0"
+      ],
+      "exact_truth_vector_sha256": "9483fc5881f3b35b5724c845244c59c9846ab9caacaf720d3102bd5fe982b7c6",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 84
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a2_b1",
+      "aliases": [
+        "edge_p3_a2_b1"
+      ],
+      "exact_truth_vector_sha256": "14ff67162b38da37da09d113da1da37dd2ed7e03076f527f8a538556d070cc96",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 268
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a2_b3",
+      "aliases": [
+        "edge_p3_a2_b3"
+      ],
+      "exact_truth_vector_sha256": "111aac12ec24bf494c018f6fd1636948c371675b0eaf5b7c9c1bcf7c8f1fbe88",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 182
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a3_b0",
+      "aliases": [
+        "edge_p3_a3_b0"
+      ],
+      "exact_truth_vector_sha256": "93902e89cfa39fd9291df99dcd4e0f033e7aa22a4ee6cc8787e5adc097486661",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 84
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a3_b1",
+      "aliases": [
+        "edge_p3_a3_b1"
+      ],
+      "exact_truth_vector_sha256": "ca7b1d59d4ecd5a73a0aaa327229dc40da45d9734a0283d499675cdcbfb97837",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 268
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "edge_p3_a3_b2",
+      "aliases": [
+        "edge_p3_a3_b2"
+      ],
+      "exact_truth_vector_sha256": "b43aa9bea331489e577a76a67ff423aa84327d092f8c00e7fbdd241ca0133ae6",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 182
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "forbidden_p2_a1",
+      "aliases": [
+        "forbidden_p2_a1"
+      ],
+      "exact_truth_vector_sha256": "13c1a6e9018a623a860ec307abf24858ff3df37d906a32d54a44417753e988f0",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 4,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "forbidden_p3_a2",
+      "aliases": [
+        "forbidden_p3_a2"
+      ],
+      "exact_truth_vector_sha256": "5eea8e376ef3b9301a23b6a1dc801d8f0d376d94ed05d0c373edcef59916f11d",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 26
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "forbidden_p3_a3",
+      "aliases": [
+        "forbidden_p3_a3"
+      ],
+      "exact_truth_vector_sha256": "d4f128c0d9eec9b7b153ca530717d1d33b5bbeb7876706510e5a0bd5444c6e93",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 26
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "required_p0_a3",
+      "aliases": [
+        "required_p0_a3"
+      ],
+      "exact_truth_vector_sha256": "2fbbf95e4d0e80b15cc2faee1233f30831908de06fdf80da92aa4bab624e3159",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 12,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "required_p1_a3",
+      "aliases": [
+        "required_p1_a3"
+      ],
+      "exact_truth_vector_sha256": "24b051f520f9f75afdb7b8d80d113d188fe5df522f3cd664dea1583288effbd1",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 36,
+        "2-way match": 84,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "required_p2_a1",
+      "aliases": [
+        "required_p2_a1"
+      ],
+      "exact_truth_vector_sha256": "0bab00bfdaf879ce768be027474116a9999e1d618b3d920221503f621f5e4240",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 80,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "required_p2_a3",
+      "aliases": [
+        "required_p2_a3"
+      ],
+      "exact_truth_vector_sha256": "0c38f85185e8e78b1ba37a3965c431924ce7b49fc858fc7784860714d2fb890a",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 110,
+        "Consignment": 578
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "required_p3_a1",
+      "aliases": [
+        "required_p3_a1"
+      ],
+      "exact_truth_vector_sha256": "818b31853a364014f508b46ff6019b323e7160bbca6804e2b408831d5b3d100a",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 669
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "required_p3_a2",
+      "aliases": [
+        "required_p3_a2"
+      ],
+      "exact_truth_vector_sha256": "fb59ea12fc073333566d48314b9e788d6a389fb5e2fd279ce4e68cfdb5f18d54",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 552
+      },
+      "equivalent_to_baseline": false
+    },
+    {
+      "representative": "required_p3_a3",
+      "aliases": [
+        "required_p3_a3"
+      ],
+      "exact_truth_vector_sha256": "3d344477c5fadf1aaece37fef1c6736d7c6996ebc30f5e8caf4d5d67a871cd17",
+      "all_profiles_satisfiable": true,
+      "accepting_states_by_profile": {
+        "3-way match, invoice after GR": 8,
+        "3-way match, invoice before GR": 24,
+        "2-way match": 84,
+        "Consignment": 552
+      },
+      "equivalent_to_baseline": false
+    }
+  ],
+  "source_sha256": {
+    "configs/census_robustness_protocol.json": "08ea337d0cf8f450897597d8a1dffe6371c40009364154058d551054d8cb6f91",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "results/compact_revision/evidence/independent_census.json": "cb72f20dac4e4c482e4f1733708066bc816b7be2efb13b43484a87916495b19e",
+    "results/perspective_revision/inputs/census.json": "813a0e10714f11a276e83f76db51f5e748ec90291c8f8068efa429f2d87a681b",
+    "results/perspective_revision/inputs/observation_classes.json": "502b450b9501ca388823f806e31b288bf9d02dae28c921da987aa46f1ad63aab",
+    "results/perspective_revision/inputs/saved_census_rows.json.gz": "ccc7f1fd25814a5817371ca8f9a4ba581d801153094ebd09cc18bb4d0486adbb",
+    "results/strong/catalog_audit/finite_tables.json.gz": "e369afd80c9b1ebf57ea456dc2297357b5d64365e27a8efc120e50ba23bfd7af",
+    "scripts/analyze_census_robustness.py": "c374396f05aaeaa45ea04ba416c833c74ff28b6a400da490d17a802581dece9b",
+    "scripts/verify_compact_evidence.py": "db53078e37dae60f084e04590c567230c9c4bdc9b55c50a5d20db0da96934a50",
+    "tests/test_census_robustness.py": "edd753e25045610a2c46d0a4a4071cb771025c899e09203ded303a2c5ca5cba6"
+  },
+  "interpretation": "Counts are dependent target/observation combinations in a fixed authored grammar, not independent source cases or frequencies of organizational rule changes; satisfying a profile does not establish operational plausibility"
+}

@@ -1,0 +1,86 @@
+{
+  "acquired_utc": "2026-10-08T05:49:09.184207+00:00",
+  "source_scope": "Official HL7 published artifacts and HL7 FHIRPath npm distribution",
+  "license": {
+    "profiles_examples": "CC0-1.0, verified in both official US Core package/package.json files; embedded terminology notices retained",
+    "validator": "Apache-2.0 (HL7 FHIR Java reference implementation)",
+    "fhirpath_js": "Apache-2.0"
+  },
+  "records": [
+    {
+      "url": "https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-lab.json",
+      "path": "data/external/fhir_standards/profiles/6.1.0/StructureDefinition-us-core-observation-lab.json",
+      "bytes": 153581,
+      "sha256": "760774200bfa5c7c3e78dc538a66154cf2d07965713cf0d6f7ab2803f7a45bc5"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-clinical-result.json",
+      "path": "data/external/fhir_standards/profiles/6.1.0/StructureDefinition-us-core-observation-clinical-result.json",
+      "bytes": 165687,
+      "sha256": "852d84cc468a2fd6ce3f0a253ecded347de8b11f5f90a23336ae6633adce778f"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-simple-observation.json",
+      "path": "data/external/fhir_standards/profiles/6.1.0/StructureDefinition-us-core-simple-observation.json",
+      "bytes": 169112,
+      "sha256": "40cc90096160cf66465d4095982bcb120fcdbf915932de6be75a962835fb72a6"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU6.1/package.tgz",
+      "path": "data/external/fhir_standards/packages/us-core-6.1.0.tgz",
+      "bytes": 1698061,
+      "sha256": "2a2604f037d10e43f76b1a9a9b34053682e9c74f2448a159f31302652005aae5"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU6.1/examples.json.zip",
+      "path": "data/external/fhir_standards/packages/examples-6.1.0.json.zip",
+      "bytes": 1977935,
+      "sha256": "d0cd23af6b939c977a6e5db774f0c0e1244157f3ce46d2d9de7875bd076b4c78"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-lab.json",
+      "path": "data/external/fhir_standards/profiles/7.0.0/StructureDefinition-us-core-observation-lab.json",
+      "bytes": 174676,
+      "sha256": "fa0fa0b468d3c9bbc1620e32ac22880e18a1567d16cfb17f2d5374d64dc75a61"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-clinical-result.json",
+      "path": "data/external/fhir_standards/profiles/7.0.0/StructureDefinition-us-core-observation-clinical-result.json",
+      "bytes": 168552,
+      "sha256": "47f757bee537fb41d489e7888188dba46ea520b5f565feaecaef51671f88bd3f"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-simple-observation.json",
+      "path": "data/external/fhir_standards/profiles/7.0.0/StructureDefinition-us-core-simple-observation.json",
+      "bytes": 169946,
+      "sha256": "25f0d49963d258afad2a851c889976e6ba8fdfe33106f801a68d8d66a1463b8b"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU7/package.tgz",
+      "path": "data/external/fhir_standards/packages/us-core-7.0.0.tgz",
+      "bytes": 1627094,
+      "sha256": "175504a170680c69e56a3449e091f6670c6a28e43b18e78c6c83d37ec16d655f"
+    },
+    {
+      "url": "https://hl7.org/fhir/us/core/STU7/examples.json.zip",
+      "path": "data/external/fhir_standards/packages/examples-7.0.0.json.zip",
+      "bytes": 1944221,
+      "sha256": "d2d4f910d270b6e8f79c966b28e710cf5e0531927ec980abdd40f2e7303deaa7"
+    },
+    {
+      "url": "https://registry.npmjs.org/fhirpath/4.6.0",
+      "path": "data/external/fhir_standards/tools/fhirpath-npm-metadata.json",
+      "bytes": 3673,
+      "sha256": "9681f022514036383929d6f6278ec348a580953bbbc1aba2e4483b736ced96ca"
+    },
+    {
+      "url": "https://github.com/hapifhir/org.hl7.fhir.core/releases/download/6.7.0/validator_cli.jar",
+      "path": "data/external/fhir_standards/tools/validator_cli.jar",
+      "bytes": 170814119,
+      "sha256": "1f1a602ff56b602006c7b435f692a988fd07d6409b923d70ac3d6f77a8663309"
+    }
+  ],
+  "failures": [],
+  "examples": 84,
+  "setup_elapsed_seconds": 0.4694419469451532
+}

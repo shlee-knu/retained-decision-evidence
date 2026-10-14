@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-10-07T12:38:47.457336+00:00",
+  "metadata_url": "https://api.figshare.com/v2/articles/12718178",
+  "doi": "10.4121/uuid:ea03d361-a7cd-4f5e-83d8-5fbdf0362550",
+  "license": {
+    "value": 10,
+    "name": "CC BY-NC 4.0",
+    "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
+  "title": "BPI Challenge 2020: Travel Permit Data",
+  "files": [
+    {
+      "filename": "PermitLog.xes.gz",
+      "url": "https://ndownloader.figshare.com/files/24075929",
+      "bytes": 1938192,
+      "md5": "b6e9ff00d946f6ad4c91eb6fb550aee4",
+      "sha256": "9e23befe5394c13caff4428c00a6cee08647b1749f270a78cd05d99f861c5a8b"
+    },
+    {
+      "filename": "README.txt",
+      "url": "https://ndownloader.figshare.com/files/24075932",
+      "bytes": 1616,
+      "md5": "08bbb2eaa626fe911dad264a9660247b",
+      "sha256": "1cd883bbb879375ffdf34c2616a7184e01dc57d55d4dac2e0d48a230c14eb31f"
+    }
+  ]
+}

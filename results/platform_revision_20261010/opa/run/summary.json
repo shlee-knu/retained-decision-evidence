@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "primary_diagnoses": 941,
+  "complete_predicate_checks": 137792,
+  "lifted_witness_checks": 6,
+  "workloads": [
+    {
+      "model": "procurement_identity",
+      "queries": 20,
+      "status_counts": {
+        "safe": 20
+      },
+      "complete_states": 8612,
+      "parity": "passed"
+    },
+    {
+      "model": "procurement_strict",
+      "queries": 20,
+      "status_counts": {
+        "insufficient": 3,
+        "safe": 17
+      },
+      "complete_states": 8612,
+      "parity": "passed"
+    },
+    {
+      "model": "procurement_equivalent",
+      "queries": 20,
+      "status_counts": {
+        "safe": 20
+      },
+      "complete_states": 8612,
+      "parity": "passed"
+    },
+    {
+      "model": "procurement_label_change",
+      "queries": 20,
+      "status_counts": {
+        "safe": 19,
+        "stale_verdict": 1
+      },
+      "complete_states": 8612,
+      "parity": "passed"
+    },
+    {
+      "model": "procurement_edge_p0_a0_b1",
+      "queries": 93,
+      "status_counts": {
+        "insufficient": 61,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "complete_states": 8612,
+      "parity": "passed"
+    },
+    {
+      "model": "procurement_required_p2_a3",
+      "queries": 52,
+      "status_counts": {
+        "insufficient": 20,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "complete_states": 8612,
+      "parity": "passed"
+    },
+    {
+      "model": "procurement_edge_p2_a0_b2",
+      "queries": 409,
+      "status_counts": {
+        "insufficient": 377,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "complete_states": 8612,
+      "parity": "passed"
+    },
+    {
+      "model": "procurement_edge_p2_a2_b3",
+      "queries": 307,
+      "status_counts": {
+        "insufficient": 275,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "complete_states": 8612,
+      "parity": "passed"
+    }
+  ],
+  "strict_occurrences": 50931,
+  "strict_repair_ids": 33489,
+  "strict_occurrence_status_counts": {
+    "insufficient": 33489,
+    "safe": 17442
+  },
+  "occurrence_verification": {
+    "source_receipts": 50931,
+    "source_sha256": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "exact_source_order_id_class_reconciliation": true,
+    "independent_affected_id_set_equality": true,
+    "independent_affected_ids": 33489,
+    "literal_witness_checks": 66978,
+    "method": "Strictly parse every original receipt, reconstruct normalized query and class, bind snapshot/catalog/domain, independently diagnose each class using direct predicates, and compare the exact affected ID set. Lift and raw-check both witnesses on every affected literal receipt."
+  },
+  "native_logs": 3,
+  "native_partial_artifacts": 8,
+  "claims": [
+    "Compact semantic and strict occurrence-repair parity on the frozen finite interface",
+    "Real OPA Rego predicates plus custom finite maintenance assembly",
+    "No full portable-bundle equivalence, production throughput, or policy-engine superiority claim"
+  ]
+}

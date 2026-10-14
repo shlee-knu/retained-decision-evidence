@@ -1,0 +1,21 @@
+{
+  "bounded": {
+    "weak_clock_orders": 75,
+    "activity_permutations": 24,
+    "profiles": 4,
+    "catalogs": 2,
+    "methods": 9,
+    "evaluations": 129600,
+    "mismatches": 0,
+    "scope": "All four distinct milestones only; native and paired source fixtures cover additional missing/repeated activity patterns."
+  },
+  "controlled_stress": {
+    "rows": 14404,
+    "evaluations": 129636,
+    "mismatches": 0,
+    "source_sha256": "50bfcde8ce4bfea05682484e9a9b9f84bd547e8d77788a2a23a3d1fe8ceb6ea8"
+  },
+  "native_mismatches": 0,
+  "native_policy_evaluations": 916758,
+  "historical_count_reconciliation": true
+}

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "examples": 13,
+  "native_receipts": 50931,
+  "input_sha256": {
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "examples/second_equivalent_catalog.json": "2af4c69182674bcf4c445ad3bab7dffa5f2b497bef1b60fc414ed371e2a8aa86",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+    "examples/second_receipt_cases.json": "3d76e29e9aa7e32aab89983482db18b51cf18a88a5d0fb953ac5ce65fee12641",
+    "scripts/revalidate_receipt.py": "83a9eb3ca226fd0350a9f8cb078072056eeb1a30ffe4812c686579a02be7d733",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "scripts/compare_catalogs.py": "6f2bf0eb77a5a44f100c24af4c65a14d56f7b366734d3a87daf13039f7b13121",
+    "scripts/stress_acquisition.py": "24c02806e711fecfc5d353fd5e9ab180387d3516a3fa30d917e4073d1b7e3e15",
+    "scripts/audit_representations.py": "7e74d218c3c1cc62714f27abf8e9f9fa2dda61e65c3a8605e11bf54cf6b3d808",
+    "tests/test_receipt_revalidation.py": "dac88474a53f4a7da0eafe1d2cf8a860c0f4bc612d48f82ce2d1203e3326712f"
+  },
+  "output_sha256": {
+    "examples.json": "245102f21f16081d55846e619d247a8fe2feb0eea4ecc81167886e4cab871d9a",
+    "native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "native_summary.json": "4e0725ac215047d82e79aca96d0407612c8d299413f6496b087373e6a33d849e",
+    "pytest.xml": "a588819c2b63749b8a575847f67979a9987d097c0a89d9f2fd96a328bf1b3ed1"
+  },
+  "design_prefix_sha256": "60f02b6cff1d87cf5578f6f0a140bd168683eeaabeabf23d81cd0f84ba078418",
+  "scope": "Conditional receipt classification and logical recovery replay; no new runtime benchmark, SQL experiment, source guarantees or natural-error truth."
+}

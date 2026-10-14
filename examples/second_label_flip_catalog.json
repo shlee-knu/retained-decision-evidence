@@ -1,0 +1,84 @@
+{
+  "3-way match, invoice after GR": {
+    "required": [
+      "create",
+      "receive",
+      "invoice",
+      "clear"
+    ],
+    "forbidden": [],
+    "edges": [
+      [
+        "create",
+        "receive"
+      ],
+      [
+        "receive",
+        "invoice"
+      ],
+      [
+        "invoice",
+        "clear"
+      ]
+    ]
+  },
+  "3-way match, invoice before GR": {
+    "required": [
+      "create",
+      "receive",
+      "invoice",
+      "clear"
+    ],
+    "forbidden": [],
+    "edges": [
+      [
+        "create",
+        "receive"
+      ],
+      [
+        "create",
+        "invoice"
+      ],
+      [
+        "receive",
+        "clear"
+      ],
+      [
+        "invoice",
+        "clear"
+      ]
+    ]
+  },
+  "2-way match": {
+    "required": [
+      "create",
+      "invoice",
+      "clear"
+    ],
+    "forbidden": [],
+    "edges": [
+      [
+        "create",
+        "invoice"
+      ],
+      [
+        "invoice",
+        "clear"
+      ]
+    ]
+  },
+  "Consignment": {
+    "required": [
+      "create",
+      "receive",
+      "invoice"
+    ],
+    "forbidden": [],
+    "edges": [
+      [
+        "create",
+        "receive"
+      ]
+    ]
+  }
+}

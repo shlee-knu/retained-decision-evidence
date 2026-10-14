@@ -1,0 +1,95 @@
+[39mFHIR Validation tool Version 6.7.0 (Git# f299b0928a8d). Built 2025-10-01T03:11:53.244Z (372 days old)
+[0;39m[39m  Java:   21.0.10 from /usr/lib/jvm/jdk-21.0.10-oracle-x64 on amd64 (64bit). 2048MB available
+[0;39m[39m  Paths:  Current = /home/shlee/nudix_workspace/logistics_event_validation_research, Package Cache = /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home/.fhir/packages
+[0;39m[39m  Params: /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/*.json -version 4.0.1 -ig /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-7.0.0.tgz -profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result -tx n/a -output /home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/observation-clinical-result/7.0.0/operation_outcomes.json
+[0;39m[39m  Locale: /
+[0;39m[39m  Jurisdiction: None specified (locale = )
+[0;39m[39m  Note that exceptions and validation failures may happen in the absense of a locale
+[0;39m[39mLoading
+[0;39m[39m  Loading FHIR v4.0 from hl7.fhir.r4.core#4.0.1
+[0;39m[39m  Load hl7.terminology.r4#6.2.0 - 4288 resources (00:03.893)
+[0;39m[39m  Load hl7.fhir.uv.extensions.r4#5.2.0 - 759 resources (00:00.947)
+[0;39m[39m  Loaded FHIR - 8265 resources (00:00.000)
+[0;39m[39m  Terminology server null - Version n/a: No Terminology Server (00:00.000)
+[0;39m[39m  Load hl7.terminology#7.4.0 - 4181 resources (00:01.465)
+[0;39m[39m  Load hl7.fhir.uv.extensions.r5#5.2.0 - 759 resources (00:00.343)
+[0;39m[39m  Load hl7.terminology.r5#7.1.0 - 4072 resources (00:00.596)
+[0;39m[39m  Load hl7.fhir.uv.extensions#5.3.0 - 856 resources (00:00.006)
+[0;39m[39m  Load hl7.terminology.r4#5.5.0 - 4225 resources (00:01.122)
+[0;39m[39m  Load hl7.fhir.uv.smart-app-launch#2.0.0 - 1 resources (00:00.001)
+[0;39m[39m  Load us.nlm.vsac#0.18.0 - 30140 resources (00:00.608)
+[0;39m[39m  Load hl7.fhir.r4.examples#4.0.1 - 4581 resources (00:01.671)
+[0;39m[39m  Load hl7.fhir.uv.sdc#3.0.0 - 138 resources (00:00.006)
+[0;39m[39m  Load us.cdc.phinvads#0.12.0 - 1967 resources (00:00.025)
+[0;39m[39m  Load hl7.terminology.r5#5.3.0 - 4202 resources (00:02.433)
+[0;39m[39m  Load hl7.fhir.uv.extensions#5.1.0-snapshot1 - 1379 resources (00:00.032)
+[0;39m[39m  Load /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-7.0.0.tgz#7.0.0 - 210 resources (00:00.475)
+[0;39m[39m  Package Summary: [hl7.fhir.r4.core#4.0.1, hl7.fhir.xver-extensions#0.1.0, hl7.terminology.r4#6.2.0, hl7.fhir.uv.extensions.r4#5.2.0, hl7.terminology#7.4.0, hl7.fhir.uv.extensions.r5#5.2.0, hl7.terminology.r5#7.1.0, hl7.fhir.uv.extensions#5.3.0, hl7.terminology.r4#5.5.0, hl7.fhir.uv.smart-app-launch#2.0.0, us.nlm.vsac#0.18.0, hl7.fhir.r4.examples#4.0.1, hl7.fhir.uv.sdc#3.0.0, us.cdc.phinvads#0.12.0, hl7.terminology.r5#5.3.0, hl7.fhir.uv.extensions#5.1.0-snapshot1, hl7.fhir.us.core#7.0.0]
+[0;39m[39m  Terminology Cache at /tmp/default-tx-cache
+[0;39m[39m  Get set... 
+[0;39m[39m  ...go! (00:03.029)
+[0;39m[39mCached new session. Cache size = 1
+[0;39m[39mValidating
+[0;39m[39m  Profiles: [http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result]
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0261.json
+[0;39m[39m 00:00.934
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-jugular-vein-distension.json
+[0;39m[39m 00:00.081
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0000.json
+[0;39m[39m 00:00.072
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-dxa-femur-l-armass-bmd.json
+[0;39m[39m 00:00.070
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0359.json
+[0;39m[39m 00:00.068
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0228.json
+[0;39m[39m 00:00.029
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-ekg-lead.json
+[0;39m[39m 00:00.030
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-capillary-refill-time-nail-bed.json
+[0;39m[39m 00:00.026
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0098.json
+[0;39m[39m 00:00.026
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-xray-chest-findings.json
+[0;39m[39m 00:00.024
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0131.json
+[0;39m[39m 00:00.025
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-dxa-hip-l-armass-bmd.json
+[0;39m[39m 00:00.028
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-dxa-femur-l-t-score-bmd.json
+[0;39m[39m 00:00.026
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0033.json
+[0;39m[39m 00:00.025
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-q-t-interval-ekg-lead.json
+[0;39m[39m 00:00.025
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-dxa-femur-l-z-score-bmd.json
+[0;39m[39m 00:00.025
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0065.json
+[0;39m[39m 00:00.023
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-pulse-intensity-palpation.json
+[0;39m[39m 00:00.023
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-dxa-hip-l-z-score-bmd.json
+[0;39m[39m 00:00.022
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-heart-rate-rhythm.json
+[0;39m[39m 00:00.022
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-qrs-dur-ekg-lead.json
+[0;39m[39m 00:00.021
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-p-r-interval-ekg-lead.json
+[0;39m[39m 00:00.022
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0294.json
+[0;39m[39m 00:00.021
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0163.json
+[0;39m[39m 00:00.022
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0326.json
+[0;39m[39m 00:00.021
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-dxa-hip-l-t-score-bmd.json
+[0;39m[39m 00:00.021
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/observation-0196.json
+[0;39m[39m 00:00.021
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-ekg-impression.json
+[0;39m[39m 00:00.020
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-clinical-result/7.0.0/official-Observation-xray-chest-impression.json
+[0;39m[39m 00:00.021
+[0;39m[39mDone. Times: Loading: 00:16.662, validation: 00:01.810 (#29). Memory = 1Gb
+[0;39m[39m
+[0;39m[39mDone. Times: Loading: 00:16.662, validation: 00:01.810 (#29). Max Memory = 2Gb
+[0;39m

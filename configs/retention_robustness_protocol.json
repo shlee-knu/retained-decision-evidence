@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-10-11T10:25:37.246136+00:00",
+  "status": "Protocol revised only to distinguish a singleton verdict set from a one-element completion fiber; implementation unchanged. All sensitivity results are already known from the initial execution, which is retained.",
+  "question": "How do old retention policy and an unchanged trusted completion domain affect the need to acquire evidence after the same authored permissive-to-strict Consignment rule change?",
+  "population": "Exactly the original salt-17 document-held-out 50,931 source case IDs. Four policies and two domains reuse these cases; they are not independent datasets or deployment observations.",
+  "inputs": {
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904"
+  },
+  "policies": {
+    "structural_order": "Use the archived baseline base-only first-block choice (T when all profiles are structurally eligible under tied clocks, else P); stop at a singleton old-domain verdict set (all compatible completions agree), starting from no optional blocks.",
+    "profile_first": "P then T; start empty and stop as soon as the old-domain verdict set is singleton (all compatible completions agree).",
+    "time_first": "T then P; start empty and stop as soon as the old-domain verdict set is singleton (all compatible completions agree).",
+    "always_both": "Always acquire and retain P and T, including when the base suffices."
+  },
+  "domains": [
+    "cartesian",
+    "consignment_exclusion"
+  ],
+  "domain_rule": "Use the same domain for old and new rules within each row. Consignment-exclusion disallows Consignment inputs containing invoice or clear. Trust membership as an external assumption; report unsupported complete source cases and exclude them from valid-receipt counts. No local membership-verification cost is included.",
+  "diagnosis": {
+    "retain": "Old receipt valid; new compatible labels are a singleton equal to the old verdict.",
+    "update": "Old receipt valid; new compatible labels are a singleton different from the old verdict.",
+    "acquire": "Old receipt valid; new compatible labels disagree.",
+    "unsupported": "Actual complete source lies outside the declared domain; do not treat it as an old valid receipt."
+  },
+  "repair": "For acquire cases only, read each missing block in P-before-T order, re-evaluate the new fiber after each read, and stop at a singleton. All policies keep every previously acquired block. No latency or optimal-policy claim.",
+  "measurement": [
+    "case counts for retain/update/acquire/unsupported",
+    "old observed-class counts and affected classes",
+    "exact case IDs and source-order ID digests",
+    "old and additional logical P/T block reads",
+    "old-retained and additional payload bytes",
+    "old-plus-additional logical reads and payload bytes"
+  ],
+  "byte_encoding": "Sum len(json.dumps({block_name:value}, ensure_ascii=False, sort_keys=True, separators=(comma,colon)).encode(utf-8)) over acquired blocks. Excludes visible base, receipt envelope, indexes, metadata, compression, and storage overhead.",
+  "verification": "Independently enumerate all profile/order/clock-rank completions and evaluate original JSON rules on raw named activities and timestamps; compare every finite truth and fiber label set with existing symbolic table. Independently reconstruct raw native observations and membership. Cartesian masks for every policy must equal archived access traces. Structural retained values, labels, IDs and diagnoses must match the archived native receipts.",
+  "known_reconciliation_targets": {
+    "cartesian_structural_cases": 50931,
+    "cartesian_structural_retain": 17442,
+    "cartesian_structural_acquire": 33489,
+    "cartesian_structural_old_reads": 52855,
+    "cartesian_structural_additional_P_reads": 33489,
+    "cartesian_structural_old_classes": 20
+  },
+  "limits": [
+    "Authored counterfactual policies; no claim about actual organizational retention practice.",
+    "Same fixed source snapshot, truthfully retained values, and trusted domain membership.",
+    "Complete source and trace files are scanned and hashed in setup; counted reads are logical accesses, not total physical I/O, SQL queries, privacy savings, or network cost.",
+    "A disappearing effect under full retention or exclusion is retained as negative evidence.",
+    "Completion models are finite four-milestone abstractions, not all procurement behavior."
+  ],
+  "output_policy": "Create a new exclusive output directory. Freeze protocol, implementation, test and pinned source hashes before results computation. Do not overwrite earlier evidence."
+}

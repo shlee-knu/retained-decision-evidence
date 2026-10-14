@@ -1,0 +1,1446 @@
+{
+  "states": [
+    {
+      "index": 4,
+      "order": [
+        "create"
+      ],
+      "ranks": [
+        0
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 642,
+      "holdout_seed17_count": 145,
+      "representative": {
+        "case_id": "2000000005_00002",
+        "source_trace": 9,
+        "activities": [
+          "create"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-08T10:09:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-9"
+      },
+      "profile_bytes": {
+        "native": 27606,
+        "holdout_seed17": 6235
+      },
+      "time_bytes": {
+        "native": 34026,
+        "holdout_seed17": 7685
+      }
+    },
+    {
+      "index": 5,
+      "order": [
+        "create"
+      ],
+      "ranks": [
+        0
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 13839,
+      "holdout_seed17_count": 3007,
+      "representative": {
+        "case_id": "2000000053_00001",
+        "source_trace": 64,
+        "activities": [
+          "create"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-19T09:21:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-64"
+      },
+      "profile_bytes": {
+        "native": 608916,
+        "holdout_seed17": 132308
+      },
+      "time_bytes": {
+        "native": 733467,
+        "holdout_seed17": 159371
+      }
+    },
+    {
+      "index": 6,
+      "order": [
+        "create"
+      ],
+      "ranks": [
+        0
+      ],
+      "profile": "2-way match",
+      "native_count": 357,
+      "holdout_seed17_count": 117,
+      "representative": {
+        "case_id": "4507075965_00030",
+        "source_trace": 250695,
+        "activities": [
+          "create"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-04T11:25:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-250695"
+      },
+      "profile_bytes": {
+        "native": 8925,
+        "holdout_seed17": 2925
+      },
+      "time_bytes": {
+        "native": 18921,
+        "holdout_seed17": 6201
+      }
+    },
+    {
+      "index": 7,
+      "order": [
+        "create"
+      ],
+      "ranks": [
+        0
+      ],
+      "profile": "Consignment",
+      "native_count": 1032,
+      "holdout_seed17_count": 294,
+      "representative": {
+        "case_id": "4507000392_00010",
+        "source_trace": 855,
+        "activities": [
+          "create"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T13:03:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-855"
+      },
+      "profile_bytes": {
+        "native": 25800,
+        "holdout_seed17": 7350
+      },
+      "time_bytes": {
+        "native": 54696,
+        "holdout_seed17": 15582
+      }
+    },
+    {
+      "index": 20,
+      "order": [
+        "create",
+        "receive"
+      ],
+      "ranks": [
+        0,
+        0
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 2309,
+      "holdout_seed17_count": 465,
+      "representative": {
+        "case_id": "4507000473_00001",
+        "source_trace": 1038,
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T22:30:00.000Z",
+          "receive": "2018-01-02T22:30:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1038"
+      },
+      "profile_bytes": {
+        "native": 99287,
+        "holdout_seed17": 19995
+      },
+      "time_bytes": {
+        "native": 207810,
+        "holdout_seed17": 41850
+      }
+    },
+    {
+      "index": 21,
+      "order": [
+        "create",
+        "receive"
+      ],
+      "ranks": [
+        0,
+        0
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 40,
+      "holdout_seed17_count": 6,
+      "representative": {
+        "case_id": "4508045779_00020",
+        "source_trace": 153355,
+        "activities": [
+          "create",
+          "receive"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-07-27T07:36:00.000Z",
+          "receive": "2018-07-27T07:36:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-153355"
+      },
+      "profile_bytes": {
+        "native": 1760,
+        "holdout_seed17": 264
+      },
+      "time_bytes": {
+        "native": 3600,
+        "holdout_seed17": 540
+      }
+    },
+    {
+      "index": 23,
+      "order": [
+        "create",
+        "receive"
+      ],
+      "ranks": [
+        0,
+        0
+      ],
+      "profile": "Consignment",
+      "native_count": 2,
+      "holdout_seed17_count": 0,
+      "representative": {
+        "case_id": "4507013167_00010",
+        "source_trace": 42644,
+        "activities": [
+          "create",
+          "receive"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-03-01T09:01:00.000Z",
+          "receive": "2018-03-01T09:01:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-42644"
+      },
+      "profile_bytes": {
+        "native": 50,
+        "holdout_seed17": 0
+      },
+      "time_bytes": {
+        "native": 180,
+        "holdout_seed17": 0
+      }
+    },
+    {
+      "index": 68,
+      "order": [
+        "create",
+        "receive"
+      ],
+      "ranks": [
+        0,
+        1
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 1101,
+      "holdout_seed17_count": 228,
+      "representative": {
+        "case_id": "4507000811_00001",
+        "source_trace": 1853,
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-03T22:00:00.000Z",
+          "receive": "2018-01-03T22:01:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1853"
+      },
+      "profile_bytes": {
+        "native": 47343,
+        "holdout_seed17": 9804
+      },
+      "time_bytes": {
+        "native": 99090,
+        "holdout_seed17": 20520
+      }
+    },
+    {
+      "index": 69,
+      "order": [
+        "create",
+        "receive"
+      ],
+      "ranks": [
+        0,
+        1
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 7185,
+      "holdout_seed17_count": 1719,
+      "representative": {
+        "case_id": "2000000136_00001",
+        "source_trace": 188,
+        "activities": [
+          "create",
+          "receive"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-07T09:36:00.000Z",
+          "receive": "2018-09-26T12:50:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-188"
+      },
+      "profile_bytes": {
+        "native": 316140,
+        "holdout_seed17": 75636
+      },
+      "time_bytes": {
+        "native": 646650,
+        "holdout_seed17": 154710
+      }
+    },
+    {
+      "index": 71,
+      "order": [
+        "create",
+        "receive"
+      ],
+      "ranks": [
+        0,
+        1
+      ],
+      "profile": "Consignment",
+      "native_count": 13464,
+      "holdout_seed17_count": 2557,
+      "representative": {
+        "case_id": "4507000256_00010",
+        "source_trace": 482,
+        "activities": [
+          "create",
+          "receive"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T07:51:00.000Z",
+          "receive": "2018-01-10T11:39:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-482"
+      },
+      "profile_bytes": {
+        "native": 336600,
+        "holdout_seed17": 63925
+      },
+      "time_bytes": {
+        "native": 1211760,
+        "holdout_seed17": 230130
+      }
+    },
+    {
+      "index": 77,
+      "order": [
+        "create",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        1
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 132,
+      "holdout_seed17_count": 28,
+      "representative": {
+        "case_id": "4507007074_00020",
+        "source_trace": 22449,
+        "activities": [
+          "create",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-01T14:03:00.000Z",
+          "invoice": "2018-11-15T14:01:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-22449"
+      },
+      "profile_bytes": {
+        "native": 5808,
+        "holdout_seed17": 1232
+      },
+      "time_bytes": {
+        "native": 11880,
+        "holdout_seed17": 2520
+      }
+    },
+    {
+      "index": 78,
+      "order": [
+        "create",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        1
+      ],
+      "profile": "2-way match",
+      "native_count": 384,
+      "holdout_seed17_count": 85,
+      "representative": {
+        "case_id": "4507075965_00110",
+        "source_trace": 250703,
+        "activities": [
+          "create",
+          "invoice"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-04T11:25:00.000Z",
+          "invoice": "2018-05-10T10:14:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-250703"
+      },
+      "profile_bytes": {
+        "native": 9600,
+        "holdout_seed17": 2125
+      },
+      "time_bytes": {
+        "native": 34560,
+        "holdout_seed17": 7650
+      }
+    },
+    {
+      "index": 84,
+      "order": [
+        "create",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 1,
+      "holdout_seed17_count": 1,
+      "representative": {
+        "case_id": "4508071078_00010",
+        "source_trace": 234374,
+        "activities": [
+          "create",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-11-28T10:53:00.000Z",
+          "clear": "2019-01-10T14:45:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-234374"
+      },
+      "profile_bytes": {
+        "native": 43,
+        "holdout_seed17": 43
+      },
+      "time_bytes": {
+        "native": 88,
+        "holdout_seed17": 88
+      }
+    },
+    {
+      "index": 85,
+      "order": [
+        "create",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 375,
+      "holdout_seed17_count": 51,
+      "representative": {
+        "case_id": "4507002401_00010",
+        "source_trace": 7250,
+        "activities": [
+          "create",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-11T13:06:00.000Z",
+          "clear": "2018-01-29T12:04:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-7250"
+      },
+      "profile_bytes": {
+        "native": 16500,
+        "holdout_seed17": 2244
+      },
+      "time_bytes": {
+        "native": 33000,
+        "holdout_seed17": 4488
+      }
+    },
+    {
+      "index": 260,
+      "order": [
+        "create",
+        "receive",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        0,
+        1
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 233,
+      "holdout_seed17_count": 41,
+      "representative": {
+        "case_id": "4507000472_00001",
+        "source_trace": 1037,
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:40:00.000Z",
+          "receive": "2018-01-02T21:40:00.000Z",
+          "invoice": "2018-02-02T03:23:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1037"
+      },
+      "profile_bytes": {
+        "native": 10019,
+        "holdout_seed17": 1763
+      },
+      "time_bytes": {
+        "native": 29591,
+        "holdout_seed17": 5207
+      }
+    },
+    {
+      "index": 261,
+      "order": [
+        "create",
+        "receive",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        0,
+        1
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 83,
+      "holdout_seed17_count": 27,
+      "representative": {
+        "case_id": "4507000594_00020",
+        "source_trace": 1372,
+        "activities": [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-03T09:56:00.000Z",
+          "receive": "2018-01-03T09:56:00.000Z",
+          "invoice": "2018-07-05T00:21:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1372"
+      },
+      "profile_bytes": {
+        "native": 3652,
+        "holdout_seed17": 1188
+      },
+      "time_bytes": {
+        "native": 10541,
+        "holdout_seed17": 3429
+      }
+    },
+    {
+      "index": 341,
+      "order": [
+        "create",
+        "invoice",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        1
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 1,
+      "holdout_seed17_count": 0,
+      "representative": {
+        "case_id": "4507028076_00020",
+        "source_trace": 95166,
+        "activities": [
+          "create",
+          "invoice",
+          "clear",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-05-09T07:37:00.000Z",
+          "invoice": "2018-08-13T11:01:00.000Z",
+          "clear": "2018-08-13T11:01:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-95166"
+      },
+      "profile_bytes": {
+        "native": 44,
+        "holdout_seed17": 0
+      },
+      "time_bytes": {
+        "native": 125,
+        "holdout_seed17": 0
+      }
+    },
+    {
+      "index": 836,
+      "order": [
+        "create",
+        "receive",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 1221,
+      "holdout_seed17_count": 256,
+      "representative": {
+        "case_id": "2000000052_00001",
+        "source_trace": 63,
+        "activities": [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-18T16:42:00.000Z",
+          "receive": "2018-03-19T12:58:00.000Z",
+          "invoice": "2018-12-03T01:28:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-63"
+      },
+      "profile_bytes": {
+        "native": 52503,
+        "holdout_seed17": 11008
+      },
+      "time_bytes": {
+        "native": 155067,
+        "holdout_seed17": 32512
+      }
+    },
+    {
+      "index": 837,
+      "order": [
+        "create",
+        "receive",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 24739,
+      "holdout_seed17_count": 5081,
+      "representative": {
+        "case_id": "2000000092_00001",
+        "source_trace": 116,
+        "activities": [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-26T11:50:00.000Z",
+          "receive": "2018-02-01T14:17:00.000Z",
+          "invoice": "2018-08-20T00:21:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-116"
+      },
+      "profile_bytes": {
+        "native": 1088516,
+        "holdout_seed17": 223564
+      },
+      "time_bytes": {
+        "native": 3141853,
+        "holdout_seed17": 645287
+      }
+    },
+    {
+      "index": 860,
+      "order": [
+        "create",
+        "receive",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 1,
+      "holdout_seed17_count": 0,
+      "representative": {
+        "case_id": "4508046755_00060",
+        "source_trace": 156293,
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-08-02T11:42:00.000Z",
+          "receive": "2018-09-18T11:53:00.000Z",
+          "clear": "2019-01-04T22:59:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-156293"
+      },
+      "profile_bytes": {
+        "native": 43,
+        "holdout_seed17": 0
+      },
+      "time_bytes": {
+        "native": 125,
+        "holdout_seed17": 0
+      }
+    },
+    {
+      "index": 861,
+      "order": [
+        "create",
+        "receive",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 7,
+      "holdout_seed17_count": 0,
+      "representative": {
+        "case_id": "4508046755_00010",
+        "source_trace": 156289,
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-08-01T11:28:00.000Z",
+          "receive": "2018-09-18T11:53:00.000Z",
+          "clear": "2019-01-04T22:59:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-156289"
+      },
+      "profile_bytes": {
+        "native": 308,
+        "holdout_seed17": 0
+      },
+      "time_bytes": {
+        "native": 875,
+        "holdout_seed17": 0
+      }
+    },
+    {
+      "index": 885,
+      "order": [
+        "create",
+        "invoice",
+        "receive"
+      ],
+      "ranks": [
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 1294,
+      "holdout_seed17_count": 197,
+      "representative": {
+        "case_id": "4507014377_00010",
+        "source_trace": 46484,
+        "activities": [
+          "create",
+          "invoice",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-03-06T10:52:00.000Z",
+          "invoice": "2018-04-26T12:15:00.000Z",
+          "receive": "2018-05-01T06:50:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-46484"
+      },
+      "profile_bytes": {
+        "native": 56936,
+        "holdout_seed17": 8668
+      },
+      "time_bytes": {
+        "native": 164338,
+        "holdout_seed17": 25019
+      }
+    },
+    {
+      "index": 909,
+      "order": [
+        "create",
+        "invoice",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 181,
+      "holdout_seed17_count": 32,
+      "representative": {
+        "case_id": "4507001238_00140",
+        "source_trace": 3232,
+        "activities": [
+          "create",
+          "invoice",
+          "clear",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-05T12:16:00.000Z",
+          "invoice": "2018-02-07T09:46:00.000Z",
+          "clear": "2018-06-29T09:23:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-3232"
+      },
+      "profile_bytes": {
+        "native": 7964,
+        "holdout_seed17": 1408
+      },
+      "time_bytes": {
+        "native": 22625,
+        "holdout_seed17": 4000
+      }
+    },
+    {
+      "index": 910,
+      "order": [
+        "create",
+        "invoice",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        2
+      ],
+      "profile": "2-way match",
+      "native_count": 303,
+      "holdout_seed17_count": 101,
+      "representative": {
+        "case_id": "4507075964_00010",
+        "source_trace": 250691,
+        "activities": [
+          "create",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-03T12:47:00.000Z",
+          "invoice": "2018-01-04T09:04:00.000Z",
+          "clear": "2018-01-10T11:35:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-250691"
+      },
+      "profile_bytes": {
+        "native": 7575,
+        "holdout_seed17": 2525
+      },
+      "time_bytes": {
+        "native": 37875,
+        "holdout_seed17": 12625
+      }
+    },
+    {
+      "index": 957,
+      "order": [
+        "create",
+        "clear",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 8,
+      "holdout_seed17_count": 1,
+      "representative": {
+        "case_id": "4507002186_00010",
+        "source_trace": 6547,
+        "activities": [
+          "create",
+          "clear",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-10T16:24:00.000Z",
+          "clear": "2018-02-08T13:43:00.000Z",
+          "invoice": "2018-07-16T00:07:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-6547"
+      },
+      "profile_bytes": {
+        "native": 352,
+        "holdout_seed17": 44
+      },
+      "time_bytes": {
+        "native": 1000,
+        "holdout_seed17": 125
+      }
+    },
+    {
+      "index": 2852,
+      "order": [
+        "create",
+        "receive",
+        "invoice",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 1269,
+      "holdout_seed17_count": 267,
+      "representative": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "profile_bytes": {
+        "native": 54567,
+        "holdout_seed17": 11481
+      },
+      "time_bytes": {
+        "native": 205578,
+        "holdout_seed17": 43254
+      }
+    },
+    {
+      "index": 2853,
+      "order": [
+        "create",
+        "receive",
+        "invoice",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 22,
+      "holdout_seed17_count": 2,
+      "representative": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "profile_bytes": {
+        "native": 968,
+        "holdout_seed17": 88
+      },
+      "time_bytes": {
+        "native": 3564,
+        "holdout_seed17": 324
+      }
+    },
+    {
+      "index": 2865,
+      "order": [
+        "create",
+        "receive",
+        "invoice",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 7,
+      "holdout_seed17_count": 2,
+      "representative": {
+        "case_id": "4507011681_00010",
+        "source_trace": 37593,
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-22T08:19:00.000Z",
+          "receive": "2018-02-28T13:40:00.000Z",
+          "invoice": "2018-02-28T13:40:00.000Z",
+          "clear": "2018-04-12T12:07:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-37593"
+      },
+      "profile_bytes": {
+        "native": 308,
+        "holdout_seed17": 88
+      },
+      "time_bytes": {
+        "native": 1134,
+        "holdout_seed17": 324
+      }
+    },
+    {
+      "index": 3153,
+      "order": [
+        "create",
+        "invoice",
+        "receive",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 4,
+      "holdout_seed17_count": 4,
+      "representative": {
+        "case_id": "4507005819_00010",
+        "source_trace": 18302,
+        "activities": [
+          "create",
+          "invoice",
+          "receive",
+          "clear",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-29T06:42:00.000Z",
+          "invoice": "2018-02-06T16:31:00.000Z",
+          "receive": "2018-02-06T16:31:00.000Z",
+          "clear": "2018-03-24T10:57:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-18302"
+      },
+      "profile_bytes": {
+        "native": 176,
+        "holdout_seed17": 176
+      },
+      "time_bytes": {
+        "native": 648,
+        "holdout_seed17": 648
+      }
+    },
+    {
+      "index": 6308,
+      "order": [
+        "create",
+        "receive",
+        "invoice",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 8398,
+      "holdout_seed17_count": 1585,
+      "representative": {
+        "case_id": "2000000001_00001",
+        "source_trace": 2,
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-03T09:49:00.000Z",
+          "receive": "2018-01-16T12:09:00.000Z",
+          "invoice": "2018-01-16T14:44:00.000Z",
+          "clear": "2018-03-08T12:21:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-2"
+      },
+      "profile_bytes": {
+        "native": 361114,
+        "holdout_seed17": 68155
+      },
+      "time_bytes": {
+        "native": 1360476,
+        "holdout_seed17": 256770
+      }
+    },
+    {
+      "index": 6309,
+      "order": [
+        "create",
+        "receive",
+        "invoice",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 158022,
+      "holdout_seed17_count": 31633,
+      "representative": {
+        "case_id": "2000000000_00001",
+        "source_trace": 1,
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T13:53:00.000Z",
+          "receive": "2018-03-06T06:44:00.000Z",
+          "invoice": "2018-03-06T07:53:00.000Z",
+          "clear": "2018-03-29T13:06:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1"
+      },
+      "profile_bytes": {
+        "native": 6952968,
+        "holdout_seed17": 1391852
+      },
+      "time_bytes": {
+        "native": 25599564,
+        "holdout_seed17": 5124546
+      }
+    },
+    {
+      "index": 6404,
+      "order": [
+        "create",
+        "receive",
+        "clear",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "profile": "3-way match, invoice after GR",
+      "native_count": 7,
+      "holdout_seed17_count": 1,
+      "representative": {
+        "case_id": "4507005362_00010",
+        "source_trace": 16552,
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "clear",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-25T11:18:00.000Z",
+          "receive": "2018-03-19T12:15:00.000Z",
+          "clear": "2018-06-07T11:12:00.000Z",
+          "invoice": "2018-12-20T13:44:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-16552"
+      },
+      "profile_bytes": {
+        "native": 301,
+        "holdout_seed17": 43
+      },
+      "time_bytes": {
+        "native": 1134,
+        "holdout_seed17": 162
+      }
+    },
+    {
+      "index": 6405,
+      "order": [
+        "create",
+        "receive",
+        "clear",
+        "invoice"
+      ],
+      "ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 9,
+      "holdout_seed17_count": 2,
+      "representative": {
+        "case_id": "4507000703_00010",
+        "source_trace": 1583,
+        "activities": [
+          "create",
+          "receive",
+          "clear",
+          "invoice",
+          "clear",
+          "clear",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-03T13:42:00.000Z",
+          "receive": "2018-01-19T08:46:00.000Z",
+          "clear": "2018-04-05T13:51:00.000Z",
+          "invoice": "2018-09-05T08:27:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1583"
+      },
+      "profile_bytes": {
+        "native": 396,
+        "holdout_seed17": 88
+      },
+      "time_bytes": {
+        "native": 1458,
+        "holdout_seed17": 324
+      }
+    },
+    {
+      "index": 6501,
+      "order": [
+        "create",
+        "invoice",
+        "receive",
+        "clear"
+      ],
+      "ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 14973,
+      "holdout_seed17_count": 2991,
+      "representative": {
+        "case_id": "2000000007_00001",
+        "source_trace": 11,
+        "activities": [
+          "create",
+          "invoice",
+          "receive",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-08T13:12:00.000Z",
+          "invoice": "2018-01-17T08:11:00.000Z",
+          "receive": "2018-02-21T12:53:00.000Z",
+          "clear": "2018-03-08T12:22:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-11"
+      },
+      "profile_bytes": {
+        "native": 658812,
+        "holdout_seed17": 131604
+      },
+      "time_bytes": {
+        "native": 2425626,
+        "holdout_seed17": 484542
+      }
+    },
+    {
+      "index": 6597,
+      "order": [
+        "create",
+        "invoice",
+        "clear",
+        "receive"
+      ],
+      "ranks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "profile": "3-way match, invoice before GR",
+      "native_count": 89,
+      "holdout_seed17_count": 5,
+      "representative": {
+        "case_id": "4507001697_00010",
+        "source_trace": 4819,
+        "activities": [
+          "create",
+          "invoice",
+          "invoice",
+          "clear",
+          "receive",
+          "receive",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-09T10:40:00.000Z",
+          "invoice": "2018-01-25T16:40:00.000Z",
+          "clear": "2018-03-29T13:09:00.000Z",
+          "receive": "2018-04-09T15:16:00.000Z"
+        },
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-4819"
+      },
+      "profile_bytes": {
+        "native": 3916,
+        "holdout_seed17": 220
+      },
+      "time_bytes": {
+        "native": 14418,
+        "holdout_seed17": 810
+      }
+    }
+  ]
+}

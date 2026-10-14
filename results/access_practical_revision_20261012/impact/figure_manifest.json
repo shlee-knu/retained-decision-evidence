@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "analysis": "Reaggregation of existing saved native projections; no new observations or interventions",
+  "input_sha256": {
+    "results/beta_improvement_20261012/native_projection/run/target_summaries.json": "dba1bf54cea94e6f1515e1cd259253cc07d2d46f82b8dc71262e3d835eef23fd",
+    "results/beta_improvement_20261012/native_projection/run/summary.json": "06c6391c63ccceb9ffb2be1dc25b4811866d6bbe4c42784c0493317ebc90eb45",
+    "results/robustness_revision_20261011/census/run/summary.json": "12824d8b14df3e07c5526a769cf10fabfb0ddf9870f632b5ee2c68aff27b121d"
+  },
+  "script_sha256": "10ca06ce00fe860b175f19ee7898da96e916ba71deb478a0045c08a173428f4b",
+  "checks": [
+    "Original 39-target selection matches projection selection",
+    "No duplicate targets or observation classes",
+    "Per-target status totals independently reconstructed from class multiplicities",
+    "Complete-input changes partition into stale plus changed insufficient records",
+    "All 39 workloads including zero reconcile to 411321 target/record pairs",
+    "Strict two-edit anchor absent from selected names"
+  ],
+  "selection": "satisfiable_semantic_representatives",
+  "output_sha256": {
+    "paper/figures/native_change_impact.svg": "f5b1dce2d3e50528f13f358f887bf5991b2373d454cb7f4a9174f4e92e43be4b",
+    "paper/figures/native_change_impact.pdf": "ef6f7a5d0736d2778e1184ffdeaf60b5ae79dea1d6231d425798e21d603efe08",
+    "paper/figures/native_change_impact.png": "7450ced726e90010cfd792aeda80cc48e5c6422ff148892af767bd5b150b1553",
+    "results/access_practical_revision_20261012/impact/impact_summary.json": "b48d4d23d22978a31b11adb62ea92b1bcbd7d05b2c06ba719c3e057b09a59fca"
+  },
+  "figure_size_inches": [
+    7,
+    2.38
+  ],
+  "png_dpi": 300
+}

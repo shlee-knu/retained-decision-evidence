@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "frozen_before_timing": true,
+  "date": "2026-10-08",
+  "question": "Cost of the same retained-evidence diagnostic service under a finite compiled implementation and independent incremental SMT",
+  "procurement_targets": {
+    "identity": "examples/baseline_catalog.json",
+    "strict": "examples/strict_consignment_catalog.json",
+    "equivalent": "examples/second_equivalent_catalog.json",
+    "label_change": "examples/second_label_flip_catalog.json"
+  },
+  "receipt_source": "results/second/receipt_revalidation/native_receipts.jsonl.gz",
+  "receipt_source_sha256": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+  "gs1_models": [
+    "epcis_object_profile",
+    "epcis_aggregation_profile",
+    "epcis_transformation_profile"
+  ],
+  "methods": [
+    "finite_fibers",
+    "incremental_smt"
+  ],
+  "dependency": "z3-solver==4.15.4.0",
+  "outputs": [
+    "old observation sufficiency and recorded-verdict agreement",
+    "safe/stale_verdict/insufficient classification",
+    "two opposed new-verdict completions when insufficient",
+    "all inclusion-minimal robust additional block sets",
+    "Procurement witnesses preserve original repeated activity sequence and every literal retained field; cached canonical witnesses are lifted per request within the timed batch"
+  ],
+  "robust_additional_set": "A set A of unread blocks such that ANY two supported completions agreeing on retained observations and on A have the same new verdict. All returned sets are inclusion-minimal. This is a nonadaptive worst-case query guarantee based only on observations, NOT an actual unread-value-conditioned minimum or an optimal adaptive plan.",
+  "domain": "Unchanged complete finite domain; old verdict is checked and NEVER asserted as an extra new-domain restriction; truthful retained observations and unchanged source snapshot are external assumptions.",
+  "workloads": {
+    "unique": "Every distinct old-valid observation class in the procurement receipts (20 per target) or GS1 complete declared finite domain (805/535/2085). No result-cache reuse between queries, incremental formula/solver reuse allowed.",
+    "weighted": "Every one of the 50931 original procurement receipts in source order; GS1 one fixed old-policy receipt per 324/216/648 synthetic model states. Both methods may cache entire semantic reports by observation class. GS1 frequencies are authored nonempirical finite-domain frequencies."
+  },
+  "timing": {
+    "warmup_rounds": 1,
+    "measured_rounds": 5,
+    "order": "rotate the full model/workload/method job list each round; reverse method order on alternating rounds",
+    "process": "one fresh child process per job; affinity to minimum available CPU; process_time_ns and perf_counter_ns",
+    "setup": "Common framework imports and configuration/input loading precede timers. Finite compilation or direct SMT construction are timed; the additional cold z3 dependency import is separately recorded and included in setup/batch totals. Core setup/batch subtract ONLY this import for sensitivity.",
+    "first_report": "First query including its report JSON serialization; both exclusive and setup-inclusive times",
+    "batch": "Setup plus every query, per-request literal witness lifting and canonical report JSON serialization; source request binding included. Excludes disk writes, input normalization/receipt-envelope validation and source retrieval. Class cache stores semantic diagnostics only; literal reports regenerated each request.",
+    "memory": "Linux child ru_maxrss KiB sampled after setup, first report, batch and before independent raw validation; absolute process HWM, NOT method-only allocation",
+    "serialization": "Canonical UTF8 JSON report encoding measured separately within batch",
+    "validation": "Independent raw predicate checks of old sufficiency, classification, witness soundness and robust-set sufficiency/irreducibility after timed batch. Every emitted procurement completion is additionally lifted and checked against original retained literal values and raw predicates; replayed report digest must match timed digest. Cost reported separately.",
+    "statistics": "All raw rows; medians and within-round paired deltas only, no host-population inference"
+  },
+  "boundary": "Diagnostic-only service. No online acquisition/recovery, durable report writes, network, cryptographic authentication or unseen-domain membership validation. Robust query sets support a later caller; no simulated production throughput claim.",
+  "freeze": "Fresh output directory only; all code/protocol/input hashes captured before execution; no outcome-dependent target selection or timing exclusions. Bug fixes require a fresh run with prior evidence retained."
+}

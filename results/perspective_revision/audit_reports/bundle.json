@@ -1,0 +1,3314 @@
+{
+  "artifacts": {
+    "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029": {
+      "content": {
+        "2-way match": {
+          "edges": [
+            [
+              "create",
+              "invoice"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "invoice",
+            "clear"
+          ]
+        },
+        "3-way match, invoice after GR": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ],
+            [
+              "receive",
+              "invoice"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ]
+        },
+        "3-way match, invoice before GR": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ],
+            [
+              "create",
+              "invoice"
+            ],
+            [
+              "receive",
+              "clear"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ]
+        },
+        "Consignment": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ]
+          ],
+          "forbidden": [
+            "invoice",
+            "clear"
+          ],
+          "required": [
+            "create",
+            "receive"
+          ]
+        }
+      },
+      "content_sha256": "eef733e4d33d0bd6f052afb2b35d440c13d5df8ddc8026b9dde5d7d4b098b0c1",
+      "identity": "examples/strict_consignment_catalog.json",
+      "kind": "catalog"
+    },
+    "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2": {
+      "content": {
+        "alphabet": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "clock_domain": "all canonical weak orders of complete first timestamps",
+        "guarantees": [],
+        "id": "cartesian:v1",
+        "profiles": [
+          "3-way match, invoice after GR",
+          "3-way match, invoice before GR",
+          "2-way match",
+          "Consignment"
+        ]
+      },
+      "content_sha256": "c79eb05b1f241238dc267ca448bcaa660c78e75ba0d934e60147654d3823907c",
+      "identity": "cartesian:v1",
+      "kind": "completion_domain"
+    },
+    "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e": {
+      "content": {
+        "2-way match": {
+          "edges": [
+            [
+              "create",
+              "invoice"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "invoice",
+            "clear"
+          ]
+        },
+        "3-way match, invoice after GR": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ],
+            [
+              "receive",
+              "invoice"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ]
+        },
+        "3-way match, invoice before GR": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ],
+            [
+              "create",
+              "invoice"
+            ],
+            [
+              "receive",
+              "clear"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ]
+        },
+        "Consignment": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "receive"
+          ]
+        }
+      },
+      "content_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+      "identity": "examples/baseline_catalog.json",
+      "kind": "catalog"
+    },
+    "84314529d34ffb419d6acbcaec7f76dcbc0c7e5d99f32c07bcf5794a3a9b026a": {
+      "content": {
+        "2-way match": {
+          "edges": [
+            [
+              "create",
+              "invoice"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "invoice",
+            "clear"
+          ]
+        },
+        "3-way match, invoice after GR": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ],
+            [
+              "receive",
+              "invoice"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ]
+        },
+        "3-way match, invoice before GR": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ],
+            [
+              "create",
+              "invoice"
+            ],
+            [
+              "receive",
+              "clear"
+            ],
+            [
+              "invoice",
+              "clear"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "receive",
+            "invoice",
+            "clear"
+          ]
+        },
+        "Consignment": {
+          "edges": [
+            [
+              "create",
+              "receive"
+            ]
+          ],
+          "forbidden": [],
+          "required": [
+            "create",
+            "receive",
+            "invoice"
+          ]
+        }
+      },
+      "content_sha256": "d3be500a89a5e3ced3e8ea17a02c8877be5c745b4cabe551fa798eaa26c99d69",
+      "identity": "examples/second_label_flip_catalog.json",
+      "kind": "catalog"
+    },
+    "97560e20ddb8e9310eee55212ff074e07532bb65ed3be81194acc8a0b3de17b7": {
+      "content": {
+        "authored_source": "src/logistics_validation/standards_epcis.py",
+        "authored_source_sha256": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5",
+        "clauses": [
+          "EPCIS 7.4.2 p.79 nonempty object/quantity list (sensor exception excluded)",
+          "EPCIS 7.4.2 p.81 ilmd forbidden with OBSERVE/DELETE",
+          "CBV 2.0.0 sections 5.1, 5.2, 7.1.2 (present values only)"
+        ],
+        "contract": "Same selected EPCIS clauses plus compliant present bizStep",
+        "model": "epcis_object_profile",
+        "version": "new"
+      },
+      "content_sha256": "897d30f9c55184b4caec02af6aa29b586e1143dc64bb0175937a51fc02cc974a",
+      "identity": "epcis_object_profile:compliant-selected:v1",
+      "kind": "authored_predicate"
+    },
+    "b6babc99f8d8a94ff28e78b4bf71a69335df0032d1fec0d2ae20569301859c69": {
+      "content": {
+        "authored_source": "src/logistics_validation/standards_epcis.py",
+        "authored_source_sha256": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5",
+        "clauses": [
+          "EPCIS 7.4.2 p.79 nonempty object/quantity list (sensor exception excluded)",
+          "EPCIS 7.4.2 p.81 ilmd forbidden with OBSERVE/DELETE",
+          "CBV 2.0.0 sections 5.1, 5.2, 7.1.2 (present values only)"
+        ],
+        "contract": "Selected EPCIS clauses plus compatible present bizStep",
+        "model": "epcis_object_profile",
+        "version": "old"
+      },
+      "content_sha256": "c50951d033250bc42306b4b11459656c996561a2b326728e5eaa21f4394d9333",
+      "identity": "epcis_object_profile:compatible-selected:v1",
+      "kind": "authored_predicate"
+    },
+    "e3fe780dcd711e800d82a9377d809015b318af4b333b0570d9b0e05900d7b3d1": {
+      "content": {
+        "blocks": [
+          "action",
+          "epcList",
+          "quantityList",
+          "ilmd",
+          "bizStep"
+        ],
+        "categories": [
+          [
+            "ADD",
+            "OBSERVE",
+            "DELETE"
+          ],
+          [
+            "absent",
+            "empty",
+            "nonempty"
+          ],
+          [
+            "absent",
+            "empty",
+            "nonempty"
+          ],
+          [
+            "absent",
+            "empty",
+            "nonempty"
+          ],
+          [
+            "receiving",
+            "shipping",
+            "receiving_uri",
+            "vendor"
+          ]
+        ],
+        "guarantees": [],
+        "id": "selected-clause-cartesian:v1",
+        "model": "epcis_object_profile",
+        "visible_base": [
+          "event type",
+          "fixed valid event/document timestamps",
+          "pinned context",
+          "all fields outside named blocks absent"
+        ]
+      },
+      "content_sha256": "2c9c32b28860f6cd011564400bd60b86f632a1317b2336aea7d06d013f85ddad",
+      "identity": "selected-clause-cartesian:v1",
+      "kind": "completion_domain"
+    },
+    "fcea7235b5d7d6a553e54f31ba557451840ed49736aea466444058bb0d60534c": {
+      "content": {
+        "alphabet": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "clock_domain": "all canonical weak orders of complete first timestamps",
+        "guarantees": [
+          "consignment_exclusion"
+        ],
+        "id": "consignment_exclusion:v1",
+        "profiles": [
+          "3-way match, invoice after GR",
+          "3-way match, invoice before GR",
+          "2-way match",
+          "Consignment"
+        ]
+      },
+      "content_sha256": "c86f40871127408e34e31a4962110cf761aeb1e72d44f08e895377255c2697c0",
+      "identity": "consignment_exclusion:v1",
+      "kind": "completion_domain"
+    }
+  },
+  "bundle_sha256": "4ff678abe1e1683f4f215c04071e9645b3c1ee007663cd48cb2c520ce2572d7d",
+  "provenance": {
+    "affected_id_index_content_sha256": "0f53ade263745060a94a33a77875a3eab3f67c97af66bc09cc1181f8fb9e672f",
+    "native_receipts": 50931,
+    "representative_reports": "One per 20 stored native observation classes; additional controls are separate requests.",
+    "snapshot_source": {
+      "path": "results/v03/bpi_compact.jsonl.gz",
+      "sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+    },
+    "source_artifacts": {
+      "configs/focused_diagnostic_protocol.json": "8da44d148a17e34a827195af792926ff4cca3fe7357f1940314a50f5601b3b89",
+      "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+      "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+      "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+      "results/focused_revision/diagnostic_inputs/epcis_object_profile.json": "95af45fce0767d177cfdfdd8381e4996dcfe64fd9459e0c169c4b93fc0225365",
+      "results/focused_revision/diagnostic_inputs/procurement_label_change.json": "ec816221da207bb4a33469c707b99ac05e59c66db87b3fb26eea157226b4d316",
+      "results/focused_revision/diagnostic_inputs/procurement_strict.json": "213a3031529f657ba4fbbe475010b8f54bb3a5ae7f9fdb2e001781d0801f5d9e",
+      "results/focused_revision/diagnostics/r0_epcis_object_profile_unique_finite_fibers.json": "17001e474efc4051b654ed79ea8e2f9e1bb27589a9bc68370f5c18aa0ca8cab5",
+      "results/focused_revision/diagnostics/r0_procurement_label_change_unique_finite_fibers.json": "a834b75bb024caa1ac8d4a6b8bb176e2004a95eb4f21af083952bb904e18edc4",
+      "results/focused_revision/diagnostics/r0_procurement_strict_unique_finite_fibers.json": "00969ca33bfe99c26170115f4d3d1e85d2b503e1d9a076561e45b0938c8e7602",
+      "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+      "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+    },
+    "strict_status_counts": {
+      "insufficient": 33489,
+      "safe": 17442
+    },
+    "synthetic": "EPCIS and adapter assertions are authored fixtures, not live source reads.",
+    "change_review_content_sha256": "a7a7130715cf6a48ba94f37b7fb594f4bb5a97a210aa4e2050e10a23aaac481b"
+  },
+  "reports": [
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-08-16T13:03:00.000Z",
+              "create": "2018-01-04T14:17:00.000Z",
+              "invoice": "2018-08-16T10:41:00.000Z",
+              "receive": "2018-02-06T14:53:00.000Z"
+            },
+            "profile": "Consignment"
+          }
+        },
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-08-16T13:03:00.000Z",
+              "create": "2018-01-04T14:17:00.000Z",
+              "invoice": "2018-08-16T10:41:00.000Z",
+              "receive": "2018-02-06T14:53:00.000Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 4,
+      "new_verdict_candidates": [
+        false,
+        true
+      ],
+      "observed_sha256": "74fd9c965c084a13411821c22f2a3f004cc6fe10ea30a75e76723e3ba58f3001",
+      "old_completion_classes": 4,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "mask": 2,
+        "observed": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-08-16T13:03:00.000Z",
+            "create": "2018-01-04T14:17:00.000Z",
+            "invoice": "2018-08-16T10:41:00.000Z",
+            "receive": "2018-02-06T14:53:00.000Z"
+          }
+        },
+        "receipt_id": "2000000002_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "2000000002_00001",
+      "receipt_sha256": "802425d31c093a84df55a9192ac972422a14db4009335cdf7a1049eddf69877b",
+      "report_sha256": "e8a42a9b5640ed8256c50ec44d35807367af723c936ef2200f641307a6c9bb90",
+      "request_id": "strict:2000000002_00001",
+      "robust_additional_sets": [
+        [
+          "profile"
+        ]
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "insufficient"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [
+          {
+            "id": "consignment_exclusion",
+            "scope": "snapshot",
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+            "version": "v1"
+          }
+        ],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "fcea7235b5d7d6a553e54f31ba557451840ed49736aea466444058bb0d60534c",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-08-16T13:03:00.000Z",
+              "create": "2018-01-04T14:17:00.000Z",
+              "invoice": "2018-08-16T10:41:00.000Z",
+              "receive": "2018-02-06T14:53:00.000Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 3,
+      "new_verdict_candidates": [
+        true
+      ],
+      "observed_sha256": "74fd9c965c084a13411821c22f2a3f004cc6fe10ea30a75e76723e3ba58f3001",
+      "old_completion_classes": 4,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "mask": 2,
+        "observed": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-08-16T13:03:00.000Z",
+            "create": "2018-01-04T14:17:00.000Z",
+            "invoice": "2018-08-16T10:41:00.000Z",
+            "receive": "2018-02-06T14:53:00.000Z"
+          }
+        },
+        "receipt_id": "2000000002_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "2000000002_00001",
+      "receipt_sha256": "802425d31c093a84df55a9192ac972422a14db4009335cdf7a1049eddf69877b",
+      "report_sha256": "6515216ba05cd24183681e80b098f9920c0f52d984cf69147dc8e38e1ffd533c",
+      "request_id": "guarantee-control:2000000002_00001",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create"
+            ],
+            "first_times": {
+              "create": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 4,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "893c79efec3c3d9765af9418eaeec0eb06a2228f8fa74edd0f78ac3d1bfaab65",
+      "old_completion_classes": 4,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0
+        ],
+        "mask": 0,
+        "observed": [],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {},
+        "receipt_id": "2000000005_00002",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "2000000005_00002",
+      "receipt_sha256": "ec6300ee6ade551830c427763e8bc60dcd0f44530e5edc8d9d0db3590b87b9d0",
+      "report_sha256": "39900d363d9f92ed5593c9dfa8d4cca1e123c9f55eb186bcb8e7a1c0b6dbfe16",
+      "request_id": "strict:2000000005_00002",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "invoice",
+              "receive",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-03-08T12:22:00.000Z",
+              "create": "2018-01-08T13:12:00.000Z",
+              "invoice": "2018-01-17T08:11:00.000Z",
+              "receive": "2018-02-21T12:53:00.000Z"
+            },
+            "profile": "3-way match, invoice before GR"
+          }
+        }
+      ],
+      "new_completion_classes": 1,
+      "new_verdict_candidates": [
+        true
+      ],
+      "observed_sha256": "a1bdbecebbbe8f2bef44472e8ea417e0f20b7e78da139be18c9dd47a06ff76d7",
+      "old_completion_classes": 1,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "mask": 3,
+        "observed": [
+          1,
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "invoice",
+          "receive",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-03-08T12:22:00.000Z",
+            "create": "2018-01-08T13:12:00.000Z",
+            "invoice": "2018-01-17T08:11:00.000Z",
+            "receive": "2018-02-21T12:53:00.000Z"
+          },
+          "profile": "3-way match, invoice before GR"
+        },
+        "receipt_id": "2000000007_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "2000000007_00001",
+      "receipt_sha256": "6f45ff9717a5bbf30b5d3d75a29ee9c6ea3f08c4a0245ac4a3e24390e581529a",
+      "report_sha256": "d11ed9e8f69737cb7ff8a1bed8d1a97a84dfb33c61505417dfde08e26bc369eb",
+      "request_id": "strict:2000000007_00001",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "invoice"
+            ],
+            "first_times": {
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z",
+              "receive": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice before GR"
+          }
+        }
+      ],
+      "new_completion_classes": 13,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "f54ebc6461e8fb9858a58063df6ae607b875ae82c4f25f13791d022fd673f104",
+      "old_completion_classes": 13,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          2
+        ],
+        "mask": 1,
+        "observed": [
+          1
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice before GR"
+        },
+        "receipt_id": "2000000092_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "2000000092_00001",
+      "receipt_sha256": "5ad15097c54fc5bc796f5fd0c9e118fe06488dacedf41eca50fe8581644f7f58",
+      "report_sha256": "91cff87cfeb76e994452dccaea4185783ae128dd9d3adc61e39791d5db395f71",
+      "request_id": "strict:2000000092_00001",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "receive"
+            ],
+            "first_times": {
+              "create": "2020-01-01T00:00:00Z",
+              "receive": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice before GR"
+          }
+        }
+      ],
+      "new_completion_classes": 3,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "83fa25bf5ee18f13a82900b81d45124052b3edd989ade71b29613d9426182a16",
+      "old_completion_classes": 3,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1
+        ],
+        "mask": 1,
+        "observed": [
+          1
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice before GR"
+        },
+        "receipt_id": "2000000136_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "2000000136_00001",
+      "receipt_sha256": "0da3b140572f17b88d4a6de1eaf6f4a1b98116b24560715f112a4007bf194526",
+      "report_sha256": "af97ed6a2027cee0e1aeec7f178ec43d2f0805369698f363eb94f0587b92a604",
+      "request_id": "strict:2000000136_00001",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive"
+            ],
+            "first_times": {
+              "create": "2018-01-02T13:25:00.000Z",
+              "receive": "2018-01-12T11:22:00.000Z"
+            },
+            "profile": "Consignment"
+          }
+        }
+      ],
+      "new_completion_classes": 1,
+      "new_verdict_candidates": [
+        true
+      ],
+      "observed_sha256": "3a7b0b9c7afbfd14f34eeb3a593062110d96c1b698a0529b5f7e65425249a368",
+      "old_completion_classes": 1,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1
+        ],
+        "mask": 3,
+        "observed": [
+          3,
+          [
+            0,
+            1
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "create": "2018-01-02T13:25:00.000Z",
+            "receive": "2018-01-12T11:22:00.000Z"
+          },
+          "profile": "Consignment"
+        },
+        "receipt_id": "4507000402_00010",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "4507000402_00010",
+      "receipt_sha256": "81fb1086238e3ab561a5cdf94cbd5d67f57f7bb05a14e7363585f676317b1a69",
+      "report_sha256": "a78d8b49ba0c8a4a0a413b2a133e2e38c33312b5c653a3e15952204592c29296",
+      "request_id": "strict:4507000402_00010",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-05-09T12:12:00.000Z",
+              "create": "2018-01-04T21:40:00.000Z",
+              "invoice": "2018-02-16T07:22:00.000Z",
+              "receive": "2018-01-04T21:40:00.000Z"
+            },
+            "profile": "Consignment"
+          }
+        },
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-05-09T12:12:00.000Z",
+              "create": "2018-01-04T21:40:00.000Z",
+              "invoice": "2018-02-16T07:22:00.000Z",
+              "receive": "2018-01-04T21:40:00.000Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 4,
+      "new_verdict_candidates": [
+        false,
+        true
+      ],
+      "observed_sha256": "66d7313c116f0821bb1a7d22224e07fbd6bd085879f37d13efeddf49500974ce",
+      "old_completion_classes": 4,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "mask": 2,
+        "observed": [
+          [
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-05-09T12:12:00.000Z",
+            "create": "2018-01-04T21:40:00.000Z",
+            "invoice": "2018-02-16T07:22:00.000Z",
+            "receive": "2018-01-04T21:40:00.000Z"
+          }
+        },
+        "receipt_id": "4507001104_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "4507001104_00001",
+      "receipt_sha256": "af1aa4ec53f2c74c3a475dd3b771ea978b60ff6a968e5d31e3aeaeba75318c44",
+      "report_sha256": "a3196fac1c3c56f18930035b43eff77f41e709b0c920c64ca530412c9e944da4",
+      "request_id": "strict:4507001104_00001",
+      "robust_additional_sets": [
+        [
+          "profile"
+        ]
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "insufficient"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [
+          {
+            "id": "consignment_exclusion",
+            "scope": "snapshot",
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+            "version": "v1"
+          }
+        ],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "fcea7235b5d7d6a553e54f31ba557451840ed49736aea466444058bb0d60534c",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-05-09T12:12:00.000Z",
+              "create": "2018-01-04T21:40:00.000Z",
+              "invoice": "2018-02-16T07:22:00.000Z",
+              "receive": "2018-01-04T21:40:00.000Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 3,
+      "new_verdict_candidates": [
+        true
+      ],
+      "observed_sha256": "66d7313c116f0821bb1a7d22224e07fbd6bd085879f37d13efeddf49500974ce",
+      "old_completion_classes": 4,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "mask": 2,
+        "observed": [
+          [
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-05-09T12:12:00.000Z",
+            "create": "2018-01-04T21:40:00.000Z",
+            "invoice": "2018-02-16T07:22:00.000Z",
+            "receive": "2018-01-04T21:40:00.000Z"
+          }
+        },
+        "receipt_id": "4507001104_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "4507001104_00001",
+      "receipt_sha256": "af1aa4ec53f2c74c3a475dd3b771ea978b60ff6a968e5d31e3aeaeba75318c44",
+      "report_sha256": "29934225cb2ecfa18b58f7f15147aa7f50bf15284fbd19c4eb5758051d68af0b",
+      "request_id": "guarantee-control:4507001104_00001",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive"
+            ],
+            "first_times": {
+              "create": "2020-01-01T00:00:00Z",
+              "receive": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 3,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "1611580e156bfa0b478d53cdff048655c068909c32ab9cab8902b60b4a474578",
+      "old_completion_classes": 3,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1
+        ],
+        "mask": 1,
+        "observed": [
+          0
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice after GR"
+        },
+        "receipt_id": "4507001314_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4507001314_00001",
+      "receipt_sha256": "c482ba05aee632cb4243e071ce470b0be0634a3803ef6a3bbd46ed77c510f808",
+      "report_sha256": "ae55f98e9188a16d185a5c6124ed7d77c738fc520833c1a91aefaf9ec1f4e732",
+      "request_id": "strict:4507001314_00001",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "clear",
+              "invoice"
+            ],
+            "first_times": {
+              "clear": "2020-01-01T00:00:00Z",
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 52,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "7ef099e2632b60cbe1fe31066efb52a5f08dcb8d80df218b3222af770a622d83",
+      "old_completion_classes": 52,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          3,
+          2
+        ],
+        "mask": 0,
+        "observed": [],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "clear",
+          "invoice"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {},
+        "receipt_id": "4507002186_00010",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4507002186_00010",
+      "receipt_sha256": "04fc15ae3bc79d1f699becb06c6c6244f8b5ab01a72e3cfe522477b9beafed29",
+      "report_sha256": "7ec3adc8fc38e98ec6ba1703b8115050b34e617c6f28ad79288ed0eaf2693197",
+      "request_id": "strict:4507002186_00010",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2020-01-01T00:00:00Z",
+              "create": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 12,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "4c47161bf3fcd63d9286085b3a3e84c01cdca7992d722006db571ca973786e2d",
+      "old_completion_classes": 12,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          3
+        ],
+        "mask": 0,
+        "observed": [],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {},
+        "receipt_id": "4507002729_00010",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4507002729_00010",
+      "receipt_sha256": "f03a59987e39445a441b24b0c9ab558e24f057cca0bce037cce3499ca3e3b842",
+      "report_sha256": "b32f6f8fc284e6f414bab92fe889317ec87ce4fdf86041850e14d6fcde31a462",
+      "request_id": "strict:4507002729_00010",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "invoice"
+            ],
+            "first_times": {
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z",
+              "receive": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 13,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "9f1bbb8f11844525f0bdb30edbc7572178bf1f825691fc461958e44ee72452e0",
+      "old_completion_classes": 13,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          2
+        ],
+        "mask": 1,
+        "observed": [
+          0
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice after GR"
+        },
+        "receipt_id": "4507002733_00001",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4507002733_00001",
+      "receipt_sha256": "1b4afc5b10671ef6e9444d3647f08df292511e16fe02e86262398b57d923f380",
+      "report_sha256": "7c38ab05cba9420e0deda09ed65e833556ad3eeff451a90ddc3740193a7b1da1",
+      "request_id": "strict:4507002733_00001",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "invoice",
+              "clear",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2020-01-01T00:00:00Z",
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z",
+              "receive": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice before GR"
+          }
+        }
+      ],
+      "new_completion_classes": 75,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "0e2f94869c72101434888fb9155352898ae5ccd6f2da7a92678adaf0ed3c1c8c",
+      "old_completion_classes": 75,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "mask": 1,
+        "observed": [
+          1
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "invoice",
+          "clear",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice before GR"
+        },
+        "receipt_id": "4507003243_00110",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4507003243_00110",
+      "receipt_sha256": "a7c6a513e5d8e6377ff8420d26aab074eb905b382ed337453465b937f6471faf",
+      "report_sha256": "43ae1251b26bdd8b1264bec441cbcf95518f386098dbc759947c8681be514ff0",
+      "request_id": "strict:4507003243_00110",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "invoice",
+              "clear",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2020-01-01T00:00:00Z",
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice before GR"
+          }
+        }
+      ],
+      "new_completion_classes": 13,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "73b675755f4840d99066f134db051621c7dfa320bed7595fc760b521e67fa6e7",
+      "old_completion_classes": 13,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          2,
+          3
+        ],
+        "mask": 1,
+        "observed": [
+          1
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "invoice",
+          "clear",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice before GR"
+        },
+        "receipt_id": "4507004049_00030",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4507004049_00030",
+      "receipt_sha256": "3e8d1efd413a4f29cfd5282effcb691a174a43ddcdb96771c67b6d5485ab519a",
+      "report_sha256": "0bb48bcc8bb294c385a3297eae1410bf224d331b6df9c8fc7cb95d64f5c49711",
+      "request_id": "strict:4507004049_00030",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "invoice",
+              "receive",
+              "clear",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-03-24T10:57:00.000Z",
+              "create": "2018-01-29T06:42:00.000Z",
+              "invoice": "2018-02-06T16:31:00.000Z",
+              "receive": "2018-02-06T16:31:00.000Z"
+            },
+            "profile": "3-way match, invoice before GR"
+          }
+        }
+      ],
+      "new_completion_classes": 1,
+      "new_verdict_candidates": [
+        true
+      ],
+      "observed_sha256": "5db1e77647164933b22d8959bdd3d3a82a992a9f4df24f8e280fed840cf0f812",
+      "old_completion_classes": 1,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "mask": 3,
+        "observed": [
+          1,
+          [
+            0,
+            1,
+            1,
+            2
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "invoice",
+          "receive",
+          "clear",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-03-24T10:57:00.000Z",
+            "create": "2018-01-29T06:42:00.000Z",
+            "invoice": "2018-02-06T16:31:00.000Z",
+            "receive": "2018-02-06T16:31:00.000Z"
+          },
+          "profile": "3-way match, invoice before GR"
+        },
+        "receipt_id": "4507005819_00010",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "4507005819_00010",
+      "receipt_sha256": "c6628fec98d0e330849e3b9955cf87383f03cf5dc0e2fc45f01c86e04e7d9851",
+      "report_sha256": "c6d88637c032fdddaa124edb3b63bedb64769af5382d41686ff4b1ee4355dfa7",
+      "request_id": "strict:4507005819_00010",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-06-28T12:04:00.000Z",
+              "create": "2018-03-12T02:59:00.000Z",
+              "invoice": "2018-03-16T10:23:00.000Z",
+              "receive": "2018-03-16T10:23:00.000Z"
+            },
+            "profile": "Consignment"
+          }
+        },
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-06-28T12:04:00.000Z",
+              "create": "2018-03-12T02:59:00.000Z",
+              "invoice": "2018-03-16T10:23:00.000Z",
+              "receive": "2018-03-16T10:23:00.000Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 4,
+      "new_verdict_candidates": [
+        false,
+        true
+      ],
+      "observed_sha256": "5d6091cf192a292336561cbf8f6a6dbee3f60b29222e9d6f1b27d39bcf126714",
+      "old_completion_classes": 4,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "mask": 2,
+        "observed": [
+          [
+            0,
+            1,
+            1,
+            2
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-06-28T12:04:00.000Z",
+            "create": "2018-03-12T02:59:00.000Z",
+            "invoice": "2018-03-16T10:23:00.000Z",
+            "receive": "2018-03-16T10:23:00.000Z"
+          }
+        },
+        "receipt_id": "4507015502_00070",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "4507015502_00070",
+      "receipt_sha256": "af059a8a6254a0f5d6346e6441e801c5fa4256f73559d2c89a1cfbca7989b36b",
+      "report_sha256": "d2e560fc1e401596d0cb728a4aa6dbd103a7cfdd32f8df6cf173904a4f9ed537",
+      "request_id": "strict:4507015502_00070",
+      "robust_additional_sets": [
+        [
+          "profile"
+        ]
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "insufficient"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [
+          {
+            "id": "consignment_exclusion",
+            "scope": "snapshot",
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+            "version": "v1"
+          }
+        ],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "fcea7235b5d7d6a553e54f31ba557451840ed49736aea466444058bb0d60534c",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-06-28T12:04:00.000Z",
+              "create": "2018-03-12T02:59:00.000Z",
+              "invoice": "2018-03-16T10:23:00.000Z",
+              "receive": "2018-03-16T10:23:00.000Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 3,
+      "new_verdict_candidates": [
+        true
+      ],
+      "observed_sha256": "5d6091cf192a292336561cbf8f6a6dbee3f60b29222e9d6f1b27d39bcf126714",
+      "old_completion_classes": 4,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "mask": 2,
+        "observed": [
+          [
+            0,
+            1,
+            1,
+            2
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-06-28T12:04:00.000Z",
+            "create": "2018-03-12T02:59:00.000Z",
+            "invoice": "2018-03-16T10:23:00.000Z",
+            "receive": "2018-03-16T10:23:00.000Z"
+          }
+        },
+        "receipt_id": "4507015502_00070",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "4507015502_00070",
+      "receipt_sha256": "af059a8a6254a0f5d6346e6441e801c5fa4256f73559d2c89a1cfbca7989b36b",
+      "report_sha256": "a635f57cf8f554c4bf61394b87112f0911a680f69df176a8c8695bfcbb8c4195",
+      "request_id": "guarantee-control:4507015502_00070",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "clear",
+              "invoice"
+            ],
+            "first_times": {
+              "clear": "2020-01-01T00:00:00Z",
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z",
+              "receive": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice before GR"
+          }
+        }
+      ],
+      "new_completion_classes": 75,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "1bba65277c833a941d153c47d0021f23005d6a771d6df7ead28791d7a4d81334",
+      "old_completion_classes": 75,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "mask": 1,
+        "observed": [
+          1
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "clear",
+          "invoice"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice before GR"
+        },
+        "receipt_id": "4507016022_00020",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4507016022_00020",
+      "receipt_sha256": "6471d92caa92ed12daaad354f0bb02bbb17b4311df837144a29193b21807a59e",
+      "report_sha256": "0756e120a3c38d9a9fc77719692990f07cc211e0a21de3ba8a73f29a096a45a5",
+      "request_id": "strict:4507016022_00020",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "clear",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2020-01-01T00:00:00Z",
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z",
+              "receive": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 75,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "bd7af066af223921bbc633b202f132e6c4c32a5d2580553dcaf9aebc197aedd3",
+      "old_completion_classes": 75,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "mask": 1,
+        "observed": [
+          0
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "clear",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice after GR"
+        },
+        "receipt_id": "4507036327_00020",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4507036327_00020",
+      "receipt_sha256": "c2553af644c446555c40169619be6105915dbaad04a9c62d1c9a1ad84e5844a6",
+      "report_sha256": "bf7fc42a10c96e75d92da544208ecbaa1b4cb4a4577eda80b739ac4479039e13",
+      "request_id": "strict:4507036327_00020",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "invoice",
+              "receive"
+            ],
+            "first_times": {
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z",
+              "receive": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice before GR"
+          }
+        }
+      ],
+      "new_completion_classes": 13,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "e1a1057e9899f528c2d2a7332f98131528856623678f9271c6c5e3f7ee35abf7",
+      "old_completion_classes": 13,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          2,
+          1
+        ],
+        "mask": 1,
+        "observed": [
+          1
+        ],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "invoice",
+          "receive"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "profile": "3-way match, invoice before GR"
+        },
+        "receipt_id": "4508048336_00160",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4508048336_00160",
+      "receipt_sha256": "9ed941440c6b588cc146ed7597c5b79b08d3307904c516a490521d88862c86d1",
+      "report_sha256": "cd0fdd0763c90914670411faa795c0ddc762312ae0ad5ac0e9da095dd2c392df",
+      "request_id": "strict:4508048336_00160",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": false,
+          "raw": {
+            "activities": [
+              "create",
+              "invoice"
+            ],
+            "first_times": {
+              "create": "2020-01-01T00:00:00Z",
+              "invoice": "2020-01-01T00:00:00Z"
+            },
+            "profile": "3-way match, invoice after GR"
+          }
+        }
+      ],
+      "new_completion_classes": 12,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "4f099840d3ef90c70f88ab66e0d77e54b64583d2e0c97ce8880d185f913e2a51",
+      "old_completion_classes": 12,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        false
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          2
+        ],
+        "mask": 0,
+        "observed": [],
+        "old_verdict": false
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "invoice"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {},
+        "receipt_id": "4508059199_00010",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": false
+      },
+      "receipt_id": "4508059199_00010",
+      "receipt_sha256": "e606216672fbec9728cc6676f690070c9190c3ff5ef15090669958ebc3869ba3",
+      "report_sha256": "fa6eebbfbb65f8457a276d46aa3aeef34b4cdc880007e34b6bb2838adf96e717",
+      "request_id": "strict:4508059199_00010",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "1e16d93431eee4180075b542f733f46b9917701a9e1039fd4642b278a1811029",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "invoice",
+              "clear"
+            ],
+            "first_times": {
+              "clear": "2018-01-05T13:48:00.000Z",
+              "create": "2018-01-04T14:48:00.000Z",
+              "invoice": "2018-01-04T16:07:00.000Z"
+            },
+            "profile": "2-way match"
+          }
+        }
+      ],
+      "new_completion_classes": 1,
+      "new_verdict_candidates": [
+        true
+      ],
+      "observed_sha256": "8453efb2c3e84dcd5b02fc5ef556d9953a4399e3f24d5c7d54ed7ee72b69703d",
+      "old_completion_classes": 1,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_strict",
+      "query": {
+        "base": [
+          0,
+          2,
+          3
+        ],
+        "mask": 3,
+        "observed": [
+          2,
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "invoice",
+          "clear"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "clear": "2018-01-05T13:48:00.000Z",
+            "create": "2018-01-04T14:48:00.000Z",
+            "invoice": "2018-01-04T16:07:00.000Z"
+          },
+          "profile": "2-way match"
+        },
+        "receipt_id": "4507075966_00010",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "4507075966_00010",
+      "receipt_sha256": "b5d7349a71b1fb297432bb5bd6ea4be4ab72cb72c71f28f4f6227d1213d1d9b0",
+      "report_sha256": "88afde26da0bb5672491721741ead5a1c7f4c08b05d3f49b59c8f669fce0e469",
+      "request_id": "strict:4507075966_00010",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "safe"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "activity_projection": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "first_times": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          },
+          "profile": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "new_rule": "84314529d34ffb419d6acbcaec7f76dcbc0c7e5d99f32c07bcf5794a3a9b026a",
+        "old_domain": "5da14ff8f61a1a43f59ec727bdc6ab74b9a95f3b15c37b6db5add43207f593f2",
+        "old_rule": "79b7c5403e405c64215f2be514f653640cabad6307343e033099429e882e909e"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive"
+            ],
+            "first_times": {
+              "create": "2018-01-02T13:25:00.000Z",
+              "receive": "2018-01-12T11:22:00.000Z"
+            },
+            "profile": "Consignment"
+          }
+        }
+      ],
+      "new_completion_classes": 1,
+      "new_verdict_candidates": [
+        false
+      ],
+      "observed_sha256": "3a7b0b9c7afbfd14f34eeb3a593062110d96c1b698a0529b5f7e65425249a368",
+      "old_completion_classes": 1,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "procurement_label_change",
+      "query": {
+        "base": [
+          0,
+          1
+        ],
+        "mask": 3,
+        "observed": [
+          3,
+          [
+            0,
+            1
+          ]
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "activities": [
+          "create",
+          "receive"
+        ],
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "observed": {
+          "first_times": {
+            "create": "2018-01-02T13:25:00.000Z",
+            "receive": "2018-01-12T11:22:00.000Z"
+          },
+          "profile": "Consignment"
+        },
+        "receipt_id": "4507000402_00010",
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "verdict": true
+      },
+      "receipt_id": "4507000402_00010",
+      "receipt_sha256": "81fb1086238e3ab561a5cdf94cbd5d67f57f7bb05a14e7363585f676317b1a69",
+      "report_sha256": "95bee427d9434b8f46cde2729dbba189de2d8a9cfc389fba8a734267069ee8b4",
+      "request_id": "label-change:4507000402_00010",
+      "robust_additional_sets": [
+        []
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "status": "stale_verdict"
+    },
+    {
+      "adapter_envelope": {
+        "attestations": [],
+        "epoch": "mock-snapshot-1",
+        "reads": {
+          "action": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "793f11d12075a630faa55424a6bc3a19823670a397e3a71108644175bd935a43"
+          },
+          "epcList": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "793f11d12075a630faa55424a6bc3a19823670a397e3a71108644175bd935a43"
+          },
+          "visible_base": {
+            "complete": true,
+            "epoch": "mock-snapshot-1",
+            "ok": true,
+            "snapshot_sha256": "793f11d12075a630faa55424a6bc3a19823670a397e3a71108644175bd935a43"
+          }
+        },
+        "revocations": [],
+        "snapshot_sha256": "793f11d12075a630faa55424a6bc3a19823670a397e3a71108644175bd935a43",
+        "source_kind": "offline mock assertions; no live-system validation"
+      },
+      "bindings": {
+        "new_domain": "e3fe780dcd711e800d82a9377d809015b318af4b333b0570d9b0e05900d7b3d1",
+        "new_rule": "97560e20ddb8e9310eee55212ff074e07532bb65ed3be81194acc8a0b3de17b7",
+        "old_domain": "e3fe780dcd711e800d82a9377d809015b318af4b333b0570d9b0e05900d7b3d1",
+        "old_rule": "b6babc99f8d8a94ff28e78b4bf71a69335df0032d1fec0d2ae20569301859c69"
+      },
+      "conditional_scope": "Conditional on truthful retained whole-field observations, a complete visible base projection, an unchanged source snapshot, and actual membership in the declared completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hashes provide integrity binding, not source authentication or live freshness. EPCIS reports concern only the authored finite selected-clause domain, not complete standards conformance.",
+      "labeled_witnesses": [
+        {
+          "new_domain_member": true,
+          "new_verdict": false,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "@context": [
+              "https://ref.gs1.org/standards/epcis/2.0.1/epcis-context.jsonld"
+            ],
+            "creationDate": "2026-01-01T12:00:00Z",
+            "epcisBody": {
+              "eventList": [
+                {
+                  "action": "ADD",
+                  "bizStep": "https://example.org/workflow/custom_step",
+                  "epcList": [
+                    "urn:epc:id:sgtin:0614141.107346.2017"
+                  ],
+                  "eventTime": "2026-01-01T12:00:00Z",
+                  "eventTimeZoneOffset": "+00:00",
+                  "type": "ObjectEvent"
+                }
+              ]
+            },
+            "schemaVersion": "2.0",
+            "type": "EPCISDocument"
+          }
+        },
+        {
+          "new_domain_member": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "old_verdict": true,
+          "raw": {
+            "@context": [
+              "https://ref.gs1.org/standards/epcis/2.0.1/epcis-context.jsonld"
+            ],
+            "creationDate": "2026-01-01T12:00:00Z",
+            "epcisBody": {
+              "eventList": [
+                {
+                  "action": "ADD",
+                  "bizStep": "receiving",
+                  "epcList": [
+                    "urn:epc:id:sgtin:0614141.107346.2017"
+                  ],
+                  "eventTime": "2026-01-01T12:00:00Z",
+                  "eventTimeZoneOffset": "+00:00",
+                  "type": "ObjectEvent"
+                }
+              ]
+            },
+            "schemaVersion": "2.0",
+            "type": "EPCISDocument"
+          }
+        }
+      ],
+      "new_completion_classes": 36,
+      "new_verdict_candidates": [
+        false,
+        true
+      ],
+      "observed_sha256": "c7d6a63e516f5cf103239df07b3576dbff2ea3ac1b3e2f2ccab7162afd0c3d4a",
+      "old_completion_classes": 36,
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "problem": "epcis_object_profile",
+      "query": {
+        "base": [],
+        "mask": 3,
+        "observed": [
+          "ADD",
+          "nonempty"
+        ],
+        "old_verdict": true
+      },
+      "receipt": {
+        "query": {
+          "base": [],
+          "mask": 3,
+          "observed": [
+            "ADD",
+            "nonempty"
+          ],
+          "old_verdict": true
+        },
+        "receipt_id": "synthetic:epcis-object:observation-0",
+        "schema_version": 1,
+        "snapshot_sha256": "793f11d12075a630faa55424a6bc3a19823670a397e3a71108644175bd935a43",
+        "synthetic": true
+      },
+      "receipt_id": "synthetic:epcis-object:observation-0",
+      "receipt_sha256": "bf8cee47c62fa789fca28dfbe7ed90b258eb067479a57310298847a1ec996e13",
+      "report_sha256": "e56ef85fdc6647911429c37b41ccd054be1badd831676fe664d9d3394b55b65b",
+      "request_id": "synthetic:epcis-object:observation-0",
+      "robust_additional_sets": [
+        [
+          "bizStep"
+        ]
+      ],
+      "robust_requirement": "Every two new-domain completions agreeing on retained observations and all blocks in a returned set have equal new verdicts; return all inclusion-minimal such unread-block sets. This is not an adaptive plan or an actual-value minimum.",
+      "schema_version": "retained-evidence-audit/v1",
+      "snapshot_sha256": "793f11d12075a630faa55424a6bc3a19823670a397e3a71108644175bd935a43",
+      "status": "insufficient"
+    }
+  ],
+  "schema_version": "retained-evidence-audit/v1",
+  "source_hashes": {
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7",
+    "src/logistics_validation/audit_report.py": "b0c9fca31d347440fc7a641c6fb1ffeac017c8af251a45ef59b037c71f95634b",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "src/logistics_validation/model.py": "19d723337567a230ae680a4786a14bbe0af56eb43543885cc8c0c3a850015264",
+    "src/logistics_validation/revision_diagnostics.py": "438e35aece87bf35de26df37c806da6e8263a326d9c9de98bbf34c686ec90594",
+    "src/logistics_validation/standards_epcis.py": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5"
+  }
+}

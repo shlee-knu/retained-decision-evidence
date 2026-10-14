@@ -1,0 +1,66 @@
+{
+  "@context": [
+    "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
+    {
+      "research": "https://example.org/logistics-research/",
+      "research:predecessor": {
+        "@id": "https://example.org/logistics-research/predecessor",
+        "@type": "@id"
+      }
+    }
+  ],
+  "type": "EPCISDocument",
+  "schemaVersion": "2.0",
+  "creationDate": "2026-10-07T00:00:00Z",
+  "epcisBody": {
+    "eventList": [
+      {
+        "type": "ObjectEvent",
+        "action": "OBSERVE",
+        "eventID": "urn:uuid:aca2c841-9180-5af8-84e7-fe1c9343c7bb",
+        "epcList": [
+          "https://example.org/logistics-research/bpi/item/2000013428_00001"
+        ],
+        "eventTimeZoneOffset": "+00:00",
+        "bizStep": "https://example.org/logistics-research/activity/create",
+        "eventTime": "2018-03-09T09:55:00.000Z"
+      },
+      {
+        "type": "ObjectEvent",
+        "action": "OBSERVE",
+        "eventID": "urn:uuid:44906d63-14dc-5115-945f-0b2e72af19d0",
+        "epcList": [
+          "https://example.org/logistics-research/bpi/item/2000013428_00001"
+        ],
+        "eventTimeZoneOffset": "+00:00",
+        "bizStep": "https://example.org/logistics-research/activity/receive",
+        "eventTime": "2018-03-27T06:36:00.000Z",
+        "research:predecessor": "urn:uuid:aca2c841-9180-5af8-84e7-fe1c9343c7bb"
+      },
+      {
+        "type": "ObjectEvent",
+        "action": "OBSERVE",
+        "eventID": "urn:uuid:d110ba82-948b-5530-a133-99548aed735a",
+        "epcList": [
+          "https://example.org/logistics-research/bpi/item/2000013428_00001"
+        ],
+        "eventTimeZoneOffset": "+00:00",
+        "bizStep": "https://example.org/logistics-research/activity/invoice",
+        "eventTime": "2018-04-18T13:04:00.000Z",
+        "research:predecessor": "urn:uuid:aca2c841-9180-5af8-84e7-fe1c9343c7bb"
+      },
+      {
+        "type": "ObjectEvent",
+        "action": "OBSERVE",
+        "eventID": "urn:uuid:0f81e16d-f89a-5d54-bb26-f3eecfd08fec",
+        "epcList": [
+          "https://example.org/logistics-research/bpi/item/2000013428_00001"
+        ],
+        "eventTimeZoneOffset": "+00:00",
+        "bizStep": "https://example.org/logistics-research/activity/clear",
+        "eventTime": "2018-05-09T12:11:00.000Z",
+        "research:predecessor": "urn:uuid:aca2c841-9180-5af8-84e7-fe1c9343c7bb"
+      }
+    ]
+  }
+}

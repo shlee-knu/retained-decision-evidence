@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-07T16:57:57.965391+00:00",
+  "protocol_sha256": "90b6d8e0a6bcaf054f903c42292082ed33843e20bce68fb18d76ab3f92b4fda9",
+  "source_and_implementation_sha256": {
+    "configs/third_migration_protocol.json": "90b6d8e0a6bcaf054f903c42292082ed33843e20bce68fb18d76ab3f92b4fda9",
+    "docs/third_migration_design.md": "e2a244aa4c70e6415ce8d45200b069d718839a4378e510dc1bfac6230215c716",
+    "scripts/benchmark_receipt_migration.py": "c234b6ac4320b7f31abec4a0ab3bf9c694afb2b059c2642211fbd098c0811676",
+    "tests/test_receipt_migration.py": "66ee8b854ae849db721fd872c00117e9bcb9e45dd4f88c21eb1aa4ec70b725c2",
+    "scripts/revalidate_receipt.py": "83a9eb3ca226fd0350a9f8cb078072056eeb1a30ffe4812c686579a02be7d733",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7",
+    "scripts/stress_acquisition.py": "24c02806e711fecfc5d353fd5e9ab180387d3516a3fa30d917e4073d1b7e3e15",
+    "scripts/compare_catalogs.py": "6f2bf0eb77a5a44f100c24af4c65a14d56f7b366734d3a87daf13039f7b13121",
+    "scripts/verify_expanded.py": "31d03199b45adaeed7724f3a5989ebf8e9ccda1cee9d37bc022901b687a30615",
+    "examples/second_equivalent_catalog.json": "2af4c69182674bcf4c445ad3bab7dffa5f2b497bef1b60fc414ed371e2a8aa86",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4"
+  },
+  "config": {
+    "schema_version": 1,
+    "date": "2026-10-08",
+    "status": "fixed before implementation and full-cohort preparation",
+    "question": "For an immutable public-data snapshot, what actual database and computation work is required to produce replacement verdict receipts by reusing retained values versus fresh guarded joined recomputation?",
+    "source_layout": "normalized",
+    "source_database": "results/strong/sqlite_integration/normalized.sqlite3",
+    "source_database_sha256": "75bcd4435edbeed957f7212ced5eb485bbbf71de7f2cab8d8a47cc6c4a5d9b00",
+    "source_relation_sha256": "6e3f524a1c9b2409cff3d77335ca8b0d67e08862aba5611f29ececa673d77cba",
+    "reproduction_override": "Explicit prepare --source-db may use a rebuilt normalized database after all 251734 keyed P/T blob rows match the pinned length-framed logical-relation digest. Its actual file hash is recorded and must remain unchanged through timing. Canonical default still requires the exact original database file hash.",
+    "compact_source": "results/v03/bpi_compact.jsonl.gz",
+    "compact_source_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "receipt_source": "results/second/receipt_revalidation/native_receipts.jsonl.gz",
+    "receipt_source_sha256": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "old_catalog": "examples/baseline_catalog.json",
+    "domain_before": "cartesian:v1",
+    "domain_after": "cartesian:v1",
+    "targets": {
+      "identity": "examples/baseline_catalog.json",
+      "strict": "examples/strict_consignment_catalog.json",
+      "equivalent": "examples/second_equivalent_catalog.json",
+      "label_change": "examples/second_label_flip_catalog.json"
+    },
+    "methods": [
+      "generic_receipt",
+      "ordinary_cache_recompute",
+      "fresh_guard_joined"
+    ],
+    "cohort": "All 50,931 cases in the original salt-17 document-held-out cohort; outcomes already studied, not a new prospective holdout",
+    "receipt_store_schema": "receipts(case_id TEXT PRIMARY KEY, payload BLOB NOT NULL) WITHOUT ROWID; payload is canonical UTF8 JSON of the prior receipt only",
+    "common_base": "Case ID and full repeated activity projection loaded outside all method timers. No profiles, clocks, verdicts or eligibility maps in base input.",
+    "cached_method_input": "Generic loads one receipt per case for its old-certificate service. Ordinary recomputation first tests whether the new visible-base predicate is decisive and skips receipt access in that case; otherwise one receipt SELECT and JSON decode. Every fetched receipt receives envelope/catalog/domain/snapshot validation and exact case-ID/activity binding. Missing metadata is fetched by the requested case ID only.",
+    "fresh_method_input": "No receipt-store SELECT or old-receipt parsing. Inspect common base for structural rejection, otherwise obtain P and T with one joined source SELECT.",
+    "common_output": "Canonical encoded replacement receipt: schema version, case ID, unchanged snapshot, new catalog/domain, activities, acquired/retained observed values and new Boolean verdict. Observed sets may differ by method. Encoding is timed; durable output writes are excluded.",
+    "generic_extra_service": "Original exact receipt validation and new partial-fiber reasoning; initial status is separately reported and not a required ordinary-cache diagnostic.",
+    "ordinary_service": "First decide from the common visible base if possible and emit an empty-observation replacement. Otherwise recompute from retained values and ordinary structural/clock guards; no old-verdict sufficiency or migration-status calculation. It may omit unneeded prior observations; only a correct new verdict and sufficient new receipt are required.",
+    "timing": {
+      "warmup_rounds": 2,
+      "measured_rounds": 7,
+      "matrix_cells": 12,
+      "full_workload_runs": 108,
+      "random_seed": 20261008,
+      "cpu_if_available": 23,
+      "randomization": "Each complete round uses one shuffled case order and an independently shuffled 12-job order; no per-result exclusions",
+      "clocks": [
+        "process_time_ns",
+        "perf_counter_ns"
+      ],
+      "per_batch_setup": "Fresh generic semantic caches each job; universe/fiber/label table construction inside a separately recorded setup timer and included in batch total. Within-batch semantic-table reuse allowed. Ordinary/fresh rule setup measured on the same boundary.",
+      "per_case": "Required receipt/source SQL, row handling, JSON decoding, binding/schema checks, rule or receipt work, returned-observation assembly, replacement JSON encoding and common ledger/output digest accumulation",
+      "environment_reset": "Clear prior generic semantic caches and perform GC before batch timer; measure fresh construction, not destruction of the preceding batch. Connections already open; warmed SQLite/OS caches, no simulated delay or payload padding.",
+      "excluded": "Common source projection/loading, source DB construction, receipt-store materialization, independent oracle computation, connection establishment, durable replacement writes, network, writes/concurrency and source freshness attestation",
+      "reports": "Every scheduled row; CPU/wall setup, migration and batch totals; median/IQR and paired within-round differences. No host-population inference or production-throughput claim."
+    },
+    "accounting": [
+      "receipt SQL statements",
+      "source SQL statements",
+      "total SQL statements",
+      "receipt rows and returned JSON bytes",
+      "new source P/T values and bytes",
+      "JSON decodes",
+      "retained versus newly fetched observations",
+      "encoded output bytes",
+      "old historical acquisition as a separate sunk ledger"
+    ],
+    "known_before_execution": {
+      "strict_generic_recovery_profile_reads": 33489,
+      "strict_generic_recovery_time_reads": 0,
+      "strict_generic_new_source_payload_bytes": 1471664,
+      "old_logical_reads": 52855,
+      "old_payload_bytes": 6705042,
+      "earlier_fresh_strict_guarded_join_source_statements": 41597,
+      "earlier_fresh_strict_guarded_join_source_payload_bytes": 8152814,
+      "note": "These inspected prior counts are reconciliation targets, not new discoveries. New receipt-store payload, replacement encoding costs and all migration timings remain unknown. No favorable direction is required."
+    },
+    "correctness": "All four targets and three methods on the full cohort against an independent raw predicate reference, actual SQLite trace counts versus ledgers, each replacement observation sufficient under the new catalog, source/receipt stores byte-identical afterward. Focused cases include cross-case swaps, malformed bindings, missing rows, stale/changed verdicts, equal clocks, fractional reversals, repeated activities, no hidden reads and idempotence.",
+    "freeze": "All new paths only; canonical preparation refuses overwrite, timing refuses append. Quiet timing begins only after parent coordination. Preserve every null/negative outcome."
+  },
+  "cases": 50931,
+  "source_database_path": "/home/shlee/nudix_workspace/logistics_event_validation_research/results/strong/sqlite_integration/normalized.sqlite3",
+  "source_relation_check": {
+    "performed": false,
+    "reason": "Exact canonical source database hash matches the prior fully verified relation",
+    "relation_sha256": "6e3f524a1c9b2409cff3d77335ca8b0d67e08862aba5611f29ececa673d77cba"
+  },
+  "source_database_sha256": "75bcd4435edbeed957f7212ced5eb485bbbf71de7f2cab8d8a47cc6c4a5d9b00",
+  "receipt_database_sha256": "1644df1940ee026a686b525b08ed943e48dfafe8811e0334c63df1b51f4b976a",
+  "receipt_database_bytes": 27348992,
+  "receipt_json_payload_bytes": 23590430,
+  "receipt_relation_sha256": "03d0f47d72fa6151ae881db0c2e4a2013bf5c5a1a53a1044289d97ff5cbf5e67",
+  "receipt_query_plan": [
+    [
+      2,
+      0,
+      0,
+      "SEARCH receipts USING PRIMARY KEY (case_id=?)"
+    ]
+  ],
+  "base_loading_wall_seconds": 1.0491140650119632,
+  "receipt_materialization_wall_seconds": 0.5918118939734995,
+  "receipt_materialization_cpu_seconds": 0.544443408,
+  "preparation_before_verification_wall_seconds": 1.7349206700455397,
+  "preparation_before_verification_cpu_seconds": 1.673612616,
+  "native_verification_wall_seconds": 37.31614077591803,
+  "max_rss_kib": 476212,
+  "preparation_scope": "Compact-derived base/full-reference loading and receipt JSON extraction/validation/canonical serialization/materialization. Existing normalized source DB reused. Full raw-XES preparation excluded; oracle/sufficiency verification is separate."
+}

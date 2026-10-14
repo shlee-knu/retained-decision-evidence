@@ -1,0 +1,185 @@
+[39mFHIR Validation tool Version 6.7.0 (Git# f299b0928a8d). Built 2025-10-01T03:11:53.244Z (372 days old)
+[0;39m[39m  Java:   21.0.10 from /usr/lib/jvm/jdk-21.0.10-oracle-x64 on amd64 (64bit). 2048MB available
+[0;39m[39m  Paths:  Current = /home/shlee/nudix_workspace/logistics_event_validation_research, Package Cache = /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/tools/java-home/.fhir/packages
+[0;39m[39m  Params: /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/*.json -version 4.0.1 -ig /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-6.1.0.tgz -profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab -tx n/a -output /home/shlee/nudix_workspace/logistics_event_validation_research/results/standards_extension/fhir/validator/observation-lab/6.1.0/operation_outcomes.json
+[0;39m[39m  Locale: /
+[0;39m[39m  Jurisdiction: None specified (locale = )
+[0;39m[39m  Note that exceptions and validation failures may happen in the absense of a locale
+[0;39m[39mLoading
+[0;39m[39m  Loading FHIR v4.0 from hl7.fhir.r4.core#4.0.1
+[0;39m[39mInstalling hl7.fhir.r4.core#4.0.1 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.r4.core#4.0.1
+[0;39m[39m done.
+[0;39m[39mInstalling hl7.fhir.xver-extensions#0.1.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.xver-extensions#0.1.0
+[0;39m[39m done.
+[0;39m[39mInstalling hl7.terminology.r4#6.2.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.terminology.r4#6.2.0
+[0;39m[39m done.
+[0;39m[39m  Load hl7.terminology.r4#6.2.0 - 4288 resources (00:11.707)
+[0;39m[39mInstalling hl7.fhir.uv.extensions.r4#5.2.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.uv.extensions.r4#5.2.0
+[0;39m[39m done.
+[0;39m[39m  Load hl7.fhir.uv.extensions.r4#5.2.0 - 759 resources (00:02.924)
+[0;39m[39m  Loaded FHIR - 8265 resources (00:00.000)
+[0;39m[39m  Terminology server null - Version n/a: No Terminology Server (00:00.000)
+[0;39m[39mInstalling hl7.terminology#7.4.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.terminology#7.4.0
+[0;39m[39m done.
+[0;39m[39m  Load hl7.terminology#7.4.0 - 4181 resources (00:03.211)
+[0;39m[39mInstalling hl7.fhir.uv.extensions#5.3.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.uv.extensions#5.3.0
+[0;39m[39m done.
+[0;39m[39mInstalling hl7.terminology.r5#7.1.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.terminology.r5#7.1.0
+[0;39m[39m done.
+[0;39m[39mInstalling hl7.fhir.uv.extensions.r5#5.2.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.uv.extensions.r5#5.2.0
+[0;39m[39m done.
+[0;39m[39m  Load hl7.fhir.uv.extensions.r5#5.2.0 - 759 resources (00:06.910)
+[0;39m[39m  Load hl7.terminology.r5#7.1.0 - 4072 resources (00:00.460)
+[0;39m[39m  Load hl7.fhir.uv.extensions#5.3.0 - 856 resources (00:00.006)
+[0;39m[39mInstalling hl7.terminology.r4#5.0.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.terminology.r4#5.0.0
+[0;39m[39m done.
+[0;39m[39m  Load hl7.terminology.r4#5.0.0 - 4175 resources (00:03.481)
+[0;39m[39mInstalling hl7.fhir.uv.extensions.r4#1.0.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.uv.extensions.r4#1.0.0
+[0;39m[39m done.
+[0;39m[39m  Load hl7.fhir.uv.extensions.r4#1.0.0 - 1329 resources (00:02.763)
+[0;39m[39mInstalling hl7.fhir.uv.bulkdata#2.0.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.uv.bulkdata#2.0.0
+[0;39m[39m done.
+[0;39m[39m  Load hl7.fhir.uv.bulkdata#2.0.0 - 7 resources (00:00.734)
+[0;39m[39mInstalling hl7.fhir.uv.smart-app-launch#2.1.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.uv.smart-app-launch#2.1.0
+[0;39m[39m done.
+[0;39m[39m  Load hl7.fhir.uv.smart-app-launch#2.1.0 - 8 resources (00:01.104)
+[0;39m[39mInstalling us.nlm.vsac#0.11.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling us.nlm.vsac#0.11.0
+[0;39m[39m done.
+[0;39m[39m  Load us.nlm.vsac#0.11.0 - 14323 resources (00:05.278)
+[0;39m[39mInstalling hl7.fhir.uv.sdc#3.0.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.uv.sdc#3.0.0
+[0;39m[39m done.
+[0;39m[39mInstalling hl7.fhir.r4.examples#4.0.1 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling hl7.fhir.r4.examples#4.0.1
+[0;39m[39m done.
+[0;39m[39m  Load hl7.fhir.r4.examples#4.0.1 - 4581 resources (00:07.438)
+[0;39m[39m  Load hl7.fhir.uv.sdc#3.0.0 - 138 resources (00:00.006)
+[0;39m[39mInstalling us.cdc.phinvads#0.12.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling us.cdc.phinvads#0.12.0
+[0;39m[39m done.
+[0;39m[39m  Load us.cdc.phinvads#0.12.0 - 1967 resources (00:04.160)
+[0;39m[39mInstalling ihe.formatcode.fhir#1.1.0 to the package cache
+[0;39m[39m  Fetching:
+[0;39m[39m
+[0;39m[39mInstalling ihe.formatcode.fhir#1.1.0
+[0;39m[39m done.
+[0;39m[39m  Load ihe.formatcode.fhir#1.1.0 - 3 resources (00:00.737)
+[0;39m[39m  Load /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/packages/us-core-6.1.0.tgz#6.1.0 - 209 resources (00:00.354)
+[0;39m[39m  Package Summary: [hl7.fhir.r4.core#4.0.1, hl7.fhir.xver-extensions#0.1.0, hl7.terminology.r4#6.2.0, hl7.fhir.uv.extensions.r4#5.2.0, hl7.terminology#7.4.0, hl7.fhir.uv.extensions.r5#5.2.0, hl7.terminology.r5#7.1.0, hl7.fhir.uv.extensions#5.3.0, hl7.terminology.r4#5.0.0, hl7.fhir.uv.extensions.r4#1.0.0, hl7.fhir.uv.bulkdata#2.0.0, hl7.fhir.uv.smart-app-launch#2.1.0, us.nlm.vsac#0.11.0, hl7.fhir.r4.examples#4.0.1, hl7.fhir.uv.sdc#3.0.0, us.cdc.phinvads#0.12.0, ihe.formatcode.fhir#1.1.0, hl7.fhir.us.core#6.1.0]
+[0;39m[39m  Terminology Cache at /tmp/default-tx-cache
+[0;39m[39m  Get set... 
+[0;39m[39m  ...go! (00:02.084)
+[0;39m[39mCached new session. Cache size = 1
+[0;39m[39mValidating
+[0;39m[39m  Profiles: [http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab]
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0261.json
+[0;39m[39m 00:00.689
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0000.json
+[0;39m[39m 00:00.089
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-calcium.json
+[0;39m[39m 00:00.087
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0359.json
+[0;39m[39m 00:00.092
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0228.json
+[0;39m[39m 00:00.077
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-chloride.json
+[0;39m[39m 00:00.035
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-total-bilirubin.json
+[0;39m[39m 00:00.036
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0098.json
+[0;39m[39m 00:00.043
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0131.json
+[0;39m[39m 00:00.031
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-at-home-in-vitro-test.json
+[0;39m[39m 00:00.031
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-cbc-mch.json
+[0;39m[39m 00:00.034
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-cbc-mchc.json
+[0;39m[39m 00:00.034
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-cbc-leukocytes.json
+[0;39m[39m 00:00.031
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0033.json
+[0;39m[39m 00:00.029
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-potassium.json
+[0;39m[39m 00:00.029
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0065.json
+[0;39m[39m 00:00.034
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-urobilinogen.json
+[0;39m[39m 00:00.024
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-glucose.json
+[0;39m[39m 00:00.025
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-bun.json
+[0;39m[39m 00:00.024
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-cbc-hematocrit.json
+[0;39m[39m 00:00.024
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-creatinine.json
+[0;39m[39m 00:00.025
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-sodium.json
+[0;39m[39m 00:00.025
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0294.json
+[0;39m[39m 00:00.023
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-cbc-mcv.json
+[0;39m[39m 00:00.026
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0163.json
+[0;39m[39m 00:00.039
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-cbc-hemoglobin.json
+[0;39m[39m 00:00.043
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-cbc-erythrocytes.json
+[0;39m[39m 00:00.039
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0326.json
+[0;39m[39m 00:00.037
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/observation-0196.json
+[0;39m[39m 00:00.031
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-serum-co2.json
+[0;39m[39m 00:00.024
+[0;39m[39m  Validate /home/shlee/nudix_workspace/logistics_event_validation_research/data/external/fhir_standards/generated/validator/observation-lab/6.1.0/official-Observation-cbc-platelets.json
+[0;39m[39m 00:00.024
+[0;39m[39mDone. Times: Loading: 00:53.366, validation: 00:01.852 (#31). Memory = 1Gb
+[0;39m[39m
+[0;39m[39mDone. Times: Loading: 00:53.366, validation: 00:01.852 (#31). Max Memory = 2Gb
+[0;39m

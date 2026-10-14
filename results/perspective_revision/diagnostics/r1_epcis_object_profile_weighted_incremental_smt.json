@@ -1,0 +1,446 @@
+{
+  "timing": {
+    "name": "epcis_object_profile",
+    "suite": "authored_epcis",
+    "method": "incremental_smt",
+    "workload": "weighted",
+    "input_loading": {
+      "cpu_ns": 765834,
+      "wall_ns": 765158
+    },
+    "input_normalization": {
+      "cpu_ns": 1179599,
+      "wall_ns": 1180028
+    },
+    "setup": {
+      "cpu_ns": 15359068,
+      "wall_ns": 15360662
+    },
+    "dependency_import": {
+      "cpu_ns": 9896328,
+      "wall_ns": 9897624
+    },
+    "core_setup": {
+      "cpu_ns": 5462740,
+      "wall_ns": 5463038
+    },
+    "core_batch": {
+      "cpu_ns": 27504735,
+      "wall_ns": 27505133
+    },
+    "first_report": {
+      "cpu_ns": 863930,
+      "wall_ns": 863948
+    },
+    "setup_plus_first": {
+      "cpu_ns": 16222998,
+      "wall_ns": 16224610
+    },
+    "core_setup_plus_first": {
+      "cpu_ns": 6326670,
+      "wall_ns": 6326986
+    },
+    "batch": {
+      "cpu_ns": 37401063,
+      "wall_ns": 37402757
+    },
+    "serialization": {
+      "cpu_ns": 2214713,
+      "wall_ns": 2198891
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 12611295,
+      "wall_ns": 12612779
+    },
+    "checks": 256,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 324,
+    "diagnosed_classes": 33,
+    "status_counts": {
+      "safe": 224,
+      "insufficient": 100
+    },
+    "output_bytes": 127110,
+    "output_sha256": "36edbef28b8c86b55627bf0bf9841d8f46f27353a08b239f8dd82346264552e4",
+    "process_peak_rss_kib": {
+      "before_setup": 45576,
+      "after_setup": 54988,
+      "after_first_report": 58252,
+      "after_batch": 59020
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "6": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "9": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "10": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "11": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "empty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "empty",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "0": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "ADD",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "ADD",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "15": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "16": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "113": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "114": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "115": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "17": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "18": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "122": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "empty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "empty",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "123": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "124": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "35": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "OBSERVE",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "OBSERVE",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "36": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "37": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "19": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "20": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "140": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "DELETE",
+          "absent",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "DELETE",
+          "absent",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "141": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "142": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "21": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "22": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "149": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "DELETE",
+          "empty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "DELETE",
+          "empty",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "150": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "151": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "42": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          "DELETE",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "vendor"
+        ],
+        [
+          "DELETE",
+          "nonempty",
+          "nonempty",
+          "absent",
+          "receiving_uri"
+        ]
+      ],
+      "robust_masks": [
+        16
+      ]
+    },
+    "43": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "44": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

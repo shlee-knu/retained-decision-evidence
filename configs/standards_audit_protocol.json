@@ -1,0 +1,21 @@
+{
+  "protocol_version": "1.0",
+  "baseline_tag": "ieee-access-v04-pre-standards-20261008",
+  "status": "Local final replay protocol after source inspection and an exploratory one-round calibration; not externally preregistered or an independent holdout",
+  "models": "Three EPCIS selected-clause profile strengthenings, one official JSON-schema identity control, three FHIR selected invariant version pairs and their three identity controls",
+  "classification_workload": "Every distinct supported old-sufficient observation class, all masks, both old verdicts",
+  "replay_workload": "One synthetic representative per model Cartesian state; old receipt acquired by fixed block-order influential-field policy",
+  "receipt_evidence": "Complete retained grouped payloads and sufficient old observations, immutable snapshot/domain/predicate binding; old label does not independently restrict the completion domain",
+  "comparators": ["full_fragment", "fresh_guarded", "ordinary_cached", "static_delta", "receipt_audit"],
+  "shared_planner": "Controlled finite replay with the same compiled target fibers; no whole-validator runtime comparison",
+  "static_delta": "Verify old-label implication or old-label plus declared changed dependencies; fall back to all target dependencies if neither is sound",
+  "retrieval_layouts": ["separate", "bundled"],
+  "bundled_behavior": "First source request returns all named groups, all delivered bytes/groups are charged and all fields immediately become known",
+  "warmup_rounds": 1,
+  "measured_rounds": 7,
+  "round_order": "Rotate the five strategy names by round index; fixed synthetic state order",
+  "included_runtime": "UTF-8 JSON decoding, raw payload/category consistency, snapshot binding, applicable receipt proof, new decision, diagnostic witness materialization for audit, sufficient replacement serialization",
+  "separate_costs": "Model compilation, shared planner compilation, block codec verification, fixture preparation, old acquisition",
+  "excluded": "Source download, disk/network I/O, durable output writes, clinical/business truth, arbitrary unsupported standard clauses",
+  "interpretation": "Exact declared finite fragments and local component costs. No operational frequencies, speed guarantees, clinical outcomes, or acceptance prediction"
+}

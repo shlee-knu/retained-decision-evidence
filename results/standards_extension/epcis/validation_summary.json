@@ -1,0 +1,69 @@
+{
+  "scope": "Selected EPCIS prose clauses plus present bizStep: CBV-Compatible to CBV-Compliant vocabulary requirement subset; authored comparison, not observed enterprise migration.",
+  "synthetic_finite_states": 1188,
+  "models": [
+    {
+      "model": "epcis_object_profile",
+      "states": 324,
+      "blocks": 5,
+      "old_pass": 100,
+      "new_pass": 75,
+      "official_schema_pass": 140,
+      "schema_vs_selected_old_disagreements": 40,
+      "independent_oracle_mismatches": 0,
+      "schema_version_label_changes": 0
+    },
+    {
+      "model": "epcis_aggregation_profile",
+      "states": 216,
+      "blocks": 5,
+      "old_pass": 96,
+      "new_pass": 72,
+      "official_schema_pass": 152,
+      "schema_vs_selected_old_disagreements": 56,
+      "independent_oracle_mismatches": 0,
+      "schema_version_label_changes": 0
+    },
+    {
+      "model": "epcis_transformation_profile",
+      "states": 648,
+      "blocks": 6,
+      "old_pass": 360,
+      "new_pass": 270,
+      "official_schema_pass": 360,
+      "schema_vs_selected_old_disagreements": 0,
+      "independent_oracle_mismatches": 0,
+      "schema_version_label_changes": 0
+    }
+  ],
+  "example_cases": 20,
+  "unchanged_official_examples": 3,
+  "artifact_comparison": {
+    "schema_equal_except_id": true,
+    "schema_ids": {
+      "2.0.0": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-json-schema.json",
+      "2.0.1": "https://ref.gs1.org/standards/epcis/2.0.1/epcis-json-schema.json"
+    },
+    "shacl_byte_equal": true,
+    "context_differences": {
+      "gs1": {
+        "old": "https://gs1.org/voc/",
+        "new": "https://ref.gs1.org/voc/"
+      }
+    },
+    "interpretation": "JSON validation identity control only; RDF URI expansion differs"
+  },
+  "shacl_load_check": {
+    "loaded": false,
+    "error_type": "ShapeLoadError",
+    "message": "A shape defined as a NodeShape cannot be the subject of a 'sh:path' predicate.\nFor reference, see https://www.w3.org/TR/shacl/#node-shapes",
+    "interpretation": "Execution failure, not a validation verdict; official file unmodified"
+  },
+  "versions": {
+    "python": "3.12.3",
+    "jsonschema": "4.26.0",
+    "pyshacl": "0.40.1"
+  },
+  "protocol_sha256": "5f4bb5c6af92996e5e756f42a45776e8b7f90baa3cd5438f780ce9fb2e9f3908",
+  "interpretation": "Representative finite clause workload and example derivatives; no business validity or population-rate estimate"
+}

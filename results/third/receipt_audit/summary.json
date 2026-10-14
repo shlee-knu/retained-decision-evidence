@@ -1,0 +1,832 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-07T16:53:14.650025+00:00",
+  "scope": "Exhaustive finite abstract OLD observation classes for baseline, fourtargetcatalogs, sixteen domaintransitions. Canonicalclock representatives do not exhaust arbitrarytimestampstrings or authenticate receipts.",
+  "old_valid_classes": {
+    "cartesian:v1": 10436,
+    "chronological:v1": 1764,
+    "consignment_exclusion:v1": 8793,
+    "both:v1": 1505
+  },
+  "total_old_valid_classes": 22498,
+  "classification_checks": 359968,
+  "classification_actual_sha256": "bae4360e5296c0e4e125a51350366d9450433300f0028dfb0cf64fb256ac2344",
+  "classification_expected_sha256": "bae4360e5296c0e4e125a51350366d9450433300f0028dfb0cf64fb256ac2344",
+  "classification_matrix": [
+    {
+      "target": "identity",
+      "old_domain": "cartesian:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 10436,
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "cartesian:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 10436,
+      "safe": 1736,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 8700,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "cartesian:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 10436,
+      "safe": 8250,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 2186,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "cartesian:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 10436,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 9052,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "cartesian:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 10436,
+      "safe": 9852,
+      "stale_verdict": 576,
+      "insufficient": 8,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "cartesian:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 10436,
+      "safe": 1608,
+      "stale_verdict": 120,
+      "insufficient": 8,
+      "unsupported": 8700,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "cartesian:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 10436,
+      "safe": 8250,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 2186,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "cartesian:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 10436,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 9052,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "cartesian:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 10436,
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "cartesian:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 10436,
+      "safe": 1736,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 8700,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "cartesian:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 10436,
+      "safe": 8250,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 2186,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "cartesian:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 10436,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 9052,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "cartesian:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 10436,
+      "safe": 10410,
+      "stale_verdict": 26,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "cartesian:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 10436,
+      "safe": 1722,
+      "stale_verdict": 14,
+      "insufficient": 0,
+      "unsupported": 8700,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "cartesian:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 10436,
+      "safe": 8248,
+      "stale_verdict": 2,
+      "insufficient": 0,
+      "unsupported": 2186,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "cartesian:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 10436,
+      "safe": 1382,
+      "stale_verdict": 2,
+      "insufficient": 0,
+      "unsupported": 9052,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "chronological:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 1764,
+      "safe": 1736,
+      "stale_verdict": 0,
+      "insufficient": 28,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "chronological:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 1764,
+      "safe": 1764,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "chronological:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 1764,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 10,
+      "unsupported": 370,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "chronological:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 1764,
+      "safe": 1394,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 370,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "chronological:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 1764,
+      "safe": 1608,
+      "stale_verdict": 138,
+      "insufficient": 18,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "chronological:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 1764,
+      "safe": 1617,
+      "stale_verdict": 138,
+      "insufficient": 9,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "chronological:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 1764,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 10,
+      "unsupported": 370,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "chronological:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 1764,
+      "safe": 1394,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 370,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "chronological:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 1764,
+      "safe": 1736,
+      "stale_verdict": 0,
+      "insufficient": 28,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "chronological:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 1764,
+      "safe": 1764,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "chronological:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 1764,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 10,
+      "unsupported": 370,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "chronological:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 1764,
+      "safe": 1394,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 370,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "chronological:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 1764,
+      "safe": 1722,
+      "stale_verdict": 18,
+      "insufficient": 24,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "chronological:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 1764,
+      "safe": 1746,
+      "stale_verdict": 18,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "chronological:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 1764,
+      "safe": 1382,
+      "stale_verdict": 3,
+      "insufficient": 9,
+      "unsupported": 370,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "chronological:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 1764,
+      "safe": 1391,
+      "stale_verdict": 3,
+      "insufficient": 0,
+      "unsupported": 370,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 8793,
+      "safe": 8250,
+      "stale_verdict": 0,
+      "insufficient": 543,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 8793,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 111,
+      "unsupported": 7298,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 8793,
+      "safe": 8793,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 8793,
+      "safe": 1495,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 7298,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 8793,
+      "safe": 8785,
+      "stale_verdict": 0,
+      "insufficient": 8,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 8793,
+      "safe": 1487,
+      "stale_verdict": 0,
+      "insufficient": 8,
+      "unsupported": 7298,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 8793,
+      "safe": 8793,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 8793,
+      "safe": 1495,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 7298,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 8793,
+      "safe": 8250,
+      "stale_verdict": 0,
+      "insufficient": 543,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 8793,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 111,
+      "unsupported": 7298,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 8793,
+      "safe": 8793,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 8793,
+      "safe": 1495,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 7298,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 8793,
+      "safe": 8275,
+      "stale_verdict": 2,
+      "insufficient": 516,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 8793,
+      "safe": 1397,
+      "stale_verdict": 2,
+      "insufficient": 96,
+      "unsupported": 7298,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 8793,
+      "safe": 8791,
+      "stale_verdict": 2,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 8793,
+      "safe": 1493,
+      "stale_verdict": 2,
+      "insufficient": 0,
+      "unsupported": 7298,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "both:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 1505,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 121,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "both:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 1505,
+      "safe": 1394,
+      "stale_verdict": 0,
+      "insufficient": 111,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "both:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 1505,
+      "safe": 1495,
+      "stale_verdict": 0,
+      "insufficient": 10,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "identity",
+      "old_domain": "both:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 1505,
+      "safe": 1505,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "both:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 1505,
+      "safe": 1487,
+      "stale_verdict": 0,
+      "insufficient": 18,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "both:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 1505,
+      "safe": 1496,
+      "stale_verdict": 0,
+      "insufficient": 9,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "both:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 1505,
+      "safe": 1495,
+      "stale_verdict": 0,
+      "insufficient": 10,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "strict",
+      "old_domain": "both:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 1505,
+      "safe": 1505,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "both:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 1505,
+      "safe": 1384,
+      "stale_verdict": 0,
+      "insufficient": 121,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "both:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 1505,
+      "safe": 1394,
+      "stale_verdict": 0,
+      "insufficient": 111,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "both:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 1505,
+      "safe": 1495,
+      "stale_verdict": 0,
+      "insufficient": 10,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "equivalent",
+      "old_domain": "both:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 1505,
+      "safe": 1505,
+      "stale_verdict": 0,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "both:v1",
+      "new_domain": "cartesian:v1",
+      "old_valid_classes": 1505,
+      "safe": 1397,
+      "stale_verdict": 3,
+      "insufficient": 105,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "both:v1",
+      "new_domain": "chronological:v1",
+      "old_valid_classes": 1505,
+      "safe": 1406,
+      "stale_verdict": 3,
+      "insufficient": 96,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "both:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "old_valid_classes": 1505,
+      "safe": 1493,
+      "stale_verdict": 3,
+      "insufficient": 9,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    },
+    {
+      "target": "label_flip",
+      "old_domain": "both:v1",
+      "new_domain": "both:v1",
+      "old_valid_classes": 1505,
+      "safe": 1502,
+      "stale_verdict": 3,
+      "insufficient": 0,
+      "unsupported": 0,
+      "invalid_receipt": 0
+    }
+  ],
+  "status_totals": {
+    "safe": 214965,
+    "unsupported": 141096,
+    "insufficient": 2829,
+    "stale_verdict": 1078
+  },
+  "representative_witness_records": 143,
+  "recovery_checks": 104020,
+  "recovery_stream_sha256": "18fff585202a236db3299572570e86d88cd537676225282c3dfe3837041740e4",
+  "recovery_matrix": [
+    {
+      "target": "strict",
+      "old_domain": "cartesian:v1",
+      "new_domain": "cartesian:v1",
+      "recoveries": 26229,
+      "initially_insufficient": 32,
+      "P_reads": 32,
+      "T_reads": 0,
+      "old_domain_incompatible_after_reads": 0,
+      "safe": 25645,
+      "stale_verdict": 584
+    },
+    {
+      "target": "identity",
+      "old_domain": "chronological:v1",
+      "new_domain": "cartesian:v1",
+      "recoveries": 15280,
+      "initially_insufficient": 1819,
+      "P_reads": 300,
+      "T_reads": 1819,
+      "old_domain_incompatible_after_reads": 1605,
+      "safe": 14239,
+      "stale_verdict": 1041
+    },
+    {
+      "target": "identity",
+      "old_domain": "consignment_exclusion:v1",
+      "new_domain": "cartesian:v1",
+      "recoveries": 28043,
+      "initially_insufficient": 5124,
+      "P_reads": 5124,
+      "T_reads": 753,
+      "old_domain_incompatible_after_reads": 1281,
+      "safe": 27071,
+      "stale_verdict": 972
+    },
+    {
+      "target": "identity",
+      "old_domain": "both:v1",
+      "new_domain": "cartesian:v1",
+      "recoveries": 16222,
+      "initially_insufficient": 4237,
+      "P_reads": 3696,
+      "T_reads": 1594,
+      "old_domain_incompatible_after_reads": 1604,
+      "safe": 15043,
+      "stale_verdict": 1179
+    },
+    {
+      "target": "identity",
+      "old_domain": "both:v1",
+      "new_domain": "chronological:v1",
+      "recoveries": 4212,
+      "initially_insufficient": 768,
+      "P_reads": 768,
+      "T_reads": 0,
+      "old_domain_incompatible_after_reads": 192,
+      "safe": 4020,
+      "stale_verdict": 192
+    },
+    {
+      "target": "identity",
+      "old_domain": "both:v1",
+      "new_domain": "consignment_exclusion:v1",
+      "recoveries": 14034,
+      "initially_insufficient": 766,
+      "P_reads": 225,
+      "T_reads": 766,
+      "old_domain_incompatible_after_reads": 680,
+      "safe": 13426,
+      "stale_verdict": 608
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "opposite_recorded_label",
+      "status": "invalid_receipt"
+    },
+    {
+      "name": "ambiguous_old",
+      "status": "invalid_receipt"
+    },
+    {
+      "name": "empty_old",
+      "status": "invalid_receipt"
+    },
+    {
+      "name": "wrong_snapshot_sha256",
+      "status": "binding_error"
+    },
+    {
+      "name": "wrong_catalog_sha256",
+      "status": "binding_error"
+    },
+    {
+      "name": "malformed_observed_clock",
+      "status": "syntax_error"
+    }
+  ],
+  "disagreements": 0,
+  "elapsed_seconds": 16.51712619001046
+}

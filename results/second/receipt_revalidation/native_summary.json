@@ -1,0 +1,195 @@
+{
+  "status": "passed",
+  "source_cases_scanned": 251734,
+  "receipt_cases": 50931,
+  "case_id_order_sha256": "5e97c88b67464b9a6348a65851458c84e6fa6082b80a09768a9d320a2a0e67a3",
+  "input_sha256": {
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/v03/acquisition_access_traces.jsonl.gz": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6"
+  },
+  "cohort": "Original salt-17 document-held-out workload; no new independent holdout",
+  "receipt_origin": "Reconstructed retained observations from an immutable public derivative and archived masks; not a deployed cache",
+  "interface": "Instrumented in-memory block accessor; counts are logical additional block reads, not SQL calls or measured latency",
+  "conditional_scope": "Conditional on truthful observed values, an unchanged source snapshot, and the actual input belonging to the declared new completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hash equality is a binding check, not source authentication.",
+  "initial_status_counts": {
+    "insufficient": 33489,
+    "safe": 17442
+  },
+  "additional_logical_reads": {
+    "profile": 33489,
+    "first_times": 0
+  },
+  "additional_payload_bytes": 1471664,
+  "old_observations_logical_reads": {
+    "first_times": 39142,
+    "profile": 13713
+  },
+  "old_observations_payload_bytes": 6705042,
+  "fresh_new_logical_reads": {
+    "profile": 41597,
+    "first_times": 39142
+  },
+  "fresh_new_payload_bytes": 7930384,
+  "retained_plus_repair_logical_reads": {
+    "profile": 47202,
+    "first_times": 39142
+  },
+  "retained_plus_repair_payload_bytes": 8176706,
+  "safe_receipts_with_now_redundant_old_observations": 5605,
+  "fresh_profile_read_increase": 27884,
+  "independent_raw_oracle_comparisons": 101862,
+  "oracle_disagreements": 0,
+  "recovered_verdict_counts": {
+    "True": 39142,
+    "False": 11789
+  },
+  "samples": {
+    "insufficient": {
+      "case_id": "2000000002_00001",
+      "source_trace": 3,
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "observed": {
+          "first_times": {
+            "create": "2018-01-04T14:17:00.000Z",
+            "receive": "2018-02-06T14:53:00.000Z",
+            "invoice": "2018-08-16T10:41:00.000Z",
+            "clear": "2018-08-16T13:03:00.000Z"
+          }
+        },
+        "verdict": true,
+        "receipt_id": "2000000002_00001"
+      },
+      "result": {
+        "status": "insufficient",
+        "reason": "new_compatible_completions_disagree",
+        "observed_mask": "T",
+        "before_compatible_classes": 4,
+        "after_compatible_classes": 4,
+        "before_labels": [
+          true
+        ],
+        "after_labels": [
+          false,
+          true
+        ],
+        "conditional_scope": "Conditional on truthful observed values, an unchanged source snapshot, and the actual input belonging to the declared new completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hash equality is a binding check, not source authentication.",
+        "before_domain_version": "cartesian:v1",
+        "after_domain_version": "cartesian:v1",
+        "before_catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "after_catalog_sha256": "eef733e4d33d0bd6f052afb2b35d440c13d5df8ddc8026b9dde5d7d4b098b0c1",
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "compatible_new_completions": [
+          {
+            "features": {
+              "activities": [
+                "create",
+                "receive",
+                "receive",
+                "invoice",
+                "clear"
+              ],
+              "profile": "Consignment",
+              "first_times": {
+                "create": "2018-01-04T14:17:00.000Z",
+                "receive": "2018-02-06T14:53:00.000Z",
+                "invoice": "2018-08-16T10:41:00.000Z",
+                "clear": "2018-08-16T13:03:00.000Z"
+              }
+            },
+            "before_domain_member": true,
+            "after_domain_member": true,
+            "before_verdict": true,
+            "after_verdict": false
+          },
+          {
+            "features": {
+              "activities": [
+                "create",
+                "receive",
+                "receive",
+                "invoice",
+                "clear"
+              ],
+              "profile": "3-way match, invoice after GR",
+              "first_times": {
+                "create": "2018-01-04T14:17:00.000Z",
+                "receive": "2018-02-06T14:53:00.000Z",
+                "invoice": "2018-08-16T10:41:00.000Z",
+                "clear": "2018-08-16T13:03:00.000Z"
+              }
+            },
+            "before_domain_member": true,
+            "after_domain_member": true,
+            "before_verdict": true,
+            "after_verdict": true
+          }
+        ]
+      }
+    },
+    "safe": {
+      "case_id": "2000000005_00002",
+      "source_trace": 9,
+      "receipt": {
+        "schema_version": 1,
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "domain_version": "cartesian:v1",
+        "activities": [
+          "create"
+        ],
+        "observed": {},
+        "verdict": false,
+        "receipt_id": "2000000005_00002"
+      },
+      "result": {
+        "status": "safe",
+        "reason": "recorded_verdict_remains_certified_conditionally",
+        "observed_mask": "empty",
+        "before_compatible_classes": 4,
+        "after_compatible_classes": 4,
+        "before_labels": [
+          false
+        ],
+        "after_labels": [
+          false
+        ],
+        "conditional_scope": "Conditional on truthful observed values, an unchanged source snapshot, and the actual input belonging to the declared new completion domain. A nonempty compatible fiber does not establish hidden-domain membership. Hash equality is a binding check, not source authentication.",
+        "before_domain_version": "cartesian:v1",
+        "after_domain_version": "cartesian:v1",
+        "before_catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+        "after_catalog_sha256": "eef733e4d33d0bd6f052afb2b35d440c13d5df8ddc8026b9dde5d7d4b098b0c1",
+        "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+        "compatible_new_completions": [
+          {
+            "features": {
+              "activities": [
+                "create"
+              ],
+              "profile": "3-way match, invoice after GR",
+              "first_times": {
+                "create": "2020-01-01T00:00:00Z"
+              }
+            },
+            "before_domain_member": true,
+            "after_domain_member": true,
+            "before_verdict": false,
+            "after_verdict": false
+          }
+        ]
+      }
+    }
+  },
+  "compressed_receipts_sha256": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+  "known_before_run": "33,489 added P recovery reads and 5,605 redundant old P observations were expected from inspected prior evidence; 27,884 is the fresh-execution net increase."
+}

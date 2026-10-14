@@ -1,0 +1,55 @@
+{
+  "record_type": "Prospective extension design before new result inspection, not external preregistration",
+  "created_utc": "2026-10-07T13:57:02.583119+00:00",
+  "fixed_previous_manuscript_sha256": "e568d06529d8befa451e7e80b13097d7ede94b67ceaa603e70bbedd115908fb5",
+  "objectives": [
+    "Test whether an exact finite abstraction can automatically explain loss of partial-observation certificates after catalog changes",
+    "Measure actual warm SQLite access under joined and separate fetch interfaces against matched guarded baselines"
+  ],
+  "boundaries": [
+    "Public data and controlled constructions only",
+    "Retain adverse and zero effects",
+    "Do not present existing short-circuiting, finite abstraction, or full-verdict model differencing as newly invented",
+    "No remote submission/publication or actual production benefit claim"
+  ],
+  "sqlite": {
+    "cases": 50931,
+    "catalogs": [
+      "permissive",
+      "strict_consignment"
+    ],
+    "warmups": 2,
+    "measured_repeats": 7,
+    "layouts": [
+      "separate_tables",
+      "same_row_columns"
+    ],
+    "methods": [
+      "joined_full",
+      "separate_full",
+      "guarded_joined",
+      "hand_selective",
+      "certificate_selective"
+    ],
+    "latency_injection": false,
+    "http_experiment": false
+  },
+  "symbolic": {
+    "alphabet_size": 4,
+    "profiles": 4,
+    "timestamp_relation": "all weak orders of present first occurrences",
+    "missing_activities": true,
+    "repeated_activities": "collapse to first occurrence; prove invariance under repetitions",
+    "generated_edits": {
+      "baseline_catalogs": 1,
+      "legacy_strict_anchor": 1,
+      "single_edits": 80,
+      "per_profile_operations": {
+        "required_activity_toggle": 4,
+        "forbidden_activity_add": 4,
+        "directed_nonself_edge_toggle": 12
+      },
+      "selection": "All syntactic edits retained, including native-label changes, semantic duplicates, and unsatisfiable profiles; truth-vector deduplication explicitly reported. Each compared with baseline, not arbitrary pair selection."
+    }
+  }
+}

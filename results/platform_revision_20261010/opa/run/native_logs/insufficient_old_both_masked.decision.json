@@ -1,0 +1,86 @@
+{
+  "bundles": {
+    "results/platform_revision_20261010/opa/run/native_logs/baseline_bundle.tar.gz": {
+      "revision": "retained-evidence-baseline-v1-local-replay-20261010"
+    }
+  },
+  "decision_id": "14497e10-1324-4d7d-9f9c-3d1f8f9b4135",
+  "erased": [
+    "/input/first_times",
+    "/input/profile",
+    "/input/record/profile",
+    "/input/record/ranks"
+  ],
+  "input": {
+    "activities": [
+      "create",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "receive",
+      "invoice",
+      "clear"
+    ],
+    "case_id": "4507000469_00001",
+    "mask_profile": true,
+    "mask_times": true,
+    "model": "procurement",
+    "record": {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "labels": {
+    "id": "74aa4add-cf58-494d-802d-e79305774342",
+    "version": "1.21.1"
+  },
+  "level": "info",
+  "metrics": {
+    "counter_server_query_cache_hit": 1,
+    "timer_rego_external_resolve_ns": 174,
+    "timer_rego_input_parse_ns": 76071,
+    "timer_rego_query_eval_ns": 343648,
+    "timer_server_handler_ns": 436120
+  },
+  "msg": "Decision Log",
+  "path": "audit/predicates/logged_old_decision",
+  "req_id": 4,
+  "requested_by": "127.0.0.1:47924",
+  "result": true,
+  "time": "2026-10-10T01:16:46+09:00",
+  "timestamp": "2026-10-09T16:16:46.74183094Z",
+  "type": "openpolicyagent.org/decision_logs"
+}

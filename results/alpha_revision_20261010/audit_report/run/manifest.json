@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "bundle_sha256": "7c220d921dd6c5254a4bfe5e5016cac9bd647dded7d16b7141338a845e651582",
+  "files": {
+    "affected_receipt_ids.jsonl.gz": "8fc9839b48fabf28810f204de9cd46868c7475530cfbf7c3eaafb78a202f2a0c",
+    "bundle.json": "62edbeae2779f5a0642c51bad0d4143986ca15c3015625c05a136ec1a1ff4226",
+    "change_review.json": "5d0bc1ab69b0a2514872d44be629f07a3b1b212e47197031e114123ee8e495ef",
+    "verification.json": "6152256bb1e2cae0f3c730bca4d3102790a87227e146a45a1af8cac0a41d4d38"
+  },
+  "source_artifacts": {
+    "configs/focused_diagnostic_protocol.json": "8da44d148a17e34a827195af792926ff4cca3fe7357f1940314a50f5601b3b89",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "results/focused_revision/diagnostic_inputs/epcis_object_profile.json": "95af45fce0767d177cfdfdd8381e4996dcfe64fd9459e0c169c4b93fc0225365",
+    "results/focused_revision/diagnostic_inputs/procurement_label_change.json": "ec816221da207bb4a33469c707b99ac05e59c66db87b3fb26eea157226b4d316",
+    "results/focused_revision/diagnostic_inputs/procurement_strict.json": "213a3031529f657ba4fbbe475010b8f54bb3a5ae7f9fdb2e001781d0801f5d9e",
+    "results/focused_revision/diagnostics/r0_epcis_object_profile_unique_finite_fibers.json": "17001e474efc4051b654ed79ea8e2f9e1bb27589a9bc68370f5c18aa0ca8cab5",
+    "results/focused_revision/diagnostics/r0_procurement_label_change_unique_finite_fibers.json": "a834b75bb024caa1ac8d4a6b8bb176e2004a95eb4f21af083952bb904e18edc4",
+    "results/focused_revision/diagnostics/r0_procurement_strict_unique_finite_fibers.json": "00969ca33bfe99c26170115f4d3d1e85d2b503e1d9a076561e45b0938c8e7602",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b"
+  }
+}

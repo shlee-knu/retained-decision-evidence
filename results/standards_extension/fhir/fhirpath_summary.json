@@ -1,0 +1,21 @@
+{
+  "engine": "HL7/fhirpath.js",
+  "version": "4.6.0",
+  "model": "FHIR R4",
+  "complete_resources_only": true,
+  "profiles": 3,
+  "profile_versions": 6,
+  "finite_states_per_profile": 360,
+  "counts": {
+    "exhaustive_synthetic": 2160,
+    "individual_invariant_evaluations": 10512,
+    "official_specification_example": 142,
+    "synthetic_long_array_control": 12
+  },
+  "discrepancies": [],
+  "engine_errors": [],
+  "elapsed_seconds": 0.26210695097688586,
+  "runner_sha256": "1e67664a9470033289cd6becd872b601d6bc0551430b8c4175e8aa5005abd519",
+  "package_lock_sha256": "5b0dda134bfe379981ce5b05e28a7913b1940afd5ef41e4fb6ef67825d6def5e",
+  "scope": "Exact selected computable constraints evaluated in the declared element context; not full profile validation."
+}

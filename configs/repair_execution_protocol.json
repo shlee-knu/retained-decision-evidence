@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-10-10T03:05:07.516029+00:00",
+  "status": "Fixed before full execution of this follow-up; prior native outcomes already known",
+  "parent_commit": "3dcdbdf38012366924c7c34760507107142b196d",
+  "question": "Under declared field-access capabilities, can actual value-dependent recovery issue a checked replacement when access to an entire robust set is unavailable, while retaining failure and snapshot boundaries?",
+  "novelty_boundary": "Existing work already executes logical recovery and SQLite replacement. This follow-up tests explicit capabilities, failure envelopes and adaptive completion under constrained access; not a new sufficient-reason principle or discovery of 29/85 native counts.",
+  "inputs": {
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/perspective_revision/coverage/native_challenge_classes.json": "1dfef05cd09d2331d966b64334b313d60eaaf91d486e4814e653835b4b810765",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "results/compact_revision/evidence/native_check.json": "072dfb0eab1520d539e077e351140fed8da551959e6c9408db4dc4a4e5b71b87",
+    "results/platform_revision_20261010/log_adapter/insufficient_old_both_masked.input.json": "bc199fefb900be1db2c1cb4e1c620bbb45fbaebc84a8db099d73fa3d668812ea",
+    "results/platform_revision_20261010/log_adapter/native_full_retention.input.json": "6fa3405e2421e367faff6047d7fd084703f8248a46b6125d5bf1dc55be2ab267",
+    "results/platform_revision_20261010/log_adapter/native_strict_profile_masked.input.json": "86b273d84ae7dc70810a9388c827c3ae0e8e266c36232ebd699280280a872f56"
+  },
+  "existing_context_code": {
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/audit_report.py": "f77eb25af3bcb1f43bb1351cd0bee1d894995e3c7689ae6ba5c2fcb31040a2aa",
+    "src/logistics_validation/opa_log_adapter.py": "064ec02f00b9d18b219ba3585646e29e9b42833dda96330015feda3a3c07e8b8",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "scripts/revalidate_receipt.py": "83a9eb3ca226fd0350a9f8cb078072056eeb1a30ffe4812c686579a02be7d733"
+  },
+  "primary": {
+    "population": "Exactly the existing114 native heldout receipts across four previously selected weakening targets; all initially old-valid and robust additional set {profile,first_times}. Not new cases or holdout.",
+    "targets": [
+      "edge_p0_a0_b1",
+      "required_p2_a3",
+      "edge_p2_a0_b2",
+      "edge_p2_a2_b3"
+    ],
+    "selection": "Match the preserved two-block class queries to all50931 original receipts. Independently rederive source/catalog selection and compare exact target-ID hashes.",
+    "strategies": [
+      "adaptive_p_first",
+      "robust_all_first"
+    ],
+    "scenarios": [
+      "all_authorized",
+      "profile_only_times_unavailable"
+    ],
+    "adaptive_policy": "In the fixed P-before-T order, acquire a block only while the target verdict is ambiguous. Check declared capability before calling read. After each accepted complete response, re-evaluate target sufficiency. Stop as soon as determined. This is a specified policy, not globally optimal adaptive planning.",
+    "robust_policy": "Check availability/permission for the complete robust set before reads, then acquire that fixed set and check sufficiency. A deliberately conservative guarantee-first execution policy, not a strongest competitor or native OPA limitation.",
+    "known_reconciliation_targets": {
+      "target_case_counts": {
+        "edge_p0_a0_b1": 0,
+        "required_p2_a3": 113,
+        "edge_p2_a0_b2": 0,
+        "edge_p2_a2_b3": 1
+      },
+      "all_authorized": {
+        "adaptive_replacements": 114,
+        "adaptive_P_reads": 114,
+        "adaptive_T_reads": 85,
+        "robust_replacements": 114,
+        "robust_P_reads": 114,
+        "robust_T_reads": 114
+      },
+      "profile_only_times_unavailable": {
+        "adaptive_replacements": 29,
+        "adaptive_unresolved": 85,
+        "adaptive_P_reads": 114,
+        "adaptive_T_reads": 0,
+        "robust_replacements": 0,
+        "robust_unresolved": 114,
+        "robust_source_reads": 0
+      }
+    },
+    "denominators": "Two scenarios \u00d7 two policies \u00d7114 fixed case/target pairs =456 replay episodes, not456 independent source cases. No prevalence or latency estimate."
+  },
+  "secondary": {
+    "strict_full_cohort": "All50931 old receipts; initial17442safe/33489insufficient; actual same-snapshot P recovery, target-bound replacement and independent raw label/sufficiency checks. Regression, not novel effectiveness evidence.",
+    "native_opa_controls": "Three previously generated local OPA logs, separate from primary114 and heldout cohort; import then execute resulting receipt. Distinguish replacement after recovery, no-read replacement, and invalid old evidence refusal."
+  },
+  "contract": {
+    "source": "Complete public derivative indexed after exact file checksum verification; actual block accessor returns a copied block and explicit binding envelope. No hidden full source is passed to the controller.",
+    "trust": "Declared local access capabilities and truthful complete source responses are assumptions. Digest equality is not authentication and this is not a production authorization service.",
+    "bindings": [
+      "case_id",
+      "snapshot_sha256",
+      "full repeated activity projection",
+      "requested block",
+      "request binding",
+      "complete block",
+      "retained values unchanged",
+      "old/new catalog and domain"
+    ],
+    "success": "A target-catalog-bound receipt is emitted only after the observed new fiber is nonempty and singleton; retained literals and exact base persist.",
+    "failures": "Denied or unknown access, unavailable source, callback exception, wrong case/snapshot/base/request binding, incomplete or unsupported block, retained-value conflict, invalid old evidence must not produce a claimed successful replacement.",
+    "partial_work": "Record permitted successful reads before a later failure; absence of a replacement does not refund them. Capability checks, callback attempts, accepted blocks, and zero-read replacements remain separate.",
+    "storage": "Serialized result ledgers for the experiment. No atomic/durable database transaction or real network source is claimed."
+  },
+  "measurement": {
+    "report": [
+      "replacement and unresolved counts",
+      "reason codes",
+      "capability checks",
+      "read callback attempts",
+      "successful block returns",
+      "exact case-target IDs",
+      "replacement sufficiency and raw label checks"
+    ],
+    "excluded": "No new performance benchmark. Full source hashing/indexing scans existing complete derivative in setup. Logical accessor counts are not total acquisition, network requests, physical I/O, or privacy savings."
+  },
+  "independence": "Independent checker uses separately expressed raw rule evaluation and finite completion enumeration; shares supported domain and public inputs. Adversarial capability/envelope scenarios are authored controls, not observed operational failure rates.",
+  "execution_freeze": "Runner records this protocol and current source/test/checker hashes before batch execution. All outputs use new directories; retain failures without overwriting earlier evidence."
+}

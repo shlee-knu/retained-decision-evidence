@@ -1,0 +1,9 @@
+{
+  "version": "v1.21.1",
+  "release_url": "https://github.com/open-policy-agent/opa/releases/tag/v1.21.1",
+  "published_at": "2026-09-29T21:07:37Z",
+  "binary_sha256": "668506eb17a2eaa1fce6cc0d1f42ef85125d4ac5bda5fc74d1152d0c77145031",
+  "published_sha256": "668506eb17a2eaa1fce6cc0d1f42ef85125d4ac5bda5fc74d1152d0c77145031",
+  "license": "Apache-2.0",
+  "license_url": "https://github.com/open-policy-agent/opa/blob/v1.21.1/LICENSE"
+}

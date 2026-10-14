@@ -1,0 +1,10 @@
+{"stage": "warmup", "round": -2, "elapsed_seconds": 69.90085018600803}
+{"stage": "warmup", "round": -1, "elapsed_seconds": 133.95357698691078}
+{"stage": "measured", "round": 0, "elapsed_seconds": 197.82130146294367}
+{"stage": "measured", "round": 1, "elapsed_seconds": 261.72298818896525}
+{"stage": "measured", "round": 2, "elapsed_seconds": 326.6403145319782}
+{"stage": "measured", "round": 3, "elapsed_seconds": 392.63695713994093}
+{"stage": "measured", "round": 4, "elapsed_seconds": 457.4102937208954}
+{"stage": "measured", "round": 5, "elapsed_seconds": 522.4180189939216}
+{"stage": "measured", "round": 6, "elapsed_seconds": 586.3356358169112}
+{"stage": "complete", "status": "passed", "rounds": 180, "elapsed_seconds": 586.4168205138994}

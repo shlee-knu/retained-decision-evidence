@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "checks": 255588,
+  "failures": [],
+  "facts": {
+    "paper": {
+      "supplementary_tables_checked": [
+        "S15",
+        "S16"
+      ]
+    },
+    "receipt_exhaustive": {
+      "old_valid_classes": {
+        "cartesian:v1": 10436,
+        "chronological:v1": 1764,
+        "consignment_exclusion:v1": 8793,
+        "both:v1": 1505
+      },
+      "classification_checks": 359968,
+      "status_totals": {
+        "safe": 214965,
+        "unsupported": 141096,
+        "insufficient": 2829,
+        "stale_verdict": 1078
+      },
+      "classification_stream_sha256": "bae4360e5296c0e4e125a51350366d9450433300f0028dfb0cf64fb256ac2344",
+      "recovery_checks": 104020,
+      "recovery_matrix": [
+        {
+          "target": "strict",
+          "old_domain": "cartesian:v1",
+          "new_domain": "cartesian:v1",
+          "recoveries": 26229,
+          "initially_insufficient": 32,
+          "P_reads": 32,
+          "T_reads": 0,
+          "old_domain_incompatible_after_reads": 0,
+          "safe": 25645,
+          "stale_verdict": 584
+        },
+        {
+          "target": "identity",
+          "old_domain": "chronological:v1",
+          "new_domain": "cartesian:v1",
+          "recoveries": 15280,
+          "initially_insufficient": 1819,
+          "P_reads": 300,
+          "T_reads": 1819,
+          "old_domain_incompatible_after_reads": 1605,
+          "safe": 14239,
+          "stale_verdict": 1041
+        },
+        {
+          "target": "identity",
+          "old_domain": "consignment_exclusion:v1",
+          "new_domain": "cartesian:v1",
+          "recoveries": 28043,
+          "initially_insufficient": 5124,
+          "P_reads": 5124,
+          "T_reads": 753,
+          "old_domain_incompatible_after_reads": 1281,
+          "safe": 27071,
+          "stale_verdict": 972
+        },
+        {
+          "target": "identity",
+          "old_domain": "both:v1",
+          "new_domain": "cartesian:v1",
+          "recoveries": 16222,
+          "initially_insufficient": 4237,
+          "P_reads": 3696,
+          "T_reads": 1594,
+          "old_domain_incompatible_after_reads": 1604,
+          "safe": 15043,
+          "stale_verdict": 1179
+        },
+        {
+          "target": "identity",
+          "old_domain": "both:v1",
+          "new_domain": "chronological:v1",
+          "recoveries": 4212,
+          "initially_insufficient": 768,
+          "P_reads": 768,
+          "T_reads": 0,
+          "old_domain_incompatible_after_reads": 192,
+          "safe": 4020,
+          "stale_verdict": 192
+        },
+        {
+          "target": "identity",
+          "old_domain": "both:v1",
+          "new_domain": "consignment_exclusion:v1",
+          "recoveries": 14034,
+          "initially_insufficient": 766,
+          "P_reads": 225,
+          "T_reads": 766,
+          "old_domain_incompatible_after_reads": 680,
+          "safe": 13426,
+          "stale_verdict": 608
+        }
+      ],
+      "witness_records": 143,
+      "negative_controls": 6,
+      "scope": "Independent reconciliation of saved complete abstract-observation vectors, prior truth/domain tables, recovery ledgers and manuscript. No rerun of candidate or SQL benchmark."
+    }
+  }
+}

@@ -1,0 +1,468 @@
+{
+  "case_target_pairs": 114,
+  "distinct_cases": 114,
+  "targets": {
+    "required_p2_a3": 113,
+    "edge_p2_a2_b3": 1
+  },
+  "independent_expected_sha256": "432aebfa469d7f1ab3ce5982877b3976d00dd60b37cf9b632fa4bc1875007ac5",
+  "selected_pairs": [
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059199_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00040"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00050"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00060"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00070"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00080"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00090"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508059696_00100"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508061067_00220"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508061946_00230"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508062905_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508063329_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508063329_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508063329_00040"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508064109_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508065483_00050"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508066045_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508070639_00080"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508072189_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508072189_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508072189_00040"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508073437_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508075127_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508075582_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508075865_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507075966_00060"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507075972_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507075973_00050"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507075993_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507075994_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076000_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076005_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076009_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076012_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076012_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076012_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076012_00040"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076020_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076021_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076023_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076032_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076034_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076038_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076039_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076048_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076050_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076057_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076057_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076061_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076062_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076065_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076067_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076067_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076067_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076067_00040"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076067_00050"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076068_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076068_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076073_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076093_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076099_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076102_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076103_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076122_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076122_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076122_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076127_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076127_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076129_00150"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076129_00220"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076129_00230"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076133_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076135_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076145_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076145_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076145_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076145_00040"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076145_00050"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076145_00070"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076145_00080"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4507076151_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076204_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076210_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076218_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076231_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076235_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076242_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076243_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076250_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076252_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076274_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076274_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076285_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076285_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076286_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076286_00040"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076288_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076289_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076296_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076299_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076316_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076318_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076321_00020"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076322_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076323_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076324_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076325_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076332_00010"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076335_00030"
+    },
+    {
+      "target": "required_p2_a3",
+      "case_id": "4508076335_00040"
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "case_id": "4507002186_00010"
+    }
+  ],
+  "exact_pair_set_matches_independent_selection": true
+}

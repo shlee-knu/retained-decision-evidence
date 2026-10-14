@@ -1,0 +1,126 @@
+{
+  "scope": "GS1 source terms. Preserve unchanged downloads locally, exclude originals from redistributable research package; code and newly authored synthetic states have separate repository license.",
+  "resources": [
+    {
+      "file": "2.0.0_epcis-json-schema.json",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-json-schema.json",
+      "sha256": "cfabd8620cc4dd67a53e6aa397bc26379f8b05bb9147c8a37a60bbec69a62572",
+      "bytes": 55680,
+      "kind": "normative_artefact",
+      "path": "data/external/epcis_extension/originals/2.0.0_epcis-json-schema.json",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:13.173810+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "2.0.0_epcis-shacl.ttl",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-shacl.ttl",
+      "sha256": "7db2547a7a55e7d6e6f19c0ad472d1f0987ef19f3d04a43b195bca55c0cc7f42",
+      "bytes": 36297,
+      "kind": "normative_artefact",
+      "path": "data/external/epcis_extension/originals/2.0.0_epcis-shacl.ttl",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:12.771634+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "2.0.0_epcis-context.jsonld",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
+      "sha256": "e532647e8eb371379b8b0e8602d8981c8566bc60f7351f22c76a5bc865962008",
+      "bytes": 20686,
+      "kind": "normative_artefact",
+      "path": "data/external/epcis_extension/originals/2.0.0_epcis-context.jsonld",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:12.934072+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "2.0.1_epcis-json-schema.json",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.1/epcis-json-schema.json",
+      "sha256": "0f46ff694efffd8d8ce840a33dfde84228add11b516b8b258f3200740ae210af",
+      "bytes": 55680,
+      "kind": "normative_artefact",
+      "path": "data/external/epcis_extension/originals/2.0.1_epcis-json-schema.json",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:12.982474+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "2.0.1_epcis-shacl.ttl",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.1/epcis-shacl.ttl",
+      "sha256": "7db2547a7a55e7d6e6f19c0ad472d1f0987ef19f3d04a43b195bca55c0cc7f42",
+      "bytes": 36297,
+      "kind": "normative_artefact",
+      "path": "data/external/epcis_extension/originals/2.0.1_epcis-shacl.ttl",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:14.217143+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "2.0.1_epcis-context.jsonld",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.1/epcis-context.jsonld",
+      "sha256": "5056c65f991425b1d3a35e35edf4f7d0c7ff56cf688c2912b930f93494713737",
+      "bytes": 20690,
+      "kind": "normative_artefact",
+      "path": "data/external/epcis_extension/originals/2.0.1_epcis-context.jsonld",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:14.229803+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "object_example.jsonld",
+      "url": "https://ref.gs1.org/docs/epcis/2.0.1/examples/example_9.6.1-object_event.jsonld",
+      "sha256": "c3e786237ba16e02c6a7696edbfe4a5468e3a9f67d3baff90e27a48356be2d7f",
+      "bytes": 1721,
+      "kind": "non_normative_example",
+      "path": "data/external/epcis_extension/originals/object_example.jsonld",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:13.910552+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "aggregation_example.jsonld",
+      "url": "https://ref.gs1.org/docs/epcis/2.0.1/examples/example_9.6.3-aggregation_event.jsonld",
+      "sha256": "f8e3bbc4a4fcbfdbec53b67199f5c628300d816dc836050487df3152048cf813",
+      "bytes": 1172,
+      "kind": "non_normative_example",
+      "path": "data/external/epcis_extension/originals/aggregation_example.jsonld",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:14.103781+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "transformation_example.jsonld",
+      "url": "https://ref.gs1.org/docs/epcis/2.0.1/examples/example_9.6.4-transformation_event.jsonld",
+      "sha256": "95360fc462d03f2f021a1fee75c2fb3f8369657be0bb5132af777abfe4e26652",
+      "bytes": 1399,
+      "kind": "non_normative_example",
+      "path": "data/external/epcis_extension/originals/transformation_example.jsonld",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:14.842912+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "epcis_2.0.1.pdf",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.1/",
+      "sha256": "6c9b2b51b41cd2cf169f6723001cac56a31c574e9c79ec8d4d52d2bf505f8eaa",
+      "bytes": 4827202,
+      "kind": "normative_prose",
+      "path": "data/external/epcis_extension/originals/epcis_2.0.1.pdf",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:17.147972+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    },
+    {
+      "file": "cbv_2.0.0.pdf",
+      "url": "https://ref.gs1.org/standards/cbv/2.0.0/",
+      "sha256": "e7003e4ef71096e91cd366775f5efb2158fc72c3229d5d513b41d7499229586e",
+      "bytes": 1322587,
+      "kind": "normative_prose",
+      "path": "data/external/epcis_extension/originals/cbv_2.0.0.pdf",
+      "downloaded_this_run": true,
+      "verified_utc": "2026-10-08T05:37:16.830878+00:00",
+      "source_terms": "GS1 terms; original source excluded from redistribution"
+    }
+  ]
+}

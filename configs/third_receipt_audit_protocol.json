@@ -1,0 +1,17 @@
+{
+  "local_freeze_before_full_execution": true,
+  "date": "2026-10-08",
+  "known_prior_evidence": "All earlier catalog/domain/native receipt results and13receipt fixtures were inspected. Static class counts were obtained from pinned existing arrays before this new execution. This is complementary verification, not independent prospective data.",
+  "old_catalog": "examples/baseline_catalog.json",
+  "targets": {"identity":"examples/baseline_catalog.json", "strict":"examples/strict_consignment_catalog.json", "equivalent":"examples/second_equivalent_catalog.json", "label_flip":"examples/second_label_flip_catalog.json"},
+  "domains": ["cartesian:v1", "chronological:v1", "consignment_exclusion:v1", "both:v1"],
+  "universe": "All8612first-occurrence/profile/clockweakorderclasses, independently enumerated from the declared alphabet. Canonical finite timestamps represent order classes, not arbitrary lexical strings.",
+  "classification_scope": "Every distinct OLD valid sufficient partial observation class for baseline under eachold domain, against allfourtargets and allfournewdomains",
+  "expected_old_observation_counts": {"cartesian:v1":10436, "chronological:v1":1764, "consignment_exclusion:v1":8793, "both:v1":1505},
+  "expected_total_classification_checks":359968,
+  "recovery_scope": "Alladmissible actual completions for baseline-to-strict Cartesian and eachof five same-baseline strictguaranteewithdrawal pairs. Old receipt must conditionally certify itsold verdict; newactual input must be innewdomain. Completion may violatewithdrawnoldguarantee, which isreported.",
+  "oracle": "Independent raw rule evaluation and domain filtering; separate grouped fibers. Never candidate fiber_summary, labels, universe, or completiondomain helper toderive expected results.",
+  "negative_controls": ["opposite recordedverdict for otherwisevalidreceipt", "ambiguousoldobservation", "emptyoldfiber", "alteredsnapshot/catalogbinding", "malformedobservedclock"],
+  "witnesses": "Concrete witnesses for deterministic representatives of everyobserved status/target/domaincombination; preservevisible literal values andfull repeatedactivitysequence",
+  "excluded_claims": ["No arbitrarystring/parserexhaustiveness", "No newnaturalerrortruth", "No productionmigration/cacheadoptionclaim", "No runtimeperformanceclaim", "No allcataloglanguagecompleteness beyondfourchosentargets"]
+}

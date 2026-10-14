@@ -1,0 +1,220 @@
+{
+  "timing": {
+    "name": "procurement_label_change",
+    "suite": "native",
+    "method": "finite_fibers",
+    "workload": "weighted",
+    "input_loading": {
+      "cpu_ns": 230074082,
+      "wall_ns": 230103122
+    },
+    "input_normalization": {
+      "cpu_ns": 979331869,
+      "wall_ns": 979490480
+    },
+    "setup": {
+      "cpu_ns": 41804810,
+      "wall_ns": 41815103
+    },
+    "dependency_import": {
+      "cpu_ns": 0,
+      "wall_ns": 0
+    },
+    "core_setup": {
+      "cpu_ns": 41804810,
+      "wall_ns": 41815103
+    },
+    "core_batch": {
+      "cpu_ns": 341557906,
+      "wall_ns": 341641917
+    },
+    "first_report": {
+      "cpu_ns": 61116,
+      "wall_ns": 61110
+    },
+    "setup_plus_first": {
+      "cpu_ns": 41865926,
+      "wall_ns": 41876213
+    },
+    "core_setup_plus_first": {
+      "cpu_ns": 41865926,
+      "wall_ns": 41876213
+    },
+    "batch": {
+      "cpu_ns": 341557906,
+      "wall_ns": 341641917
+    },
+    "serialization": {
+      "cpu_ns": 196527104,
+      "wall_ns": 196963594
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 433514577,
+      "wall_ns": 433604042
+    },
+    "checks": 104,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 50931,
+    "diagnosed_classes": 20,
+    "status_counts": {
+      "safe": 48374,
+      "stale_verdict": 2557
+    },
+    "output_bytes": 18663759,
+    "output_sha256": "aa66b7020c6f78dd9ec6cb72053293d3fae5d874e48c2b4bdb593a4fa1dcfd12",
+    "process_peak_rss_kib": {
+      "before_setup": 149088,
+      "after_setup": 152544,
+      "after_first_report": 152544,
+      "after_batch": 152544
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "0": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "1": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "2": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "3": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "4": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "5": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "6": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "9": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "10": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "11": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "12": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "13": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "14": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "15": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "16": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "17": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "18": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "19": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

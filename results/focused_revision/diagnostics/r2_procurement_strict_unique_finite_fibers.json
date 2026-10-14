@@ -1,0 +1,264 @@
+{
+  "timing": {
+    "name": "procurement_strict",
+    "method": "finite_fibers",
+    "workload": "unique",
+    "setup": {
+      "cpu_ns": 41937056,
+      "wall_ns": 41938769
+    },
+    "dependency_import": {
+      "cpu_ns": 0,
+      "wall_ns": 0
+    },
+    "core_setup": {
+      "cpu_ns": 41937056,
+      "wall_ns": 41938769
+    },
+    "core_batch": {
+      "cpu_ns": 42356724,
+      "wall_ns": 42356892
+    },
+    "first_report": {
+      "cpu_ns": 104000,
+      "wall_ns": 103956
+    },
+    "setup_plus_first": {
+      "cpu_ns": 42041056,
+      "wall_ns": 42042725
+    },
+    "batch": {
+      "cpu_ns": 42356724,
+      "wall_ns": 42356892
+    },
+    "serialization": {
+      "cpu_ns": 154106,
+      "wall_ns": 154235
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 189750230,
+      "wall_ns": 189796801
+    },
+    "checks": 137,
+    "lifted_witness_checks": 18,
+    "failures": 0,
+    "requests": 20,
+    "diagnosed_classes": 20,
+    "status_counts": {
+      "insufficient": 3,
+      "safe": 17
+    },
+    "output_bytes": 8480,
+    "output_sha256": "eeb96c1c331c37715b5311555099333d6e64eb3e97ea7e37c467229ca4e1e495",
+    "process_peak_rss_kib": {
+      "before_setup": 33872,
+      "after_setup": 36092,
+      "after_first_report": 36092,
+      "after_batch": 36092
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "0": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          3,
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "1": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "2": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "3": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "4": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "5": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "6": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          3,
+          [
+            0,
+            0,
+            1,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            0,
+            1,
+            2
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "9": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "10": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "11": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "12": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "13": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "14": {
+      "status": "insufficient",
+      "witnesses": [
+        [
+          3,
+          [
+            0,
+            1,
+            1,
+            2
+          ]
+        ],
+        [
+          0,
+          [
+            0,
+            1,
+            1,
+            2
+          ]
+        ]
+      ],
+      "robust_masks": [
+        1
+      ]
+    },
+    "15": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "16": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "17": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "18": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "19": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

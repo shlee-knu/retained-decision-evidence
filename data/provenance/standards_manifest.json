@@ -1,0 +1,29 @@
+[
+  {
+    "path": "data/standards/epcis-json-schema.json",
+    "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-json-schema.json",
+    "size": 55680,
+    "sha256": "cfabd8620cc4dd67a53e6aa397bc26379f8b05bb9147c8a37a60bbec69a62572",
+    "upstream_sha256": "cfabd8620cc4dd67a53e6aa397bc26379f8b05bb9147c8a37a60bbec69a62572",
+    "license": "GS1 source terms; resources excluded from repository release",
+    "acquired_utc": "2026-10-06T18:26:59.491249+00:00"
+  },
+  {
+    "path": "data/standards/epcis-shacl.ttl",
+    "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-shacl.ttl",
+    "size": 36297,
+    "sha256": "7db2547a7a55e7d6e6f19c0ad472d1f0987ef19f3d04a43b195bca55c0cc7f42",
+    "upstream_sha256": "7db2547a7a55e7d6e6f19c0ad472d1f0987ef19f3d04a43b195bca55c0cc7f42",
+    "license": "GS1 source terms; resources excluded from repository release",
+    "acquired_utc": "2026-10-06T18:26:59.491332+00:00"
+  },
+  {
+    "path": "data/standards/epcis-context.jsonld",
+    "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
+    "size": 20686,
+    "sha256": "e532647e8eb371379b8b0e8602d8981c8566bc60f7351f22c76a5bc865962008",
+    "upstream_sha256": "e532647e8eb371379b8b0e8602d8981c8566bc60f7351f22c76a5bc865962008",
+    "license": "GS1 source terms; resources excluded from repository release",
+    "acquired_utc": "2026-10-06T18:26:59.491383+00:00"
+  }
+]

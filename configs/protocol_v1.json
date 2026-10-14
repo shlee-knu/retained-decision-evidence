@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "status": "local protocol frozen before evaluation; not externally preregistered",
+  "created": "2026-10-07",
+  "datasets": ["LaDe delivery five cities", "BPI Challenge 2019 if source or trace-preserving mirror available"],
+  "lade_revision": "be2cec02775cafc8d52230303f32134382bcc50b",
+  "qualified_sample_per_city": 1500,
+  "bpi_sample_target": 2000,
+  "seeds": [17, 29, 43, 71, 101],
+  "fault_prevalence": [0.05, 0.2, 0.5],
+  "fault_types": ["missing_time", "malformed_uri", "duplicate_id", "dangling_reference", "missing_predecessor", "time_inversion"],
+  "unit": "case",
+  "controls": ["optional_readpoint_omitted", "vendor_vocabulary", "equal_timestamps", "non_gs1_uri", "permitted_repeated_activity", "invoice_before_receipt_when_permitted"],
+  "eligibility": "complete timestamps, source identity retained, profiles derivable; semantic-qualified slice for controlled mutation testing, all exclusions reported",
+  "baselines": ["official GS1 EPCIS 2.0 JSON Schema", "PM4Py profile-specific token replay plus same schema", "independently encoded SQLite rules plus same schema", "profile-aware indexed rules plus same schema"],
+  "primary_metrics": ["case precision", "case recall", "case F1", "control false positive rate", "per-fault recall", "paired decisions"],
+  "secondary_metrics": ["wall time including normalization/indexing", "rule-only time", "scaling"],
+  "uncertainty": "case-cluster bootstrap on a single frozen seed and prevalence, paired predictions; other seeds are sensitivity repetitions, not independent original datasets",
+  "bootstrap_repeats": 1000,
+  "scope": "controlled corruption of public log projections, not naturally annotated anomalies, causal operational gains, field deployment, or real drone validation",
+  "novelty_gate": "Do not claim a new conformance formalism or a first benchmark without further systematic search; same-rule SQL equivalence is a correctness check, not proof of superiority over state of the art."
+}

@@ -1,0 +1,326 @@
+{
+  "status": "passed",
+  "summary": {
+    "checked_api": {
+      "integrated_total": {
+        "wall_ms": {
+          "median": 84672.586647,
+          "min": 82404.706881,
+          "max": 91139.459856,
+          "rounds": 5
+        },
+        "cpu_ms": {
+          "median": 84604.29832,
+          "min": 82318.717947,
+          "max": 91032.908078,
+          "rounds": 5
+        },
+        "peak_rss_kib": {
+          "median": 918292,
+          "min": 917880,
+          "max": 918320,
+          "rounds": 5
+        }
+      },
+      "stages": {
+        "retained_store_read_validate_group": {
+          "wall_ms": {
+            "median": 1249.370287,
+            "min": 1158.963741,
+            "max": 1379.370282,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 1249.193022,
+            "min": 1158.77817,
+            "max": 1379.145694,
+            "rounds": 5
+          }
+        },
+        "snapshot_hash_read_index": {
+          "wall_ms": {
+            "median": 2069.20567,
+            "min": 1874.458917,
+            "max": 2261.108865,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 2068.91109,
+            "min": 1874.053843,
+            "max": 2260.80602,
+            "rounds": 5
+          }
+        },
+        "class_reports_and_exact_id_list": {
+          "wall_ms": {
+            "median": 42.939042,
+            "min": 41.41514,
+            "max": 46.267109,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 42.938439,
+            "min": 41.414375,
+            "max": 46.266413,
+            "rounds": 5
+          }
+        },
+        "checked_recovery_and_ledger_encoding": {
+          "wall_ms": {
+            "median": 78789.85345,
+            "min": 76819.257747,
+            "max": 84760.995856,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 78764.596514,
+            "min": 76771.65857,
+            "max": 84748.026088,
+            "rounds": 5
+          }
+        },
+        "artifact_serialization_and_fsync": {
+          "wall_ms": {
+            "median": 171.589551,
+            "min": 144.868657,
+            "max": 215.360763,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 107.694855,
+            "min": 107.546669,
+            "max": 110.858291,
+            "rounds": 5
+          }
+        },
+        "persisted_readback_semantic_verification": {
+          "wall_ms": {
+            "median": 2371.426489,
+            "min": 2354.633966,
+            "max": 2706.671875,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 2370.94821,
+            "min": 2344.092848,
+            "max": 2706.224669,
+            "rounds": 5
+          }
+        }
+      },
+      "verification": {
+        "status": "passed",
+        "reports": 20,
+        "affected_ids": 33489,
+        "receipts": 50931,
+        "counts": {
+          "replacements": 50931,
+          "profile_reads": 33489,
+          "first_times_reads": 0
+        },
+        "status_counts": {
+          "insufficient": 33489,
+          "safe": 17442
+        },
+        "independent_predicate_and_completion_check": true
+      },
+      "payload_files": {
+        "bundle.json": {
+          "sha256": "6a55ff09a7cf2892219790ed3368055f2b3a08970e776825618fddb9306aecbd",
+          "bytes": 66967
+        },
+        "affected_receipt_ids.jsonl.gz": {
+          "sha256": "8fc9839b48fabf28810f204de9cd46868c7475530cfbf7c3eaafb78a202f2a0c",
+          "bytes": 92732
+        },
+        "repair_ledger.jsonl.gz": {
+          "sha256": "5ae86e27460659b62d2528d655d5793c8ff383625baa41bd61f4f9f656c09047",
+          "bytes": 3477163
+        }
+      }
+    },
+    "ordinary_worklist": {
+      "integrated_total": {
+        "wall_ms": {
+          "median": 17014.776169,
+          "min": 16865.772852,
+          "max": 19399.410642,
+          "rounds": 5
+        },
+        "cpu_ms": {
+          "median": 16961.82206,
+          "min": 16811.02817,
+          "max": 19269.203342,
+          "rounds": 5
+        },
+        "peak_rss_kib": {
+          "median": 918348,
+          "min": 918264,
+          "max": 918564,
+          "rounds": 5
+        }
+      },
+      "stages": {
+        "retained_store_read_validate_group": {
+          "wall_ms": {
+            "median": 1194.327961,
+            "min": 1183.985942,
+            "max": 1274.453453,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 1194.050052,
+            "min": 1183.783653,
+            "max": 1274.262569,
+            "rounds": 5
+          }
+        },
+        "snapshot_hash_read_index": {
+          "wall_ms": {
+            "median": 1888.155651,
+            "min": 1879.943328,
+            "max": 2279.823727,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 1887.735479,
+            "min": 1879.498877,
+            "max": 2279.48529,
+            "rounds": 5
+          }
+        },
+        "class_reports_and_exact_id_list": {
+          "wall_ms": {
+            "median": 17.158227,
+            "min": 16.705452,
+            "max": 19.803647,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 17.159128,
+            "min": 16.706446,
+            "max": 19.796097,
+            "rounds": 5
+          }
+        },
+        "checked_recovery_and_ledger_encoding": {
+          "wall_ms": {
+            "median": 11415.128512,
+            "min": 11283.759474,
+            "max": 12400.882762,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 11412.772473,
+            "min": 11281.397312,
+            "max": 12399.198415,
+            "rounds": 5
+          }
+        },
+        "artifact_serialization_and_fsync": {
+          "wall_ms": {
+            "median": 185.971699,
+            "min": 146.845134,
+            "max": 236.995964,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 108.445483,
+            "min": 104.997484,
+            "max": 119.242041,
+            "rounds": 5
+          }
+        },
+        "persisted_readback_semantic_verification": {
+          "wall_ms": {
+            "median": 2355.28423,
+            "min": 2325.38747,
+            "max": 3187.367953,
+            "rounds": 5
+          },
+          "cpu_ms": {
+            "median": 2354.814611,
+            "min": 2324.922756,
+            "max": 3186.896619,
+            "rounds": 5
+          }
+        }
+      },
+      "verification": {
+        "status": "passed",
+        "reports": 20,
+        "affected_ids": 33489,
+        "receipts": 50931,
+        "counts": {
+          "replacements": 50931,
+          "profile_reads": 33489,
+          "first_times_reads": 0
+        },
+        "status_counts": {
+          "insufficient": 33489,
+          "safe": 17442
+        },
+        "independent_predicate_and_completion_check": true
+      },
+      "payload_files": {
+        "bundle.json": {
+          "sha256": "6a55ff09a7cf2892219790ed3368055f2b3a08970e776825618fddb9306aecbd",
+          "bytes": 66967
+        },
+        "affected_receipt_ids.jsonl.gz": {
+          "sha256": "8fc9839b48fabf28810f204de9cd46868c7475530cfbf7c3eaafb78a202f2a0c",
+          "bytes": 92732
+        },
+        "repair_ledger.jsonl.gz": {
+          "sha256": "5ae86e27460659b62d2528d655d5793c8ff383625baa41bd61f4f9f656c09047",
+          "bytes": 3477163
+        }
+      }
+    },
+    "equivalence": {
+      "all_runs_independent_readback_passed": true,
+      "replacement_stream_sha256": "13058955000c4b0ae3e5cd836ddc0669ade6a7af4d923ea163b1a6eec9ecd12f",
+      "affected_ids_sha256": "8fc9839b48fabf28810f204de9cd46868c7475530cfbf7c3eaafb78a202f2a0c",
+      "witness_contract": "same valid labels/complete minimal robust sets, independently verified; literal witness choices need not be byte identical"
+    }
+  },
+  "protocol_sha256": "fbd46c99d3226420524cff18d08d19de29aeda8a71d29ad8e519f5a3fc5f4af6",
+  "measured_rows": 10,
+  "environment": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+    "pid": 580514,
+    "affinity": [
+      0
+    ],
+    "hash_seed": "0",
+    "cpu_model": "12th Gen Intel(R) Core(TM) i9-12900K"
+  },
+  "paired_differences": [
+    {
+      "round": 1,
+      "checked_api_minus_ordinary_ms": 71456.063001,
+      "checked_api_divided_by_ordinary": 4.683414116009103
+    },
+    {
+      "round": 2,
+      "checked_api_minus_ordinary_ms": 72926.012979,
+      "checked_api_divided_by_ordinary": 5.0039655026029815
+    },
+    {
+      "round": 3,
+      "checked_api_minus_ordinary_ms": 67657.810478,
+      "checked_api_divided_by_ordinary": 4.9764149587385615
+    },
+    {
+      "round": 4,
+      "checked_api_minus_ordinary_ms": 65937.168095,
+      "checked_api_divided_by_ordinary": 4.899387401071094
+    },
+    {
+      "round": 5,
+      "checked_api_minus_ordinary_ms": 65538.93402900001,
+      "checked_api_divided_by_ordinary": 4.8859134772011465
+    }
+  ]
+}

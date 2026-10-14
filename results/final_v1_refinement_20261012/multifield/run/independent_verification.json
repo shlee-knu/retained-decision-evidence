@@ -1,0 +1,272 @@
+{
+  "status": "passed",
+  "source_rows_scanned": 251734,
+  "retained_receipts_scanned": 50931,
+  "target_receipt_pairs_checked": 203724,
+  "methods": {
+    "checked_api": {
+      "verified_reports": 80,
+      "verified_replays": 342,
+      "selected_pairs": 114
+    },
+    "ordinary_worklist": {
+      "verified_reports": 80,
+      "verified_replays": 342,
+      "selected_pairs": 114
+    }
+  },
+  "summary": {
+    "retained_receipts": 50931,
+    "classes_per_target": 20,
+    "target_class_reports": 80,
+    "selected_case_target_pairs": 114,
+    "distinct_source_ids": 114,
+    "selected_per_target": {
+      "edge_p0_a0_b1": 0,
+      "required_p2_a3": 113,
+      "edge_p2_a0_b2": 0,
+      "edge_p2_a2_b3": 1
+    },
+    "scenarios": {
+      "all_authorized": {
+        "episodes": 114,
+        "actions": {
+          "replaced": 114
+        },
+        "reasons": {
+          "acquired_sufficient_evidence": 114
+        },
+        "attempted_reads": {
+          "profile": 114,
+          "first_times": 85
+        },
+        "successful_reads": {
+          "profile": 114,
+          "first_times": 85
+        },
+        "verified_replacements": 114
+      },
+      "times_unavailable": {
+        "episodes": 114,
+        "actions": {
+          "replaced": 29,
+          "unresolved": 85
+        },
+        "reasons": {
+          "acquired_sufficient_evidence": 29,
+          "source_unavailable": 85
+        },
+        "attempted_reads": {
+          "profile": 114
+        },
+        "successful_reads": {
+          "profile": 114
+        },
+        "verified_replacements": 29
+      },
+      "times_wrong_request": {
+        "episodes": 114,
+        "actions": {
+          "replaced": 29,
+          "unresolved": 85
+        },
+        "reasons": {
+          "acquired_sufficient_evidence": 29,
+          "read_request_mismatch": 85
+        },
+        "attempted_reads": {
+          "profile": 114,
+          "first_times": 85
+        },
+        "successful_reads": {
+          "profile": 114
+        },
+        "verified_replacements": 29
+      }
+    },
+    "per_target_scenarios": {
+      "edge_p0_a0_b1": {
+        "all_authorized": {
+          "episodes": 0,
+          "actions": {},
+          "reasons": {},
+          "attempted_reads": {},
+          "successful_reads": {},
+          "verified_replacements": 0
+        },
+        "times_unavailable": {
+          "episodes": 0,
+          "actions": {},
+          "reasons": {},
+          "attempted_reads": {},
+          "successful_reads": {},
+          "verified_replacements": 0
+        },
+        "times_wrong_request": {
+          "episodes": 0,
+          "actions": {},
+          "reasons": {},
+          "attempted_reads": {},
+          "successful_reads": {},
+          "verified_replacements": 0
+        }
+      },
+      "required_p2_a3": {
+        "all_authorized": {
+          "episodes": 113,
+          "actions": {
+            "replaced": 113
+          },
+          "reasons": {
+            "acquired_sufficient_evidence": 113
+          },
+          "attempted_reads": {
+            "profile": 113,
+            "first_times": 85
+          },
+          "successful_reads": {
+            "profile": 113,
+            "first_times": 85
+          },
+          "verified_replacements": 113
+        },
+        "times_unavailable": {
+          "episodes": 113,
+          "actions": {
+            "replaced": 28,
+            "unresolved": 85
+          },
+          "reasons": {
+            "acquired_sufficient_evidence": 28,
+            "source_unavailable": 85
+          },
+          "attempted_reads": {
+            "profile": 113
+          },
+          "successful_reads": {
+            "profile": 113
+          },
+          "verified_replacements": 28
+        },
+        "times_wrong_request": {
+          "episodes": 113,
+          "actions": {
+            "replaced": 28,
+            "unresolved": 85
+          },
+          "reasons": {
+            "acquired_sufficient_evidence": 28,
+            "read_request_mismatch": 85
+          },
+          "attempted_reads": {
+            "profile": 113,
+            "first_times": 85
+          },
+          "successful_reads": {
+            "profile": 113
+          },
+          "verified_replacements": 28
+        }
+      },
+      "edge_p2_a0_b2": {
+        "all_authorized": {
+          "episodes": 0,
+          "actions": {},
+          "reasons": {},
+          "attempted_reads": {},
+          "successful_reads": {},
+          "verified_replacements": 0
+        },
+        "times_unavailable": {
+          "episodes": 0,
+          "actions": {},
+          "reasons": {},
+          "attempted_reads": {},
+          "successful_reads": {},
+          "verified_replacements": 0
+        },
+        "times_wrong_request": {
+          "episodes": 0,
+          "actions": {},
+          "reasons": {},
+          "attempted_reads": {},
+          "successful_reads": {},
+          "verified_replacements": 0
+        }
+      },
+      "edge_p2_a2_b3": {
+        "all_authorized": {
+          "episodes": 1,
+          "actions": {
+            "replaced": 1
+          },
+          "reasons": {
+            "acquired_sufficient_evidence": 1
+          },
+          "attempted_reads": {
+            "profile": 1
+          },
+          "successful_reads": {
+            "profile": 1
+          },
+          "verified_replacements": 1
+        },
+        "times_unavailable": {
+          "episodes": 1,
+          "actions": {
+            "replaced": 1
+          },
+          "reasons": {
+            "acquired_sufficient_evidence": 1
+          },
+          "attempted_reads": {
+            "profile": 1
+          },
+          "successful_reads": {
+            "profile": 1
+          },
+          "verified_replacements": 1
+        },
+        "times_wrong_request": {
+          "episodes": 1,
+          "actions": {
+            "replaced": 1
+          },
+          "reasons": {
+            "acquired_sufficient_evidence": 1
+          },
+          "attempted_reads": {
+            "profile": 1
+          },
+          "successful_reads": {
+            "profile": 1
+          },
+          "verified_replacements": 1
+        }
+      }
+    }
+  },
+  "payload_byte_equality": {
+    "class_reports.json": true,
+    "repair_ledger.jsonl.gz": true,
+    "selected_ids.json": true,
+    "summary.json": true
+  },
+  "total_replay_rows": 684,
+  "files_sha256": {
+    "checked_api/class_reports.json": "d7633e444bf8ffb46b6ac8363bf83b6535f08786db901bfd3a3f123f5af5bd05",
+    "checked_api/manifest.json": "ad2908ce9a79b5c8745abc04e7299f29e4fce18f44657537ea8b707ea5903bfe",
+    "checked_api/repair_ledger.jsonl.gz": "9294925690cb9dd984e49595124806a56b0daaed917908b9204b8c0f5234b6e8",
+    "checked_api/selected_ids.json": "fd53ddc516ac593ebaa1069b7bf8b02233086b604532cdaba079e7bcadf60390",
+    "checked_api/summary.json": "08367bb519abc5731c1d0e55e423d4a0088bac273fcce21bddc0b5c2b353497d",
+    "ordinary_worklist/class_reports.json": "d7633e444bf8ffb46b6ac8363bf83b6535f08786db901bfd3a3f123f5af5bd05",
+    "ordinary_worklist/manifest.json": "ad2908ce9a79b5c8745abc04e7299f29e4fce18f44657537ea8b707ea5903bfe",
+    "ordinary_worklist/repair_ledger.jsonl.gz": "9294925690cb9dd984e49595124806a56b0daaed917908b9204b8c0f5234b6e8",
+    "ordinary_worklist/selected_ids.json": "fd53ddc516ac593ebaa1069b7bf8b02233086b604532cdaba079e7bcadf60390",
+    "ordinary_worklist/summary.json": "08367bb519abc5731c1d0e55e423d4a0088bac273fcce21bddc0b5c2b353497d"
+  },
+  "execution_freeze_sha256": "0ab4c64db6cc5b9efdd9f83a68613a215aa8f4eec8a64cfd29ca6e0e12095e3a",
+  "checker_sha256": "dbeaba265dd15045c4045c0587601de018bedd45acaf7a6fbc91453fc62d929d",
+  "independent_predicate_checker_sha256": "ee341dbf021ea441ea77b28c5c4cb5f2539775e4942548613d8e6a9fdf73170e",
+  "scope": "Three declared local conditions, existing selected native cases and finite Cartesian P/T domain. New implementation coverage, not independent field data, all-failure equivalence, latency evidence, authentication or authorization validation."
+}

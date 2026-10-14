@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "frozen_before_timing": true,
+  "date": "2026-10-09",
+  "question": "Equal-output finite fibers, incremental SMT, and direct residual diagnosis on native and complete-domain challenge observations",
+  "methods": ["finite_fibers", "incremental_smt", "direct_residual"],
+  "dependency": "z3-solver==4.15.4.0",
+  "existing_inputs": "results/focused_revision/diagnostic_inputs",
+  "saved_tables": "results/strong/catalog_audit/finite_tables.json.gz",
+  "challenge_targets": ["edge_p0_a0_b1", "required_p2_a3", "edge_p2_a0_b2", "edge_p2_a2_b3"],
+  "selection": {
+    "all_insufficient": true,
+    "controls_per_status": 16,
+    "control_statuses": ["safe", "stale_verdict"],
+    "control_order": "ascending SHA256 of canonical JSON normalized query, then class ID",
+    "query_order": "ascending class ID in saved table mask-first observation census",
+    "rationale": "The four weakening targets were selected in the prior perspective review because all 16 two-block robust classes occur there. All insufficient classes and fixed status controls are included before any new timing. This is discovery-followup challenge selection, not a representative edit distribution."
+  },
+  "coverage": {
+    "saved_table_census": "All 80 single edits by all 10,436 old-valid procurement observation classes, 834,880 target-class rows; record safe/stale/insufficient and complete robust family.",
+    "independent_raw_census": "Recompute all 8,612 old and each target truth labels using independent raw predicates and every observation classification/robust family; no saved labels supplied to this calculation.",
+    "three_engine_crosscheck": "All 2,535 insufficient target-class rows across 80 edits plus up to 16 safe and 16 stale controls for every edit, chosen by the frozen hash rule. This is a subset, not all 834,880 engine executions."
+  },
+  "workloads": {
+    "native_unique": "Existing seven models, all 20 procurement or 805/535/2085 EPCIS old-valid query classes; no result-cache reuse.",
+    "native_weighted": "Existing 50,931 original procurement receipts per target, or 324/216/648 authored EPCIS state occurrences. Semantic class reports may be cached identically; literal reports are lifted and serialized on every occurrence.",
+    "challenge_unique": "Four existing weakening targets: every insufficient old-valid observation and up to 16 safe plus 16 stale hash-selected controls. Unique classes only; full 10,436-class census is reported separately. These frequencies are not empirical."
+  },
+  "output_contract": "Same strict common query validation, semantic old-receipt sufficiency/verdict check, status, opposed new witnesses, complete minimal robust additional sets, per-request literal lifting, and canonical JSON serialization. Old verdict never constrains the new completion domain. Witnesses need not be byte-identical but all are checked independently.",
+  "timing": {
+    "warmup_rounds": 1,
+    "measured_rounds": 5,
+    "order": "Rotate the 18 model/workload cells each round and cyclically rotate the three methods by round and cell position, sequential fresh child jobs.",
+    "process": "One fresh child per method/cell/round; pin to minimum available CPU; process_time_ns and perf_counter_ns.",
+    "input_loading": "Prepared JSON, catalog and raw receipt file reading outside generation timer, measured separately.",
+    "input_normalization": "Outside generation timer, reconstruct every procurement native request using receipt_key, validate and check its prepared class, or strictly validate prepared finite-domain queries. Record separately; parsing, external acquisition and durable writes are not production latency.",
+    "setup": "Engine construction included. Additional cold z3 import separately measured and included; core subtracts only this import.",
+    "first_report": "First request including diagnosis, per-request literal witness lifting and serialization; setup-inclusive and exclusive times recorded.",
+    "batch": "Setup plus requests, strict shared query validation for each diagnosed class, same semantic cache policy, per-request literal lifting and canonical serialization. Input preparation and durable writes excluded.",
+    "validation": "Independent exhaustive raw oracle after batch; all unique emitted diagnostic reports verified and native literal witnesses rechecked per request; timed digest replayed. This optional research oracle is measured separately.",
+    "statistics": "Five actual measured rows per cell/method; medians, per-round paired differences, and generation-plus-oracle sums formed within each round before median. No population inference or retrospective exclusion.",
+    "memory": "Absolute process ru_maxrss in KiB before setup/after setup/after first/after batch, before research oracle. Not engine-only allocation."
+  },
+  "freeze": "Prepare captures protocol, source and input hashes before timing; run accepts only matching frozen files and a fresh output directory. Any correction requires a fresh run, retaining prior evidence.",
+  "limits": "Complete finite Cartesian supported domain; profile and whole rank vector are blocks. Challenge is bounded to two unread blocks. No production throughput, typical rule-change frequency, optimal adaptive acquisition or multiple robust alternatives claim."
+}

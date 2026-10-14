@@ -1,0 +1,1789 @@
+{
+  "name": "procurement_edge_p0_a0_b1",
+  "generated_target": "edge_p0_a0_b1",
+  "target": null,
+  "suite": "challenge",
+  "workloads": [
+    "unique"
+  ],
+  "queries": [
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 0,
+      "observed": [],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 0,
+      "observed": [],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 1,
+      "observed": [
+        0
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 1,
+      "observed": [
+        0
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 1,
+      "observed": [
+        0
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        3,
+        2,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          0,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          2,
+          0,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          2,
+          0,
+          1,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          2,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          2,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          2,
+          1,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          2,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          2,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          1,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          2,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          2,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          1,
+          2,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          2,
+          2,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          2,
+          0,
+          1,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          3,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          3,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          3,
+          1,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          2,
+          0,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          2,
+          3,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          1,
+          2,
+          3,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          3,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        3,
+        2
+      ],
+      "mask": 3,
+      "observed": [
+        2,
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "mask": 3,
+      "observed": [
+        3,
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "mask": 3,
+      "observed": [
+        2,
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "mask": 3,
+      "observed": [
+        1,
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          2,
+          0,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          2,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          1,
+          0,
+          2,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          1,
+          1,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "mask": 3,
+      "observed": [
+        3,
+        [
+          1,
+          0,
+          2,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        1,
+        [
+          1,
+          2,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        3,
+        [
+          1,
+          2,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          1,
+          2,
+          0,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          2,
+          1,
+          0,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          1,
+          0,
+          2,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          2,
+          0,
+          1,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          2,
+          3,
+          1
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          3,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": false
+    },
+    {
+      "base": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          2,
+          3,
+          1
+        ]
+      ],
+      "old_verdict": false
+    }
+  ],
+  "full_domain_class_ids": [
+    34,
+    35,
+    212,
+    219,
+    223,
+    283,
+    569,
+    578,
+    579,
+    591,
+    592,
+    613,
+    614,
+    634,
+    635,
+    636,
+    638,
+    640,
+    646,
+    648,
+    649,
+    650,
+    653,
+    654,
+    661,
+    801,
+    804,
+    806,
+    807,
+    886,
+    889,
+    891,
+    892,
+    948,
+    949,
+    950,
+    951,
+    953,
+    954,
+    958,
+    965,
+    969,
+    984,
+    985,
+    987,
+    988,
+    989,
+    990,
+    995,
+    1002,
+    1007,
+    1400,
+    1404,
+    1469,
+    1471,
+    1508,
+    1512,
+    1513,
+    1514,
+    1520,
+    1536,
+    1537,
+    1539,
+    1545,
+    1682,
+    2930,
+    3272,
+    3692,
+    3780,
+    3951,
+    4202,
+    4365,
+    4772,
+    5540,
+    5552,
+    5580,
+    5604,
+    5848,
+    5852,
+    5896,
+    5972,
+    5992,
+    6323,
+    6777,
+    6779,
+    7204,
+    7536,
+    8156,
+    8180,
+    8716,
+    9584,
+    9684,
+    9968
+  ],
+  "weights_are_empirical": false,
+  "full_domain_classes": 10436,
+  "selection": {
+    "all_insufficient": true,
+    "controls_per_status": 16,
+    "control_statuses": [
+      "safe",
+      "stale_verdict"
+    ],
+    "control_order": "ascending SHA256 of canonical JSON normalized query, then class ID",
+    "query_order": "ascending class ID in saved table mask-first observation census",
+    "rationale": "The four weakening targets were selected in the prior perspective review because all 16 two-block robust classes occur there. All insufficient classes and fixed status controls are included before any new timing. This is discovery-followup challenge selection, not a representative edit distribution."
+  },
+  "selected_status_counts": {
+    "insufficient": 61,
+    "safe": 16,
+    "stale_verdict": 16
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "label": "after",
+  "tests_run": 1,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "selected_upstream_test": "test_purchase_return_against_closed_purchase_order",
+  "trace_events": 276
+}

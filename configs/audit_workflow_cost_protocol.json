@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "purpose": "Complete local maintenance transaction over the full existing strict-change cohort; no new prevalence or speedup claim.",
+  "receipt_source": "results/second/receipt_revalidation/native_receipts.jsonl.gz",
+  "snapshot_source": "results/v03/bpi_compact.jsonl.gz",
+  "old_catalog": "examples/baseline_catalog.json",
+  "target_catalog": "examples/strict_consignment_catalog.json",
+  "independent_checker": "results/repair_revision_20261010/methods/check_repair_methods.py",
+  "excluded_warmup_processes": 1,
+  "measured_processes": 5,
+  "cpu_affinity": 0,
+  "selection": "All 50,931 receipts in source order, no sampling; classes rebuilt from actual receipts with no saved diagnostics or ID mapping. All 20 normalized observation classes receive one literal representative report. Every receipt receives a checked replacement.",
+  "expected": {
+    "receipts": 50931,
+    "observation_classes": 20,
+    "affected_ids": 33489,
+    "status_counts": {
+      "safe": 17442,
+      "insufficient": 33489
+    },
+    "counts": {
+      "replacements": 50931,
+      "profile_reads": 33489,
+      "first_times_reads": 0
+    }
+  },
+  "ordering": "One integrated service, fixed dependency order. Warmup then five fresh child processes; no comparison requiring rotating method order. No outcome-dependent timing exclusions.",
+  "measurement_boundaries": {
+    "included": "Retained archive hashing/read/parsing, schema/binding validation and class grouping; full source hash/read/index; representative admission/diagnosis, literal witnesses and robust obligations; full exact-ID construction; unchanged checked per-receipt P-first repair API; gzip ledger encoding; artifact JSON/gzip serialization; file flush/fsync and directory fsync; reopened-file checksums, portable report verification, independent ID/response/replacement semantic verification.",
+    "source_setup": "Hashes and indexes all 251,734 public-derived source cases inside the integrated timer. Subsequent 33,489 profile acquisitions are logical reads from this memory index, not physical source I/O reductions. Caller-supplied local public-source capabilities authorize P/T.",
+    "shared_classes": "20 representative reports cover normalized observation classes, with exact case-to-class mapping independently rebuilt. Reports preserve exemplar literals; this is not 50,931 separately serialized witness reports.",
+    "persistence": "Creates new output files, flushes and fsyncs each, then fsyncs the output directory and its parent. Immediately reopens and verifies persisted bytes. OS page caches are not flushed; no cold-cache latency, actual storage power-loss durability, network or authentication measurement.",
+    "clock": "perf_counter_ns wall and process_time_ns CPU for each nonoverlapping phase and actual integrated total. Phase medians need not sum to median total. Python imports, protocol parsing and independent-checker imports precede total and are separately reported; child subprocess wall includes startup.",
+    "memory": "Linux ru_maxrss after each phase and at end is absolute child-process high-water KiB, not incremental method allocation.",
+    "verification": "Portable verifier plus existing separate stdlib declarative predicates/completion reconstruction checks 20 class witness reports, independently reconstructs all exact IDs and old admission, reconciles each acquired response with source and current request, and checks all 50,931 replacement fibers/literals/raw source decisions.",
+    "limits": "Five rounds are descriptive same-host medians/ranges. Existing strict transition and public cohort are regression data, not a new industrial deployment. No cross-service speedup or user/productivity claim; no actual authorization service, remote I/O, concurrent production load or transactional rollback measured.",
+    "freeze": "Protocol, script, tests and all dependency/input hashes captured before any warmup/measured child. Changes require new output directory and retained previous evidence."
+  },
+  "pinned_files": {
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "results/repair_revision_20261010/methods/check_repair_methods.py": "ee341dbf021ea441ea77b28c5c4cb5f2539775e4942548613d8e6a9fdf73170e",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7",
+    "src/logistics_validation/audit_report.py": "f77eb25af3bcb1f43bb1351cd0bee1d894995e3c7689ae6ba5c2fcb31040a2aa",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "src/logistics_validation/model.py": "19d723337567a230ae680a4786a14bbe0af56eb43543885cc8c0c3a850015264",
+    "src/logistics_validation/receipt_repair.py": "9bf8d80f68caf37cc8d10b6273b5e4ddab5e850cba0a41dd184632246e9fb3c5",
+    "src/logistics_validation/revision_diagnostics.py": "438e35aece87bf35de26df37c806da6e8263a326d9c9de98bbf34c686ec90594",
+    "src/logistics_validation/standards_epcis.py": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5"
+  }
+}

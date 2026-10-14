@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-11",
+  "question": "Do the complete authored-edit census conclusions survive excluding targets with an unsatisfiable profile and collapsing semantically duplicate targets?",
+  "analysis_type": "Post hoc sensitivity analysis of existing finite census; no new data, population inference or prospective holdout",
+  "baseline": "examples/baseline_catalog.json",
+  "finite_domain": "results/strong/catalog_audit/finite_tables.json.gz",
+  "observations": "results/perspective_revision/inputs/observation_classes.json",
+  "saved_rows": "results/perspective_revision/inputs/saved_census_rows.json.gz",
+  "saved_aggregate": "results/perspective_revision/inputs/census.json",
+  "independent_checker_result": "results/compact_revision/evidence/independent_census.json",
+  "predicate_implementation": "scripts/verify_compact_evidence.py",
+  "target_scope": "Exactly the 80 single-edit targets; exclude baseline and two-edit strict anchor from every sensitivity set",
+  "sets": [
+    {"name": "all_edits", "profile_filter": false, "semantic_deduplication": false},
+    {"name": "all_profiles_satisfiable", "profile_filter": true, "semantic_deduplication": false},
+    {"name": "semantic_representatives", "profile_filter": false, "semantic_deduplication": true},
+    {"name": "satisfiable_semantic_representatives", "profile_filter": true, "semantic_deduplication": true}
+  ],
+  "profile_filter": "Each of the four profiles must have at least one accepting state among the declared 8,612 complete supported states, determined directly by the authored raw predicate, never by saved status or metadata",
+  "semantic_equivalence": "Exact equality of full 8,612-entry Boolean target truth vectors, before grouping; SHA-256 is only an exported identifier",
+  "representative": "Lexicographically smallest target name in each exact truth-vector group; retain all aliases and compare all per-observation status and complete robust-family rows across aliases",
+  "equivalent_targets": "Globally baseline-equivalent edits remain eligible; after deduplication the baseline-equivalent semantic family contributes one target",
+  "denominator": "Number of selected targets times all 10,436 old-valid observation classes; original 80-edit census always retained",
+  "outcomes": "safe, stale_verdict, insufficient; partition insufficient rows into unique minimal robust additional masks P=1, T=2, PT=3",
+  "verification": "Recompute raw baseline and target truth labels, old-valid classes, status and complete robust families using the separately implemented checker; compare each saved row, aggregate counts and prior independent checker digest; exact alias row comparison",
+  "memory": "Read saved census one target at a time from the gzip JSON object; do not materialize all 834,880 rows together",
+  "interpretation": "Counts are dependent target/observation combinations in a fixed authored grammar, not independent source cases or frequencies of organizational rule changes; satisfying a profile does not establish operational plausibility"
+}

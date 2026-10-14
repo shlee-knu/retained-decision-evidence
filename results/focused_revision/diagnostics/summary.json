@@ -1,0 +1,1707 @@
+{
+  "status": "passed",
+  "cells": [
+    {
+      "name": "procurement_identity",
+      "workload": "unique",
+      "requests": 20,
+      "diagnosed_classes": 20,
+      "status_counts": {
+        "safe": 20
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 42358061,
+            "wall_ns": 42359762
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 42358061,
+            "wall_ns": 42359762
+          },
+          "first_report": {
+            "cpu_ns": 53917,
+            "wall_ns": 53863
+          },
+          "setup_plus_first": {
+            "cpu_ns": 42419571,
+            "wall_ns": 42421366
+          },
+          "batch": {
+            "cpu_ns": 42690954,
+            "wall_ns": 42691297
+          },
+          "core_batch": {
+            "cpu_ns": 42690954,
+            "wall_ns": 42691297
+          },
+          "serialization": {
+            "cpu_ns": 113895,
+            "wall_ns": 113906
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 186962085,
+            "wall_ns": 187016531
+          },
+          "process_peak_rss_kib": 36004,
+          "output_bytes": [
+            6950,
+            6950,
+            6950,
+            6950,
+            6950
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 10850640,
+            "wall_ns": 10851084
+          },
+          "dependency_import": {
+            "cpu_ns": 10837958,
+            "wall_ns": 10839285
+          },
+          "core_setup": {
+            "cpu_ns": 5496,
+            "wall_ns": 4872
+          },
+          "first_report": {
+            "cpu_ns": 8836444,
+            "wall_ns": 8836616
+          },
+          "setup_plus_first": {
+            "cpu_ns": 19680989,
+            "wall_ns": 19681531
+          },
+          "batch": {
+            "cpu_ns": 58029931,
+            "wall_ns": 58049454
+          },
+          "core_batch": {
+            "cpu_ns": 47191973,
+            "wall_ns": 47210169
+          },
+          "serialization": {
+            "cpu_ns": 310270,
+            "wall_ns": 297510
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 184084455,
+            "wall_ns": 184138724
+          },
+          "process_peak_rss_kib": 72328,
+          "output_bytes": [
+            6950,
+            6950,
+            6950,
+            6950,
+            6950
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -14818423,
+          -15549900,
+          -17012332,
+          -14811833,
+          -14519780
+        ],
+        "wall_ns": [
+          -14823223,
+          -15559307,
+          -17020638,
+          -14831000,
+          -14546351
+        ]
+      }
+    },
+    {
+      "name": "procurement_identity",
+      "workload": "weighted",
+      "requests": 50931,
+      "diagnosed_classes": 20,
+      "status_counts": {
+        "safe": 50931
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 41219262,
+            "wall_ns": 41241156
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 41219262,
+            "wall_ns": 41241156
+          },
+          "first_report": {
+            "cpu_ns": 59229,
+            "wall_ns": 59175
+          },
+          "setup_plus_first": {
+            "cpu_ns": 41286125,
+            "wall_ns": 41307896
+          },
+          "batch": {
+            "cpu_ns": 337560514,
+            "wall_ns": 337629140
+          },
+          "core_batch": {
+            "cpu_ns": 337560514,
+            "wall_ns": 337629140
+          },
+          "serialization": {
+            "cpu_ns": 192843882,
+            "wall_ns": 193184099
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 430197983,
+            "wall_ns": 430281408
+          },
+          "process_peak_rss_kib": 146952,
+          "output_bytes": [
+            18437022,
+            18437022,
+            18437022,
+            18437022,
+            18437022
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 9964392,
+            "wall_ns": 9964609
+          },
+          "dependency_import": {
+            "cpu_ns": 9956638,
+            "wall_ns": 9957793
+          },
+          "core_setup": {
+            "cpu_ns": 7598,
+            "wall_ns": 6617
+          },
+          "first_report": {
+            "cpu_ns": 9443486,
+            "wall_ns": 9443742
+          },
+          "setup_plus_first": {
+            "cpu_ns": 19432754,
+            "wall_ns": 19433269
+          },
+          "batch": {
+            "cpu_ns": 357253860,
+            "wall_ns": 357311257
+          },
+          "core_batch": {
+            "cpu_ns": 347328117,
+            "wall_ns": 347384518
+          },
+          "serialization": {
+            "cpu_ns": 193894553,
+            "wall_ns": 194266163
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 398702439,
+            "wall_ns": 398774186
+          },
+          "process_peak_rss_kib": 182752,
+          "output_bytes": [
+            18437022,
+            18437022,
+            18437022,
+            18437022,
+            18437022
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -23797925,
+          -9170486,
+          -20834742,
+          -17964382,
+          -15985113
+        ],
+        "wall_ns": [
+          -23823445,
+          -9185674,
+          -20823002,
+          -17947689,
+          -15966735
+        ]
+      }
+    },
+    {
+      "name": "procurement_strict",
+      "workload": "unique",
+      "requests": 20,
+      "diagnosed_classes": 20,
+      "status_counts": {
+        "insufficient": 3,
+        "safe": 17
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 40679934,
+            "wall_ns": 40689381
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 40679934,
+            "wall_ns": 40689381
+          },
+          "first_report": {
+            "cpu_ns": 96694,
+            "wall_ns": 96653
+          },
+          "setup_plus_first": {
+            "cpu_ns": 40775062,
+            "wall_ns": 40784445
+          },
+          "batch": {
+            "cpu_ns": 41068801,
+            "wall_ns": 41077126
+          },
+          "core_batch": {
+            "cpu_ns": 41068801,
+            "wall_ns": 41077126
+          },
+          "serialization": {
+            "cpu_ns": 144664,
+            "wall_ns": 144541
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 186345795,
+            "wall_ns": 186372165
+          },
+          "process_peak_rss_kib": 36056,
+          "output_bytes": [
+            8480,
+            8480,
+            8480,
+            8480,
+            8480
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 10735295,
+            "wall_ns": 10735598
+          },
+          "dependency_import": {
+            "cpu_ns": 10729210,
+            "wall_ns": 10730372
+          },
+          "core_setup": {
+            "cpu_ns": 5570,
+            "wall_ns": 4829
+          },
+          "first_report": {
+            "cpu_ns": 9328588,
+            "wall_ns": 9328841
+          },
+          "setup_plus_first": {
+            "cpu_ns": 20063615,
+            "wall_ns": 20064043
+          },
+          "batch": {
+            "cpu_ns": 58813374,
+            "wall_ns": 58813922
+          },
+          "core_batch": {
+            "cpu_ns": 48100572,
+            "wall_ns": 48100135
+          },
+          "serialization": {
+            "cpu_ns": 331242,
+            "wall_ns": 318771
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 184274164,
+            "wall_ns": 184295327
+          },
+          "process_peak_rss_kib": 72848,
+          "output_bytes": [
+            8480,
+            8480,
+            8480,
+            8480,
+            8480
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -17995771,
+          -17702178,
+          -16686481,
+          -18401257,
+          -16202354
+        ],
+        "wall_ns": [
+          -17989738,
+          -17693919,
+          -16704782,
+          -18409217,
+          -16207652
+        ]
+      }
+    },
+    {
+      "name": "procurement_strict",
+      "workload": "weighted",
+      "requests": 50931,
+      "diagnosed_classes": 20,
+      "status_counts": {
+        "insufficient": 33489,
+        "safe": 17442
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 39332664,
+            "wall_ns": 39354467
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 39332664,
+            "wall_ns": 39354467
+          },
+          "first_report": {
+            "cpu_ns": 97043,
+            "wall_ns": 97091
+          },
+          "setup_plus_first": {
+            "cpu_ns": 39424102,
+            "wall_ns": 39445849
+          },
+          "batch": {
+            "cpu_ns": 602269282,
+            "wall_ns": 602359495
+          },
+          "core_batch": {
+            "cpu_ns": 602269282,
+            "wall_ns": 602359495
+          },
+          "serialization": {
+            "cpu_ns": 300690798,
+            "wall_ns": 301103385
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 1572481950,
+            "wall_ns": 1572705296
+          },
+          "process_peak_rss_kib": 147004,
+          "output_bytes": [
+            35694342,
+            35694342,
+            35694342,
+            35694342,
+            35694342
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 9887127,
+            "wall_ns": 9887231
+          },
+          "dependency_import": {
+            "cpu_ns": 9879351,
+            "wall_ns": 9880936
+          },
+          "core_setup": {
+            "cpu_ns": 7727,
+            "wall_ns": 6718
+          },
+          "first_report": {
+            "cpu_ns": 9942770,
+            "wall_ns": 9943042
+          },
+          "setup_plus_first": {
+            "cpu_ns": 19879825,
+            "wall_ns": 19880301
+          },
+          "batch": {
+            "cpu_ns": 629136625,
+            "wall_ns": 629234842
+          },
+          "core_batch": {
+            "cpu_ns": 619296848,
+            "wall_ns": 619393933
+          },
+          "serialization": {
+            "cpu_ns": 303104013,
+            "wall_ns": 303419501
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 1602257713,
+            "wall_ns": 1602529309
+          },
+          "process_peak_rss_kib": 183580,
+          "output_bytes": [
+            35694342,
+            35694342,
+            35694342,
+            35694342,
+            35694342
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -41415973,
+          -28182359,
+          -15494550,
+          -21895202,
+          -27318353
+        ],
+        "wall_ns": [
+          -52987499,
+          -28147906,
+          -15564084,
+          -21883110,
+          -27328056
+        ]
+      }
+    },
+    {
+      "name": "procurement_equivalent",
+      "workload": "unique",
+      "requests": 20,
+      "diagnosed_classes": 20,
+      "status_counts": {
+        "safe": 20
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 41873798,
+            "wall_ns": 41887283
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 41873798,
+            "wall_ns": 41887283
+          },
+          "first_report": {
+            "cpu_ns": 48847,
+            "wall_ns": 48775
+          },
+          "setup_plus_first": {
+            "cpu_ns": 41932157,
+            "wall_ns": 41945627
+          },
+          "batch": {
+            "cpu_ns": 42205786,
+            "wall_ns": 42217731
+          },
+          "core_batch": {
+            "cpu_ns": 42205786,
+            "wall_ns": 42217731
+          },
+          "serialization": {
+            "cpu_ns": 110819,
+            "wall_ns": 110569
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 185937516,
+            "wall_ns": 185971231
+          },
+          "process_peak_rss_kib": 36072,
+          "output_bytes": [
+            6990,
+            6990,
+            6990,
+            6990,
+            6990
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 10826480,
+            "wall_ns": 10826793
+          },
+          "dependency_import": {
+            "cpu_ns": 10821198,
+            "wall_ns": 10822220
+          },
+          "core_setup": {
+            "cpu_ns": 5508,
+            "wall_ns": 4818
+          },
+          "first_report": {
+            "cpu_ns": 8786396,
+            "wall_ns": 8786558
+          },
+          "setup_plus_first": {
+            "cpu_ns": 19659002,
+            "wall_ns": 19659490
+          },
+          "batch": {
+            "cpu_ns": 57653191,
+            "wall_ns": 57653758
+          },
+          "core_batch": {
+            "cpu_ns": 46737365,
+            "wall_ns": 46749778
+          },
+          "serialization": {
+            "cpu_ns": 299567,
+            "wall_ns": 287774
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 182824896,
+            "wall_ns": 182881740
+          },
+          "process_peak_rss_kib": 72388,
+          "output_bytes": [
+            6990,
+            6990,
+            6990,
+            6990,
+            6990
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -15447405,
+          -15798031,
+          -15265102,
+          -15188039,
+          -15312390
+        ],
+        "wall_ns": [
+          -15436027,
+          -15798355,
+          -15240374,
+          -15192287,
+          -15337399
+        ]
+      }
+    },
+    {
+      "name": "procurement_equivalent",
+      "workload": "weighted",
+      "requests": 50931,
+      "diagnosed_classes": 20,
+      "status_counts": {
+        "safe": 50931
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 40447518,
+            "wall_ns": 40456843
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 40447518,
+            "wall_ns": 40456843
+          },
+          "first_report": {
+            "cpu_ns": 55949,
+            "wall_ns": 55797
+          },
+          "setup_plus_first": {
+            "cpu_ns": 40504628,
+            "wall_ns": 40513868
+          },
+          "batch": {
+            "cpu_ns": 341905234,
+            "wall_ns": 341952826
+          },
+          "core_batch": {
+            "cpu_ns": 341905234,
+            "wall_ns": 341952826
+          },
+          "serialization": {
+            "cpu_ns": 195112960,
+            "wall_ns": 195541839
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 428525856,
+            "wall_ns": 428577403
+          },
+          "process_peak_rss_kib": 146948,
+          "output_bytes": [
+            18538884,
+            18538884,
+            18538884,
+            18538884,
+            18538884
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 9975812,
+            "wall_ns": 9975995
+          },
+          "dependency_import": {
+            "cpu_ns": 9968286,
+            "wall_ns": 9969295
+          },
+          "core_setup": {
+            "cpu_ns": 7413,
+            "wall_ns": 6513
+          },
+          "first_report": {
+            "cpu_ns": 9593998,
+            "wall_ns": 9605618
+          },
+          "setup_plus_first": {
+            "cpu_ns": 19569810,
+            "wall_ns": 19581613
+          },
+          "batch": {
+            "cpu_ns": 356747427,
+            "wall_ns": 356813195
+          },
+          "core_batch": {
+            "cpu_ns": 346779141,
+            "wall_ns": 346843900
+          },
+          "serialization": {
+            "cpu_ns": 193797066,
+            "wall_ns": 194715419
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 395285055,
+            "wall_ns": 395324965
+          },
+          "process_peak_rss_kib": 182812,
+          "output_bytes": [
+            18538884,
+            18538884,
+            18538884,
+            18538884,
+            18538884
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -10502159,
+          -20249234,
+          -13074536,
+          -14842193,
+          -16919116
+        ],
+        "wall_ns": [
+          -10504908,
+          -20255044,
+          -13112745,
+          -14860369,
+          -27175129
+        ]
+      }
+    },
+    {
+      "name": "procurement_label_change",
+      "workload": "unique",
+      "requests": 20,
+      "diagnosed_classes": 20,
+      "status_counts": {
+        "safe": 19,
+        "stale_verdict": 1
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 42705628,
+            "wall_ns": 42707178
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 42705628,
+            "wall_ns": 42707178
+          },
+          "first_report": {
+            "cpu_ns": 53768,
+            "wall_ns": 53752
+          },
+          "setup_plus_first": {
+            "cpu_ns": 42759396,
+            "wall_ns": 42760930
+          },
+          "batch": {
+            "cpu_ns": 43027421,
+            "wall_ns": 43027731
+          },
+          "core_batch": {
+            "cpu_ns": 43027421,
+            "wall_ns": 43027731
+          },
+          "serialization": {
+            "cpu_ns": 114676,
+            "wall_ns": 114726
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 188379857,
+            "wall_ns": 188425773
+          },
+          "process_peak_rss_kib": 36240,
+          "output_bytes": [
+            7039,
+            7039,
+            7039,
+            7039,
+            7039
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 11037131,
+            "wall_ns": 11037361
+          },
+          "dependency_import": {
+            "cpu_ns": 11031201,
+            "wall_ns": 11032315
+          },
+          "core_setup": {
+            "cpu_ns": 5738,
+            "wall_ns": 5046
+          },
+          "first_report": {
+            "cpu_ns": 8895636,
+            "wall_ns": 8895809
+          },
+          "setup_plus_first": {
+            "cpu_ns": 19967684,
+            "wall_ns": 19968117
+          },
+          "batch": {
+            "cpu_ns": 58330160,
+            "wall_ns": 58338338
+          },
+          "core_batch": {
+            "cpu_ns": 46972100,
+            "wall_ns": 46979337
+          },
+          "serialization": {
+            "cpu_ns": 308395,
+            "wall_ns": 296221
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 183344179,
+            "wall_ns": 183357763
+          },
+          "process_peak_rss_kib": 72420,
+          "output_bytes": [
+            7039,
+            7039,
+            7039,
+            7039,
+            7039
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -14657722,
+          -14392822,
+          -15758176,
+          -16744761,
+          -15155590
+        ],
+        "wall_ns": [
+          -14646953,
+          -14400669,
+          -15737184,
+          -16752595,
+          -15149538
+        ]
+      }
+    },
+    {
+      "name": "procurement_label_change",
+      "workload": "weighted",
+      "requests": 50931,
+      "diagnosed_classes": 20,
+      "status_counts": {
+        "safe": 48374,
+        "stale_verdict": 2557
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 41013555,
+            "wall_ns": 41015105
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 41013555,
+            "wall_ns": 41015105
+          },
+          "first_report": {
+            "cpu_ns": 58667,
+            "wall_ns": 58574
+          },
+          "setup_plus_first": {
+            "cpu_ns": 41071048,
+            "wall_ns": 41072528
+          },
+          "batch": {
+            "cpu_ns": 344978541,
+            "wall_ns": 345050670
+          },
+          "core_batch": {
+            "cpu_ns": 344978541,
+            "wall_ns": 345050670
+          },
+          "serialization": {
+            "cpu_ns": 197182177,
+            "wall_ns": 197903686
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 428369662,
+            "wall_ns": 428451717
+          },
+          "process_peak_rss_kib": 146960,
+          "output_bytes": [
+            18663759,
+            18663759,
+            18663759,
+            18663759,
+            18663759
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 9949060,
+            "wall_ns": 9949209
+          },
+          "dependency_import": {
+            "cpu_ns": 9942104,
+            "wall_ns": 9943036
+          },
+          "core_setup": {
+            "cpu_ns": 7126,
+            "wall_ns": 6291
+          },
+          "first_report": {
+            "cpu_ns": 9477523,
+            "wall_ns": 9477735
+          },
+          "setup_plus_first": {
+            "cpu_ns": 19426583,
+            "wall_ns": 19426944
+          },
+          "batch": {
+            "cpu_ns": 358422233,
+            "wall_ns": 358477215
+          },
+          "core_batch": {
+            "cpu_ns": 348540729,
+            "wall_ns": 348594560
+          },
+          "serialization": {
+            "cpu_ns": 194965969,
+            "wall_ns": 195502077
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 398096746,
+            "wall_ns": 398132005
+          },
+          "process_peak_rss_kib": 182680,
+          "output_bytes": [
+            18663759,
+            18663759,
+            18663759,
+            18663759,
+            18663759
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -14718254,
+          -11115954,
+          -18425947,
+          -8939207,
+          -13443692
+        ],
+        "wall_ns": [
+          -14668500,
+          -11142199,
+          -18426555,
+          -8970288,
+          -13426545
+        ]
+      }
+    },
+    {
+      "name": "epcis_object_profile",
+      "workload": "unique",
+      "requests": 805,
+      "diagnosed_classes": 805,
+      "status_counts": {
+        "insufficient": 49,
+        "safe": 707,
+        "stale_verdict": 49
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 5136626,
+            "wall_ns": 5137097
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 5136626,
+            "wall_ns": 5137097
+          },
+          "first_report": {
+            "cpu_ns": 168163,
+            "wall_ns": 168109
+          },
+          "setup_plus_first": {
+            "cpu_ns": 5304789,
+            "wall_ns": 5305345
+          },
+          "batch": {
+            "cpu_ns": 12785333,
+            "wall_ns": 12798048
+          },
+          "core_batch": {
+            "cpu_ns": 12785333,
+            "wall_ns": 12798048
+          },
+          "serialization": {
+            "cpu_ns": 2710068,
+            "wall_ns": 2712109
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 114545038,
+            "wall_ns": 114548375
+          },
+          "process_peak_rss_kib": 26584,
+          "output_bytes": [
+            122936,
+            122936,
+            122936,
+            122936,
+            122936
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 14624898,
+            "wall_ns": 14653677
+          },
+          "dependency_import": {
+            "cpu_ns": 9370179,
+            "wall_ns": 9398867
+          },
+          "core_setup": {
+            "cpu_ns": 5244627,
+            "wall_ns": 5244770
+          },
+          "first_report": {
+            "cpu_ns": 1430227,
+            "wall_ns": 1430196
+          },
+          "setup_plus_first": {
+            "cpu_ns": 16055125,
+            "wall_ns": 16069791
+          },
+          "batch": {
+            "cpu_ns": 342601414,
+            "wall_ns": 342651307
+          },
+          "core_batch": {
+            "cpu_ns": 333310033,
+            "wall_ns": 333359032
+          },
+          "serialization": {
+            "cpu_ns": 7525763,
+            "wall_ns": 7293764
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 115418586,
+            "wall_ns": 115441063
+          },
+          "process_peak_rss_kib": 58588,
+          "output_bytes": [
+            126136,
+            126136,
+            126136,
+            126136,
+            126136
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -328852469,
+          -329758501,
+          -327779510,
+          -332863889,
+          -330267512
+        ],
+        "wall_ns": [
+          -328951570,
+          -329808559,
+          -327819906,
+          -332902970,
+          -330373602
+        ]
+      }
+    },
+    {
+      "name": "epcis_object_profile",
+      "workload": "weighted",
+      "requests": 324,
+      "diagnosed_classes": 33,
+      "status_counts": {
+        "safe": 224,
+        "insufficient": 100
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 5147615,
+            "wall_ns": 5148154
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 5147615,
+            "wall_ns": 5148154
+          },
+          "first_report": {
+            "cpu_ns": 38660,
+            "wall_ns": 38614
+          },
+          "setup_plus_first": {
+            "cpu_ns": 5188328,
+            "wall_ns": 5188868
+          },
+          "batch": {
+            "cpu_ns": 8767646,
+            "wall_ns": 8767310
+          },
+          "core_batch": {
+            "cpu_ns": 8767646,
+            "wall_ns": 8767310
+          },
+          "serialization": {
+            "cpu_ns": 1538971,
+            "wall_ns": 1540703
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 8692643,
+            "wall_ns": 8693336
+          },
+          "process_peak_rss_kib": 26584,
+          "output_bytes": [
+            113830,
+            113830,
+            113830,
+            113830,
+            113830
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 14728877,
+            "wall_ns": 14730028
+          },
+          "dependency_import": {
+            "cpu_ns": 9486578,
+            "wall_ns": 9487518
+          },
+          "core_setup": {
+            "cpu_ns": 5265302,
+            "wall_ns": 5265258
+          },
+          "first_report": {
+            "cpu_ns": 817626,
+            "wall_ns": 817588
+          },
+          "setup_plus_first": {
+            "cpu_ns": 15546503,
+            "wall_ns": 15547616
+          },
+          "batch": {
+            "cpu_ns": 35795545,
+            "wall_ns": 35795813
+          },
+          "core_batch": {
+            "cpu_ns": 26308967,
+            "wall_ns": 26308295
+          },
+          "serialization": {
+            "cpu_ns": 2024944,
+            "wall_ns": 2009668
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 9069266,
+            "wall_ns": 9070087
+          },
+          "process_peak_rss_kib": 58016,
+          "output_bytes": [
+            127110,
+            127110,
+            127110,
+            127110,
+            127110
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -26642617,
+          -23256774,
+          -26812617,
+          -27027899,
+          -28061610
+        ],
+        "wall_ns": [
+          -26643309,
+          -23264945,
+          -26813189,
+          -27028503,
+          -28062268
+        ]
+      }
+    },
+    {
+      "name": "epcis_aggregation_profile",
+      "workload": "unique",
+      "requests": 535,
+      "diagnosed_classes": 535,
+      "status_counts": {
+        "safe": 433,
+        "insufficient": 51,
+        "stale_verdict": 51
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 3448434,
+            "wall_ns": 3448880
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 3448434,
+            "wall_ns": 3448880
+          },
+          "first_report": {
+            "cpu_ns": 38289,
+            "wall_ns": 38388
+          },
+          "setup_plus_first": {
+            "cpu_ns": 3483545,
+            "wall_ns": 3484000
+          },
+          "batch": {
+            "cpu_ns": 9216188,
+            "wall_ns": 9217267
+          },
+          "core_batch": {
+            "cpu_ns": 9216188,
+            "wall_ns": 9217267
+          },
+          "serialization": {
+            "cpu_ns": 1921582,
+            "wall_ns": 1919421
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 52900933,
+            "wall_ns": 52912710
+          },
+          "process_peak_rss_kib": 26584,
+          "output_bytes": [
+            100304,
+            100304,
+            100304,
+            100304,
+            100304
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 15005871,
+            "wall_ns": 15007038
+          },
+          "dependency_import": {
+            "cpu_ns": 9590305,
+            "wall_ns": 9591431
+          },
+          "core_setup": {
+            "cpu_ns": 5415566,
+            "wall_ns": 5415607
+          },
+          "first_report": {
+            "cpu_ns": 802663,
+            "wall_ns": 802632
+          },
+          "setup_plus_first": {
+            "cpu_ns": 15825818,
+            "wall_ns": 15826953
+          },
+          "batch": {
+            "cpu_ns": 246757112,
+            "wall_ns": 246791925
+          },
+          "core_batch": {
+            "cpu_ns": 237177848,
+            "wall_ns": 237211655
+          },
+          "serialization": {
+            "cpu_ns": 5397629,
+            "wall_ns": 5199678
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 54738610,
+            "wall_ns": 54756881
+          },
+          "process_peak_rss_kib": 58236,
+          "output_bytes": [
+            103504,
+            103504,
+            103504,
+            103504,
+            103504
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -239019376,
+          -240866590,
+          -233044993,
+          -237540924,
+          -235347778
+        ],
+        "wall_ns": [
+          -239046392,
+          -240894802,
+          -233112203,
+          -237569192,
+          -235389308
+        ]
+      }
+    },
+    {
+      "name": "epcis_aggregation_profile",
+      "workload": "weighted",
+      "requests": 216,
+      "diagnosed_classes": 17,
+      "status_counts": {
+        "safe": 120,
+        "insufficient": 96
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 3479602,
+            "wall_ns": 3496292
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 3479602,
+            "wall_ns": 3496292
+          },
+          "first_report": {
+            "cpu_ns": 37110,
+            "wall_ns": 37096
+          },
+          "setup_plus_first": {
+            "cpu_ns": 3515876,
+            "wall_ns": 3533432
+          },
+          "batch": {
+            "cpu_ns": 6361260,
+            "wall_ns": 6364067
+          },
+          "core_batch": {
+            "cpu_ns": 6361260,
+            "wall_ns": 6364067
+          },
+          "serialization": {
+            "cpu_ns": 1187739,
+            "wall_ns": 1188048
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 4539439,
+            "wall_ns": 4539946
+          },
+          "process_peak_rss_kib": 26584,
+          "output_bytes": [
+            101994,
+            101994,
+            101994,
+            101994,
+            101994
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 14556706,
+            "wall_ns": 14566332
+          },
+          "dependency_import": {
+            "cpu_ns": 9255352,
+            "wall_ns": 9264631
+          },
+          "core_setup": {
+            "cpu_ns": 5300379,
+            "wall_ns": 5300408
+          },
+          "first_report": {
+            "cpu_ns": 785129,
+            "wall_ns": 785135
+          },
+          "setup_plus_first": {
+            "cpu_ns": 15343804,
+            "wall_ns": 15353409
+          },
+          "batch": {
+            "cpu_ns": 28423692,
+            "wall_ns": 28423899
+          },
+          "core_batch": {
+            "cpu_ns": 19076960,
+            "wall_ns": 19076221
+          },
+          "serialization": {
+            "cpu_ns": 1639753,
+            "wall_ns": 1629620
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 4837341,
+            "wall_ns": 4838018
+          },
+          "process_peak_rss_kib": 57860,
+          "output_bytes": [
+            125538,
+            125538,
+            125538,
+            125538,
+            125538
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -22353272,
+          -22059008,
+          -21987225,
+          -22109658,
+          -21846579
+        ],
+        "wall_ns": [
+          -22382256,
+          -22059832,
+          -21970001,
+          -22106638,
+          -21847262
+        ]
+      }
+    },
+    {
+      "name": "epcis_transformation_profile",
+      "workload": "unique",
+      "requests": 2085,
+      "diagnosed_classes": 2085,
+      "status_counts": {
+        "insufficient": 273,
+        "safe": 1539,
+        "stale_verdict": 273
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 20565067,
+            "wall_ns": 20565831
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 20565067,
+            "wall_ns": 20565831
+          },
+          "first_report": {
+            "cpu_ns": 545879,
+            "wall_ns": 545811
+          },
+          "setup_plus_first": {
+            "cpu_ns": 21110946,
+            "wall_ns": 21111642
+          },
+          "batch": {
+            "cpu_ns": 52206733,
+            "wall_ns": 52215410
+          },
+          "core_batch": {
+            "cpu_ns": 52206733,
+            "wall_ns": 52215410
+          },
+          "serialization": {
+            "cpu_ns": 8022795,
+            "wall_ns": 8018184
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 619129830,
+            "wall_ns": 619223005
+          },
+          "process_peak_rss_kib": 28332,
+          "output_bytes": [
+            492425,
+            492425,
+            492425,
+            492425,
+            492425
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 15089901,
+            "wall_ns": 15090879
+          },
+          "dependency_import": {
+            "cpu_ns": 9553903,
+            "wall_ns": 9554852
+          },
+          "core_setup": {
+            "cpu_ns": 5492810,
+            "wall_ns": 5492960
+          },
+          "first_report": {
+            "cpu_ns": 1696050,
+            "wall_ns": 1696013
+          },
+          "setup_plus_first": {
+            "cpu_ns": 16775371,
+            "wall_ns": 16776254
+          },
+          "batch": {
+            "cpu_ns": 1016224321,
+            "wall_ns": 1016403102
+          },
+          "core_batch": {
+            "cpu_ns": 1006727880,
+            "wall_ns": 1006905679
+          },
+          "serialization": {
+            "cpu_ns": 22279955,
+            "wall_ns": 21546341
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 623041225,
+            "wall_ns": 623133996
+          },
+          "process_peak_rss_kib": 60328,
+          "output_bytes": [
+            526473,
+            526473,
+            526473,
+            526473,
+            526473
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -970362309,
+          -962312479,
+          -964192218,
+          -968850506,
+          -959386090
+        ],
+        "wall_ns": [
+          -970412745,
+          -962480778,
+          -964360630,
+          -969044105,
+          -959764903
+        ]
+      }
+    },
+    {
+      "name": "epcis_transformation_profile",
+      "workload": "weighted",
+      "requests": 648,
+      "diagnosed_classes": 56,
+      "status_counts": {
+        "safe": 288,
+        "insufficient": 360
+      },
+      "methods": {
+        "finite_fibers": {
+          "setup": {
+            "cpu_ns": 20781938,
+            "wall_ns": 20782838
+          },
+          "dependency_import": {
+            "cpu_ns": 0,
+            "wall_ns": 0
+          },
+          "core_setup": {
+            "cpu_ns": 20781938,
+            "wall_ns": 20782838
+          },
+          "first_report": {
+            "cpu_ns": 41342,
+            "wall_ns": 40366
+          },
+          "setup_plus_first": {
+            "cpu_ns": 20823907,
+            "wall_ns": 20823882
+          },
+          "batch": {
+            "cpu_ns": 31658492,
+            "wall_ns": 31658584
+          },
+          "core_batch": {
+            "cpu_ns": 31658492,
+            "wall_ns": 31658584
+          },
+          "serialization": {
+            "cpu_ns": 4021929,
+            "wall_ns": 4021646
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 26899153,
+            "wall_ns": 26900305
+          },
+          "process_peak_rss_kib": 27316,
+          "output_bytes": [
+            404938,
+            404938,
+            404938,
+            404938,
+            404938
+          ]
+        },
+        "incremental_smt": {
+          "setup": {
+            "cpu_ns": 15153871,
+            "wall_ns": 15154852
+          },
+          "dependency_import": {
+            "cpu_ns": 9656238,
+            "wall_ns": 9657114
+          },
+          "core_setup": {
+            "cpu_ns": 5497633,
+            "wall_ns": 5497738
+          },
+          "first_report": {
+            "cpu_ns": 832993,
+            "wall_ns": 832957
+          },
+          "setup_plus_first": {
+            "cpu_ns": 15986864,
+            "wall_ns": 15987809
+          },
+          "batch": {
+            "cpu_ns": 64810839,
+            "wall_ns": 64823020
+          },
+          "core_batch": {
+            "cpu_ns": 55338774,
+            "wall_ns": 55349992
+          },
+          "serialization": {
+            "cpu_ns": 5641784,
+            "wall_ns": 5618871
+          },
+          "independent_raw_validation": {
+            "cpu_ns": 27846389,
+            "wall_ns": 27847769
+          },
+          "process_peak_rss_kib": 59060,
+          "output_bytes": [
+            518722,
+            518722,
+            518722,
+            518722,
+            518722
+          ]
+        }
+      },
+      "paired_finite_minus_smt_batch_ns": {
+        "cpu_ns": [
+          -33734211,
+          -31722521,
+          -32124280,
+          -34747270,
+          -33961910
+        ],
+        "wall_ns": [
+          -33737922,
+          -31736269,
+          -32117982,
+          -34739029,
+          -33970684
+        ]
+      }
+    }
+  ],
+  "jobs": 168,
+  "measured_jobs": 140,
+  "independent_checks": 2670552,
+  "failures": 0,
+  "output_semantics": "Equal statuses and complete minimal robust sets; opposed witnesses validated independently, not required byte-identical",
+  "source_hashes": {
+    "configs/focused_diagnostic_protocol.json": "8da44d148a17e34a827195af792926ff4cca3fe7357f1940314a50f5601b3b89",
+    "requirements-focused.txt": "5a6aa999fe68dcead54ccafc36261bcdd03b338999388844cd5f079e261b4398",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "scripts/benchmark_focused_diagnostics.py": "98f82f6874b656dc08b2a1da85b313d2a9fc8e3c09bdb1b35cf103a58894ceef",
+    "tests/test_focused_diagnostics.py": "3e48d32eb516c0c65431df7e45a6b04fc494ebbe48743ef2f8cd55a733dfdbff",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/standards_core.py": "13190595234c6260b1b2eb2e4129e2be8fc27560c2c805f77dd035df496dc457",
+    "src/logistics_validation/standards_epcis.py": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5",
+    "scripts/revalidate_receipt.py": "83a9eb3ca226fd0350a9f8cb078072056eeb1a30ffe4812c686579a02be7d733",
+    "scripts/compare_catalogs.py": "6f2bf0eb77a5a44f100c24af4c65a14d56f7b366734d3a87daf13039f7b13121",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "examples/second_equivalent_catalog.json": "2af4c69182674bcf4c445ad3bab7dffa5f2b497bef1b60fc414ed371e2a8aa86",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0"
+  },
+  "protocol_sha256": "8da44d148a17e34a827195af792926ff4cca3fe7357f1940314a50f5601b3b89"
+}

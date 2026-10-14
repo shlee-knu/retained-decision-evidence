@@ -1,0 +1,145 @@
+{
+  "checks_passed": true,
+  "before": "Original regression errors when the closed-order return is submitted: save validation raises InvalidStatusError before update_ordered_and_reserved_qty is reached for this return.",
+  "after": "The unchanged original regression passes, including closed-order return submission and cancellation and rejection of a regular receipt. The updated guard is reached twice after order closure, for return submit and cancel.",
+  "boundaries": [
+    "One public upstream regression and its public generated fixtures; not a deployment prevalence study or six-state workflow reachability census.",
+    "The original guard-level Cartesian experiment remains separate; pre-fix closed-return guard evaluation does not demonstrate an executable pre-fix application path.",
+    "No production receipt retention policy or retrospective business requirement is inferred.",
+    "Headless Document save/submit/cancel integration with MariaDB and Redis; browser UI, HTTP endpoints, concurrent users and the entire upstream test suite were not tested.",
+    "Test execution is for correctness, not an application performance benchmark."
+  ],
+  "runs": {
+    "before": {
+      "test_result": {
+        "label": "before",
+        "tests_run": 1,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "successful": false,
+        "selected_upstream_test": "test_purchase_return_against_closed_purchase_order",
+        "trace_events": 197
+      },
+      "all_guard_call_count": 3,
+      "guard_calls_after_order_closed": [],
+      "guard_returns_after_order_closed": [],
+      "post_close_exception_functions": {
+        "check_for_on_hold_or_closed_status": 1,
+        "validate": 1,
+        "save": 1,
+        "submit": 1,
+        "test_purchase_return_against_closed_purchase_order": 1
+      },
+      "order_closed_trace_sequence": 168,
+      "trace_sha256": "18ec71eeb9fe5bf7315019cc7428a5fbbccf0eab0c4fed4a1962a1dbe35e8c78"
+    },
+    "after": {
+      "test_result": {
+        "label": "after",
+        "tests_run": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "successful": true,
+        "selected_upstream_test": "test_purchase_return_against_closed_purchase_order",
+        "trace_events": 276
+      },
+      "all_guard_call_count": 5,
+      "guard_calls_after_order_closed": [
+        {
+          "document": {
+            "docstatus": 1,
+            "doctype": "Purchase Receipt",
+            "is_return": 1,
+            "name": "MAT-PRE-2026-00004",
+            "return_against": "MAT-PRE-2026-00002",
+            "status": "Return"
+          },
+          "event": "call",
+          "file": "erpnext/erpnext/controllers/buying_controller.py",
+          "function": "update_ordered_and_reserved_qty",
+          "line": 939,
+          "linked_purchase_orders": [
+            "PUR-ORD-2026-00001"
+          ],
+          "sequence": 198
+        },
+        {
+          "document": {
+            "docstatus": 2,
+            "doctype": "Purchase Receipt",
+            "is_return": 1,
+            "name": "MAT-PRE-2026-00004",
+            "return_against": "MAT-PRE-2026-00002",
+            "status": "Cancelled"
+          },
+          "event": "call",
+          "file": "erpnext/erpnext/controllers/buying_controller.py",
+          "function": "update_ordered_and_reserved_qty",
+          "line": 939,
+          "linked_purchase_orders": [
+            "PUR-ORD-2026-00001"
+          ],
+          "sequence": 220
+        }
+      ],
+      "guard_returns_after_order_closed": [
+        {
+          "document": {
+            "docstatus": 1,
+            "doctype": "Purchase Receipt",
+            "is_return": 1,
+            "name": "MAT-PRE-2026-00004",
+            "return_against": "MAT-PRE-2026-00002",
+            "status": "Return"
+          },
+          "event": "return",
+          "file": "erpnext/erpnext/controllers/buying_controller.py",
+          "function": "update_ordered_and_reserved_qty",
+          "guard_purchase_order": {
+            "docstatus": 1,
+            "name": "PUR-ORD-2026-00001",
+            "status": "Closed"
+          },
+          "line": 948,
+          "linked_purchase_orders": [
+            "PUR-ORD-2026-00001"
+          ],
+          "sequence": 199
+        },
+        {
+          "document": {
+            "docstatus": 2,
+            "doctype": "Purchase Receipt",
+            "is_return": 1,
+            "name": "MAT-PRE-2026-00004",
+            "return_against": "MAT-PRE-2026-00002",
+            "status": "Cancelled"
+          },
+          "event": "return",
+          "file": "erpnext/erpnext/controllers/buying_controller.py",
+          "function": "update_ordered_and_reserved_qty",
+          "guard_purchase_order": {
+            "docstatus": 1,
+            "name": "PUR-ORD-2026-00001",
+            "status": "Closed"
+          },
+          "line": 948,
+          "linked_purchase_orders": [
+            "PUR-ORD-2026-00001"
+          ],
+          "sequence": 221
+        }
+      ],
+      "post_close_exception_functions": {
+        "check_for_on_hold_or_closed_status": 1,
+        "check_purchase_order_on_hold_or_close": 1,
+        "validate": 1,
+        "save": 1
+      },
+      "order_closed_trace_sequence": 172,
+      "trace_sha256": "3d5b591d5f2ad3d9928d5f92b4ca342c59bf713d447973c9d1373d12e6247a55"
+    }
+  }
+}

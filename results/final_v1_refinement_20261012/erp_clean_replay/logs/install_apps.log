@@ -1,0 +1,39 @@
+Getting erpnext
+$ git clone file:///workspace/erpnext --branch access-pinned --depth 1 --origin upstream
+Cloning into 'erpnext'...
+Ignoring dependencies of file:///workspace/erpnext. To install dependencies use --resolve-deps
+Installing erpnext
+$ uv pip install --quiet -e /workspace/bench/apps/erpnext  --python /workspace/bench/env/bin/python
+$ yarn install --check-files
+yarn install v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+$ cd banking && yarn install
+yarn install v1.22.22
+[1/4] Resolving packages...
+warning eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning Workspaces can only be enabled in private projects.
+[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 5.99s.
+Done in 6.22s.
+Using Python 3.14.8 environment at: env
+Resolved 141 packages in 510ms
+   Building frappe @ file:///workspace/bench/apps/frappe
+      Built frappe @ file:///workspace/bench/apps/frappe
+Prepared 6 packages in 89ms
+Uninstalled 1 package in 0.26ms
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 6 packages in 11ms
+ + coverage==7.14.3
+ ~ frappe==17.0.0.dev0 (from file:///workspace/bench/apps/frappe)
+ + freezegun==1.5.5
+ + hypothesis==6.155.7
+ + sortedcontainers==2.4.0
+ + unittest-xml-reporting==4.0.0

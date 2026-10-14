@@ -1,0 +1,290 @@
+{
+  "name": "fhir_observation_clinical_result_6.1.0_to_6.1.0",
+  "blocks": [
+    "value",
+    "dataAbsentReason",
+    "component",
+    "hasMember",
+    "referenceRange"
+  ],
+  "states": 360,
+  "old_pass": 108,
+  "new_pass": 108,
+  "label_changes": 0,
+  "certificate_family_changes": 0,
+  "label_preserved_certificate_family_changes": 0,
+  "valid_old_observation_classes": 1021,
+  "classification": {
+    "safe": 1021
+  },
+  "witness_pairs": 0,
+  "generated_receipts": 360,
+  "generated_receipt_status": {
+    "safe": 360
+  },
+  "pointwise_minimum_additional_blocks": 0,
+  "historical_old_blocks": 1074,
+  "source_bindings": {
+    "domain_sha256": "7a951ff0429ac540ac17f6a85afc6b9af9af15f9f0e0129988e204d112711a26",
+    "old_predicate_sha256": "acefcf0f24f370c908aaf688b1f32b4924d09f0132be52d03ffede9120ac47aa",
+    "new_predicate_sha256": "acefcf0f24f370c908aaf688b1f32b4924d09f0132be52d03ffede9120ac47aa"
+  },
+  "static_delta_plan": {
+    "false": {
+      "mask": 0,
+      "reason": "verified_label_implication"
+    },
+    "true": {
+      "mask": 0,
+      "reason": "verified_label_implication"
+    }
+  },
+  "metadata": {
+    "standard": "FHIR R4 / US Core",
+    "profile": "observation-clinical-result",
+    "old_version": "6.1.0",
+    "new_version": "6.1.0",
+    "scope": "selected machine-readable invariant fragment; not whole-profile conformance",
+    "old_constraints": [
+      {
+        "key": "obs-6",
+        "path": "Observation",
+        "expression": "dataAbsentReason.empty() or value.empty()",
+        "severity": "error"
+      },
+      {
+        "key": "obs-7",
+        "path": "Observation",
+        "expression": "value.empty() or component.code.where(coding.intersect(%resource.code.coding).exists()).empty()",
+        "severity": "error"
+      },
+      {
+        "key": "us-core-2",
+        "path": "Observation",
+        "expression": "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())",
+        "severity": "error"
+      },
+      {
+        "key": "us-core-3",
+        "path": "Observation.value[x]",
+        "expression": "value.ofType(Quantity).system.empty() or value.ofType(Quantity).system = 'http://unitsofmeasure.org'",
+        "severity": "error"
+      },
+      {
+        "key": "obs-3",
+        "path": "Observation.referenceRange",
+        "expression": "low.exists() or high.exists() or text.exists()",
+        "severity": "error"
+      }
+    ],
+    "new_constraints": [
+      {
+        "key": "obs-6",
+        "path": "Observation",
+        "expression": "dataAbsentReason.empty() or value.empty()",
+        "severity": "error"
+      },
+      {
+        "key": "obs-7",
+        "path": "Observation",
+        "expression": "value.empty() or component.code.where(coding.intersect(%resource.code.coding).exists()).empty()",
+        "severity": "error"
+      },
+      {
+        "key": "us-core-2",
+        "path": "Observation",
+        "expression": "(component.empty() and hasMember.empty()) implies (dataAbsentReason.exists() or value.exists())",
+        "severity": "error"
+      },
+      {
+        "key": "us-core-3",
+        "path": "Observation.value[x]",
+        "expression": "value.ofType(Quantity).system.empty() or value.ofType(Quantity).system = 'http://unitsofmeasure.org'",
+        "severity": "error"
+      },
+      {
+        "key": "obs-3",
+        "path": "Observation.referenceRange",
+        "expression": "low.exists() or high.exists() or text.exists()",
+        "severity": "error"
+      }
+    ],
+    "new_dependencies": [
+      "value",
+      "dataAbsentReason",
+      "component",
+      "hasMember",
+      "referenceRange"
+    ],
+    "changed_dependencies": [],
+    "transition_kind": "identity",
+    "whole_profile_transition_kind": "not classified; full delta inventory retained",
+    "array_scope": "unbounded complete root arrays, exists/all predicate abstraction; representatives have at most two members",
+    "fragment_domain": "Well-typed selected roots without primitive/other extensions, nulls or empty serialized arrays; absent/string/Quantity value choices only. Complete code is visible background, fixed in the finite universe; native mapping uses each complete resource's code.",
+    "cost_boundary": "old validation and fixture/projection preparation are already-incurred setup; only retained observations constitute receipt evidence",
+    "source_urls": [
+      "https://hl7.org/fhir/us/core/STU6.1/StructureDefinition-us-core-observation-clinical-result.json",
+      "https://hl7.org/fhir/us/core/STU7/StructureDefinition-us-core-observation-clinical-result.json"
+    ],
+    "public_examples_manifest": "data/external/fhir_standards/examples_manifest.json"
+  },
+  "setup_cpu_ns": {
+    "model_compilation": 6552184,
+    "codec_check": 4936893,
+    "shared_planner_compilation": 14184410,
+    "synthetic_receipt_preparation": 14543373
+  },
+  "checks": 1027,
+  "replay": [
+    {
+      "layout": "separate",
+      "strategy": "full_fragment",
+      "cases": 360,
+      "median_cpu_us_per_case": 42.450691666666664,
+      "median_wall_us_per_case": 42.44965833333333,
+      "logical_blocks": 1800,
+      "explicitly_requested_blocks": 1800,
+      "newly_observed_blocks": 1800,
+      "source_requests": 1800,
+      "source_bytes": 184932,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 365844
+    },
+    {
+      "layout": "separate",
+      "strategy": "fresh_guarded",
+      "cases": 360,
+      "median_cpu_us_per_case": 38.80248611111111,
+      "median_wall_us_per_case": 38.80117222222222,
+      "logical_blocks": 1074,
+      "explicitly_requested_blocks": 1074,
+      "newly_observed_blocks": 1074,
+      "source_requests": 1074,
+      "source_bytes": 108963,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 261180
+    },
+    {
+      "layout": "separate",
+      "strategy": "ordinary_cached",
+      "cases": 360,
+      "median_cpu_us_per_case": 30.538027777777778,
+      "median_wall_us_per_case": 30.536805555555556,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 262620,
+      "emitted_bytes": 261180
+    },
+    {
+      "layout": "separate",
+      "strategy": "static_delta",
+      "cases": 360,
+      "median_cpu_us_per_case": 31.994966666666667,
+      "median_wall_us_per_case": 31.993855555555555,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 262620,
+      "emitted_bytes": 261180
+    },
+    {
+      "layout": "separate",
+      "strategy": "receipt_audit",
+      "cases": 360,
+      "median_cpu_us_per_case": 36.19399166666667,
+      "median_wall_us_per_case": 36.19338333333333,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 262620,
+      "emitted_bytes": 261180
+    },
+    {
+      "layout": "bundled",
+      "strategy": "full_fragment",
+      "cases": 360,
+      "median_cpu_us_per_case": 41.456447222222224,
+      "median_wall_us_per_case": 41.455475,
+      "logical_blocks": 1800,
+      "explicitly_requested_blocks": 360,
+      "newly_observed_blocks": 1800,
+      "source_requests": 360,
+      "source_bytes": 211572,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 365844
+    },
+    {
+      "layout": "bundled",
+      "strategy": "fresh_guarded",
+      "cases": 360,
+      "median_cpu_us_per_case": 45.11320277777778,
+      "median_wall_us_per_case": 45.11244722222222,
+      "logical_blocks": 1800,
+      "explicitly_requested_blocks": 360,
+      "newly_observed_blocks": 1800,
+      "source_requests": 360,
+      "source_bytes": 211572,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 365844
+    },
+    {
+      "layout": "bundled",
+      "strategy": "ordinary_cached",
+      "cases": 360,
+      "median_cpu_us_per_case": 30.797086111111113,
+      "median_wall_us_per_case": 30.795913888888887,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 262620,
+      "emitted_bytes": 261180
+    },
+    {
+      "layout": "bundled",
+      "strategy": "static_delta",
+      "cases": 360,
+      "median_cpu_us_per_case": 32.50978611111111,
+      "median_wall_us_per_case": 32.50806111111111,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 262620,
+      "emitted_bytes": 261180
+    },
+    {
+      "layout": "bundled",
+      "strategy": "receipt_audit",
+      "cases": 360,
+      "median_cpu_us_per_case": 41.13834444444445,
+      "median_wall_us_per_case": 41.13823333333333,
+      "logical_blocks": 0,
+      "explicitly_requested_blocks": 0,
+      "newly_observed_blocks": 0,
+      "source_requests": 0,
+      "source_bytes": 0,
+      "receipt_requests": 360,
+      "receipt_bytes": 262620,
+      "emitted_bytes": 261180
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+[
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-armass-bmd.json",
+    "package_member": "package/example/Observation-dxa-hip-l-armass-bmd.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "8fc21654226827a9f8b03131198945a3336588d29cb5c7057598935f722f636f"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-leukocytes.json",
+    "package_member": "package/example/Observation-cbc-leukocytes.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "73faa1fe6f581c77d1a943183320d46e387bd683010db95dd459a3dfdf7cc2a8"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-glucose.json",
+    "package_member": "package/example/Observation-serum-glucose.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "9bad0cfe2712304b29ecefb892a790012864982ac6a829caab461625e0658f27"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-impression.json",
+    "package_member": "package/example/Observation-xray-chest-impression.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "0ff1b08483face38c65a061676d0fbcab21f57ce9524be53f7eb121f630b2fb0"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-capillary-refill-time-nail-bed.json",
+    "package_member": "package/example/Observation-capillary-refill-time-nail-bed.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "267c23772ce98a1ddb93110dc63263b40ffa3c143c2125054646db2ac3ebbae6"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-qrs-dur-ekg-lead.json",
+    "package_member": "package/example/Observation-qrs-dur-ekg-lead.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "aa58aa633053b40bf6134b2b78bdb871f43d9be7a11536b56f1d1761221ea4ca"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-xray-chest-findings.json",
+    "package_member": "package/example/Observation-xray-chest-findings.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "3d5b0f05696da92b1ab1cd6a9f0a82c1360d89e5b1e493a8ef2931f11565ab4e"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-p-r-interval-ekg-lead.json",
+    "package_member": "package/example/Observation-p-r-interval-ekg-lead.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "34c46c849ef8831bffb8f9c590a8de8a2e6f82d5ef63e5b623244cf34bf38278"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-q-t-interval-ekg-lead.json",
+    "package_member": "package/example/Observation-q-t-interval-ekg-lead.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "0cc40b80cd5e25844bf27db916ada4aadb1e77a082798bc9c24177abdb2ea273"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-platelets.json",
+    "package_member": "package/example/Observation-cbc-platelets.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "b52eb26e8a7294e4c313dad1fdc7226dc55fb8112558dc1a4f5e22bf082ec061"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-sodium.json",
+    "package_member": "package/example/Observation-serum-sodium.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "9ba5770f94f9976d5e4a89ef6adfe0d43f11cdbe0743466f17afe41526ca606e"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mchc.json",
+    "package_member": "package/example/Observation-cbc-mchc.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "b0ea2ca49a2c16eaa489e4ac9d3959106caea5692fc901f5e597f9a2ebd8b72f"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-hematocrit.json",
+    "package_member": "package/example/Observation-cbc-hematocrit.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "b7cad48a5bfd905960a459bb12bd8fd25cf035291db5133b9ca7448e09ebfa13"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mch.json",
+    "package_member": "package/example/Observation-cbc-mch.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "a9ffcf6b689d36d23aa836b2370925e18f13e54f517ee35ff81312939fff916a"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-calcium.json",
+    "package_member": "package/example/Observation-serum-calcium.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "646c8d1b4c44798e7cd58b7b0496e9c8f9af84ed3edc35dea2a5ab4155434ab6"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-z-score-bmd.json",
+    "package_member": "package/example/Observation-dxa-femur-l-z-score-bmd.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "a44b32f9f7d737f97751c3e6f06403d941a14b50160e05fe57d3c1f1809e866d"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-disability-status.json",
+    "package_member": "package/example/Observation-simple-observation-disability-status.json",
+    "version": "6.1.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "f19e71457b2bcf923ef144b2ffc0651acecdc7dce596647da8ac257e566ae958"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-sdoh.json",
+    "package_member": "package/example/Observation-simple-observation-sdoh.json",
+    "version": "6.1.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "ab265256951c2610c0990961692ceb7fccda5223a4f34346de95083c4443fc59"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-at-home-in-vitro-test.json",
+    "package_member": "package/example/Observation-at-home-in-vitro-test.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "3bf31fb0dcc9171df039959c097b5392d1cbb9eb1992b7e688e2202a7402a359"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-urobilinogen.json",
+    "package_member": "package/example/Observation-urobilinogen.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "6a329473917d4f8afc73ed110ee82009d5cc6c0749dc9b1e3035236fe0cb7f9d"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-ekg-impression.json",
+    "package_member": "package/example/Observation-ekg-impression.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "967ef6fc3db386730040b69ae62e596ce221fdf8cc27b6a272fa0baac8ed45ed"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-jugular-vein-distension.json",
+    "package_member": "package/example/Observation-jugular-vein-distension.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "a5c36854e3e9391f3816db5687734742d8a5202b50041ba8eb7a22be46c9f8d7"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-z-score-bmd.json",
+    "package_member": "package/example/Observation-dxa-hip-l-z-score-bmd.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "2bf3db159f954a80b98dfb86ab3b6cafb3dda3a97e19552ec7976a44a509ed54"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-pulse-intensity-palpation.json",
+    "package_member": "package/example/Observation-pulse-intensity-palpation.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "6684035ed6456e78ba2a87bfd6b950507cc6a10ddc13bc8900fbdca29fa4e634"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-ekg-lead.json",
+    "package_member": "package/example/Observation-ekg-lead.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "ce304872e78f129651b2e3e4245eaa24a8ae020e9608254e52bc8856ce5beef7"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-creatinine.json",
+    "package_member": "package/example/Observation-serum-creatinine.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "f5ff34c91832e726455f0d62ee5feeb4eaf7e70e79032ae2b5ff8a71c312637c"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-hip-l-t-score-bmd.json",
+    "package_member": "package/example/Observation-dxa-hip-l-t-score-bmd.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "8cbf604e12760300ef33b7bce138d467c68ee9677ae0f85b7599e741a90730f5"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-chloride.json",
+    "package_member": "package/example/Observation-serum-chloride.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "d98979baadddb8cd197cc0b856d7e42c30f0b63333649c9fde3d38749750c780"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-bun.json",
+    "package_member": "package/example/Observation-serum-bun.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "5e1737954d1b60f2a5299b0d6c54b8de54cf8ee0b26d4d38c265b33feaa6991e"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-erythrocytes.json",
+    "package_member": "package/example/Observation-cbc-erythrocytes.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "69ae4864883f5e16733e0f0701227abcd959b83cbe02375984fdc6e3f6c761a6"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-mcv.json",
+    "package_member": "package/example/Observation-cbc-mcv.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "f5d0e16e1bbeed8fd067f84f64a6b0aacd565f76bc0435b369e1de28893b6f77"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-cbc-hemoglobin.json",
+    "package_member": "package/example/Observation-cbc-hemoglobin.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "2d7244924c2ff6a85fa28531530387c3df0551f87fd7b269f3594aad8ece1a80"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-potassium.json",
+    "package_member": "package/example/Observation-serum-potassium.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "6c30071391652acbd9846548acda007aac310f1ba0a78684f0cdbd9932cb8894"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-simple-observation-cognitive-status.json",
+    "package_member": "package/example/Observation-simple-observation-cognitive-status.json",
+    "version": "6.1.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "34fbb32017b7e13321cd1c994ebc88ac09b9113f026aba05ddf3306041a57776"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-total-bilirubin.json",
+    "package_member": "package/example/Observation-serum-total-bilirubin.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "b276873819947a3141bad0e99993a38a68d16e8c344e178e99f2a10446134336"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-t-score-bmd.json",
+    "package_member": "package/example/Observation-dxa-femur-l-t-score-bmd.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "e76ed5bfce5d4624ea3d6d92d3ddb49197d6d491445219fa6fe4f2e22e855418"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-heart-rate-rhythm.json",
+    "package_member": "package/example/Observation-heart-rate-rhythm.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "1779a52ce41560de7ad2c070c435c16ed36e9d18e7da35d59c10e6c2dc665610"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-dxa-femur-l-armass-bmd.json",
+    "package_member": "package/example/Observation-dxa-femur-l-armass-bmd.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "05e7a28275806e54c4387ffaf47f44303cf34b877e8594fa79cab10ade53f7c9"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/6.1.0/Observation-serum-co2.json",
+    "package_member": "package/example/Observation-serum-co2.json",
+    "version": "6.1.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "ce3b664e86d22d605ae90fb2329f6acbc0a9ad06be731480706c96e12f2766b9"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-leukocytes.json",
+    "package_member": "package/example/Observation-cbc-leukocytes.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "b01def421a47f210932b513834d455123479bb3fed574ced3fec63d42665f9cb"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-substance-use-status.json",
+    "package_member": "package/example/Observation-substance-use-status.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "f1b95c00532c322d883c3f92326b2bc0679fbf3b1bd2e2110de7e6ed76c2eb61"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-qrs-dur-ekg-lead.json",
+    "package_member": "package/example/Observation-qrs-dur-ekg-lead.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "96b8dc97fb18705b0fbfe4d189774a74f6ed71efd32e892ac00d8c8497725666"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-findings.json",
+    "package_member": "package/example/Observation-xray-chest-findings.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "3a105cf9436fe2f026075e0eb1aadd6f5af613261eac62b4a8d512716d79ce11"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-p-r-interval-ekg-lead.json",
+    "package_member": "package/example/Observation-p-r-interval-ekg-lead.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "01f38331f62576c48b6e0abfb2426f9ca74b4e0fe41ee564977455e786385ec3"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mch.json",
+    "package_member": "package/example/Observation-cbc-mch.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "5ad128b879dd2af8d58d814bf0544c2758a8924ef22687f3dc946820abd11f13"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-z-score-bmd.json",
+    "package_member": "package/example/Observation-dxa-femur-l-z-score-bmd.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "1406b883e48507b7486f629ec929198a0e2ff152800b81de239ae812a15bc2b9"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-urobilinogen.json",
+    "package_member": "package/example/Observation-urobilinogen.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "063a6394f65852c5169a8eb9645f388057f1ed1208c5280b2530e64b8e9e753c"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-alcohol-use-status.json",
+    "package_member": "package/example/Observation-alcohol-use-status.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "5e5424009f6f1b94656028501b3e8c4e87faa03c442ec2dad39b95f9577548d6"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-jugular-vein-distension.json",
+    "package_member": "package/example/Observation-jugular-vein-distension.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "7754372569ddc3e3010f285a72284f834ee3da4d2bcfd54992a364a24c9ad622"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-week.json",
+    "package_member": "package/example/Observation-exercise-per-week.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "52341ccd60e4a4115b68f97b25911b4d7debc38d9bc7011bd55dd57395c1b058"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-bun.json",
+    "package_member": "package/example/Observation-serum-bun.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "ade618d53123b7a26404e7ccbcdba6558b2b642a574c8344f6c484b3b3d58168"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-erythrocytes.json",
+    "package_member": "package/example/Observation-cbc-erythrocytes.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "1d856de50ed23907ab8d52ff8040aca6b51eaeeb63b2d1b88afd7e942cd8d876"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-heart-rate-rhythm.json",
+    "package_member": "package/example/Observation-heart-rate-rhythm.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "fcaea5ddbd507a37cce02a295c378a404f429e157caa35946181bec9d4f18d05"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-armass-bmd.json",
+    "package_member": "package/example/Observation-dxa-femur-l-armass-bmd.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "28500e764674d808cfa23973886dc9743ad8ab921ae3ffc5ddd49039d49aa032"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-co2.json",
+    "package_member": "package/example/Observation-serum-co2.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "a74d7fc0ee6cb4758fde28790c74a4247e1435a46d1aed5bd1ed36ef90ee9e7b"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-armass-bmd.json",
+    "package_member": "package/example/Observation-dxa-hip-l-armass-bmd.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "cfd4c9e8d6f9a37eb24ac6e4a5a08287fdb64a5af67a25323328741b483dd91d"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-glucose.json",
+    "package_member": "package/example/Observation-serum-glucose.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "cd1bf7d146b1a46aecdc0188bdb596fc0402dd7fbee290e79d1fd5d489a4e662"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-exercise-per-day.json",
+    "package_member": "package/example/Observation-exercise-per-day.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "5c1c2c3bf7d6ccfb1d6c558b676edda4ca6c0220a8ab4e44e0abbcc6c076754f"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-xray-chest-impression.json",
+    "package_member": "package/example/Observation-xray-chest-impression.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "631c405b8e7d93020c32cdaa8a1b74a9a0a6d2c4e92f6d5acb21a4d441be3fca"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-capillary-refill-time-nail-bed.json",
+    "package_member": "package/example/Observation-capillary-refill-time-nail-bed.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "6706f8ba6f5a20aac7b0093d79c4184db0952280180b92a0fea34f8dde62d187"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-q-t-interval-ekg-lead.json",
+    "package_member": "package/example/Observation-q-t-interval-ekg-lead.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "fdcf4961f3bbcd245e0e5b90fb047c6fa42825adda02501f516265f081a1c26c"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-platelets.json",
+    "package_member": "package/example/Observation-cbc-platelets.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "af64886c6b4f93c879842150ce9d7fe64c9b717faafed18ebccf5b5899873c3c"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-sodium.json",
+    "package_member": "package/example/Observation-serum-sodium.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "f4c20cc4102cee3220ae81c15e3ce83b1d08056d0ea1479deda380c24db50b2a"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mchc.json",
+    "package_member": "package/example/Observation-cbc-mchc.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "b712b102ce66fd5d2b461275679793c5f678444610fe78898616263445471499"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-hematocrit.json",
+    "package_member": "package/example/Observation-cbc-hematocrit.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "d2dd193b19f4a06428435069321a7747e99e0758b9db7d330543c0b34c99da69"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-calcium.json",
+    "package_member": "package/example/Observation-serum-calcium.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "40de0ff0b49c070b32207e2f913b12ec25df4a7e99c46fdf384ddf7c09353c71"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-disability-status.json",
+    "package_member": "package/example/Observation-simple-observation-disability-status.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "951955bad039b9c18f43bec0efb8cae946c14b96c9acf2021ea92b2d237cbac5"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-sdoh.json",
+    "package_member": "package/example/Observation-simple-observation-sdoh.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "25c970cc66904085b8ed95bcbb2564fc00acefad58853b3ab863493dd5d0a029"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-at-home-in-vitro-test.json",
+    "package_member": "package/example/Observation-at-home-in-vitro-test.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "ce9fe2db9d951adbd674687178145f1770bcc5a61c1b57c670b937fa648f0824"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-ekg-impression.json",
+    "package_member": "package/example/Observation-ekg-impression.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "a6c93e57391e912e418c02c349c0812fbe62c3ee3631b7263a19b26ca79a42a9"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-z-score-bmd.json",
+    "package_member": "package/example/Observation-dxa-hip-l-z-score-bmd.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "7b3598fc9c570d32537b07464d5c804eac3e801754075b2a1a9a638b47086b5e"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-pulse-intensity-palpation.json",
+    "package_member": "package/example/Observation-pulse-intensity-palpation.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "fbebf0c7d709b6467c3550b99c49b3aacb5eedcd4964428849f8e8e54842969c"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-ekg-lead.json",
+    "package_member": "package/example/Observation-ekg-lead.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "8944a101a285762ac0478b6b4fcfe9a24fd53b2b91103735534406cb79c92605"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-alcoholic-drinks-per-day.json",
+    "package_member": "package/example/Observation-alcoholic-drinks-per-day.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "3075c4a0e11a23a51823f87fc5c590bd8cc18f2058cab783cb7335141c4a8668"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-creatinine.json",
+    "package_member": "package/example/Observation-serum-creatinine.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "3e2a1c7b3bfff2d69d6a517842b2bdff4d6c013c074b53d99a1b326e3920d91d"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-hip-l-t-score-bmd.json",
+    "package_member": "package/example/Observation-dxa-hip-l-t-score-bmd.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "f1e1b3f721745cfb041c380aba7d35f81154fd11ea3404dd7141c99648f3fdc5"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-chloride.json",
+    "package_member": "package/example/Observation-serum-chloride.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "5d1333b5ed09e02af2d29ac1203c7d364cb690238201051e31dbc6c17e261036"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-mcv.json",
+    "package_member": "package/example/Observation-cbc-mcv.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "64f2b918c6edef9998f3ee22c2ca5602bf2f1bd81a4513f89c0f7e918d80ca36"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-cbc-hemoglobin.json",
+    "package_member": "package/example/Observation-cbc-hemoglobin.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "0da99c408aa4bea36e915317bbf0aec932cafd74354c7b355936db50307b64a6"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-functional-status.json",
+    "package_member": "package/example/Observation-simple-observation-functional-status.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "1495de2f619f959b2b7711c3fe8b847a37fc7eb81a510546799226c12b601ff0"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-potassium.json",
+    "package_member": "package/example/Observation-serum-potassium.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "3691d57ed1394b4ea4fd99572a25f3d459459aa00eefdbb13ebb25b58cb8b403"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-simple-observation-cognitive-status.json",
+    "package_member": "package/example/Observation-simple-observation-cognitive-status.json",
+    "version": "7.0.0",
+    "profiles": [
+      "simple-observation"
+    ],
+    "sha256": "72994ab23abd8572caddedce63c2391101b6e4eae6a81e7a4337bcde569b7d67"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-serum-total-bilirubin.json",
+    "package_member": "package/example/Observation-serum-total-bilirubin.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-lab"
+    ],
+    "sha256": "15cbd8f9cd3d16f14feeb8856e1a5c8a3a259a4c12309564c06c8605a3c19667"
+  },
+  {
+    "path": "data/external/fhir_standards/examples/7.0.0/Observation-dxa-femur-l-t-score-bmd.json",
+    "package_member": "package/example/Observation-dxa-femur-l-t-score-bmd.json",
+    "version": "7.0.0",
+    "profiles": [
+      "observation-clinical-result"
+    ],
+    "sha256": "ff19b3b9b76d9c73d3f490d296921d1ba0059c39c82e7c4681d147acf9341f4e"
+  }
+]

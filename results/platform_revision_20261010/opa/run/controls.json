@@ -1,0 +1,54 @@
+[
+  {
+    "id": "consignment_exclusion",
+    "class_index": 0,
+    "result": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "consignment_exclusion",
+    "class_index": 6,
+    "result": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "consignment_exclusion",
+    "class_index": 14,
+    "result": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "correct_complete_old_decision_with_insufficient_mask",
+    "query": {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 0,
+      "observed": [],
+      "old_verdict": true
+    },
+    "result": {
+      "status": "invalid_receipt",
+      "witnesses": null,
+      "robust_masks": []
+    }
+  }
+]

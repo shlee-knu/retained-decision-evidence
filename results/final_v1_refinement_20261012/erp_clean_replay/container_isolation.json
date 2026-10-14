@@ -1,0 +1,45 @@
+{
+  "only_task_owned_services": true,
+  "published_ports": false,
+  "containers": [
+    {
+      "name": "access-erp-7d73d602205d-app",
+      "container_id": "fa88c298dea82e1d341b5988773ce3e8d6d2285d92ab3ddbf3b54cd65d220881",
+      "image_requested": "frappe/bench@sha256:8c500a20cb1933d0427c1568dcf3c8c37021c0e07be1ac268539fd7fe14ef557",
+      "image_id": "sha256:8c500a20cb1933d0427c1568dcf3c8c37021c0e07be1ac268539fd7fe14ef557",
+      "running": true,
+      "memory_bytes": 12884901888,
+      "nanocpus": 3000000000,
+      "port_bindings": {},
+      "network_names": [
+        "access-erp-7d73d602205d"
+      ]
+    },
+    {
+      "name": "access-erp-7d73d602205d-db",
+      "container_id": "231168f1fd32d06b71ca3595cf554bb77f3358b83d36e3739464282cf53e804a",
+      "image_requested": "mariadb@sha256:6422478cb8e159f080fb1d8ccf65101e26fe51385787fde7d16c3b165a331f15",
+      "image_id": "sha256:6422478cb8e159f080fb1d8ccf65101e26fe51385787fde7d16c3b165a331f15",
+      "running": true,
+      "memory_bytes": 4294967296,
+      "nanocpus": 2000000000,
+      "port_bindings": {},
+      "network_names": [
+        "access-erp-7d73d602205d"
+      ]
+    },
+    {
+      "name": "access-erp-7d73d602205d-redis",
+      "container_id": "876ef596af68a56721d949191a197904a64fe3fd5bc268edba43ca8299018476",
+      "image_requested": "redis@sha256:858f009f9709ce576febc734aa78b8f6d624b82571f9ddb6bda4377c833b3499",
+      "image_id": "sha256:858f009f9709ce576febc734aa78b8f6d624b82571f9ddb6bda4377c833b3499",
+      "running": true,
+      "memory_bytes": 1073741824,
+      "nanocpus": 1000000000,
+      "port_bindings": {},
+      "network_names": [
+        "access-erp-7d73d602205d"
+      ]
+    }
+  ]
+}

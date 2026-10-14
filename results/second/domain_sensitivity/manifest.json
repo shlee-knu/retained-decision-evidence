@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "inputs": {
+    "results/second/domain_sensitivity/design.json": "ee09ea00091323006d0071a5c762486f7553d28b0a475685749c8c0577c4b690",
+    "results/v03/bpi_compact.jsonl.gz": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "results/strong/catalog_audit/finite_tables.json.gz": "e369afd80c9b1ebf57ea456dc2297357b5d64365e27a8efc120e50ba23bfd7af",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/acquisition.py": "bff6c408496d747523c70029066cd82a600b7e5efa2da27d7534c66684cc4fd7",
+    "scripts/audit_domain_sensitivity.py": "7632be55a3181d937490d296b92083142a2de7f41da79515cebb32235ce6c0cf",
+    "tests/test_domain_audit.py": "7129665758a4a31c24b21622f821332696df59a4d9708a92ffcee8ff26831ca6"
+  },
+  "outputs": {
+    "results/second/domain_sensitivity/summary.json": "1eece9da72e4ff974d17e1f29ed6da74d8831696329ed029005dfb7922505bbc",
+    "results/second/domain_sensitivity/withdrawal_witnesses.json": "bf64d4b654ff30ecf06457931fbc70ac8d215c073e310de75c7093970a57175f",
+    "results/second/domain_sensitivity/weights.json": "ad9a2d579febee324ee6ba4d79b0629e7632383c5ea87801d8df953d501431e0",
+    "results/second/domain_sensitivity/finite_tables.json.gz": "0d8e960f6d638007417a3e796a5e084642c33c5de6d2fe23b01fa1df23bc09ea",
+    "results/second/domain_sensitivity/main_table.csv": "0eab0792a7211d40c674fea7327384418f5da03a0cc6f6775e7130c52a1e9626",
+    "results/second/domain_sensitivity/domain_variants.csv": "8675e5761f3bd80c800219d1087e59e92feb69092027b3f4246f900a32bc5135",
+    "results/second/domain_sensitivity/guarantee_withdrawals.csv": "91e61c31831592cd39fbcef95603618c8229be9f215f5ab0f237b31e211ed206"
+  }
+}

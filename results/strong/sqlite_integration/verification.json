@@ -1,0 +1,829 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-07T14:38:38.598254+00:00",
+  "checks": 2394,
+  "failures": [],
+  "rows": 180,
+  "warmup_rows": 40,
+  "measured_rows": 140,
+  "full_workload_cases_per_row": 50931,
+  "native_policy_case_checks": 1018620,
+  "pytest": {
+    "tests": 46,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "paired_delta_signs": [
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "joined_full",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "joined_full",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 0,
+      "negative": 7
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "joined_full",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "joined_full",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 0,
+      "negative": 7
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "separate_full",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "separate_full",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "separate_full",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "separate_full",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "guard_joined",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "guard_joined",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "guard_joined",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "guard_joined",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "hand_selective",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "hand_selective",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 3,
+      "zero": 0,
+      "negative": 4
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "hand_selective",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "hand_selective",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 3,
+      "zero": 0,
+      "negative": 4
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "generic_selective",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "generic_selective",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "generic_selective",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "permissive",
+      "method": "generic_selective",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "joined_full",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "joined_full",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 6,
+      "zero": 0,
+      "negative": 1
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "joined_full",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "joined_full",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 6,
+      "zero": 0,
+      "negative": 1
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "separate_full",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "separate_full",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "separate_full",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "separate_full",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "guard_joined",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 1,
+      "zero": 0,
+      "negative": 6
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "guard_joined",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "guard_joined",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 1,
+      "zero": 0,
+      "negative": 6
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "guard_joined",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "hand_selective",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "hand_selective",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "hand_selective",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "hand_selective",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "generic_selective",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "generic_selective",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "generic_selective",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "same_row",
+      "variant": "strict_consignment",
+      "method": "generic_selective",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "joined_full",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "joined_full",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 0,
+      "negative": 7
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "joined_full",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "joined_full",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 0,
+      "negative": 7
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "separate_full",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "separate_full",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "separate_full",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "separate_full",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "guard_joined",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "guard_joined",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "guard_joined",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "guard_joined",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "hand_selective",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 3,
+      "zero": 0,
+      "negative": 4
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "hand_selective",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 1,
+      "zero": 0,
+      "negative": 6
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "hand_selective",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 3,
+      "zero": 0,
+      "negative": 4
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "hand_selective",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 1,
+      "zero": 0,
+      "negative": 6
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "generic_selective",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "generic_selective",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "generic_selective",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "permissive",
+      "method": "generic_selective",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "joined_full",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "joined_full",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "joined_full",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "joined_full",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "separate_full",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "separate_full",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "separate_full",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "separate_full",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "guard_joined",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 0,
+      "negative": 7
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "guard_joined",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "guard_joined",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 0,
+      "negative": 7
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "guard_joined",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 0,
+      "zero": 7,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "hand_selective",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "hand_selective",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "hand_selective",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "hand_selective",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "generic_selective",
+      "baseline": "joined_full",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "generic_selective",
+      "baseline": "guard_joined",
+      "timer": "cpu",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "generic_selective",
+      "baseline": "joined_full",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    },
+    {
+      "layout": "normalized",
+      "variant": "strict_consignment",
+      "method": "generic_selective",
+      "baseline": "guard_joined",
+      "timer": "wall",
+      "positive": 7,
+      "zero": 0,
+      "negative": 0
+    }
+  ],
+  "files_sha256": {
+    "results/strong/sqlite_integration/preparation.json": "24f5d2461079e22939fb35d47889c317d8e3371d9ac569adbd53c604e2a0db4f",
+    "results/strong/sqlite_integration/native_verification.json": "39951093109d297413242020516262efa3e738d99a6af24032f3b18f8c32eee4",
+    "results/strong/sqlite_integration/rounds.jsonl": "e454590374d40fd756b78ea53af0ffc4decd40b496d8985de6cde1a1c1002507",
+    "results/strong/sqlite_integration/benchmark.json": "0de19771faa486de22f80fc70be9b80f329b71cce16a85309919a990cc4b8230",
+    "results/strong/sqlite_integration/summary.csv": "990b2709c2509bd55fc32ea75ac5ff8e9b34bc2699308835876d6a6ae4941d2e",
+    "results/strong/sqlite_integration/pytest.xml": "047826cadcabb5379befaee7477b3d89c060cbe79ee6fff6f7a555497b3ce474"
+  },
+  "summary_script_sha256": "99b0fb01df21913815d305e86b18b14cbe3b0ac927105ec373ab995440818f30",
+  "scope": "Independent arithmetic/source-hash reconciliation of recorded SQLite evidence, not another native experiment or a deployment validity claim. Interrupted-attempt records are excluded in their entirety."
+}

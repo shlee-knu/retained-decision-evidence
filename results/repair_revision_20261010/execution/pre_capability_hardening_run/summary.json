@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "primary": [
+    {
+      "scenario": "all_authorized",
+      "strategy": "adaptive_p_first",
+      "episodes": 114,
+      "actions": {
+        "replaced": 114
+      },
+      "initial_statuses": {
+        "insufficient": 114
+      },
+      "reasons": {
+        "acquired_sufficient_evidence": 114
+      },
+      "capability_checks": {
+        "profile": 114,
+        "first_times": 85
+      },
+      "attempted_reads": {
+        "profile": 114,
+        "first_times": 85
+      },
+      "successful_reads": {
+        "profile": 114,
+        "first_times": 85
+      },
+      "verified_replacements": 114,
+      "acquisition_completed": 114,
+      "raw_verdict_checks": 114
+    },
+    {
+      "scenario": "all_authorized",
+      "strategy": "robust_all_first",
+      "episodes": 114,
+      "actions": {
+        "replaced": 114
+      },
+      "initial_statuses": {
+        "insufficient": 114
+      },
+      "reasons": {
+        "acquired_sufficient_evidence": 114
+      },
+      "capability_checks": {
+        "profile": 114,
+        "first_times": 114
+      },
+      "attempted_reads": {
+        "profile": 114,
+        "first_times": 114
+      },
+      "successful_reads": {
+        "profile": 114,
+        "first_times": 114
+      },
+      "verified_replacements": 114,
+      "acquisition_completed": 114,
+      "raw_verdict_checks": 114
+    },
+    {
+      "scenario": "profile_only_times_unavailable",
+      "strategy": "adaptive_p_first",
+      "episodes": 114,
+      "actions": {
+        "replaced": 29,
+        "unresolved": 85
+      },
+      "initial_statuses": {
+        "insufficient": 114
+      },
+      "reasons": {
+        "acquired_sufficient_evidence": 29,
+        "source_unavailable": 85
+      },
+      "capability_checks": {
+        "profile": 114,
+        "first_times": 85
+      },
+      "attempted_reads": {
+        "profile": 114
+      },
+      "successful_reads": {
+        "profile": 114
+      },
+      "verified_replacements": 29,
+      "acquisition_completed": 29,
+      "raw_verdict_checks": 29
+    },
+    {
+      "scenario": "profile_only_times_unavailable",
+      "strategy": "robust_all_first",
+      "episodes": 114,
+      "actions": {
+        "unresolved": 114
+      },
+      "initial_statuses": {
+        "insufficient": 114
+      },
+      "reasons": {
+        "source_unavailable": 114
+      },
+      "capability_checks": {
+        "profile": 114,
+        "first_times": 114
+      },
+      "attempted_reads": {},
+      "successful_reads": {},
+      "verified_replacements": 0,
+      "acquisition_completed": 0,
+      "raw_verdict_checks": 0
+    }
+  ],
+  "strict_regression": {
+    "episodes": 50931,
+    "actions": {
+      "replaced": 50931
+    },
+    "initial_statuses": {
+      "insufficient": 33489,
+      "safe": 17442
+    },
+    "reasons": {
+      "acquired_sufficient_evidence": 33489,
+      "retained_sufficient_evidence": 17442
+    },
+    "capability_checks": {
+      "profile": 33489
+    },
+    "attempted_reads": {
+      "profile": 33489
+    },
+    "successful_reads": {
+      "profile": 33489
+    },
+    "verified_replacements": 50931,
+    "acquisition_completed": 33489,
+    "raw_verdict_checks": 50931
+  },
+  "native_opa_controls": {
+    "episodes": 3,
+    "actions": {
+      "replaced": 2,
+      "invalid_receipt": 1
+    },
+    "initial_statuses": {
+      "insufficient": 1,
+      "safe": 1,
+      "invalid_receipt": 1
+    },
+    "reasons": {
+      "acquired_sufficient_evidence": 1,
+      "retained_sufficient_evidence": 1,
+      "old_admission_or_domain": 1
+    },
+    "capability_checks": {
+      "profile": 1
+    },
+    "attempted_reads": {
+      "profile": 1
+    },
+    "successful_reads": {
+      "profile": 1
+    },
+    "verified_replacements": 2,
+    "acquisition_completed": 1,
+    "raw_verdict_checks": 2
+  },
+  "source_setup": {
+    "snapshot_path": "results/v03/bpi_compact.jsonl.gz",
+    "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+    "full_source_rows_indexed": 251734,
+    "complete_file_hashed_and_scanned": true
+  },
+  "denominators": "Two scenarios × two policies ×114 fixed case/target pairs =456 replay episodes, not456 independent source cases. No prevalence or latency estimate.",
+  "limits": [
+    "Existing work already executes logical recovery and SQLite replacement. This follow-up tests explicit capabilities, failure envelopes and adaptive completion under constrained access; not a new sufficient-reason principle or discovery of 29/85 native counts.",
+    "No new performance benchmark. Full source hashing/indexing scans existing complete derivative in setup. Logical accessor counts are not total acquisition, network requests, physical I/O, or privacy savings.",
+    "Declared local access capabilities and truthful complete source responses are assumptions. Digest equality is not authentication and this is not a production authorization service.",
+    "Raw reference verdict comparison uses the existing raw oracle also used by the receipt checker; a separately implemented independent primary check is reported separately.",
+    "Strict cohort is a regression and native OPA controls are the same three saved local logs, not new independent cases."
+  ],
+  "files": {
+    "execution_freeze.json": "2944388a8cfb58523894d0c006a330c5237725cc99e2d20e40e0f99a7bf0f7e4",
+    "native_opa_ledger.jsonl.gz": "ed9df46204750eb02eed6fde79d4da21b37a52afe35d285fa7a3f3317687d85e",
+    "primary_ledger.jsonl.gz": "d0651c1591ef1d02f2d336aa9d0b9e05fa542c6ac1235ee57733eb9967307fae",
+    "selection.json": "4776d3f540cafb4120300dfc3617cfed9cc9ab0c82c6ed0c1579aede8e66214b",
+    "strict_regression_ledger.jsonl.gz": "81f31d4ddcfbfd534553bbe6fd1476ef052dadd92f64266535c11b02b2c3a5f7",
+    "tests.json": "33ef2eed29361456bde85af902f56db9d4fd227dff6be13101b4d4c1fa30a30c"
+  }
+}

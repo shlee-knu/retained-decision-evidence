@@ -1,0 +1,30 @@
+{
+  "protocol_id": "access-practical-erp-integration-20261012",
+  "public_change": "https://github.com/frappe/erpnext/pull/58126",
+  "source_selection": "Same public change as the existing bounded-guard experiment; no new representative-sampling claim.",
+  "frappe_selection": "Latest develop commit returned by GitHub commits API before 2026-08-13T11:00:00Z; selected for temporal compatibility, then pinned.",
+  "before_commit": "c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be",
+  "after_commit": "ff78778b7cde837bcd3128582280f34582522e5f",
+  "frappe_commit": "ab2ea34e2ca327b2a2c647abe0ac284be088a54f",
+  "test": "erpnext.stock.doctype.purchase_receipt.test_purchase_receipt.TestPurchaseReceipt.test_purchase_return_against_closed_purchase_order",
+  "fixture": "Unmodified upstream helper-generated Purchase Order qty=2/rate=100, two receipts qty=1, first return, order closure, second return, cancel second return, ordinary receipt negative control.",
+  "execution": "Real MariaDB and Redis, unmodified app/controller/test source, single upstream unittest selected by external harness. No web server/browser needed.",
+  "trace": "Python tracing observes call/return/exception and already materialized document attributes only; no guard mocks, replacement predicates, or additional database reads.",
+  "database_control": "Restore same initialized test-site SQL snapshot before second source-version run; clear only isolated Redis cache.",
+  "expected_before": "One test errors at closed-return validation with InvalidStatusError; affected return must not reach update_ordered_and_reserved_qty.",
+  "expected_after": "One test passes; closed-return submit and cancel reach update_ordered_and_reserved_qty; ordinary closed-order receipt remains rejected.",
+  "non_claims": [
+    "No runtime prevalence or real customer deployment",
+    "No assertion that every state in the former six-state Cartesian guard domain is workflow-reachable",
+    "No implemented customer receipt logging or production retention policy",
+    "No need for retrospective rule application inferred",
+    "No application performance results"
+  ],
+  "isolation": "Dedicated Docker network and three uniquely named containers, no published ports, generated test database only, public test password constants.",
+  "dependency_policy": "Container image digests, exact Git revisions, full Python freeze and non-editable package lock retained.",
+  "official_setup_references": [
+    "https://docs.frappe.io/framework/user/en/installation",
+    "https://github.com/frappe/frappe_docker/blob/main/docs/05-development/01-development.md"
+  ],
+  "plan_note": "Protocol written after source inspection and installation, before selected upstream regression was successfully discovered/executed. An initial light-mode discovery attempt failed while importing unrelated tests; retained in setup_attempts. Not externally preregistered."
+}

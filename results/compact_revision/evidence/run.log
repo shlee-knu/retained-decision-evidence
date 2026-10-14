@@ -1,0 +1,5 @@
+Pair-join selfcheck: {'tiny_grid_functions': 64, 'mixed_observation_checks': 254, 'pair_join_and_minimal_hitting_masks': 'passed'}
+Independent census: 834880 status/complete-robust rows; 0 mismatches
+Native recount: {'affected': 114, 'P_reads': 114, 'T_reads_after_P': 85, 'stop_after_P': 29}; full archive: {'affected': 524, 'P_reads': 524, 'T_reads_after_P': 384, 'stop_after_P': 140}; panel match=True
+Saved timing sums: 18 cells, 270 measured rows; strict weighted residual=1811.296813 ms, finite=1833.002863 ms
+All compact evidence checks passed; immutable input hashes unchanged.

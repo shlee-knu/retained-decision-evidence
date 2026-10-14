@@ -1,0 +1,220 @@
+{
+  "timing": {
+    "name": "procurement_label_change",
+    "suite": "native",
+    "method": "incremental_smt",
+    "workload": "weighted",
+    "input_loading": {
+      "cpu_ns": 233967095,
+      "wall_ns": 236617925
+    },
+    "input_normalization": {
+      "cpu_ns": 1001569461,
+      "wall_ns": 1001744560
+    },
+    "setup": {
+      "cpu_ns": 10193430,
+      "wall_ns": 10193910
+    },
+    "dependency_import": {
+      "cpu_ns": 10185502,
+      "wall_ns": 10186706
+    },
+    "core_setup": {
+      "cpu_ns": 7928,
+      "wall_ns": 7204
+    },
+    "core_batch": {
+      "cpu_ns": 365060102,
+      "wall_ns": 365134641
+    },
+    "first_report": {
+      "cpu_ns": 9569610,
+      "wall_ns": 9570104
+    },
+    "setup_plus_first": {
+      "cpu_ns": 19763040,
+      "wall_ns": 19764014
+    },
+    "core_setup_plus_first": {
+      "cpu_ns": 9577538,
+      "wall_ns": 9577308
+    },
+    "batch": {
+      "cpu_ns": 375245604,
+      "wall_ns": 375321347
+    },
+    "serialization": {
+      "cpu_ns": 205531027,
+      "wall_ns": 205970937
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 401546326,
+      "wall_ns": 401645847
+    },
+    "checks": 104,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 50931,
+    "diagnosed_classes": 20,
+    "status_counts": {
+      "safe": 48374,
+      "stale_verdict": 2557
+    },
+    "output_bytes": 18663759,
+    "output_sha256": "aa66b7020c6f78dd9ec6cb72053293d3fae5d874e48c2b4bdb593a4fa1dcfd12",
+    "process_peak_rss_kib": {
+      "before_setup": 148704,
+      "after_setup": 154296,
+      "after_first_report": 180912,
+      "after_batch": 187824
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "0": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "1": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "2": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "3": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "4": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "5": {
+      "status": "stale_verdict",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "6": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "9": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "10": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "11": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "12": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "13": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "14": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "15": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "16": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "17": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "18": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "19": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

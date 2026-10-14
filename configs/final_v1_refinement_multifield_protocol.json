@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "purpose": "Functional comparison of the frozen checked repair API and ordinary worklist on existing native two-block challenges; no timing measurement.",
+  "targets": ["edge_p0_a0_b1", "required_p2_a3", "edge_p2_a0_b2", "edge_p2_a2_b3"],
+  "scenarios": ["all_authorized", "times_unavailable", "times_wrong_request"],
+  "selection": "Each implementation reports every retained observation class for each of the four previously selected authored weakening targets, then independently maps every retained ID whose report requires exactly both profile and first_times. Reconstruct the selection separately from declarative predicates over all source receipts. Report distinct case IDs, case-target pairs, and per-target counts separately, including zero-count targets.",
+  "policy": "Frozen adaptive_p_first executor, same finite Cartesian P/T domain and truthful pinned public snapshot. The ordinary generic summary/execute methods are unchanged; a new report wrapper replaces only the earlier strict-only bundle/ID wrapper.",
+  "scenarios_detail": {
+    "all_authorized": "Both complete P and T responses are authorized and truthful.",
+    "times_unavailable": "P is authorized; a requested T capability is source_unavailable, with no T read callback.",
+    "times_wrong_request": "Both capabilities are authorized. Any T response has its request_receipt_sha256 replaced by 64 zero characters. P responses remain truthful. Record the rejected response and all callbacks."
+  },
+  "verification": "Reopen every persisted payload. Reconstruct report classifications, all minimal robust sets, literal witnesses, exact selected IDs, P-first calls, accepted responses and target-bound replacements using the existing separate stdlib predicate/completion checker. Compare method payload bytes after independent checks. Include adversarial semantic-tampering tests that refresh file manifests.",
+  "denominators": "Class reports, selected source IDs, selected case-target pairs and scenario/method replay rows are separate dependent counts. Reuse of existing cases and targets adds implementation-coverage evidence, not a new independent data set or holdout.",
+  "limits": [
+    "Three authored local capability/envelope conditions, not observed operational failures or all failure semantics.",
+    "Previously selected weakening targets and constructed retention; no empirical edit prevalence or industrial deployment claim.",
+    "Full source archive is hashed and read during setup. Logical block calls are not physical I/O or latency savings.",
+    "Both implementations share schema/parser, source adapter, JSON catalogs, domain assumptions and serialization, but express semantic evaluation separately. The separate checker uses its own predicates and completion reconstruction.",
+    "No new throughput or timing comparison; earlier strict-only performance results keep their original scope."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "round_rows": 198,
+  "warmup_rows": 36,
+  "measured_rows": 162,
+  "methods_per_catalog": 9,
+  "measured_rounds_per_method_catalog": 9,
+  "all_runtime_mismatches": 0,
+  "all_reported_medians_recomputed": true,
+  "all_paired_deltas_and_thresholds_recomputed": true,
+  "source_code_hashes_match_run": true,
+  "summary_csv_sha256": "c207e8dab903efa27da2d21f914f769a1517ee3fb38645e6bf2d9c455076de87"
+}

@@ -1,0 +1,371 @@
+[
+  {
+    "census_class_id": 1,
+    "query": {
+      "base": [
+        0
+      ],
+      "mask": 0,
+      "observed": [],
+      "old_verdict": false
+    },
+    "native_records": 3563,
+    "sorted_case_ids_sha256": "1d20e9b7276cd640b99075ca901e00e3581d1c94bf129c0090df0eb040653c74"
+  },
+  {
+    "census_class_id": 5,
+    "query": {
+      "base": [
+        0,
+        2
+      ],
+      "mask": 0,
+      "observed": [],
+      "old_verdict": false
+    },
+    "native_records": 113,
+    "sorted_case_ids_sha256": "9a7e4a7f0e8e6d8c76b98a1e21357bbc1a40c049e571a0a8faaaf29d2be26a2e"
+  },
+  {
+    "census_class_id": 6,
+    "query": {
+      "base": [
+        0,
+        3
+      ],
+      "mask": 0,
+      "observed": [],
+      "old_verdict": false
+    },
+    "native_records": 52,
+    "sorted_case_ids_sha256": "b872b240858101dedc8588da61b4d7e4d463e755022566785c83a0c50e11ad72"
+  },
+  {
+    "census_class_id": 16,
+    "query": {
+      "base": [
+        0,
+        3,
+        2
+      ],
+      "mask": 0,
+      "observed": [],
+      "old_verdict": false
+    },
+    "native_records": 1,
+    "sorted_case_ids_sha256": "013fb84d8c4439a3426b532098637927525cc42d191990b369cde6cac53cfaf0"
+  },
+  {
+    "census_class_id": 64,
+    "query": {
+      "base": [
+        0,
+        1
+      ],
+      "mask": 1,
+      "observed": [
+        0
+      ],
+      "old_verdict": false
+    },
+    "native_records": 693,
+    "sorted_case_ids_sha256": "4d92e080ee8fe4571e5a136cdd109d8c9023b05ffef5d5c6a8efde7163842d7a"
+  },
+  {
+    "census_class_id": 65,
+    "query": {
+      "base": [
+        0,
+        1
+      ],
+      "mask": 1,
+      "observed": [
+        1
+      ],
+      "old_verdict": false
+    },
+    "native_records": 1725,
+    "sorted_case_ids_sha256": "7f9c16df02f780a553a5be02ccb76fe6aef1ba49cef0ef44eb1db6443a055f67"
+  },
+  {
+    "census_class_id": 111,
+    "query": {
+      "base": [
+        0,
+        1,
+        2
+      ],
+      "mask": 1,
+      "observed": [
+        0
+      ],
+      "old_verdict": false
+    },
+    "native_records": 297,
+    "sorted_case_ids_sha256": "654d3c1d704dc2d1bf6de048f0750ea6afdfff6407fac47c2cdc720f50967279"
+  },
+  {
+    "census_class_id": 112,
+    "query": {
+      "base": [
+        0,
+        1,
+        2
+      ],
+      "mask": 1,
+      "observed": [
+        1
+      ],
+      "old_verdict": false
+    },
+    "native_records": 5108,
+    "sorted_case_ids_sha256": "933cc873bd93a7ac9494ab2bf1b20ee4751c58345d3e95ef4e635213b0f5d854"
+  },
+  {
+    "census_class_id": 118,
+    "query": {
+      "base": [
+        0,
+        2,
+        1
+      ],
+      "mask": 1,
+      "observed": [
+        1
+      ],
+      "old_verdict": false
+    },
+    "native_records": 197,
+    "sorted_case_ids_sha256": "528005397bd8159c09f6742084052a7310934c996d5a99912a5e278757c06af5"
+  },
+  {
+    "census_class_id": 121,
+    "query": {
+      "base": [
+        0,
+        2,
+        3
+      ],
+      "mask": 1,
+      "observed": [
+        1
+      ],
+      "old_verdict": false
+    },
+    "native_records": 32,
+    "sorted_case_ids_sha256": "36f880bdec80e72ebea4effddfbef8e7d12ac54c2df2b41ef5d2079bb54a6250"
+  },
+  {
+    "census_class_id": 200,
+    "query": {
+      "base": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "mask": 1,
+      "observed": [
+        0
+      ],
+      "old_verdict": false
+    },
+    "native_records": 1,
+    "sorted_case_ids_sha256": "35c10c0332bdd58538b24385c95dc9574c9c358201bc248075835c65f8a7cf4d"
+  },
+  {
+    "census_class_id": 201,
+    "query": {
+      "base": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "mask": 1,
+      "observed": [
+        1
+      ],
+      "old_verdict": false
+    },
+    "native_records": 2,
+    "sorted_case_ids_sha256": "9c01246fb20493a4f28d2567b4b7e1f965ffb86cc1a4c29d047fbf4911b41780"
+  },
+  {
+    "census_class_id": 205,
+    "query": {
+      "base": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "mask": 1,
+      "observed": [
+        1
+      ],
+      "old_verdict": false
+    },
+    "native_records": 5,
+    "sorted_case_ids_sha256": "251b45ad7b3890407aa15556d09e544637d7860a8ba968b07252b600ef61689e"
+  },
+  {
+    "census_class_id": 798,
+    "query": {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": true
+    },
+    "native_records": 269,
+    "sorted_case_ids_sha256": "c23d4c77c38005a2db1fa11e6f4a0ad40c011bc3beed705ccd200adc335aeafd"
+  },
+  {
+    "census_class_id": 799,
+    "query": {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": true
+    },
+    "native_records": 2,
+    "sorted_case_ids_sha256": "3c8e5910a46ae207fb3a7c8ad9acef7fe3893c7bd78070b3bb857b68770a21d9"
+  },
+  {
+    "census_class_id": 1398,
+    "query": {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 2,
+      "observed": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "old_verdict": true
+    },
+    "native_records": 33218,
+    "sorted_case_ids_sha256": "9549aa3675696a0980a4778d7c9342ccd9c35376b7d61b1be4154799939c6b4d"
+  },
+  {
+    "census_class_id": 1895,
+    "query": {
+      "base": [
+        0,
+        1
+      ],
+      "mask": 3,
+      "observed": [
+        3,
+        [
+          0,
+          1
+        ]
+      ],
+      "old_verdict": true
+    },
+    "native_records": 2557,
+    "sorted_case_ids_sha256": "7d9295fbceee1de9261170892e6f6df64bf194ff6829c181d16dc243b7764d40"
+  },
+  {
+    "census_class_id": 2734,
+    "query": {
+      "base": [
+        0,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        2,
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": true
+    },
+    "native_records": 101,
+    "sorted_case_ids_sha256": "c0c4fad3a2a3fb1073b67b9e8dcee3bcf6633a55ef9a881a0da330e820d717d2"
+  },
+  {
+    "census_class_id": 4977,
+    "query": {
+      "base": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        1,
+        [
+          0,
+          1,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": true
+    },
+    "native_records": 4,
+    "sorted_case_ids_sha256": "8d8ef222f441276fdcb1e93767c55365b2a1690957047b16cea435dacb17fe26"
+  },
+  {
+    "census_class_id": 8325,
+    "query": {
+      "base": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        1,
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "old_verdict": true
+    },
+    "native_records": 2991,
+    "sorted_case_ids_sha256": "c6a4a6943f632d6c304b950676160bd39d713e5704fc2ef8d7dcf1045cbeb98e"
+  }
+]

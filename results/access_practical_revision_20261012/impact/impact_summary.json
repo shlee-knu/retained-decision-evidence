@@ -1,0 +1,347 @@
+{
+  "target_count": 39,
+  "native_records_per_target": 50931,
+  "cross_tab": [
+    {
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false,
+      "targets": 13
+    },
+    {
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": true,
+      "targets": 7
+    },
+    {
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": false,
+      "targets": 6
+    },
+    {
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true,
+      "targets": 13
+    }
+  ],
+  "workload_frequencies": [
+    {
+      "insufficient_records_per_target": 0,
+      "targets": 19
+    },
+    {
+      "insufficient_records_per_target": 1,
+      "targets": 2
+    },
+    {
+      "insufficient_records_per_target": 2,
+      "targets": 1
+    },
+    {
+      "insufficient_records_per_target": 5,
+      "targets": 1
+    },
+    {
+      "insufficient_records_per_target": 113,
+      "targets": 1
+    },
+    {
+      "insufficient_records_per_target": 297,
+      "targets": 1
+    },
+    {
+      "insufficient_records_per_target": 3729,
+      "targets": 1
+    },
+    {
+      "insufficient_records_per_target": 5305,
+      "targets": 1
+    },
+    {
+      "insufficient_records_per_target": 33489,
+      "targets": 12
+    }
+  ],
+  "insufficient_target_record_pairs": 411321,
+  "targets": [
+    {
+      "target": "edge_p0_a0_b1",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p0_a0_b2",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p0_a1_b2",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p0_a2_b3",
+      "complete_input_verdict_changes": 1,
+      "insufficient_records": 1,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p1_a0_b1",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p1_a0_b2",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p1_a1_b2",
+      "complete_input_verdict_changes": 2995,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p1_a1_b3",
+      "complete_input_verdict_changes": 5,
+      "insufficient_records": 5,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p1_a2_b1",
+      "complete_input_verdict_changes": 31637,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p1_a2_b3",
+      "complete_input_verdict_changes": 2,
+      "insufficient_records": 2,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p2_a0_b1",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p2_a1_b0",
+      "complete_input_verdict_changes": 101,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p2_a1_b2",
+      "complete_input_verdict_changes": 101,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p2_a1_b3",
+      "complete_input_verdict_changes": 101,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p2_a2_b1",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 1,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p2_a3_b1",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p3_a0_b1",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p3_a0_b2",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p3_a0_b3",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p3_a1_b2",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p3_a1_b3",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p3_a2_b0",
+      "complete_input_verdict_changes": 2557,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p3_a2_b1",
+      "complete_input_verdict_changes": 2557,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p3_a2_b3",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "edge_p3_a3_b0",
+      "complete_input_verdict_changes": 2557,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p3_a3_b1",
+      "complete_input_verdict_changes": 2557,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "edge_p3_a3_b2",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "forbidden_p2_a1",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "forbidden_p3_a2",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "forbidden_p3_a3",
+      "complete_input_verdict_changes": 0,
+      "insufficient_records": 33489,
+      "any_complete_input_verdict_change": false,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "required_p0_a3",
+      "complete_input_verdict_changes": 297,
+      "insufficient_records": 297,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "required_p1_a3",
+      "complete_input_verdict_changes": 5305,
+      "insufficient_records": 5305,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "required_p2_a1",
+      "complete_input_verdict_changes": 101,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "required_p2_a3",
+      "complete_input_verdict_changes": 85,
+      "insufficient_records": 113,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "required_p3_a1",
+      "complete_input_verdict_changes": 294,
+      "insufficient_records": 3729,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": true
+    },
+    {
+      "target": "required_p3_a2",
+      "complete_input_verdict_changes": 2557,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": false
+    },
+    {
+      "target": "required_p3_a3",
+      "complete_input_verdict_changes": 2557,
+      "insufficient_records": 0,
+      "any_complete_input_verdict_change": true,
+      "any_insufficient_record": false
+    }
+  ],
+  "interpretation": [
+    "Post hoc descriptive summary of 39 authored changes under reconstructed retention on the same public archive.",
+    "Cross-tab cells count targets, not cases; the two target-level properties need not hold for the same case.",
+    "The selected targets are dependent and are not a sample of observed organizational changes.",
+    "Workload frequencies include zero and use exact categorical values, not continuous bins.",
+    "The strict two-edit anchor is excluded from this single-edit selection."
+  ]
+}

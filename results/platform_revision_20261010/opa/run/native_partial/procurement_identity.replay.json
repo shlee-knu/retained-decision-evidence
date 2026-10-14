@@ -1,0 +1,33 @@
+{
+  "native_result": {
+    "result": [
+      {
+        "expressions": [
+          {
+            "value": [
+              true,
+              true,
+              true,
+              true
+            ],
+            "text": "data.audit.residual.checks",
+            "location": {
+              "row": 1,
+              "col": 1
+            }
+          }
+        ]
+      }
+    ],
+    "metrics": {
+      "timer_rego_load_files_ns": 380062,
+      "timer_rego_module_compile_ns": 1126582,
+      "timer_rego_module_parse_ns": 339100,
+      "timer_rego_query_compile_ns": 24788,
+      "timer_rego_query_eval_ns": 241644,
+      "timer_rego_query_parse_ns": 5470
+    }
+  },
+  "compatible_completion_count": 4,
+  "independent_raw_verdict_parity": true
+}

@@ -1,0 +1,1138 @@
+{
+  "status": "passed",
+  "failures": 0,
+  "raw_old_truth_labels": 8612,
+  "raw_new_truth_labels": 688960,
+  "raw_class_results": 834880,
+  "engine_classes": 4763,
+  "engine_diagnostics": 14289,
+  "raw_verifier_assertions": 103998,
+  "crosschecked_insufficient_rows": 2535,
+  "scope": "Raw predicates validate full census; three engines crosschecked on all insufficient classes and frozen safe/stale controls only.",
+  "targets": [
+    {
+      "target": "required_p0_a0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p0_a1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p0_a2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p0_a3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 21,
+      "engine_diagnostics": 63,
+      "engine_status_counts": {
+        "insufficient": 1,
+        "safe": 16,
+        "stale_verdict": 4
+      },
+      "raw_verifier_assertions": 282,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p0_a0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p0_a1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p0_a2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p0_a3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a0_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 93,
+      "engine_diagnostics": 279,
+      "engine_status_counts": {
+        "insufficient": 61,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 2238,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a0_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a0_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a1_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a1_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 37,
+      "engine_diagnostics": 111,
+      "engine_status_counts": {
+        "insufficient": 5,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 546,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a1_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a2_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a2_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a2_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 35,
+      "engine_diagnostics": 105,
+      "engine_status_counts": {
+        "insufficient": 3,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 486,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a3_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a3_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "edge_p0_a3_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 8
+      },
+      "raw_verifier_assertions": 540,
+      "failures": 0
+    },
+    {
+      "target": "required_p1_a0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p1_a1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p1_a2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p1_a3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 30,
+      "engine_diagnostics": 90,
+      "engine_status_counts": {
+        "insufficient": 2,
+        "safe": 16,
+        "stale_verdict": 12
+      },
+      "raw_verifier_assertions": 408,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p1_a0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p1_a1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p1_a2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p1_a3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a0_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 33,
+      "engine_diagnostics": 99,
+      "engine_status_counts": {
+        "insufficient": 1,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 426,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a0_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 33,
+      "engine_diagnostics": 99,
+      "engine_status_counts": {
+        "insufficient": 1,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 426,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a0_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a1_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a1_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a1_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 33,
+      "engine_diagnostics": 99,
+      "engine_status_counts": {
+        "insufficient": 1,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 426,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a2_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a2_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a2_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 33,
+      "engine_diagnostics": 99,
+      "engine_status_counts": {
+        "insufficient": 1,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 426,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a3_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a3_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p1_a3_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "required_p2_a0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p2_a1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 20,
+      "engine_diagnostics": 60,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 4
+      },
+      "raw_verifier_assertions": 252,
+      "failures": 0
+    },
+    {
+      "target": "required_p2_a2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p2_a3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 52,
+      "engine_diagnostics": 156,
+      "engine_status_counts": {
+        "insufficient": 20,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 1008,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p2_a0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p2_a1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p2_a2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p2_a3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a0_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a0_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 409,
+      "engine_diagnostics": 1227,
+      "engine_status_counts": {
+        "insufficient": 377,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 11745,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a0_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a1_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a1_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a1_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a2_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a2_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a2_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 307,
+      "engine_diagnostics": 921,
+      "engine_status_counts": {
+        "insufficient": 275,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 8673,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a3_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a3_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p2_a3_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "required_p3_a0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 16,
+      "engine_diagnostics": 48,
+      "engine_status_counts": {
+        "safe": 16
+      },
+      "raw_verifier_assertions": 204,
+      "failures": 0
+    },
+    {
+      "target": "required_p3_a1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 129,
+      "engine_diagnostics": 387,
+      "engine_status_counts": {
+        "insufficient": 97,
+        "stale_verdict": 16,
+        "safe": 16
+      },
+      "raw_verifier_assertions": 3366,
+      "failures": 0
+    },
+    {
+      "target": "required_p3_a2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "required_p3_a3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p3_a0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p3_a1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p3_a2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "forbidden_p3_a3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a0_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 1402,
+      "engine_diagnostics": 4206,
+      "engine_status_counts": {
+        "insufficient": 1370,
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 41598,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a0_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a0_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a1_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a1_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a1_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a2_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a2_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a2_b3",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 32,
+      "engine_diagnostics": 96,
+      "engine_status_counts": {
+        "safe": 16,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 396,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a3_b0",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a3_b1",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    },
+    {
+      "target": "edge_p3_a3_b2",
+      "raw_truth_labels": 8612,
+      "raw_class_results": 10436,
+      "engine_classes": 40,
+      "engine_diagnostics": 120,
+      "engine_status_counts": {
+        "safe": 16,
+        "insufficient": 8,
+        "stale_verdict": 16
+      },
+      "raw_verifier_assertions": 636,
+      "failures": 0
+    }
+  ],
+  "source_hashes": {
+    "configs/revision_diagnostic_protocol.json": "9d63370bccc5544f9cffd5d43add8bd4cfe275db172751a4b47aa0a4b63bed0e",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/second_equivalent_catalog.json": "2af4c69182674bcf4c445ad3bab7dffa5f2b497bef1b60fc414ed371e2a8aa86",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "requirements-focused.txt": "5a6aa999fe68dcead54ccafc36261bcdd03b338999388844cd5f079e261b4398",
+    "results/focused_revision/diagnostic_inputs/epcis_aggregation_profile.json": "7b7fc09d49485acad49c980af76343aefbfd6d8d7298ca46c5df504021afa7cd",
+    "results/focused_revision/diagnostic_inputs/epcis_object_profile.json": "95af45fce0767d177cfdfdd8381e4996dcfe64fd9459e0c169c4b93fc0225365",
+    "results/focused_revision/diagnostic_inputs/epcis_transformation_profile.json": "a4662f238b1ab8b1c220b86c19f7d5f8130ae113e8603f71225c43e05c411d4f",
+    "results/focused_revision/diagnostic_inputs/manifest.json": "63ab15caccb0d1aeb6bfb23aa896b01f4c7a7ef1822cd566f6f0606c702fcd74",
+    "results/focused_revision/diagnostic_inputs/procurement_equivalent.json": "883d0a87209178105e5cd108c3b6bd5e4d00c70becbdc9f1a49c768533e080ed",
+    "results/focused_revision/diagnostic_inputs/procurement_identity.json": "eadc4e2d1fba462b3e0797143d3ce534bdefabf50cc198e9e5b11e9fa8ffd831",
+    "results/focused_revision/diagnostic_inputs/procurement_label_change.json": "ec816221da207bb4a33469c707b99ac05e59c66db87b3fb26eea157226b4d316",
+    "results/focused_revision/diagnostic_inputs/procurement_strict.json": "213a3031529f657ba4fbbe475010b8f54bb3a5ae7f9fdb2e001781d0801f5d9e",
+    "results/second/receipt_revalidation/native_receipts.jsonl.gz": "d08fbc83a4ef278e750f200f0cd30c0c8683b86cda93ac544fecdb1bfec1ead0",
+    "results/strong/catalog_audit/finite_tables.json.gz": "e369afd80c9b1ebf57ea456dc2297357b5d64365e27a8efc120e50ba23bfd7af",
+    "scripts/benchmark_focused_diagnostics.py": "98f82f6874b656dc08b2a1da85b313d2a9fc8e3c09bdb1b35cf103a58894ceef",
+    "scripts/benchmark_revision_diagnostics.py": "ab4d528bb2c3d6be94e39e165660286c8f021cd94fa3218e05593f902b5d33ef",
+    "scripts/compare_catalogs.py": "6f2bf0eb77a5a44f100c24af4c65a14d56f7b366734d3a87daf13039f7b13121",
+    "scripts/revalidate_receipt.py": "83a9eb3ca226fd0350a9f8cb078072056eeb1a30ffe4812c686579a02be7d733",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/focused_diagnostics.py": "7e232f1aff423237a947abbd21029c595178481b3be8c13fc01715d0dd24519a",
+    "src/logistics_validation/revision_diagnostics.py": "438e35aece87bf35de26df37c806da6e8263a326d9c9de98bbf34c686ec90594",
+    "src/logistics_validation/standards_core.py": "13190595234c6260b1b2eb2e4129e2be8fc27560c2c805f77dd035df496dc457",
+    "src/logistics_validation/standards_epcis.py": "b8f85c0926f046766d1b77ab3ea092b66f41742248e4486ed2c933fad5db22e5",
+    "tests/test_revision_benchmark.py": "6167227231774b620ce7ff07a426ee5308bb6ea3e58937e0af910c6f13704dff"
+  },
+  "input_hashes": {
+    "census.json": "813a0e10714f11a276e83f76db51f5e748ec90291c8f8068efa429f2d87a681b",
+    "epcis_aggregation_profile.json": "533fc9fa69894779e5a6b4cf4f83ba99ccc27429bb623e60b20cef0a4ba4347b",
+    "epcis_object_profile.json": "2f82dfa770efcc561f2c6c7d0daa3a7a8694d7816ff313654b89dfd992619363",
+    "epcis_transformation_profile.json": "d1dd761a747c811ea94f37a52fe9b4ae45332db4b4074b423710556623c232b3",
+    "observation_classes.json": "502b450b9501ca388823f806e31b288bf9d02dae28c921da987aa46f1ad63aab",
+    "procurement_edge_p0_a0_b1.json": "28799dc68e358b8b2838863f278d87ac8a2d3bbcac1b5f803a7e94c1bbb57ac9",
+    "procurement_edge_p2_a0_b2.json": "a2afc48d2ebc9aaba5a9c4a04ddac5dd7571a48fbbb849e2af0e8caa92ef8173",
+    "procurement_edge_p2_a2_b3.json": "ff23b38f3c3a7d98b4538fd55df12d9e76d969500d51cf8ad21e3ac16b3aa67f",
+    "procurement_equivalent.json": "cb61654967cb80f7a4395354cfe1292fdd1c7adca0a30b3e30787bb2246fc627",
+    "procurement_identity.json": "fc8e48220dc90f2a3b731f02190a8d20591e1f722c9a9a17e9c4d15718827be8",
+    "procurement_label_change.json": "9a9abd70b0698e8c7666cf4aebbd77e28c6e7eeffda0cce68ab92b79a08d56c2",
+    "procurement_required_p2_a3.json": "43dc8976a112260217bc328dabd2682d1baa9a5ee97ba54b1a6f3ac904a50cdf",
+    "procurement_strict.json": "9d7b7e3a22ed9752a41c96c7153f4e18a1f1efe14edc8c5404fb1ad7a2d03725",
+    "saved_census_rows.json.gz": "ccc7f1fd25814a5817371ca8f9a4ba581d801153094ebd09cc18bb4d0486adbb"
+  }
+}

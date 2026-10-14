@@ -1,0 +1,1818 @@
+{
+  "edge_p0_a0_b1": {
+    "status_counts": {
+      "safe": 10303,
+      "stale_verdict": 72,
+      "insufficient": 61
+    },
+    "additional_requirements": {
+      "P": 56,
+      "T": 3,
+      "PT": 2
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "668da22422bcf767c8ae4de864066e40530bdd933705bd0bdf6ec2f7ca3507e5",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 80,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p0_a0_b2": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "edge_p0_a0_b3": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "edge_p0_a1_b0": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p0_a1_b2": {
+    "status_counts": {
+      "safe": 10283,
+      "stale_verdict": 148,
+      "insufficient": 5
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 5,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "2bf0e60c2cb213a74cedd52173f3f7cd0eaf8bda4aec45708022ec4bf0dfe1a3",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 156,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p0_a1_b3": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "edge_p0_a2_b0": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p0_a2_b1": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p0_a2_b3": {
+    "status_counts": {
+      "safe": 10361,
+      "stale_verdict": 72,
+      "insufficient": 3
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 3,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "b4cffd316e19e1996d2499eae67702acf507cff050aae82b7a2007bca542bed2",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 80,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p0_a3_b0": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p0_a3_b1": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p0_a3_b2": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a0_b1": {
+    "status_counts": {
+      "safe": 10411,
+      "stale_verdict": 24,
+      "insufficient": 1
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 1,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "450c1146be84e1cefa3ccdff56d2b1c63f13be323542f9554b5303fb2eb9ed8a",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 48,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a0_b2": {
+    "status_counts": {
+      "safe": 10411,
+      "stale_verdict": 24,
+      "insufficient": 1
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 1,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "c039d1c6a1459da36c38bf40ef1b3c056abce53e38ac16f1afd32a56010c26c2",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 48,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a0_b3": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "edge_p1_a1_b0": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a1_b2": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 16,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "fdd986583507de8f716949bc2803a1fda6171dd1f127508923d0f21546853b2e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 8,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a1_b3": {
+    "status_counts": {
+      "safe": 10411,
+      "stale_verdict": 24,
+      "insufficient": 1
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 1,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "2cc9a4c35eebb867eaa525c83fbf6485890e5c0803e9a9f49d5621c28db4a273",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 48,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a2_b0": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a2_b1": {
+    "status_counts": {
+      "safe": 10412,
+      "stale_verdict": 16,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "54a30b59dbc80a38985a7a504e01ef398185da8eba636abe3c6ec3b830342104",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 8,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a2_b3": {
+    "status_counts": {
+      "safe": 10411,
+      "stale_verdict": 24,
+      "insufficient": 1
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 1,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "66d40493369756dcb256f3ad9f826e37ab00f63a593284820513b2aaf7a92b18",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 48,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a3_b0": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a3_b1": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p1_a3_b2": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a0_b1": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 32,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "8df2b89c6df70bb2da5dd2e5955f9c7c1163056c0ad47e8b70bbd36a18400600",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 52,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a0_b2": {
+    "status_counts": {
+      "safe": 9591,
+      "stale_verdict": 468,
+      "insufficient": 377
+    },
+    "additional_requirements": {
+      "P": 360,
+      "T": 10,
+      "PT": 7
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c6be799292f87ef500efa878ccfe0f35c97be05a7df3feb74a2cc57a405dd7e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 552,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a0_b3": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "edge_p2_a1_b0": {
+    "status_counts": {
+      "safe": 10352,
+      "stale_verdict": 76,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "1dc91a911aff88b2cd10fb1850ed9fdf3ad4a2be2581f36031717a8edd940017",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 8,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a1_b2": {
+    "status_counts": {
+      "safe": 10376,
+      "stale_verdict": 60,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "1af6c1288623ee9f332cc1bb1c3e12836012c35cd6e5f4b3e2b203342fd3730c",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 24,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a1_b3": {
+    "status_counts": {
+      "safe": 10400,
+      "stale_verdict": 36,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "f8534e01421851168cb309bc1dde99d1f421dc26fb4162e2fae20c7f5fa05aba",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 48,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a2_b0": {
+    "status_counts": {
+      "safe": 10344,
+      "stale_verdict": 84,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "ea4b3183d03fc24eb06777b0c2379285326a8e0e70ae2401c3f2226e8395f068",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 0,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "2-way match"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a2_b1": {
+    "status_counts": {
+      "safe": 10372,
+      "stale_verdict": 56,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "632b0f9583b0f20d09fe6b175c09a8303818a2e82850de3102080a6a6aae06ee",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 28,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a2_b3": {
+    "status_counts": {
+      "safe": 9693,
+      "stale_verdict": 468,
+      "insufficient": 275
+    },
+    "additional_requirements": {
+      "P": 260,
+      "T": 10,
+      "PT": 5
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0a1d961d09888bb8ca3cd51fa9f2705b6426bba301616e515d965a2bac51a8e4",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 552,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a3_b0": {
+    "status_counts": {
+      "safe": 10344,
+      "stale_verdict": 84,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "ea4b3183d03fc24eb06777b0c2379285326a8e0e70ae2401c3f2226e8395f068",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 0,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "2-way match"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a3_b1": {
+    "status_counts": {
+      "safe": 10356,
+      "stale_verdict": 72,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "25837fb93d26981b9133184eecfa61bb40a3ac7379a42f9d58c82efce45a9e0e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 12,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p2_a3_b2": {
+    "status_counts": {
+      "safe": 10344,
+      "stale_verdict": 84,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "ea4b3183d03fc24eb06777b0c2379285326a8e0e70ae2401c3f2226e8395f068",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 0,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "2-way match"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a0_b1": {
+    "status_counts": {
+      "safe": 7663,
+      "stale_verdict": 1403,
+      "insufficient": 1370
+    },
+    "additional_requirements": {
+      "P": 1370,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "ad502c622625b0fdc4b66d9a605b0f2f848d2eb8b0e59f60439a52c623342b59",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 1962
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a0_b2": {
+    "status_counts": {
+      "safe": 10152,
+      "stale_verdict": 284,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "4f35b5cf410b191e21089d23883ff8e0c10178d42434bc9a1ca53f4d3adf0edf",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 294
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a0_b3": {
+    "status_counts": {
+      "safe": 10152,
+      "stale_verdict": 284,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "e13a4e960ea9a77bc26734eeb57257ff853277773e8c28772ba0853c53b065ee",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 294
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a1_b0": {
+    "status_counts": {
+      "safe": 9850,
+      "stale_verdict": 578,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "c72685d2190ee4e998bbf0e4883505e523fd61085af158ba12507803e7c4e582",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 0
+    },
+    "unsatisfiable_profiles": [
+      "Consignment"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a1_b2": {
+    "status_counts": {
+      "safe": 9968,
+      "stale_verdict": 468,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "44d2e41f0de7f4917d1b30f5d230749afc8a0d59acad70b0272173104c999978",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 110
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a1_b3": {
+    "status_counts": {
+      "safe": 9968,
+      "stale_verdict": 468,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "9b1c542e68f1b926369cf51d170bd2380448817935af031a8a9f7e3fa6b26cf9",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 110
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a2_b0": {
+    "status_counts": {
+      "safe": 9934,
+      "stale_verdict": 494,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "9483fc5881f3b35b5724c845244c59c9846ab9caacaf720d3102bd5fe982b7c6",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 84
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a2_b1": {
+    "status_counts": {
+      "safe": 10118,
+      "stale_verdict": 310,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "14ff67162b38da37da09d113da1da37dd2ed7e03076f527f8a538556d070cc96",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 268
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a2_b3": {
+    "status_counts": {
+      "safe": 10040,
+      "stale_verdict": 396,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "111aac12ec24bf494c018f6fd1636948c371675b0eaf5b7c9c1bcf7c8f1fbe88",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 182
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a3_b0": {
+    "status_counts": {
+      "safe": 9934,
+      "stale_verdict": 494,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "93902e89cfa39fd9291df99dcd4e0f033e7aa22a4ee6cc8787e5adc097486661",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 84
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a3_b1": {
+    "status_counts": {
+      "safe": 10118,
+      "stale_verdict": 310,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "ca7b1d59d4ecd5a73a0aaa327229dc40da45d9734a0283d499675cdcbfb97837",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 268
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "edge_p3_a3_b2": {
+    "status_counts": {
+      "safe": 10032,
+      "stale_verdict": 396,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "b43aa9bea331489e577a76a67ff423aa84327d092f8c00e7fbdd241ca0133ae6",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 182
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p0_a0": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p0_a1": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p0_a2": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p0_a3": {
+    "status_counts": {
+      "safe": 10420,
+      "stale_verdict": 8,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "846f3602e8ce7443e5f5734f00896030341cfe6d5a2d829967c988f28f5d952e",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 0,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice after GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p1_a0": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p1_a1": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p1_a2": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p1_a3": {
+    "status_counts": {
+      "safe": 10404,
+      "stale_verdict": 24,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "a2301004434904cb4b0146d6d652c5b499196c4cf09a396e1b42f5cc14cda95b",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 0,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "3-way match, invoice before GR"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p2_a0": {
+    "status_counts": {
+      "safe": 10344,
+      "stale_verdict": 84,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "ea4b3183d03fc24eb06777b0c2379285326a8e0e70ae2401c3f2226e8395f068",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 0,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "2-way match"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p2_a1": {
+    "status_counts": {
+      "safe": 10348,
+      "stale_verdict": 80,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "13c1a6e9018a623a860ec307abf24858ff3df37d906a32d54a44417753e988f0",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 4,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p2_a2": {
+    "status_counts": {
+      "safe": 10344,
+      "stale_verdict": 84,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "ea4b3183d03fc24eb06777b0c2379285326a8e0e70ae2401c3f2226e8395f068",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 0,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "2-way match"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p2_a3": {
+    "status_counts": {
+      "safe": 10344,
+      "stale_verdict": 84,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "ea4b3183d03fc24eb06777b0c2379285326a8e0e70ae2401c3f2226e8395f068",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 0,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [
+      "2-way match"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p3_a0": {
+    "status_counts": {
+      "safe": 9850,
+      "stale_verdict": 578,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "c72685d2190ee4e998bbf0e4883505e523fd61085af158ba12507803e7c4e582",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 0
+    },
+    "unsatisfiable_profiles": [
+      "Consignment"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p3_a1": {
+    "status_counts": {
+      "safe": 9850,
+      "stale_verdict": 578,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "c72685d2190ee4e998bbf0e4883505e523fd61085af158ba12507803e7c4e582",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 0
+    },
+    "unsatisfiable_profiles": [
+      "Consignment"
+    ],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p3_a2": {
+    "status_counts": {
+      "safe": 9876,
+      "stale_verdict": 552,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "5eea8e376ef3b9301a23b6a1dc801d8f0d376d94ed05d0c373edcef59916f11d",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 26
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "forbidden_p3_a3": {
+    "status_counts": {
+      "safe": 9876,
+      "stale_verdict": 552,
+      "insufficient": 8
+    },
+    "additional_requirements": {
+      "P": 8,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "d4f128c0d9eec9b7b153ca530717d1d33b5bbeb7876706510e5a0bd5444c6e93",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 26
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "required_p0_a0": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p0_a1": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p0_a2": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p0_a3": {
+    "status_counts": {
+      "safe": 10431,
+      "stale_verdict": 4,
+      "insufficient": 1
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 1,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "2fbbf95e4d0e80b15cc2faee1233f30831908de06fdf80da92aa4bab624e3159",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 12,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "required_p1_a0": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p1_a1": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p1_a2": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p1_a3": {
+    "status_counts": {
+      "safe": 10422,
+      "stale_verdict": 12,
+      "insufficient": 2
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 2,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "24b051f520f9f75afdb7b8d80d113d188fe5df522f3cd664dea1583288effbd1",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 36,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "required_p2_a0": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p2_a1": {
+    "status_counts": {
+      "safe": 10432,
+      "stale_verdict": 4,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0bab00bfdaf879ce768be027474116a9999e1d618b3d920221503f621f5e4240",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 80,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "required_p2_a2": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p2_a3": {
+    "status_counts": {
+      "safe": 10390,
+      "stale_verdict": 26,
+      "insufficient": 20
+    },
+    "additional_requirements": {
+      "P": 14,
+      "T": 4,
+      "PT": 2
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c38f85185e8e78b1ba37a3965c431924ce7b49fc858fc7784860714d2fb890a",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 110,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "required_p3_a0": {
+    "status_counts": {
+      "safe": 10436,
+      "stale_verdict": 0,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "0c0d4557729f15f4e67e53fd037f21fa14b8b71c213c73a7d16f0f07b1829285",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 578
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": true
+  },
+  "required_p3_a1": {
+    "status_counts": {
+      "safe": 10237,
+      "stale_verdict": 102,
+      "insufficient": 97
+    },
+    "additional_requirements": {
+      "P": 97,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "818b31853a364014f508b46ff6019b323e7160bbca6804e2b408831d5b3d100a",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 669
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "required_p3_a2": {
+    "status_counts": {
+      "safe": 10410,
+      "stale_verdict": 26,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "fb59ea12fc073333566d48314b9e788d6a389fb5e2fd279ce4e68cfdb5f18d54",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 552
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  },
+  "required_p3_a3": {
+    "status_counts": {
+      "safe": 10410,
+      "stale_verdict": 26,
+      "insufficient": 0
+    },
+    "additional_requirements": {
+      "P": 0,
+      "T": 0,
+      "PT": 0
+    },
+    "rows": 10436,
+    "truth_vector_sha256": "3d344477c5fadf1aaece37fef1c6736d7c6996ebc30f5e8caf4d5d67a871cd17",
+    "accepting_states_by_profile": {
+      "3-way match, invoice after GR": 8,
+      "3-way match, invoice before GR": 24,
+      "2-way match": 84,
+      "Consignment": 552
+    },
+    "unsatisfiable_profiles": [],
+    "equivalent_to_baseline": false
+  }
+}

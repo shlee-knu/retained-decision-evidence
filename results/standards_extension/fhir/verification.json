@@ -1,0 +1,32 @@
+{
+  "fhirpath": {
+    "engine": "HL7/fhirpath.js",
+    "version": "4.6.0",
+    "model": "FHIR R4",
+    "complete_resources_only": true,
+    "profiles": 3,
+    "profile_versions": 6,
+    "finite_states_per_profile": 360,
+    "counts": {
+      "exhaustive_synthetic": 2160,
+      "individual_invariant_evaluations": 10512,
+      "official_specification_example": 142,
+      "synthetic_long_array_control": 12
+    },
+    "discrepancies": [],
+    "engine_errors": [],
+    "elapsed_seconds": 0.26210695097688586,
+    "runner_sha256": "1e67664a9470033289cd6becd872b601d6bc0551430b8c4175e8aa5005abd519",
+    "package_lock_sha256": "5b0dda134bfe379981ce5b05e28a7913b1940afd5ef41e4fb6ef67825d6def5e",
+    "scope": "Exact selected computable constraints evaluated in the declared element context; not full profile validation.",
+    "all_setup_elapsed_seconds": 1.7901687909616157,
+    "completed_utc": "2026-10-08T05:49:18.406878+00:00"
+  },
+  "official_examples_unsupported": 13,
+  "source_sha256": {
+    "src/logistics_validation/standards_fhir.py": "d666965750c7ddf234e56c0a25c382449e032181f6e5a5b24b88845118548930",
+    "scripts/validate_fhir_standards.py": "4671fd98ee35af5878a87d4854734dbff53c6368bb7897092b7a88aec2518aac",
+    "configs/fhir_standards_protocol.json": "a8e5a81cad8607ea7ab00d21065ddca5d3befaf3abe5844379b6c0bec57d7969"
+  },
+  "passed": true
+}

@@ -1,0 +1,206 @@
+{
+  "timing": {
+    "name": "procurement_identity",
+    "method": "incremental_smt",
+    "workload": "unique",
+    "setup": {
+      "cpu_ns": 10757402,
+      "wall_ns": 10757729
+    },
+    "dependency_import": {
+      "cpu_ns": 10751906,
+      "wall_ns": 10752857
+    },
+    "core_setup": {
+      "cpu_ns": 5496,
+      "wall_ns": 4872
+    },
+    "core_batch": {
+      "cpu_ns": 47181021,
+      "wall_ns": 47206776
+    },
+    "first_report": {
+      "cpu_ns": 8836444,
+      "wall_ns": 8836616
+    },
+    "setup_plus_first": {
+      "cpu_ns": 19593846,
+      "wall_ns": 19594345
+    },
+    "batch": {
+      "cpu_ns": 57932927,
+      "wall_ns": 57959633
+    },
+    "serialization": {
+      "cpu_ns": 306701,
+      "wall_ns": 294323
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 184914288,
+      "wall_ns": 184938390
+    },
+    "checks": 104,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 20,
+    "diagnosed_classes": 20,
+    "status_counts": {
+      "safe": 20
+    },
+    "output_bytes": 6950,
+    "output_sha256": "0b0fa564fe9e391fb8aab0f191f35ff9b6bdfaf39ab8287dbfd5df363d95e3d2",
+    "process_peak_rss_kib": {
+      "before_setup": 34088,
+      "after_setup": 38680,
+      "after_first_report": 65636,
+      "after_batch": 72548
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "0": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "1": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "2": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "3": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "4": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "5": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "6": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "9": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "10": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "11": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "12": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "13": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "14": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "15": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "16": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "17": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "18": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "19": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-07T15:04:14.252388+00:00",
+  "record_type": "Local fixed extension design after examining prior results; not external preregistration or a blind exploratory design",
+  "source_manuscript_sha256": "26efc9d3ac6b70e813140006981885a3313549fb4a31a5185b954ebb3ab90bd3",
+  "question": "How do explicit upstream guarantees and their withdrawal change information certificates and retained-verdict revalidation?",
+  "fixed_domains": [
+    "full_cartesian",
+    "first_clock_nondecreasing",
+    "consignment_excludes_invoice_and_clear",
+    "intersection_of_the_two_guarantees"
+  ],
+  "guarantee_status": "Hypothetical trusted upstream invariants; observed archive compliance cannot certify future inputs. Checking them locally consumes metadata and must be charged.",
+  "catalog_matrix": "All82 previously fixed catalogs, retaining80singleedits, contradictions and semanticduplicates; compare originaltwo catalogs oncompletearchive andsalt17test",
+  "known_before_extension": [
+    "Original strictcatalog preserves allnative labels and changesheldout minimumblocktotal by27884",
+    "Previously inspected35native quotientstates have nondecreasingfirstclocks",
+    "Originalheldout33489TonlycertificatesbecomePT and5605Ponlybecomeempty; retainedreceipt repaircannotrefund sunkreads",
+    "Analytic chronologyquotient prediction1268classes; T becomes redundantfor currentfirstoccurrenceedges if guarantee trusted"
+  ],
+  "receipt_output_statuses": [
+    "invalid_old_receipt",
+    "unsupported_new_domain",
+    "safe_same_verdict",
+    "stale_verdict",
+    "insufficient_observations"
+  ],
+  "receipt_boundary": "Sameimmutablecase snapshot andsame observedvalues; no assumption of detecting unread metadata changes or verifying upstreamguarantees forfree",
+  "validation": [
+    "Independent domain membership and full predicate references",
+    "Narrowing monotonicity on common supported anchors",
+    "Unsupported observations do not create vacuouscertificates",
+    "Witnesses preserve fullobserved activities andreadliteralmetadata",
+    "Native retainedreceipt replay distinguishes repairs from freshrequestcost",
+    "Focused tests thenfinal fullsuite aftertextandPDFfreeze"
+  ],
+  "excluded_claims": [
+    "New theory of constraintaware explanations",
+    "Runtimebenefit fromlogical savings",
+    "Realorganizational policychange history",
+    "Prospective pristine heldout optimization on alreadyinspected salt17cases",
+    "Externalpeerreview or acceptanceguarantee"
+  ]
+}

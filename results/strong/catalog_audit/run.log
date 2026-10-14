@@ -1,0 +1,99 @@
+finite catalogs 1/82
+finite catalogs 11/82
+finite catalogs 21/82
+finite catalogs 31/82
+finite catalogs 41/82
+finite catalogs 51/82
+finite catalogs 61/82
+finite catalogs 71/82
+finite catalogs 81/82
+native projection complete
+{
+  "status": "passed",
+  "elapsed_seconds": 24.797577832010575,
+  "semantic_catalogs": 44,
+  "native_states": 35,
+  "native_stable_catalogs": 35,
+  "strict_native": {
+    "statistics": {
+      "cases": 251734,
+      "accept": 196464,
+      "minimal_families": {
+        "P": 10906,
+        "PT": 196464,
+        "empty": 44364
+      },
+      "necessary_masks": {
+        "P": 10906,
+        "PT": 196464,
+        "empty": 44364
+      },
+      "minimum_lookup_distribution": {
+        "0": 44364,
+        "1": 10906,
+        "2": 196464
+      },
+      "pointwise_minimum_lookups": 403834,
+      "policies": {
+        "always_both": {
+          "profile_queries": 251734,
+          "time_queries": 251734,
+          "lookups": 503468,
+          "payload_bytes": 47033159,
+          "lookups_above_pointwise_certificate_bound": 99634
+        },
+        "profile_first": {
+          "profile_queries": 207370,
+          "time_queries": 196464,
+          "lookups": 403834,
+          "payload_bytes": 39695997,
+          "lookups_above_pointwise_certificate_bound": 0
+        },
+        "time_first": {
+          "profile_queries": 207370,
+          "time_queries": 207370,
+          "lookups": 414740,
+          "payload_bytes": 40690315,
+          "lookups_above_pointwise_certificate_bound": 10906
+        },
+        "structural_order": {
+          "profile_queries": 207370,
+          "time_queries": 196464,
+          "lookups": 403834,
+          "payload_bytes": 39695997,
+          "lookups_above_pointwise_certificate_bound": 0
+        }
+      }
+    },
+    "delta": {
+      "verdict_changes": 0,
+      "minimal_family_changes": 195312,
+      "preserved_verdict_cases": 251734,
+      "certificate_loss_cases": 167718,
+      "certificate_gain_cases": 27594,
+      "lost_mask_instances": 167718,
+      "gained_mask_instances": 55188,
+      "newly_necessary_P_cases": 167718,
+      "newly_necessary_T_cases": 0,
+      "no_longer_necessary_P_cases": 27594,
+      "no_longer_necessary_T_cases": 0,
+      "profile_first_path_changes": 27594,
+      "time_first_path_changes": 195312,
+      "structural_order_path_changes": 195312,
+      "minimal_family_transitions": {
+        "P -> P": 10906,
+        "P -> empty": 27594,
+        "PT -> PT": 28746,
+        "T -> PT": 167718,
+        "empty -> empty": 16770
+      },
+      "sufficient_bitset_transitions": {
+        "10 -> 10": 10906,
+        "10 -> 15": 27594,
+        "12 -> 8": 167718,
+        "15 -> 15": 16770,
+        "8 -> 8": 28746
+      }
+    }
+  }
+}

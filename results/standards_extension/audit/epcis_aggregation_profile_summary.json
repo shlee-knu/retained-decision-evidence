@@ -1,0 +1,238 @@
+{
+  "name": "epcis_aggregation_profile",
+  "blocks": [
+    "action",
+    "parentID",
+    "childEPCs",
+    "childQuantityList",
+    "bizStep"
+  ],
+  "states": 216,
+  "old_pass": 96,
+  "new_pass": 72,
+  "label_changes": 24,
+  "certificate_family_changes": 126,
+  "label_preserved_certificate_family_changes": 102,
+  "valid_old_observation_classes": 535,
+  "classification": {
+    "safe": 433,
+    "insufficient": 51,
+    "stale_verdict": 51
+  },
+  "witness_pairs": 51,
+  "generated_receipts": 216,
+  "generated_receipt_status": {
+    "safe": 120,
+    "insufficient": 96
+  },
+  "pointwise_minimum_additional_blocks": 96,
+  "historical_old_blocks": 540,
+  "source_bindings": {
+    "domain_sha256": "add69dd9f81d61bbe64391187d7f552b4da611a340af4d39b95a61cf2daa5e7b",
+    "old_predicate_sha256": "4f5992df4f0eeffbb19a0a6535565aaeea9ff0d5e24ad30031d428df26f8d1b6",
+    "new_predicate_sha256": "dae37cea292b5b917ae8eb720f2d1987d80a2bd4e9f3e2b46eb1170dde1c3faa"
+  },
+  "static_delta_plan": {
+    "false": {
+      "mask": 0,
+      "reason": "verified_label_implication"
+    },
+    "true": {
+      "mask": 16,
+      "reason": "verified_changed_dependencies"
+    }
+  },
+  "metadata": {
+    "standard": "EPCIS 2.0.1 / CBV 2.0.0",
+    "event_type": "AggregationEvent",
+    "old_contract": "Selected EPCIS clauses plus compatible present bizStep",
+    "new_contract": "Same selected EPCIS clauses plus compliant present bizStep",
+    "clauses": [
+      "EPCIS 7.4.3 p.85 parentID required except OBSERVE",
+      "EPCIS 7.4.3 p.85 nonempty child list except DELETE",
+      "CBV 2.0.0 sections 5.1, 5.2, 7.1.2 (present values only)"
+    ],
+    "visible_base": [
+      "event type",
+      "fixed valid event/document timestamps",
+      "pinned context",
+      "all fields outside named blocks absent"
+    ],
+    "scope": "Finite selected-clause domain, not complete standards conformance",
+    "new_dependencies": [
+      "action",
+      "parentID",
+      "childEPCs",
+      "childQuantityList",
+      "bizStep"
+    ],
+    "changed_dependencies": [
+      "bizStep"
+    ],
+    "transition_kind": "strengthening",
+    "migration_status": "Authored profile comparison; no observed organizational migration",
+    "block_interface": "Authored local whole-field accessor; absent is an explicit value",
+    "array_boundary": "An array is one complete block, never a hidden or unknown prefix",
+    "business_step_absence": "Excluded: CBV 5.1 SHALL / 7.1.2 SHOULD wording differs",
+    "synthetic": true
+  },
+  "setup_cpu_ns": {
+    "model_compilation": 4061514,
+    "codec_check": 2177018,
+    "shared_planner_compilation": 11896288,
+    "synthetic_receipt_preparation": 5846648
+  },
+  "checks": 694,
+  "replay": [
+    {
+      "layout": "separate",
+      "strategy": "full_fragment",
+      "cases": 216,
+      "median_cpu_us_per_case": 30.52694907407407,
+      "median_wall_us_per_case": 30.524703703703704,
+      "logical_blocks": 1080,
+      "explicitly_requested_blocks": 1080,
+      "newly_observed_blocks": 1080,
+      "source_requests": 1080,
+      "source_bytes": 44244,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 147528
+    },
+    {
+      "layout": "separate",
+      "strategy": "fresh_guarded",
+      "cases": 216,
+      "median_cpu_us_per_case": 30.64159259259259,
+      "median_wall_us_per_case": 30.63923148148148,
+      "logical_blocks": 636,
+      "explicitly_requested_blocks": 636,
+      "newly_observed_blocks": 636,
+      "source_requests": 636,
+      "source_bytes": 24756,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 110784
+    },
+    {
+      "layout": "separate",
+      "strategy": "ordinary_cached",
+      "cases": 216,
+      "median_cpu_us_per_case": 26.422412037037038,
+      "median_wall_us_per_case": 26.419634259259258,
+      "logical_blocks": 96,
+      "explicitly_requested_blocks": 96,
+      "newly_observed_blocks": 96,
+      "source_requests": 96,
+      "source_bytes": 4944,
+      "receipt_requests": 216,
+      "receipt_bytes": 103512,
+      "emitted_bytes": 110784
+    },
+    {
+      "layout": "separate",
+      "strategy": "static_delta",
+      "cases": 216,
+      "median_cpu_us_per_case": 25.691675925925928,
+      "median_wall_us_per_case": 25.68960185185185,
+      "logical_blocks": 96,
+      "explicitly_requested_blocks": 96,
+      "newly_observed_blocks": 96,
+      "source_requests": 96,
+      "source_bytes": 4944,
+      "receipt_requests": 216,
+      "receipt_bytes": 103512,
+      "emitted_bytes": 110784
+    },
+    {
+      "layout": "separate",
+      "strategy": "receipt_audit",
+      "cases": 216,
+      "median_cpu_us_per_case": 37.958231481481484,
+      "median_wall_us_per_case": 37.95635648148148,
+      "logical_blocks": 96,
+      "explicitly_requested_blocks": 96,
+      "newly_observed_blocks": 96,
+      "source_requests": 96,
+      "source_bytes": 4944,
+      "receipt_requests": 216,
+      "receipt_bytes": 103512,
+      "emitted_bytes": 110784
+    },
+    {
+      "layout": "bundled",
+      "strategy": "full_fragment",
+      "cases": 216,
+      "median_cpu_us_per_case": 29.915041666666667,
+      "median_wall_us_per_case": 29.911050925925927,
+      "logical_blocks": 1080,
+      "explicitly_requested_blocks": 216,
+      "newly_observed_blocks": 1080,
+      "source_requests": 216,
+      "source_bytes": 58932,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 147528
+    },
+    {
+      "layout": "bundled",
+      "strategy": "fresh_guarded",
+      "cases": 216,
+      "median_cpu_us_per_case": 33.100833333333334,
+      "median_wall_us_per_case": 33.097458333333336,
+      "logical_blocks": 1080,
+      "explicitly_requested_blocks": 216,
+      "newly_observed_blocks": 1080,
+      "source_requests": 216,
+      "source_bytes": 58932,
+      "receipt_requests": 0,
+      "receipt_bytes": 0,
+      "emitted_bytes": 147528
+    },
+    {
+      "layout": "bundled",
+      "strategy": "ordinary_cached",
+      "cases": 216,
+      "median_cpu_us_per_case": 32.73639814814815,
+      "median_wall_us_per_case": 32.73311111111111,
+      "logical_blocks": 480,
+      "explicitly_requested_blocks": 96,
+      "newly_observed_blocks": 244,
+      "source_requests": 96,
+      "source_bytes": 29292,
+      "receipt_requests": 216,
+      "receipt_bytes": 103512,
+      "emitted_bytes": 123100
+    },
+    {
+      "layout": "bundled",
+      "strategy": "static_delta",
+      "cases": 216,
+      "median_cpu_us_per_case": 32.267175925925926,
+      "median_wall_us_per_case": 32.262652777777774,
+      "logical_blocks": 480,
+      "explicitly_requested_blocks": 96,
+      "newly_observed_blocks": 244,
+      "source_requests": 96,
+      "source_bytes": 29292,
+      "receipt_requests": 216,
+      "receipt_bytes": 103512,
+      "emitted_bytes": 123100
+    },
+    {
+      "layout": "bundled",
+      "strategy": "receipt_audit",
+      "cases": 216,
+      "median_cpu_us_per_case": 44.237574074074075,
+      "median_wall_us_per_case": 44.234601851851856,
+      "logical_blocks": 480,
+      "explicitly_requested_blocks": 96,
+      "newly_observed_blocks": 244,
+      "source_requests": 96,
+      "source_bytes": 29292,
+      "receipt_requests": 216,
+      "receipt_bytes": 103512,
+      "emitted_bytes": 123100
+    }
+  ]
+}

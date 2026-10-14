@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "inputs": {
+    "configs/third_receipt_audit_protocol.json": "201270c3a410f96d4ae5868574dbd382f5bfac43e74328526d9a7057ff02a64e",
+    "scripts/audit_receipt_tool.py": "c83e2f24d424434b30a0a1de68bd409889075db200f04d170e9574d027b7afaa",
+    "tests/test_third_receipt_audit.py": "af2956b40762e3af43b40aa6d2bab33e1751094cdc72eccba523d1c949b76546",
+    "scripts/revalidate_receipt.py": "83a9eb3ca226fd0350a9f8cb078072056eeb1a30ffe4812c686579a02be7d733",
+    "scripts/stress_acquisition.py": "24c02806e711fecfc5d353fd5e9ab180387d3516a3fa30d917e4073d1b7e3e15",
+    "src/logistics_validation/catalog_audit.py": "502a2d77c76665b3b2b9ab4029ebeabef168a18832b7cfe945ff539d8b34c475",
+    "src/logistics_validation/domain_audit.py": "592583ea70561fc4c6b25e4089fe4b07fca919eab036d9aebee2b0622f12e904",
+    "examples/baseline_catalog.json": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+    "examples/strict_consignment_catalog.json": "9a5ee246ad551dfd9c7c2e7df81a635b7cce89d4deba72c25ccdf8b8a3d88ea4",
+    "examples/second_equivalent_catalog.json": "2af4c69182674bcf4c445ad3bab7dffa5f2b497bef1b60fc414ed371e2a8aa86",
+    "examples/second_label_flip_catalog.json": "4b04edf5ee7866f09b344a574c14b560080a0cd8adf32f3a5155109f1abe1f3b"
+  },
+  "outputs": {
+    "results/third/receipt_audit/summary.json": "3156805f0461b386775537316270f3dfe85e8adb791f86a538e205718cca5293",
+    "results/third/receipt_audit/witnesses.json": "45be5c8d18dd863889beae9f1b708e21377d570a1b01f562c14236c42e7d9181",
+    "results/third/receipt_audit/expected_vectors.json.gz": "323ad85aec1dac49b6525e1d3089890902b675d91dacdc212b8187b2d7633d88",
+    "results/third/receipt_audit/independent_finite_oracle.json.gz": "4e90b163c2804949abd6c3c7fcd72d22b83117990763dc5ff9b38effc520aa35"
+  }
+}

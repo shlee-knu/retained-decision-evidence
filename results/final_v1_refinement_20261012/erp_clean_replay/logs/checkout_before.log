@@ -1,0 +1,3 @@
+From https://github.com/frappe/erpnext
+ * branch            c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be -> FETCH_HEAD
+HEAD is now at c2d378a test(stock): cover purchase return against a closed purchase order

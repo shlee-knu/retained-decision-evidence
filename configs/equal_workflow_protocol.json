@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "purpose": "Equal-obligation full native strict-change workflow comparison, conventional worklist implementation versus unchanged checked API composition; no speedwin assumption.",
+  "paired_measured_rounds": 5,
+  "excluded_warmup_pairs": 1,
+  "cpu_affinity": 0,
+  "ordering": "One excluded pair ordinary then checked; five measured pairs alternate checked/ordinary then ordinary/checked. Each executor runs in a fresh process on CPU 0. No timing exclusion or stopping based on outcomes.",
+  "equivalent_obligations": [
+    "Read/hash/group all 50,931 actual retained receipts, validating schema and old catalog/domain/snapshot binding.",
+    "Read/hash/index the complete 251,734-case source derivative inside the timer.",
+    "Produce 20 literal representative reports with old admission, new status, one witness per possible new label and every inclusion-minimal robust field set.",
+    "Produce exactly 33,489 affected receipt IDs with class mapping and P obligation.",
+    "Individually check all 50,931 old receipts; acquire P only on ambiguity, validate each source envelope against the current request, then separately check each replacement's binding/literals/sufficiency.",
+    "Serialize the same complete per-record repair ledger and replacement receipts, gzip, flush/fsync, reopen payloads, verify portable reports and independently reconstruct every ID, response, and replacement."
+  ],
+  "cache_policy": "Both measured executors recompute semantic admission/expanded/replacement summaries per record without a semantic-result cache. Both share normalized class grouping for 20 representative reports. The common independently authored readback checker memoizes completion queries identically after execution. OS page caches are shared and warm; no cold-I/O claims.",
+  "implementation_boundary": "OrdinaryWorkflow separately implements JSON-rule enumeration, minimal distinguishing field sets, report assembly and P-first worklist repair. It does not invoke ReceiptRepair, raw_summary, diagnostic engines or make_bundle. Both share the receipt parser/content hash, public source envelope adapter, artifact persistence, and external verification. Normalized direct enumeration avoids materializing/parsing raw witnesses during every per-record diagnosis. Thus differences are complete implementation costs, not isolated algorithm speedup or unique capability.",
+  "comparison": "Require identical replacement stream digest and affected-ID digest; compare semantic proof obligations and independent verifier success rather than force one literal witness enumeration order. Five same-host pairs give descriptive medians/ranges and paired differences, not population inference.",
+  "scope": "Only the existing strict target and retained public cohort; no claim of full industrial deployment, alternative-target performance, remote access savings, user productivity, transactional rollback, authenticated source or power-loss durability.",
+  "profiling_scope": "Separate full-cohort cProfile and recovery-part instrumentation, excluded from the uninstrumented paired sample. Components include full execute, row checks/JSON encoding and gzip writing; profiler overhead is not corrected and no comparison ratio is inferred from instrumented times.",
+  "scaling_selections": [
+    "n:1000",
+    "n:10000",
+    "k:1",
+    "k:5",
+    "k:10"
+  ],
+  "scaling_repeats": 3,
+  "scaling_scope": "Controlled native-ID subsets with no invented or repeated records. N=1,000/10,000 and full N=50,931 all retain K=20 classes by forcing one native exemplar per class before source-order filling. K=1/5/10 at N=1,000 uses classes in descending native frequency and includes each exemplar; K=20 is the n:1000 cell. The full retained archive and source index are still read in every cell, deliberately retaining fixed setup cost. Changing K also changes class complexity/repair prevalence; report composition and do not attribute time solely to K. Three measured fresh pairs per subset, with warm OS caches following the full-cohort benchmark; not extrapolation beyond 20 native classes.",
+  "host_isolation": "Single-CPU affinity is not exclusive-core or exclusive-host isolation. Unrelated user pytest/LibreOffice processes were observed before measurement; they are not controlled or stopped. Our paper builds and ERP build/tests pause during all measurements. Host load and CPU0 counters/process names are recorded before/after every child. Report both CPU and wall time and descriptive alternating-pair ranges; do not claim a quiet, dedicated host or infer a portable speedup."
+}

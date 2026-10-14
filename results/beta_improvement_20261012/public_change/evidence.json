@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-12",
+  "source_citations": {
+    "pull_request": "https://github.com/frappe/erpnext/pull/58126",
+    "change_commit": "https://github.com/frappe/erpnext/commit/ff78778b7cde837bcd3128582280f34582522e5f",
+    "old_method": "https://github.com/frappe/erpnext/blob/c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be/erpnext/controllers/buying_controller.py#L932-L958",
+    "new_method": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/erpnext/controllers/buying_controller.py#L939-L965",
+    "upstream_test": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py#L721-L753",
+    "status_schema": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/erpnext/buying/doctype/purchase_order/purchase_order.json",
+    "license": "https://github.com/frappe/erpnext/blob/ff78778b7cde837bcd3128582280f34582522e5f/license.txt"
+  },
+  "reference_candidate": "Frappe Technologies and contributors, \u201cfix(buying): allow purchase returns against a closed purchase order,\u201d ERPNext, pull request #58126, Aug. 13, 2026. Implementation commit ff78778b7cde837bcd3128582280f34582522e5f. [Online]. Available: https://github.com/frappe/erpnext/pull/58126. Accessed: Oct. 12, 2026.",
+  "source_change_preserves_previous_history": true,
+  "constructed_retention_not_observed": true,
+  "selected_source_method_execution_not_full_application": true,
+  "before_method_is_return_reads": 0,
+  "after_method_is_return_reads": 2,
+  "results": {
+    "complete_states": 6,
+    "changed_complete_outcomes": 1,
+    "source_model_disagreements": 0,
+    "observation_queries_including_both_old_claims": 24,
+    "all_query_status_counts": {
+      "insufficient": 1,
+      "invalid_receipt": 15,
+      "safe": 7,
+      "stale_verdict": 1
+    },
+    "diagnostic_disagreements": 0,
+    "retention": [
+      {
+        "complete_input_counts": {
+          "insufficient": 2,
+          "safe": 4
+        },
+        "constructed_complete_inputs": 6,
+        "distinct_retained_observations": 3,
+        "observation_counts": {
+          "insufficient": 1,
+          "safe": 2
+        },
+        "policy": "status_only"
+      },
+      {
+        "complete_input_counts": {
+          "safe": 5,
+          "stale_verdict": 1
+        },
+        "constructed_complete_inputs": 6,
+        "distinct_retained_observations": 6,
+        "observation_counts": {
+          "safe": 5,
+          "stale_verdict": 1
+        },
+        "policy": "full"
+      }
+    ]
+  },
+  "manuscript_insert_words": 211
+}

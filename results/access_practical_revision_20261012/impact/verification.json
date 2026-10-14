@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "test_command": ".venv/bin/pytest -q tests/test_native_change_impact.py",
+  "tests_passed": 5,
+  "rerender_all_figure_formats_byte_identical": true,
+  "figure_pdf_pages": 1,
+  "figure_pdf_page_points": [
+    504.0,
+    171.36
+  ],
+  "visual_review": "PNG inspected: all labels and counts readable, no clipping or overlap, exact categorical workload axis and zero explicit."
+}

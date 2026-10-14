@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-10-07T13:02:53.810470+00:00",
+  "scope": "Recorded paired structural-policy access masks on salt-17 test documents; no engine rerun",
+  "source": "results/v03/acquisition_access_traces.jsonl.gz",
+  "source_sha256": "0060fe4c8015fa6d7c49da8661acaf073bb28ef6f0dcd1fc9ca4f6b88fa336b6",
+  "cases": 50931,
+  "transitions": [
+    {
+      "before": "none",
+      "after": "none",
+      "cases": 3729,
+      "fraction": 0.07321670495376097
+    },
+    {
+      "before": "profile",
+      "after": "none",
+      "cases": 5605,
+      "fraction": 0.11005085311499872
+    },
+    {
+      "before": "profile",
+      "after": "profile",
+      "cases": 2455,
+      "fraction": 0.04820247000844279
+    },
+    {
+      "before": "timestamps",
+      "after": "profile+timestamps",
+      "cases": 33489,
+      "fraction": 0.6575366672556989
+    },
+    {
+      "before": "profile+timestamps",
+      "after": "profile+timestamps",
+      "cases": 5653,
+      "fraction": 0.11099330466709863
+    }
+  ],
+  "query_count_distribution_before": {
+    "0": 3729,
+    "1": 41549,
+    "2": 5653
+  },
+  "query_count_distribution_after": {
+    "0": 9334,
+    "1": 2455,
+    "2": 39142
+  },
+  "separate_calls_before": 52855,
+  "separate_calls_after": 80739,
+  "additional_profile_reads": 27884,
+  "additional_timestamp_reads": 0,
+  "additional_payload_bytes": 1225342,
+  "joint_full_fetch_calls": 50931,
+  "separate_selective_minus_joint_full_calls": {
+    "permissive": 1924,
+    "strict_consignment": 29808
+  },
+  "rpc_scope": "Illustrative blocking single-case RPC mapping only: one call per selected block versus one call returning both blocks. No measured network latency, pipelining or batching."
+}

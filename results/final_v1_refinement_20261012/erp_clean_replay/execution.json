@@ -1,0 +1,23 @@
+{
+  "driver_exit_code": 0,
+  "completed_utc": "2026-10-12T14:13:04.935314+00:00",
+  "command": [
+    "python3",
+    "results/access_practical_revision_20261012/erp_integration/reproduce.py",
+    "--workdir",
+    "/home/shlee/nudix_workspace/erpnext_final_v1_clean_replay_20261012",
+    "--output",
+    "/home/shlee/nudix_workspace/logistics_event_validation_research/results/final_v1_refinement_20261012/erp_clean_replay"
+  ],
+  "source_driver_sha256": "b2ff64cca5c56ee2dc0972b858cee280ddb476bfdf3e6438f7c1865241b99338",
+  "patches": [],
+  "fresh_working_directory": true,
+  "fresh_site_and_database": true,
+  "shared_initialized_snapshot_restored_for_after": true,
+  "before_expected_test_exit": 1,
+  "after_expected_test_exit": 0,
+  "summarizer_exit_code": 0,
+  "post_run_verifier_exit_code": 0,
+  "cleanup": "Driver deleted its own three new containers and network; pre-existing container IDs and running/stopped states checked unchanged. External workspace and snapshot retained, not packaged.",
+  "credential_boundary": "Only the archived public test-only password constants were used. No local environment or site_config.json was packaged."
+}

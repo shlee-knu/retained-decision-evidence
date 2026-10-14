@@ -1,0 +1,141 @@
+{
+  "created_utc": "2026-10-08T05:34:58.400982+00:00",
+  "status": "Local design freeze after reading standards and a seven-fixture feasibility probe; not external preregistration",
+  "epcis_version": "2.0.1",
+  "cbv_version": "2.0.0",
+  "resources": [
+    {
+      "file": "2.0.0_epcis-json-schema.json",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-json-schema.json",
+      "sha256": "cfabd8620cc4dd67a53e6aa397bc26379f8b05bb9147c8a37a60bbec69a62572",
+      "bytes": 55680,
+      "kind": "normative_artefact"
+    },
+    {
+      "file": "2.0.0_epcis-shacl.ttl",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-shacl.ttl",
+      "sha256": "7db2547a7a55e7d6e6f19c0ad472d1f0987ef19f3d04a43b195bca55c0cc7f42",
+      "bytes": 36297,
+      "kind": "normative_artefact"
+    },
+    {
+      "file": "2.0.0_epcis-context.jsonld",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.0/epcis-context.jsonld",
+      "sha256": "e532647e8eb371379b8b0e8602d8981c8566bc60f7351f22c76a5bc865962008",
+      "bytes": 20686,
+      "kind": "normative_artefact"
+    },
+    {
+      "file": "2.0.1_epcis-json-schema.json",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.1/epcis-json-schema.json",
+      "sha256": "0f46ff694efffd8d8ce840a33dfde84228add11b516b8b258f3200740ae210af",
+      "bytes": 55680,
+      "kind": "normative_artefact"
+    },
+    {
+      "file": "2.0.1_epcis-shacl.ttl",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.1/epcis-shacl.ttl",
+      "sha256": "7db2547a7a55e7d6e6f19c0ad472d1f0987ef19f3d04a43b195bca55c0cc7f42",
+      "bytes": 36297,
+      "kind": "normative_artefact"
+    },
+    {
+      "file": "2.0.1_epcis-context.jsonld",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.1/epcis-context.jsonld",
+      "sha256": "5056c65f991425b1d3a35e35edf4f7d0c7ff56cf688c2912b930f93494713737",
+      "bytes": 20690,
+      "kind": "normative_artefact"
+    },
+    {
+      "file": "object_example.jsonld",
+      "url": "https://ref.gs1.org/docs/epcis/2.0.1/examples/example_9.6.1-object_event.jsonld",
+      "sha256": "c3e786237ba16e02c6a7696edbfe4a5468e3a9f67d3baff90e27a48356be2d7f",
+      "bytes": 1721,
+      "kind": "non_normative_example"
+    },
+    {
+      "file": "aggregation_example.jsonld",
+      "url": "https://ref.gs1.org/docs/epcis/2.0.1/examples/example_9.6.3-aggregation_event.jsonld",
+      "sha256": "f8e3bbc4a4fcbfdbec53b67199f5c628300d816dc836050487df3152048cf813",
+      "bytes": 1172,
+      "kind": "non_normative_example"
+    },
+    {
+      "file": "transformation_example.jsonld",
+      "url": "https://ref.gs1.org/docs/epcis/2.0.1/examples/example_9.6.4-transformation_event.jsonld",
+      "sha256": "95360fc462d03f2f021a1fee75c2fb3f8369657be0bb5132af777abfe4e26652",
+      "bytes": 1399,
+      "kind": "non_normative_example"
+    },
+    {
+      "file": "epcis_2.0.1.pdf",
+      "url": "https://ref.gs1.org/standards/epcis/2.0.1/",
+      "sha256": "6c9b2b51b41cd2cf169f6723001cac56a31c574e9c79ec8d4d52d2bf505f8eaa",
+      "bytes": 4827202,
+      "kind": "normative_prose"
+    },
+    {
+      "file": "cbv_2.0.0.pdf",
+      "url": "https://ref.gs1.org/standards/cbv/2.0.0/",
+      "sha256": "e7003e4ef71096e91cd366775f5efb2158fc72c3229d5d513b41d7499229586e",
+      "bytes": 1322587,
+      "kind": "normative_prose"
+    }
+  ],
+  "licensing": "GS1 source terms. Preserve unchanged downloads locally, exclude originals from redistributable research package; code and newly authored synthetic states have separate repository license.",
+  "known_before_implementation": [
+    "JSON Schema releases differ only in $id; SHACL bytes identical; JSON-LD gs1 prefix differs.",
+    "Official schema accepts ADD aggregation without parentID although prose requires it.",
+    "CBV 5.1 says SHALL and 7.1.2 says SHOULD for bizStep presence; absent bizStep excluded.",
+    "Existing historical repository uses EPCIS projection and official schemas."
+  ],
+  "models": {
+    "epcis_object_profile": {
+      "states": 324,
+      "blocks": 5
+    },
+    "epcis_aggregation_profile": {
+      "states": 216,
+      "blocks": 5
+    },
+    "epcis_transformation_profile": {
+      "states": 648,
+      "blocks": 6
+    },
+    "epcis_json_schema_identity": {
+      "states": 324,
+      "blocks": 5
+    }
+  },
+  "transition": "Selected EPCIS prose clauses plus present bizStep: CBV-Compatible to CBV-Compliant vocabulary requirement subset; authored comparison, not observed enterprise migration.",
+  "mutation_categories": {
+    "arrays": [
+      "confirmed_absent",
+      "complete_empty_array",
+      "complete_singleton_array"
+    ],
+    "ilmd": [
+      "confirmed_absent",
+      "empty_object",
+      "nonempty_object"
+    ],
+    "bizStep": [
+      "compact_receiving",
+      "compact_shipping",
+      "canonical_receiving_uri",
+      "permitted_vendor_uri"
+    ]
+  },
+  "official_examples": "Non-normative seeds only, no operational prevalence or real organization accuracy claim. Derived mutations drop content-hash eventID; originals remain byte-identical.",
+  "oracle": "Independent raw-JSON selected-clause evaluator compared exhaustively to finite predicates; official JSON Schema evaluated separately, including disagreements.",
+  "read_boundary": "Each local block reads the whole field including explicit absence; no claim that standard EPCIS repositories offer this interface. Arrays have known complete boundaries.",
+  "receipt_boundary": "Immutable input snapshot and self-contained observed-value receipts. The old verdict must be justified by retained values; it does not independently restrict the completion domain. Static delta recomputation may exploit sound old-verdict implications and the changed bizStep dependency.",
+  "forbidden_claims": [
+    "Complete EPCIS/CBV certification",
+    "Business-validity classification",
+    "Real operational anomaly accuracy",
+    "Observed organization migration",
+    "New constraint changes between the two JSON Schema releases",
+    "RDF semantic identity from JSON Schema identity"
+  ]
+}

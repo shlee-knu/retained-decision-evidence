@@ -1,0 +1,148 @@
+From c2d378a8fd7c8e4b1f5f05cf8cf0cd1c505557be Mon Sep 17 00:00:00 2001
+From: pandiyan <pandiyanpalani37@gmail.com>
+Date: Thu, 13 Aug 2026 16:28:27 +0530
+Subject: [PATCH 1/2] test(stock): cover purchase return against a closed
+ purchase order
+
+---
+ .../purchase_receipt/test_purchase_receipt.py | 35 +++++++++++++++++++
+ 1 file changed, 35 insertions(+)
+
+diff --git a/erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py b/erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py
+index ed42af8a79af..1469f26ed212 100644
+--- a/erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py
++++ b/erpnext/stock/doctype/purchase_receipt/test_purchase_receipt.py
+@@ -718,6 +718,41 @@ def test_closed_purchase_receipt(self):
+ 		update_purchase_receipt_status(pr.name, "Closed")
+ 		self.assertEqual(frappe.db.get_value("Purchase Receipt", pr.name, "status"), "Closed")
+ 
++	def test_purchase_return_against_closed_purchase_order(self):
++		from erpnext.buying.doctype.purchase_order.mapper import make_purchase_receipt as make_pr_from_po
++		from erpnext.buying.doctype.purchase_order.test_purchase_order import create_purchase_order
++		from erpnext.controllers.sales_and_purchase_return import make_return_doc
++
++		po = create_purchase_order(qty=2, rate=100)
++
++		receipts = []
++		for _ in range(2):
++			pr = make_pr_from_po(po.name)
++			pr.items[0].qty = pr.items[0].received_qty = 1
++			pr.submit()
++			receipts.append(pr)
++
++		first_return = make_return_doc("Purchase Receipt", receipts[0].name)
++		first_return.submit()
++
++		po.reload()
++		po.update_status("Closed")
++
++		# a return against a closed Purchase Order should still go through,
++		# the same way a Delivery Note return does against a closed Sales Order
++		second_return = make_return_doc("Purchase Receipt", receipts[1].name)
++		second_return.submit()
++
++		self.assertEqual(second_return.docstatus, 1)
++		self.assertEqual(frappe.db.get_value("Purchase Order", po.name, "status"), "Closed")
++
++		# cancelling the return runs the same check on the closed order
++		second_return.cancel()
++
++		# a regular receipt against the closed order must still be blocked
++		blocked_pr = make_pr_from_po(po.name)
++		self.assertRaisesRegex(frappe.InvalidStatusError, "Closed", blocked_pr.save)
++
+ 	def test_pr_billing_status(self):
+ 		"""Flow:
+ 		1. PO -> PR1 -> PI
+
+From ff78778b7cde837bcd3128582280f34582522e5f Mon Sep 17 00:00:00 2001
+From: pandiyan <pandiyanpalani37@gmail.com>
+Date: Thu, 13 Aug 2026 16:28:28 +0530
+Subject: [PATCH 2/2] fix(buying): allow purchase returns against a closed
+ purchase order
+
+mirrors the selling side, where a Delivery Note / Sales Invoice return is
+exempt from the on-hold/closed check on its Sales Order. closing a
+Purchase Order that will not be fulfilled further no longer blocks the
+returns booked against its receipts.
+---
+ .../doctype/purchase_invoice/purchase_invoice.py         | 8 ++------
+ erpnext/controllers/buying_controller.py                 | 9 ++++++++-
+ .../stock/doctype/purchase_receipt/purchase_receipt.py   | 4 ++--
+ 3 files changed, 12 insertions(+), 9 deletions(-)
+
+diff --git a/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py b/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py
+index 62df2632262c..a03317554840 100644
+--- a/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py
++++ b/erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py
+@@ -279,9 +279,7 @@ def validate(self):
+ 		self.check_conversion_rate()
+ 		self.validate_credit_to_acc()
+ 		self.clear_unallocated_advances("Purchase Invoice Advance", "advances")
+-		self.check_for_on_hold_or_closed_status(
+-			"Purchase Order", "purchase_order", exclude_if_field="purchase_receipt"
+-		)
++		self.check_purchase_order_on_hold_or_close("purchase_order", exclude_if_field="purchase_receipt")
+ 		self.validate_with_previous_doc()
+ 		self.validate_uom_is_integer("uom", "qty")
+ 		self.validate_uom_is_integer("stock_uom", "stock_qty")
+@@ -732,9 +730,7 @@ def on_cancel(self):
+ 		super().on_cancel()
+ 		PurchaseTaxWithholding(self).on_cancel()
+ 
+-		self.check_for_on_hold_or_closed_status(
+-			"Purchase Order", "purchase_order", exclude_if_field="purchase_receipt"
+-		)
++		self.check_purchase_order_on_hold_or_close("purchase_order", exclude_if_field="purchase_receipt")
+ 
+ 		if self.is_return and not self.update_billed_amount_in_purchase_order:
+ 			# NOTE status updating bypassed for is_return
+diff --git a/erpnext/controllers/buying_controller.py b/erpnext/controllers/buying_controller.py
+index 8de9a3a319e3..1a85031c2fc5 100644
+--- a/erpnext/controllers/buying_controller.py
++++ b/erpnext/controllers/buying_controller.py
+@@ -929,6 +929,13 @@ def get_package_for_target_warehouse(
+ 			item.serial_and_batch_bundle, warehouse, type_of_transaction=type_of_transaction
+ 		)
+ 
++	def check_purchase_order_on_hold_or_close(self, ref_fieldname, exclude_if_field=None):
++		if self.get("is_return"):
++			return
++		self.check_for_on_hold_or_closed_status(
++			"Purchase Order", ref_fieldname, exclude_if_field=exclude_if_field
++		)
++
+ 	def update_ordered_and_reserved_qty(self):
+ 		po_map = {}
+ 		for d in self.get("items"):
+@@ -942,7 +949,7 @@ def update_ordered_and_reserved_qty(self):
+ 			if po and po_item_rows:
+ 				po_obj = frappe.get_lazy_doc("Purchase Order", po)
+ 
+-				if po_obj.status in ["Closed", "Cancelled"]:
++				if po_obj.status == "Cancelled" or (po_obj.status == "Closed" and not self.get("is_return")):
+ 					frappe.throw(
+ 						_("{doctype} {name} is cancelled or closed.").format(
+ 							doctype=frappe.bold(_("Purchase Order")),
+diff --git a/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py b/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py
+index 6137305bfd3e..6cbda056327a 100644
+--- a/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py
++++ b/erpnext/stock/doctype/purchase_receipt/purchase_receipt.py
+@@ -257,7 +257,7 @@ def validate(self):
+ 		self.validate_cwip_accounts()
+ 		ProvisionalAccountingService(self).validate_provisional_expense_account()
+ 
+-		self.check_for_on_hold_or_closed_status("Purchase Order", "purchase_order")
++		self.check_purchase_order_on_hold_or_close("purchase_order")
+ 
+ 		if getdate(self.posting_date) > getdate(nowdate()):
+ 			throw(_("Posting Date cannot be a future date"))
+@@ -426,7 +426,7 @@ def update_received_qty_if_from_pp(self):
+ 	def on_cancel(self):
+ 		super().on_cancel()
+ 
+-		self.check_for_on_hold_or_closed_status("Purchase Order", "purchase_order")
++		self.check_purchase_order_on_hold_or_close("purchase_order")
+ 
+ 		self.update_prevdoc_status()
+ 		self.update_billing_status()

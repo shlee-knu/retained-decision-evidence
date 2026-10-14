@@ -1,0 +1,206 @@
+{
+  "timing": {
+    "name": "procurement_identity",
+    "method": "incremental_smt",
+    "workload": "weighted",
+    "setup": {
+      "cpu_ns": 9794023,
+      "wall_ns": 9794254
+    },
+    "dependency_import": {
+      "cpu_ns": 9787380,
+      "wall_ns": 9788415
+    },
+    "core_setup": {
+      "cpu_ns": 6643,
+      "wall_ns": 5839
+    },
+    "core_batch": {
+      "cpu_ns": 345126175,
+      "wall_ns": 345156971
+    },
+    "first_report": {
+      "cpu_ns": 9432596,
+      "wall_ns": 9432817
+    },
+    "setup_plus_first": {
+      "cpu_ns": 19226619,
+      "wall_ns": 19227071
+    },
+    "batch": {
+      "cpu_ns": 354913555,
+      "wall_ns": 354945386
+    },
+    "serialization": {
+      "cpu_ns": 191985967,
+      "wall_ns": 192370444
+    },
+    "independent_raw_validation": {
+      "cpu_ns": 400540757,
+      "wall_ns": 400638768
+    },
+    "checks": 104,
+    "lifted_witness_checks": 0,
+    "failures": 0,
+    "requests": 50931,
+    "diagnosed_classes": 20,
+    "status_counts": {
+      "safe": 50931
+    },
+    "output_bytes": 18437022,
+    "output_sha256": "a4ba35ea25a7bec18bcc60fd34d258bd22de984b8c3e938b5e3e69f4b27965a5",
+    "process_peak_rss_kib": {
+      "before_setup": 142828,
+      "after_setup": 148656,
+      "after_first_report": 175612,
+      "after_batch": 182524
+    },
+    "python": "3.12.3",
+    "z3_solver": "4.15.4.0",
+    "affinity": [
+      0
+    ]
+  },
+  "diagnostics": {
+    "0": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "1": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "2": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "3": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "4": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "5": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "6": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "7": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "8": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "9": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "10": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "11": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "12": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "13": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "14": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "15": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "16": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "17": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "18": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    },
+    "19": {
+      "status": "safe",
+      "witnesses": null,
+      "robust_masks": [
+        0
+      ]
+    }
+  }
+}

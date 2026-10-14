@@ -1,0 +1,1560 @@
+{
+  "partial": {
+    "queries": [
+      [
+        {
+          "index": 0,
+          "terms": [
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "eq"
+                }
+              ]
+            },
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "input"
+                },
+                {
+                  "type": "string",
+                  "value": "record"
+                },
+                {
+                  "type": "string",
+                  "value": "profile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "terms": [
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "eq"
+                }
+              ]
+            },
+            {
+              "type": "var",
+              "value": "__local5__2"
+            },
+            {
+              "type": "objectcomprehension",
+              "value": {
+                "key": {
+                  "type": "var",
+                  "value": "__local3__2"
+                },
+                "value": {
+                  "type": "var",
+                  "value": "__local4__2"
+                },
+                "body": [
+                  {
+                    "index": 0,
+                    "terms": [
+                      {
+                        "type": "ref",
+                        "value": [
+                          {
+                            "type": "var",
+                            "value": "eq"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "var",
+                        "value": "__local3__2"
+                      },
+                      {
+                        "type": "ref",
+                        "value": [
+                          {
+                            "type": "var",
+                            "value": "input"
+                          },
+                          {
+                            "type": "string",
+                            "value": "record"
+                          },
+                          {
+                            "type": "string",
+                            "value": "base"
+                          },
+                          {
+                            "type": "var",
+                            "value": "__local4__2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local6__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local7__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "type": "number",
+                  "value": 2
+                },
+                {
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            "body": [
+              {
+                "index": 0,
+                "generated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "eq"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local30__2"
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      },
+                      {
+                        "type": "string",
+                        "value": "base"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "internal"
+                      },
+                      {
+                        "type": "string",
+                        "value": "member_2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local7__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local30__2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local8__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local9__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": []
+            },
+            "body": [
+              {
+                "index": 0,
+                "generated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "eq"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local31__2"
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      },
+                      {
+                        "type": "string",
+                        "value": "base"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "negated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "internal"
+                      },
+                      {
+                        "type": "string",
+                        "value": "member_2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local9__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local31__2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local10__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local11__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "type": "number",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "type": "number",
+                      "value": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 2
+                    },
+                    {
+                      "type": "number",
+                      "value": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "body": [
+              {
+                "index": 0,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "data"
+                      },
+                      {
+                        "type": "string",
+                        "value": "audit"
+                      },
+                      {
+                        "type": "string",
+                        "value": "predicates"
+                      },
+                      {
+                        "type": "string",
+                        "value": "edge_allowed"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local5__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local11__2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "index": 0,
+          "terms": [
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "eq"
+                }
+              ]
+            },
+            {
+              "type": "number",
+              "value": 1
+            },
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "input"
+                },
+                {
+                  "type": "string",
+                  "value": "record"
+                },
+                {
+                  "type": "string",
+                  "value": "profile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "terms": [
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "eq"
+                }
+              ]
+            },
+            {
+              "type": "var",
+              "value": "__local5__2"
+            },
+            {
+              "type": "objectcomprehension",
+              "value": {
+                "key": {
+                  "type": "var",
+                  "value": "__local3__2"
+                },
+                "value": {
+                  "type": "var",
+                  "value": "__local4__2"
+                },
+                "body": [
+                  {
+                    "index": 0,
+                    "terms": [
+                      {
+                        "type": "ref",
+                        "value": [
+                          {
+                            "type": "var",
+                            "value": "eq"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "var",
+                        "value": "__local3__2"
+                      },
+                      {
+                        "type": "ref",
+                        "value": [
+                          {
+                            "type": "var",
+                            "value": "input"
+                          },
+                          {
+                            "type": "string",
+                            "value": "record"
+                          },
+                          {
+                            "type": "string",
+                            "value": "base"
+                          },
+                          {
+                            "type": "var",
+                            "value": "__local4__2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local6__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local7__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "type": "number",
+                  "value": 2
+                },
+                {
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            "body": [
+              {
+                "index": 0,
+                "generated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "eq"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local30__2"
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      },
+                      {
+                        "type": "string",
+                        "value": "base"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "internal"
+                      },
+                      {
+                        "type": "string",
+                        "value": "member_2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local7__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local30__2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local8__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local9__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": []
+            },
+            "body": [
+              {
+                "index": 0,
+                "generated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "eq"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local31__2"
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      },
+                      {
+                        "type": "string",
+                        "value": "base"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "negated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "internal"
+                      },
+                      {
+                        "type": "string",
+                        "value": "member_2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local9__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local31__2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local10__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local11__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "type": "number",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "type": "number",
+                      "value": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 1
+                    },
+                    {
+                      "type": "number",
+                      "value": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 2
+                    },
+                    {
+                      "type": "number",
+                      "value": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "body": [
+              {
+                "index": 0,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "data"
+                      },
+                      {
+                        "type": "string",
+                        "value": "audit"
+                      },
+                      {
+                        "type": "string",
+                        "value": "predicates"
+                      },
+                      {
+                        "type": "string",
+                        "value": "edge_allowed"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local5__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local11__2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "index": 0,
+          "terms": [
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "eq"
+                }
+              ]
+            },
+            {
+              "type": "number",
+              "value": 2
+            },
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "input"
+                },
+                {
+                  "type": "string",
+                  "value": "record"
+                },
+                {
+                  "type": "string",
+                  "value": "profile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "terms": [
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "eq"
+                }
+              ]
+            },
+            {
+              "type": "var",
+              "value": "__local5__2"
+            },
+            {
+              "type": "objectcomprehension",
+              "value": {
+                "key": {
+                  "type": "var",
+                  "value": "__local3__2"
+                },
+                "value": {
+                  "type": "var",
+                  "value": "__local4__2"
+                },
+                "body": [
+                  {
+                    "index": 0,
+                    "terms": [
+                      {
+                        "type": "ref",
+                        "value": [
+                          {
+                            "type": "var",
+                            "value": "eq"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "var",
+                        "value": "__local3__2"
+                      },
+                      {
+                        "type": "ref",
+                        "value": [
+                          {
+                            "type": "var",
+                            "value": "input"
+                          },
+                          {
+                            "type": "string",
+                            "value": "record"
+                          },
+                          {
+                            "type": "string",
+                            "value": "base"
+                          },
+                          {
+                            "type": "var",
+                            "value": "__local4__2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local6__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local7__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "type": "number",
+                  "value": 2
+                },
+                {
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            "body": [
+              {
+                "index": 0,
+                "generated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "eq"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local30__2"
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      },
+                      {
+                        "type": "string",
+                        "value": "base"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "internal"
+                      },
+                      {
+                        "type": "string",
+                        "value": "member_2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local7__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local30__2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local8__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local9__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": []
+            },
+            "body": [
+              {
+                "index": 0,
+                "generated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "eq"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local31__2"
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      },
+                      {
+                        "type": "string",
+                        "value": "base"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "negated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "internal"
+                      },
+                      {
+                        "type": "string",
+                        "value": "member_2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local9__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local31__2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local10__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local11__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "type": "number",
+                      "value": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 2
+                    },
+                    {
+                      "type": "number",
+                      "value": 3
+                    }
+                  ]
+                }
+              ]
+            },
+            "body": [
+              {
+                "index": 0,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "data"
+                      },
+                      {
+                        "type": "string",
+                        "value": "audit"
+                      },
+                      {
+                        "type": "string",
+                        "value": "predicates"
+                      },
+                      {
+                        "type": "string",
+                        "value": "edge_allowed"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local5__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local11__2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      [
+        {
+          "index": 0,
+          "terms": [
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "eq"
+                }
+              ]
+            },
+            {
+              "type": "number",
+              "value": 3
+            },
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "input"
+                },
+                {
+                  "type": "string",
+                  "value": "record"
+                },
+                {
+                  "type": "string",
+                  "value": "profile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "terms": [
+            {
+              "type": "ref",
+              "value": [
+                {
+                  "type": "var",
+                  "value": "eq"
+                }
+              ]
+            },
+            {
+              "type": "var",
+              "value": "__local5__2"
+            },
+            {
+              "type": "objectcomprehension",
+              "value": {
+                "key": {
+                  "type": "var",
+                  "value": "__local3__2"
+                },
+                "value": {
+                  "type": "var",
+                  "value": "__local4__2"
+                },
+                "body": [
+                  {
+                    "index": 0,
+                    "terms": [
+                      {
+                        "type": "ref",
+                        "value": [
+                          {
+                            "type": "var",
+                            "value": "eq"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "var",
+                        "value": "__local3__2"
+                      },
+                      {
+                        "type": "ref",
+                        "value": [
+                          {
+                            "type": "var",
+                            "value": "input"
+                          },
+                          {
+                            "type": "string",
+                            "value": "record"
+                          },
+                          {
+                            "type": "string",
+                            "value": "base"
+                          },
+                          {
+                            "type": "var",
+                            "value": "__local4__2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local6__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local7__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "type": "number",
+                  "value": 1
+                },
+                {
+                  "type": "number",
+                  "value": 2
+                }
+              ]
+            },
+            "body": [
+              {
+                "index": 0,
+                "generated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "eq"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local30__2"
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      },
+                      {
+                        "type": "string",
+                        "value": "base"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "internal"
+                      },
+                      {
+                        "type": "string",
+                        "value": "member_2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local7__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local30__2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 3,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local8__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local9__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": []
+            },
+            "body": [
+              {
+                "index": 0,
+                "generated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "eq"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local31__2"
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      },
+                      {
+                        "type": "string",
+                        "value": "base"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "index": 1,
+                "negated": true,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "internal"
+                      },
+                      {
+                        "type": "string",
+                        "value": "member_2"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local9__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local31__2"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "index": 4,
+          "terms": {
+            "key": {
+              "type": "var",
+              "value": "__local10__2"
+            },
+            "value": {
+              "type": "var",
+              "value": "__local11__2"
+            },
+            "domain": {
+              "type": "array",
+              "value": [
+                {
+                  "type": "array",
+                  "value": [
+                    {
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "type": "number",
+                      "value": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            "body": [
+              {
+                "index": 0,
+                "terms": [
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "data"
+                      },
+                      {
+                        "type": "string",
+                        "value": "audit"
+                      },
+                      {
+                        "type": "string",
+                        "value": "predicates"
+                      },
+                      {
+                        "type": "string",
+                        "value": "edge_allowed"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ref",
+                    "value": [
+                      {
+                        "type": "var",
+                        "value": "input"
+                      },
+                      {
+                        "type": "string",
+                        "value": "record"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local5__2"
+                  },
+                  {
+                    "type": "var",
+                    "value": "__local11__2"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    ]
+  },
+  "metrics": {
+    "timer_rego_load_files_ns": 161872,
+    "timer_rego_module_compile_ns": 563475,
+    "timer_rego_module_parse_ns": 143501,
+    "timer_rego_partial_eval_ns": 235984,
+    "timer_rego_query_compile_ns": 15481,
+    "timer_rego_query_parse_ns": 5171
+  }
+}

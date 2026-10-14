@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "source_cases_scanned": 251734,
+  "native_cases": 50931,
+  "native_observation_classes": 20,
+  "native_complete_states": 31,
+  "raw_finite_truth_labels_compared": 706184,
+  "saved_native_census_status_and_robust_rows_compared": 1600,
+  "fresh_selection_matches_all_prior_sets": true,
+  "strict_receipt_replays_compared": 50931,
+  "strict_affected_ids": 33489,
+  "four_weakening_two_block_subset": {
+    "P_reads": 114,
+    "T_reads_after_P": 85,
+    "stop_after_P": 29,
+    "affected": 114
+  },
+  "four_weakening_id_digests_match": true,
+  "input_hashes_unchanged": true,
+  "shared_inputs": "Declared finite state enumeration, block meaning and archive; raw predicates/grouping/robust masks use the pre-existing separately written checker, not candidate engines.",
+  "interpretation": "Post hoc descriptive projection of existing authored targets onto the same exposed public archive; not new data, an independent holdout or observed organizational changes"
+}

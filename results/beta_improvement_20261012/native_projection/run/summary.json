@@ -1,0 +1,557 @@
+{
+  "status": "passed",
+  "cohort": "Exactly all 50,931 saved old receipts; the actual retained observations and masks are joined to the same immutable source by unique case ID and checked against archived access traces",
+  "analysis_type": "Post hoc descriptive projection of existing authored targets onto the same exposed public archive; not new data, an independent holdout or observed organizational changes",
+  "native_observation_classes": 20,
+  "native_complete_states": 31,
+  "affected_definition": "Affected means insufficient and requiring source acquisition; stale-but-sufficient records are reported separately. Counts of affected target/case pairs, union distinct affected IDs and the number of targets with any affected records are never interchanged.",
+  "sets": {
+    "all_edits": {
+      "targets": 80,
+      "native_cases_per_target": 50931,
+      "target_case_pairs": 4074480,
+      "status_counts": {
+        "safe": 2671494,
+        "stale_verdict": 53973,
+        "insufficient": 1349013
+      },
+      "additional_requirements": {
+        "P": 1343289,
+        "T": 5610,
+        "PT": 114
+      },
+      "adaptive_additional_reads": {
+        "P": 1343403,
+        "T": 5695,
+        "total": 1349098
+      },
+      "targets_with_insufficient_records": 48,
+      "distinct_insufficient_case_ids": 42828,
+      "distinct_insufficient_native_classes": 13,
+      "sorted_insufficient_union_ids_sha256": "2a44f850718ee30441c547508fbd1d193f17489772685edeecc79c9be497fa62",
+      "insufficient_records_per_target_all": {
+        "minimum": 0,
+        "median": 19397.0,
+        "maximum": 33489
+      },
+      "insufficient_records_per_target_nonzero": {
+        "minimum": 1,
+        "median": 33489.0,
+        "maximum": 33489
+      },
+      "target_names": [
+        "edge_p0_a0_b1",
+        "edge_p0_a0_b2",
+        "edge_p0_a0_b3",
+        "edge_p0_a1_b0",
+        "edge_p0_a1_b2",
+        "edge_p0_a1_b3",
+        "edge_p0_a2_b0",
+        "edge_p0_a2_b1",
+        "edge_p0_a2_b3",
+        "edge_p0_a3_b0",
+        "edge_p0_a3_b1",
+        "edge_p0_a3_b2",
+        "edge_p1_a0_b1",
+        "edge_p1_a0_b2",
+        "edge_p1_a0_b3",
+        "edge_p1_a1_b0",
+        "edge_p1_a1_b2",
+        "edge_p1_a1_b3",
+        "edge_p1_a2_b0",
+        "edge_p1_a2_b1",
+        "edge_p1_a2_b3",
+        "edge_p1_a3_b0",
+        "edge_p1_a3_b1",
+        "edge_p1_a3_b2",
+        "edge_p2_a0_b1",
+        "edge_p2_a0_b2",
+        "edge_p2_a0_b3",
+        "edge_p2_a1_b0",
+        "edge_p2_a1_b2",
+        "edge_p2_a1_b3",
+        "edge_p2_a2_b0",
+        "edge_p2_a2_b1",
+        "edge_p2_a2_b3",
+        "edge_p2_a3_b0",
+        "edge_p2_a3_b1",
+        "edge_p2_a3_b2",
+        "edge_p3_a0_b1",
+        "edge_p3_a0_b2",
+        "edge_p3_a0_b3",
+        "edge_p3_a1_b0",
+        "edge_p3_a1_b2",
+        "edge_p3_a1_b3",
+        "edge_p3_a2_b0",
+        "edge_p3_a2_b1",
+        "edge_p3_a2_b3",
+        "edge_p3_a3_b0",
+        "edge_p3_a3_b1",
+        "edge_p3_a3_b2",
+        "forbidden_p0_a0",
+        "forbidden_p0_a1",
+        "forbidden_p0_a2",
+        "forbidden_p0_a3",
+        "forbidden_p1_a0",
+        "forbidden_p1_a1",
+        "forbidden_p1_a2",
+        "forbidden_p1_a3",
+        "forbidden_p2_a0",
+        "forbidden_p2_a1",
+        "forbidden_p2_a2",
+        "forbidden_p2_a3",
+        "forbidden_p3_a0",
+        "forbidden_p3_a1",
+        "forbidden_p3_a2",
+        "forbidden_p3_a3",
+        "required_p0_a0",
+        "required_p0_a1",
+        "required_p0_a2",
+        "required_p0_a3",
+        "required_p1_a0",
+        "required_p1_a1",
+        "required_p1_a2",
+        "required_p1_a3",
+        "required_p2_a0",
+        "required_p2_a1",
+        "required_p2_a2",
+        "required_p2_a3",
+        "required_p3_a0",
+        "required_p3_a1",
+        "required_p3_a2",
+        "required_p3_a3"
+      ]
+    },
+    "all_profiles_satisfiable": {
+      "targets": 52,
+      "native_cases_per_target": 50931,
+      "target_case_pairs": 2648412,
+      "status_counts": {
+        "safe": 2218350,
+        "stale_verdict": 18741,
+        "insufficient": 411321
+      },
+      "additional_requirements": {
+        "P": 405597,
+        "T": 5610,
+        "PT": 114
+      },
+      "adaptive_additional_reads": {
+        "P": 405711,
+        "T": 5695,
+        "total": 411406
+      },
+      "targets_with_insufficient_records": 20,
+      "distinct_insufficient_case_ids": 42828,
+      "distinct_insufficient_native_classes": 13,
+      "sorted_insufficient_union_ids_sha256": "2a44f850718ee30441c547508fbd1d193f17489772685edeecc79c9be497fa62",
+      "insufficient_records_per_target_all": {
+        "minimum": 0,
+        "median": 0.0,
+        "maximum": 33489
+      },
+      "insufficient_records_per_target_nonzero": {
+        "minimum": 1,
+        "median": 33489.0,
+        "maximum": 33489
+      },
+      "target_names": [
+        "edge_p0_a0_b1",
+        "edge_p0_a0_b2",
+        "edge_p0_a0_b3",
+        "edge_p0_a1_b2",
+        "edge_p0_a1_b3",
+        "edge_p0_a2_b3",
+        "edge_p1_a0_b1",
+        "edge_p1_a0_b2",
+        "edge_p1_a0_b3",
+        "edge_p1_a1_b2",
+        "edge_p1_a1_b3",
+        "edge_p1_a2_b1",
+        "edge_p1_a2_b3",
+        "edge_p2_a0_b1",
+        "edge_p2_a0_b2",
+        "edge_p2_a0_b3",
+        "edge_p2_a1_b0",
+        "edge_p2_a1_b2",
+        "edge_p2_a1_b3",
+        "edge_p2_a2_b1",
+        "edge_p2_a2_b3",
+        "edge_p2_a3_b1",
+        "edge_p3_a0_b1",
+        "edge_p3_a0_b2",
+        "edge_p3_a0_b3",
+        "edge_p3_a1_b2",
+        "edge_p3_a1_b3",
+        "edge_p3_a2_b0",
+        "edge_p3_a2_b1",
+        "edge_p3_a2_b3",
+        "edge_p3_a3_b0",
+        "edge_p3_a3_b1",
+        "edge_p3_a3_b2",
+        "forbidden_p2_a1",
+        "forbidden_p3_a2",
+        "forbidden_p3_a3",
+        "required_p0_a0",
+        "required_p0_a1",
+        "required_p0_a2",
+        "required_p0_a3",
+        "required_p1_a0",
+        "required_p1_a1",
+        "required_p1_a2",
+        "required_p1_a3",
+        "required_p2_a0",
+        "required_p2_a1",
+        "required_p2_a2",
+        "required_p2_a3",
+        "required_p3_a0",
+        "required_p3_a1",
+        "required_p3_a2",
+        "required_p3_a3"
+      ]
+    },
+    "semantic_representatives": {
+      "targets": 43,
+      "native_cases_per_target": 50931,
+      "target_case_pairs": 2190033,
+      "status_counts": {
+        "safe": 1620362,
+        "stale_verdict": 24394,
+        "insufficient": 545277
+      },
+      "additional_requirements": {
+        "P": 539553,
+        "T": 5610,
+        "PT": 114
+      },
+      "adaptive_additional_reads": {
+        "P": 539667,
+        "T": 5695,
+        "total": 545362
+      },
+      "targets_with_insufficient_records": 24,
+      "distinct_insufficient_case_ids": 42828,
+      "distinct_insufficient_native_classes": 13,
+      "sorted_insufficient_union_ids_sha256": "2a44f850718ee30441c547508fbd1d193f17489772685edeecc79c9be497fa62",
+      "insufficient_records_per_target_all": {
+        "minimum": 0,
+        "median": 2,
+        "maximum": 33489
+      },
+      "insufficient_records_per_target_nonzero": {
+        "minimum": 1,
+        "median": 33489.0,
+        "maximum": 33489
+      },
+      "target_names": [
+        "edge_p0_a0_b1",
+        "edge_p0_a0_b2",
+        "edge_p0_a1_b0",
+        "edge_p0_a1_b2",
+        "edge_p0_a2_b3",
+        "edge_p1_a0_b1",
+        "edge_p1_a0_b2",
+        "edge_p1_a1_b0",
+        "edge_p1_a1_b2",
+        "edge_p1_a1_b3",
+        "edge_p1_a2_b1",
+        "edge_p1_a2_b3",
+        "edge_p2_a0_b1",
+        "edge_p2_a0_b2",
+        "edge_p2_a1_b0",
+        "edge_p2_a1_b2",
+        "edge_p2_a1_b3",
+        "edge_p2_a2_b0",
+        "edge_p2_a2_b1",
+        "edge_p2_a2_b3",
+        "edge_p2_a3_b1",
+        "edge_p3_a0_b1",
+        "edge_p3_a0_b2",
+        "edge_p3_a0_b3",
+        "edge_p3_a1_b0",
+        "edge_p3_a1_b2",
+        "edge_p3_a1_b3",
+        "edge_p3_a2_b0",
+        "edge_p3_a2_b1",
+        "edge_p3_a2_b3",
+        "edge_p3_a3_b0",
+        "edge_p3_a3_b1",
+        "edge_p3_a3_b2",
+        "forbidden_p2_a1",
+        "forbidden_p3_a2",
+        "forbidden_p3_a3",
+        "required_p0_a3",
+        "required_p1_a3",
+        "required_p2_a1",
+        "required_p2_a3",
+        "required_p3_a1",
+        "required_p3_a2",
+        "required_p3_a3"
+      ]
+    },
+    "satisfiable_semantic_representatives": {
+      "targets": 39,
+      "native_cases_per_target": 50931,
+      "target_case_pairs": 1986309,
+      "status_counts": {
+        "safe": 1556247,
+        "stale_verdict": 18741,
+        "insufficient": 411321
+      },
+      "additional_requirements": {
+        "P": 405597,
+        "T": 5610,
+        "PT": 114
+      },
+      "adaptive_additional_reads": {
+        "P": 405711,
+        "T": 5695,
+        "total": 411406
+      },
+      "targets_with_insufficient_records": 20,
+      "distinct_insufficient_case_ids": 42828,
+      "distinct_insufficient_native_classes": 13,
+      "sorted_insufficient_union_ids_sha256": "2a44f850718ee30441c547508fbd1d193f17489772685edeecc79c9be497fa62",
+      "insufficient_records_per_target_all": {
+        "minimum": 0,
+        "median": 1,
+        "maximum": 33489
+      },
+      "insufficient_records_per_target_nonzero": {
+        "minimum": 1,
+        "median": 33489.0,
+        "maximum": 33489
+      },
+      "target_names": [
+        "edge_p0_a0_b1",
+        "edge_p0_a0_b2",
+        "edge_p0_a1_b2",
+        "edge_p0_a2_b3",
+        "edge_p1_a0_b1",
+        "edge_p1_a0_b2",
+        "edge_p1_a1_b2",
+        "edge_p1_a1_b3",
+        "edge_p1_a2_b1",
+        "edge_p1_a2_b3",
+        "edge_p2_a0_b1",
+        "edge_p2_a0_b2",
+        "edge_p2_a1_b0",
+        "edge_p2_a1_b2",
+        "edge_p2_a1_b3",
+        "edge_p2_a2_b1",
+        "edge_p2_a2_b3",
+        "edge_p2_a3_b1",
+        "edge_p3_a0_b1",
+        "edge_p3_a0_b2",
+        "edge_p3_a0_b3",
+        "edge_p3_a1_b2",
+        "edge_p3_a1_b3",
+        "edge_p3_a2_b0",
+        "edge_p3_a2_b1",
+        "edge_p3_a2_b3",
+        "edge_p3_a3_b0",
+        "edge_p3_a3_b1",
+        "edge_p3_a3_b2",
+        "forbidden_p2_a1",
+        "forbidden_p3_a2",
+        "forbidden_p3_a3",
+        "required_p0_a3",
+        "required_p1_a3",
+        "required_p2_a1",
+        "required_p2_a3",
+        "required_p3_a1",
+        "required_p3_a2",
+        "required_p3_a3"
+      ]
+    }
+  },
+  "strict_anchor_separate": {
+    "native_cases": 50931,
+    "status_counts": {
+      "safe": 17442,
+      "stale_verdict": 0,
+      "insufficient": 33489
+    },
+    "additional_requirements": {
+      "P": 33489,
+      "T": 0,
+      "PT": 0
+    },
+    "adaptive_additional_reads": {
+      "P": 33489,
+      "T": 0,
+      "total": 33489
+    },
+    "complete_input_verdict_changes": 0,
+    "insufficient_records_with_preserved_complete_verdict": 33489,
+    "status_id_sha256": {
+      "safe": "ec426993a8dc6c4478f18984088fdc5429d87cbaab39a9e03108e2ec21ce0541",
+      "stale_verdict": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "insufficient": "6d2d8a3a7c2a88b40501f3c0fa93b2bafb89ec8ead66237e4280622af0624df3"
+    },
+    "native_observation_classes": [
+      {
+        "census_class_id": 1,
+        "native_records": 3563,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 5,
+        "native_records": 113,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 6,
+        "native_records": 52,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 16,
+        "native_records": 1,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 64,
+        "native_records": 693,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 65,
+        "native_records": 1725,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 111,
+        "native_records": 297,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 112,
+        "native_records": 5108,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 118,
+        "native_records": 197,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 121,
+        "native_records": 32,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 200,
+        "native_records": 1,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 201,
+        "native_records": 2,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 205,
+        "native_records": 5,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 798,
+        "native_records": 269,
+        "status": "insufficient",
+        "robust_masks": [
+          1
+        ]
+      },
+      {
+        "census_class_id": 799,
+        "native_records": 2,
+        "status": "insufficient",
+        "robust_masks": [
+          1
+        ]
+      },
+      {
+        "census_class_id": 1398,
+        "native_records": 33218,
+        "status": "insufficient",
+        "robust_masks": [
+          1
+        ]
+      },
+      {
+        "census_class_id": 1895,
+        "native_records": 2557,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 2734,
+        "native_records": 101,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 4977,
+        "native_records": 4,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      },
+      {
+        "census_class_id": 8325,
+        "native_records": 2991,
+        "status": "safe",
+        "robust_masks": [
+          0
+        ]
+      }
+    ],
+    "all_profiles_satisfiable": true,
+    "target_truth_vector_sha256": "8a263722d01e5e32d89f5acdb7238ab176303502858410c52fbefc290063f7b1"
+  }
+}

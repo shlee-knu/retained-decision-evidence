@@ -1,0 +1,217 @@
+{
+  "import": {
+    "schema_version": "opa-procurement-log-import/v1",
+    "decision_id": "b126e324-b348-4131-abcb-f1f13c03055c",
+    "source_case_id": "4507000469_00001",
+    "event_sha256": "af02157969164ae69e6391941e3b313637ecd02729ca5aba4092dca7167c620d",
+    "binding_sha256": "b736039cd7db11fce2ab0ac50ef737396e62043fd099be69a96746b63314d7aa",
+    "bundle": {
+      "name": "results/platform_revision_20261010/opa/run/native_logs/baseline_bundle.tar.gz",
+      "revision": "retained-evidence-baseline-v1-local-replay-20261010",
+      "archive_sha256": "ad28bffb564f640b2c9a7a0336296be91bae03cdf05e0ba719a87e5299cf4d85",
+      "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743"
+    },
+    "target_catalog_sha256": "eef733e4d33d0bd6f052afb2b35d440c13d5df8ddc8026b9dde5d7d4b098b0c1",
+    "receipt": {
+      "schema_version": 1,
+      "receipt_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+      "domain_version": "cartesian:v1",
+      "activities": [
+        "create",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "receive",
+        "invoice",
+        "clear"
+      ],
+      "observed": {
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "clear": "2018-04-13T08:37:00.000Z",
+          "create": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z"
+        }
+      },
+      "verdict": true
+    },
+    "query": {
+      "base": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mask": 3,
+      "observed": [
+        0,
+        [
+          0,
+          0,
+          1,
+          2
+        ]
+      ],
+      "old_verdict": true
+    },
+    "mask_provenance": {
+      "erased": [],
+      "masked": []
+    },
+    "summary": {
+      "status": "safe",
+      "old_valid": true,
+      "old_verdict_candidates": [
+        true
+      ],
+      "new_verdict_candidates": [
+        true
+      ],
+      "robust_additional_sets": [
+        []
+      ],
+      "labeled_witnesses": [
+        {
+          "old_verdict": true,
+          "new_verdict": true,
+          "old_domain_member": true,
+          "new_domain_member": true,
+          "raw": {
+            "activities": [
+              "create",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "receive",
+              "invoice",
+              "clear"
+            ],
+            "profile": "3-way match, invoice after GR",
+            "first_times": {
+              "clear": "2018-04-13T08:37:00.000Z",
+              "create": "2018-01-02T21:36:00.000Z",
+              "invoice": "2018-04-11T10:40:00.000Z",
+              "receive": "2018-01-02T21:36:00.000Z"
+            }
+          }
+        }
+      ],
+      "old_completion_classes": 1,
+      "new_completion_classes": 1
+    },
+    "conditional_scope": "Conditional on the supplied trusted sidecar, truthful complete original raw blocks, correctly derived normalized aliases, a fixed source snapshot and membership in the declared Cartesian domain. Digest and revision checks do not authenticate an issuer, establish hidden-domain membership or grant permission to recover masked values. This output is not a portable audit bundle."
+  },
+  "followup_plans": {
+    "no_access_declared": {
+      "semantic_status": "safe",
+      "action": "retain",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": true
+    },
+    "profile_authorized_and_available": {
+      "semantic_status": "safe",
+      "action": "retain",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": true
+    },
+    "profile_unavailable": {
+      "semantic_status": "safe",
+      "action": "retain",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": true
+    },
+    "profile_unauthorized": {
+      "semantic_status": "safe",
+      "action": "retain",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": true
+    },
+    "profile_read_failed": {
+      "semantic_status": "safe",
+      "action": "retain",
+      "planned_blocks": [],
+      "reads_performed": [],
+      "acquisition_completed": false,
+      "source_case_id": "4507000469_00001",
+      "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+      "verdict": true
+    }
+  }
+}

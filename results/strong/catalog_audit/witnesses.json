@@ -1,0 +1,6976 @@
+{
+  "baseline": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "strict_consignment": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "required_p0_a0": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p0_a1": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p0_a2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p0_a3": {
+    "global_canonical": {
+      "anchor_index": 264,
+      "completion_index": 164,
+      "lost_mask": 1,
+      "lost_mask_name": "P",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:01Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "forbidden_p0_a0": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p0_a1": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p0_a2": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p0_a3": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p0_a0_b1": {
+    "global_canonical": {
+      "anchor_index": 1445,
+      "completion_index": 1444,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "receive",
+          "invoice",
+          "create",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "receive",
+          "invoice",
+          "create",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p0_a0_b2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p0_a0_b3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p0_a1_b0": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p0_a1_b2": {
+    "global_canonical": {
+      "anchor_index": 1632,
+      "completion_index": 1420,
+      "lost_mask": 1,
+      "lost_mask_name": "P",
+      "anchor": {
+        "activities": [
+          "create",
+          "invoice",
+          "receive",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:01Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "invoice",
+          "receive",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p0_a1_b3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p0_a2_b0": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p0_a2_b1": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p0_a2_b3": {
+    "global_canonical": {
+      "anchor_index": 1576,
+      "completion_index": 1416,
+      "lost_mask": 1,
+      "lost_mask_name": "P",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "clear",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:01Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "clear",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p0_a3_b0": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p0_a3_b1": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p0_a3_b2": {
+    "global_canonical": {
+      "anchor_index": 1413,
+      "completion_index": 1412,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2853,
+      "completion_index": 2852,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-02-06T11:34:00.000Z",
+          "receive": "2018-02-06T11:34:00.000Z",
+          "invoice": "2018-02-27T09:22:00.000Z",
+          "clear": "2018-03-29T13:08:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507003299_00060",
+        "source_trace": 10134,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-10134"
+      },
+      "anchor_native_count": 22,
+      "completion_native_count": 1269,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "required_p1_a0": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p1_a1": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p1_a2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p1_a3": {
+    "global_canonical": {
+      "anchor_index": 273,
+      "completion_index": 165,
+      "lost_mask": 1,
+      "lost_mask_name": "P",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:01Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "forbidden_p1_a0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p1_a1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p1_a2": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p1_a3": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p1_a0_b1": {
+    "global_canonical": {
+      "anchor_index": 1849,
+      "completion_index": 1437,
+      "lost_mask": 1,
+      "lost_mask_name": "P",
+      "anchor": {
+        "activities": [
+          "receive",
+          "create",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "receive": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:01Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "receive",
+          "create",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "receive": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p1_a0_b2": {
+    "global_canonical": {
+      "anchor_index": 2185,
+      "completion_index": 1461,
+      "lost_mask": 1,
+      "lost_mask_name": "P",
+      "anchor": {
+        "activities": [
+          "invoice",
+          "create",
+          "receive",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "invoice": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:01Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "invoice",
+          "create",
+          "receive",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "invoice": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p1_a0_b3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p1_a1_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p1_a1_b2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p1_a1_b3": {
+    "global_canonical": {
+      "anchor_index": 1689,
+      "completion_index": 1425,
+      "lost_mask": 1,
+      "lost_mask_name": "P",
+      "anchor": {
+        "activities": [
+          "create",
+          "invoice",
+          "clear",
+          "receive"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:01Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "invoice",
+          "clear",
+          "receive"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p1_a2_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p1_a2_b1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p1_a2_b3": {
+    "global_canonical": {
+      "anchor_index": 1577,
+      "completion_index": 1417,
+      "lost_mask": 1,
+      "lost_mask_name": "P",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "clear",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:01Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "clear",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p1_a3_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p1_a3_b1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p1_a3_b2": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1413,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2853,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 22,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "required_p2_a0": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p2_a1": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p2_a2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p2_a3": {
+    "global_canonical": {
+      "anchor_index": 24,
+      "completion_index": 26,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "create",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "invoice"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 77,
+      "completion_index": 26,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "create",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-02-01T14:03:00.000Z",
+          "invoice": "2018-11-15T14:01:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "invoice"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": {
+        "case_id": "4507007074_00020",
+        "source_trace": 22449,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-22449"
+      },
+      "anchor_native_count": 132,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p2_a0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p2_a1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p2_a2": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p2_a3": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p2_a0_b1": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p2_a0_b2": {
+    "global_canonical": {
+      "anchor_index": 216,
+      "completion_index": 218,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "invoice",
+          "create",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "invoice": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "invoice",
+          "create",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "invoice": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p2_a0_b3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p2_a1_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p2_a1_b2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p2_a1_b3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p2_a2_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p2_a2_b1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p2_a2_b3": {
+    "global_canonical": {
+      "anchor_index": 184,
+      "completion_index": 186,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "create",
+          "clear",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "clear",
+          "invoice"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 957,
+      "completion_index": 186,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "create",
+          "clear",
+          "invoice"
+        ],
+        "profile": "3-way match, invoice before GR",
+        "first_times": {
+          "create": "2018-01-10T16:24:00.000Z",
+          "clear": "2018-02-08T13:43:00.000Z",
+          "invoice": "2018-07-16T00:07:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "clear",
+          "invoice"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": {
+        "case_id": "4507002186_00010",
+        "source_trace": 6547,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-6547"
+      },
+      "anchor_native_count": 8,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p2_a3_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p2_a3_b1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p2_a3_b2": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1414,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2854,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "2-way match",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "required_p3_a0": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p3_a1": {
+    "global_canonical": {
+      "anchor_index": 4,
+      "completion_index": 7,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "create"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 642,
+      "completion_native_count": 1032,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 4,
+      "completion_index": 7,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "create"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-08T10:09:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": {
+        "case_id": "2000000005_00002",
+        "source_trace": 9,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-9"
+      },
+      "anchor_native_count": 642,
+      "completion_native_count": 1032,
+      "completion_off_native_support": false,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "required_p3_a2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "required_p3_a3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "forbidden_p3_a0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p3_a1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p3_a2": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "forbidden_p3_a3": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p3_a0_b1": {
+    "global_canonical": {
+      "anchor_index": 32,
+      "completion_index": 35,
+      "lost_mask": 0,
+      "lost_mask_name": "empty",
+      "anchor": {
+        "activities": [
+          "receive",
+          "create"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "receive": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "receive",
+          "create"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "receive": "2020-01-01T00:00:00Z",
+          "create": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": false,
+        "old_completion": false,
+        "new_anchor": false,
+        "new_completion": true
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": null
+  },
+  "edge_p3_a0_b2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p3_a0_b3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p3_a1_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p3_a1_b2": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p3_a1_b3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p3_a2_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p3_a2_b1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p3_a2_b3": {
+    "global_canonical": null,
+    "native_anchor_canonical": null
+  },
+  "edge_p3_a3_b0": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p3_a3_b1": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  },
+  "edge_p3_a3_b2": {
+    "global_canonical": {
+      "anchor_index": 1412,
+      "completion_index": 1415,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2020-01-01T00:00:00Z",
+          "receive": "2020-01-01T00:00:00Z",
+          "invoice": "2020-01-01T00:00:00Z",
+          "clear": "2020-01-01T00:00:00Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": null,
+      "anchor_native_count": 0,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    },
+    "native_anchor_canonical": {
+      "anchor_index": 2852,
+      "completion_index": 2855,
+      "lost_mask": 2,
+      "lost_mask_name": "T",
+      "anchor": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "3-way match, invoice after GR",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "completion": {
+        "activities": [
+          "create",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "receive",
+          "invoice",
+          "clear"
+        ],
+        "profile": "Consignment",
+        "first_times": {
+          "create": "2018-01-02T21:36:00.000Z",
+          "receive": "2018-01-02T21:36:00.000Z",
+          "invoice": "2018-04-11T10:40:00.000Z",
+          "clear": "2018-04-13T08:37:00.000Z"
+        }
+      },
+      "labels": {
+        "old_anchor": true,
+        "old_completion": true,
+        "new_anchor": true,
+        "new_completion": false
+      },
+      "source_anchor": {
+        "case_id": "4507000469_00001",
+        "source_trace": 1034,
+        "source_locator": "data/raw/bpi/BPI_Challenge_2019.xes:trace-1034"
+      },
+      "anchor_native_count": 1269,
+      "completion_native_count": 0,
+      "completion_off_native_support": true,
+      "minimization": "anchor first: milestone count, clock levels, permutation, ranks, profile; then mask; then completion in the same state order"
+    }
+  }
+}

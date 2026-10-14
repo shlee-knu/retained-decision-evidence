@@ -1,0 +1,10 @@
+test_purchase_return_against_closed_purchase_order (erpnext.stock.doctype.purchase_receipt.test_purchase_receipt.TestPurchaseReceipt.test_purchase_return_against_closed_purchase_order) ... /workspace/bench/apps/erpnext/erpnext/stock/services/stock_ledger_service.py:109: V16ERPNextDeprecationWarning: This codepath was marked (DATE: unknown) deprecated for removal (from v16 onwards); note:
+ No instructions.
+
+  deprecation_warning("unknown", "v16", "No instructions.")
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.605s
+
+OK

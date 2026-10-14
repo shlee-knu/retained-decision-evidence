@@ -1,0 +1,36 @@
+{
+  "kind": "Actual local OPA console logs replaying one public native case; not historical OPA deployment evidence",
+  "source_case_id": "4507000469_00001",
+  "source_activity_count": 36,
+  "source_in_heldout_receipt_cohort": false,
+  "source_scope": "Complete public archive repeated-event example; separate local integration control outside the primary 941 diagnoses.",
+  "bundle_revision": "retained-evidence-baseline-v1-local-replay-20261010",
+  "bundle_sha256": "ad28bffb564f640b2c9a7a0336296be91bae03cdf05e0ba719a87e5299cf4d85",
+  "bundle_names": [
+    "results/platform_revision_20261010/opa/run/native_logs/baseline_bundle.tar.gz"
+  ],
+  "bundled_catalog_wire_sha256": "c641e5bf5e2fd3b9ac07e99cd9659b755ed7be63a85e23310bb29f4ad3d98e0f",
+  "baseline_catalog_path": "examples/baseline_catalog.json",
+  "baseline_catalog_sha256": "ff8d7be3d16d4b5cf527fba76b67d021f3ab22bde49ffb457fc00632a5d0ad27",
+  "baseline_catalog_canonical_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+  "snapshot_path": "results/v03/bpi_compact.jsonl.gz",
+  "snapshot_sha256": "3fdfe926a29d35c87a2652447df420bb5c726ab2c996f6317c830d75cc4a1b3b",
+  "domain_version": "cartesian:v1",
+  "opa_binary_sha256": "668506eb17a2eaa1fce6cc0d1f42ef85125d4ac5bda5fc74d1152d0c77145031",
+  "normalization": "Complete raw activity first-occurrence order and RFC3339 clock weak ranks; raw literal fields retained independently. Masked fields remove both raw field and derived coordinate.",
+  "normalization_source": "scripts/benchmark_opa_audit.py",
+  "normalization_source_sha256": "54c8deb256a751f7f88b8fe1dc42a3fae882156f6387a857ec0415458bd30b28",
+  "files": {
+    "baseline_bundle.tar.gz": "ad28bffb564f640b2c9a7a0336296be91bae03cdf05e0ba719a87e5299cf4d85",
+    "console.jsonl": "512e40e95fe2d476c658dd18cd0736f9ffe5ae2cb98512a27ae977cd82b20ce5",
+    "insufficient_old_both_masked.decision.json": "9ff0fa6437f17ff9c8d70e234fb6083db477e95eb4f5051d8745921dfce15be3",
+    "insufficient_old_both_masked.request.json": "08d9b54671fb5853a29165334fa9ebc764c405dc682124047acd3cef1fef5820",
+    "insufficient_old_both_masked.response.json": "c568cf8ad019e0e6568f81e141ddcea4cfbe62b0d774b671161ce51db8d49084",
+    "native_full_retention.decision.json": "a30f84112e43004497093c4a49e7683e84956430b87b8588d1d26083f38b7c5b",
+    "native_full_retention.request.json": "90492ea37e0c397fd82def56aca1193920732d1d3e6968dfe7c310bb43a5ddaf",
+    "native_full_retention.response.json": "478055f6ccfd3f92a0eebedef90df6da2773f9c076cebc12262b0dd2c75723ff",
+    "native_strict_profile_masked.decision.json": "102b99c94fa127b97bdc171af7b55448b69179662bbb2ab27412371bc02f0926",
+    "native_strict_profile_masked.request.json": "3296e2422f404f99a2b1ca9b24d3b5d8e03ef5ddd534aaa4c3484e2f5830cdd1",
+    "native_strict_profile_masked.response.json": "95d3148ba716936aa0fb901d47fd01b3578e6d4dd3cabab44d5e1b6ebfe002e7"
+  }
+}

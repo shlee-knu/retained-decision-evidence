@@ -1,0 +1,18 @@
+{
+  "frozen_before_new_domain_experiments": true,
+  "date": "2026-10-08",
+  "previously_inspected_evidence": "The existing35native quotient states were checked and allfirstclockranks were nondecreasing; existing baseline/strict results and native Consignment absence of invoice/clear were known. This is not external preregistration.",
+  "domains": {
+    "cartesian": "all8612 existing universal states",
+    "chronological": "first timestamps nondecreasing along first-occurrence order; ties allowed",
+    "consignment_exclusion": "Consignment profile implies no observed invoice or clear milestone",
+    "both": "intersection of chronological and consignment_exclusion"
+  },
+  "catalogs": "all82 frozen original catalogs, retaining all80 single edits and all negative controls",
+  "weights": ["all251734 original native cases", "existing seed17 document-separated50931case holdout"],
+  "provenance": "Restrictions are hypothetical independently enforced upstream guarantees, not guarantees established by observed archive compliance. No real policy migration is claimed.",
+  "comparisons": ["baseline versus every catalog within eachfixed domain", "samecatalog guarantee withdrawal along everystrict domain-inclusion pair", "global domain-relative truth equivalence and certificate equivalence", "percatalog nesting monotonicity"],
+  "unsupported": "Anchor outside eithercomparison domain is reported separately, never certified by an empty completion fiber",
+  "validation_cost": "Base-derived guarantee verification mask: T if chronological and at least2firstmilestones; P if exclusion and invoice orclear appears; union forintersection. After paying these reads use full Cartesian certificate stopping; invalid guarantee uses the same broad-domain fallback.",
+  "nonclaims": ["No train-derived support restriction", "No global adaptive optimality", "No inference of full-event chronology fromfirst clocks", "No free per-case domainvalidation", "No restriction inferred from archive absence"]
+}

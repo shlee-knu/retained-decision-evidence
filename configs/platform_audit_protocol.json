@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "protocol_kind": "locally predeclared platform integration follow-up",
+  "declared_utc": "2026-10-09T16:09:27Z",
+  "baseline_tag": "ieee-access-v08-pre-platform-20261010",
+  "baseline_commit": "164aa22e4895122364e5d4dff7872b0abae2100c",
+  "prior_knowledge": "All existing procurement counts, native classes, challenge selection and negative baselines were known before this follow-up. The new declaration precedes OPA result inspection; it does not create an independent holdout or a new observed business-rule change.",
+  "question": "Can a pinned, real OPA predicate evaluator plus an explicitly identified audit adapter produce the same retained-evidence diagnoses, concrete witnesses, robust additional-block requirements and strict native occurrence mapping on the fixed procurement task?",
+  "platform_role": "OPA evaluates independently encoded Rego procurement predicates on declared complete inputs. Python adapter code groups compatible completions, checks old sufficiency, computes new status and robust sets, lifts witnesses and emits occurrence links. Representative OPA partial-evaluation artifacts are additional unknown-input controls, not the engine producing every diagnostic report.",
+  "execution_interface": {
+    "opa_version": "1.21.1",
+    "binary_verification": "Pin the official static release asset and compare its SHA-256 with the published release digest before execution.",
+    "sources": ["policies/opa_audit/predicates.rego", "policies/opa_audit/log_mask.rego", "scripts/benchmark_opa_audit.py", "tests/test_opa_audit_integration.py"],
+    "output_directory": "results/platform_revision_20261010/opa/run",
+    "required_artifacts": ["class_reports.jsonl.gz", "repair_index.jsonl.gz", "summary.json", "manifest.json", "native_partial", "native_logs"],
+    "artifact_names": "The runner may use a new suffixed output directory to retain a failed attempt; record the actual path. Native log events are stored with the decision.json suffix."
+  },
+  "domain": {
+    "primary": "cartesian:v1",
+    "complete_states": 8612,
+    "blocks": ["profile", "first_times"],
+    "time_semantics": "The entire weak-order rank vector is one block. Raw retained timestamps and repeated source activity sequence must be preserved when lifting witnesses.",
+    "old_boolean": "Check against all old compatible completions; never assert the recorded Boolean as a restriction on new compatible completions.",
+    "support": "Exactly the existing four procurement profiles and supported first-occurrence contract. No new application domain or operational semantics."
+  },
+  "primary_workload": {
+    "native_input_directory": "results/focused_revision/diagnostic_inputs",
+    "native_targets": ["procurement_identity", "procurement_strict", "procurement_equivalent", "procurement_label_change"],
+    "native_classes_per_target": 20,
+    "native_diagnostic_rows": 80,
+    "challenge_input_directory": "results/perspective_revision/inputs",
+    "challenge_targets": {
+      "procurement_edge_p0_a0_b1": 93,
+      "procurement_required_p2_a3": 52,
+      "procurement_edge_p2_a0_b2": 409,
+      "procurement_edge_p2_a2_b3": 307
+    },
+    "challenge_selection": "Use every row of the four pre-existing saved challenge inputs unchanged: all insufficient observations and their previously fixed hash-selected safe/stale controls. Selection was informed by prior difficulty and is not a sample of actual migrations.",
+    "challenge_diagnostic_rows": 861,
+    "total_diagnostic_rows": 941,
+    "native_occurrence_source": "results/second/receipt_revalidation/native_receipts.jsonl.gz",
+    "native_occurrences": 50931,
+    "occurrence_mapping": "Reconcile strict outcomes against every original receipt ID, semantic class and literal retained observation. Count unique IDs and exact set equality; occurrence counts are not additional independent semantic classes.",
+    "excluded_expansion": "EPCIS, FHIR and the full 80-edit OPA census are outside this primary follow-up."
+  },
+  "output_contract": {
+    "semantic": [
+      "strict input support and old-receipt sufficiency/verdict agreement",
+      "safe, stale_verdict or insufficient outcome for valid nonempty primary fibers",
+      "two supported new-verdict-opposed completions when insufficient",
+      "all inclusion-minimal robust additional block sets",
+      "literal retained-value and repeated-activity preservation",
+      "strict occurrence-level affected-ID and field-obligation mapping"
+    ],
+    "witness_equality": "Equivalent semantics and independent soundness are required; byte-identical witness choices are not.",
+    "portable_envelope": "Compact diagnostic parity is distinct from full portable-envelope equivalence. Native OPA decision_id or bundle revision does not by itself supply a case snapshot, content hash, trusted attestation, or independently retained sidecar digest. Claim full portable equivalence only for outputs actually accepted by the same complete verifier."
+  },
+  "independent_validation": [
+    "Recompute old and each target predicate on complete raw realizations with the existing independently encoded raw rule evaluator; do not use OPA labels as expected values.",
+    "Validate every primary diagnostic status and complete robust family using a raw completion checker with separate grouping from the adapter where available; disclose shared enumeration, normalization and domain assumptions.",
+    "For each opposed pair check new labels, domain membership and retained observations independently; native witnesses must preserve raw repeated activities and literal retained timestamps.",
+    "Verify all original strict receipt IDs map exactly once, with exact affected-set equality and no missing or duplicate IDs; reconstruct from raw receipt contents rather than trusting only saved class indexes.",
+    "Replay representative actual OPA partial-evaluation output over every admissible completion of its observation and compare with direct full OPA evaluation and the independent raw predicate.",
+    "Check imported local OPA logs through the separately implemented strict importer; distinguish observed platform metadata from adapter-added bindings."
+  ],
+  "fixed_controls": [
+    "identity and globally equivalent target: no new insufficiency",
+    "full-input retention: supported observations determine a verdict; native strict labels remain unchanged",
+    "strict target plus trusted Consignment-exclusion domain: the motivating profile obligation disappears",
+    "label-changing target with sufficient retained evidence: stale verdict without acquisition",
+    "genuine correct full old result followed by overbroad masking: ambiguous old fiber must fail old-sufficiency validation",
+    "opposite recorded old Boolean: reject old evidence",
+    "changed policy-revision mapping, snapshot binding or case identifier: reject mismatched binding",
+    "masked null/upsert, unsupported profile, malformed clock, integer/string Boolean and missing redaction provenance: reject or explicitly unsupported; do not silently treat as a truthful absent block",
+    "legitimate false verdict and normalized profile/rank zero: accept supported falsy values without truthiness rejection",
+    "unread field versus known absence: an erased field remains unknown",
+    "repeated source activities and equivalent timestamp literals: preserve retained raw content",
+    "unavailable or unauthorized source recovery: retain semantic insufficiency and report unresolved acquisition; do not invent a replacement value"
+  ],
+  "platform_workflow": {
+    "documented_public_mechanisms": ["decision-log input and result", "bundle revision metadata", "decision-log masking and erased/masked paths", "partial evaluation with explicit unknown inputs"],
+    "local_execution": "Save at least one unmodified decision log from a real local OPA run with its source request, pinned policy bundle and executable identity; label it a local controlled replay, not a historical organizational deployment.",
+    "data_and_rule_provenance": "Public procurement cases are source observations. Receipts, OPA deployment, retention masks and procurement changes are authored. Published platform mechanisms do not establish actual procurement policy changes or stakeholder demand.",
+    "recovery_boundary": "Masking alone does not establish that erased data are recoverable or authorized for reacquisition. Logical field requirements and operational recovery status are separate outputs."
+  },
+  "measurement": {
+    "primary": "semantic and occurrence-level agreement plus explicit implementation boundary",
+    "optional_descriptive_cost": "Record real OPA process/startup, data serialization, evaluation and adapter durations with exact boundaries; report as this integration's cost only.",
+    "prohibited_ranking": "Do not rank OPA CLI subprocess time against prior in-process Python benchmark columns. A new speed ranking requires the same service boundary, input preparation, caching, serialization and repetition protocol for every method."
+  },
+  "freeze_and_failures": "The executable runner must hash this protocol, actual code, inputs, Rego sources and the pinned OPA executable before its first full run. Use a new result directory. Preserve all failed runs and explain fixes; do not change the primary workload after inspecting outcomes. Actual run coverage and any omitted control must be reported separately from planned scope.",
+  "interpretation": "A successful run establishes a bounded OPA-backed implementation of the same semantic diagnostic task. It does not establish a native OPA feature absence, a novel general-purpose policy algorithm, faster execution, observed procurement migrations, operational adoption, or human maintenance benefit."
+}

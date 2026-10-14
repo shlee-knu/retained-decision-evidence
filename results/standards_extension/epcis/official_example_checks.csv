@@ -1,0 +1,21 @@
+source_example,case,source_kind,complete_event_count,oracle_supported,unsupported_reason,old_selected_clauses,new_selected_clauses,official_schema_201,failed_prose_clauses
+object,official_unchanged,non_normative_example,2,True,,True,True,True,[]
+object,vendor_bizstep,non_normative_example,2,True,,True,False,True,[]
+object,absent_bizstep_outside_domain,non_normative_example,2,False,Present string bizStep required by the selected domain,unsupported,unsupported,True,[]
+object,observe_with_ilmd,non_normative_example,2,True,,False,False,False,"[""event_0.object_ilmd_action""]"
+object,add_with_ilmd,non_normative_example,2,True,,True,True,True,[]
+object,empty_what,non_normative_example,2,True,,False,False,True,"[""event_0.object_nonempty_what""]"
+aggregation,official_unchanged,non_normative_example,1,True,,True,True,True,[]
+aggregation,vendor_bizstep,non_normative_example,1,True,,True,False,True,[]
+aggregation,absent_bizstep_outside_domain,non_normative_example,1,False,Present string bizStep required by the selected domain,unsupported,unsupported,True,[]
+aggregation,add_missing_parent,non_normative_example,1,True,,False,False,True,"[""aggregation_parent""]"
+aggregation,observe_missing_parent,non_normative_example,1,True,,True,True,True,[]
+aggregation,delete_all_children,non_normative_example,1,True,,True,True,True,[]
+aggregation,observe_empty_children,non_normative_example,1,True,,False,False,False,"[""aggregation_children""]"
+transformation,official_unchanged,non_normative_example,1,True,,True,True,True,[]
+transformation,vendor_bizstep,non_normative_example,1,True,,True,False,True,[]
+transformation,absent_bizstep_outside_domain,non_normative_example,1,False,Present string bizStep required by the selected domain,unsupported,unsupported,True,[]
+transformation,inputs_only_without_id,non_normative_example,1,True,,False,False,False,"[""transformation_io""]"
+transformation,inputs_only_with_id,non_normative_example,1,True,,True,True,True,[]
+transformation,empty_with_id,non_normative_example,1,True,,False,False,False,"[""transformation_io""]"
+transformation,malformed_input_outside_domain,non_normative_example,1,False,"Array absence, empty array and malformed array are distinct",unsupported,unsupported,False,[]

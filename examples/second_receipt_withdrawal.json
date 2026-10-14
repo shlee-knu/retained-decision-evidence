@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "catalog_sha256": "b423951dc44ad1bf15da91d8d6a3e0b408f105094e9151780f275cfdcf428743",
+  "domain_version": "chronological:v1",
+  "activities": [
+    "create",
+    "receive",
+    "receive",
+    "invoice",
+    "clear"
+  ],
+  "observed": {
+    "profile": "3-way match, invoice after GR"
+  },
+  "verdict": true,
+  "receipt_id": "withdraw_chronological_same_catalog"
+}

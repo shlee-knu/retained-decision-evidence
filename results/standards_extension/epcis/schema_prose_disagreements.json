@@ -1,0 +1,79 @@
+[
+  {
+    "signature": [
+      "epcis_object_profile",
+      true,
+      false,
+      "[\"object_nonempty_what\"]"
+    ],
+    "state": [
+      "ADD",
+      "empty",
+      "absent",
+      "absent",
+      "receiving"
+    ],
+    "document": {
+      "@context": [
+        "https://ref.gs1.org/standards/epcis/2.0.1/epcis-context.jsonld"
+      ],
+      "type": "EPCISDocument",
+      "schemaVersion": "2.0",
+      "creationDate": "2026-01-01T12:00:00Z",
+      "epcisBody": {
+        "eventList": [
+          {
+            "type": "ObjectEvent",
+            "eventTime": "2026-01-01T12:00:00Z",
+            "eventTimeZoneOffset": "+00:00",
+            "action": "ADD",
+            "epcList": [],
+            "bizStep": "receiving"
+          }
+        ]
+      }
+    },
+    "interpretation": "Official-schema verdict and selected normative prose differ"
+  },
+  {
+    "signature": [
+      "epcis_aggregation_profile",
+      true,
+      false,
+      "[\"aggregation_parent\"]"
+    ],
+    "state": [
+      "ADD",
+      "absent",
+      "absent",
+      "nonempty",
+      "receiving"
+    ],
+    "document": {
+      "@context": [
+        "https://ref.gs1.org/standards/epcis/2.0.1/epcis-context.jsonld"
+      ],
+      "type": "EPCISDocument",
+      "schemaVersion": "2.0",
+      "creationDate": "2026-01-01T12:00:00Z",
+      "epcisBody": {
+        "eventList": [
+          {
+            "type": "AggregationEvent",
+            "eventTime": "2026-01-01T12:00:00Z",
+            "eventTimeZoneOffset": "+00:00",
+            "action": "ADD",
+            "childQuantityList": [
+              {
+                "epcClass": "urn:epc:class:lgtin:0614141.107346.101",
+                "quantity": 2
+              }
+            ],
+            "bizStep": "receiving"
+          }
+        ]
+      }
+    },
+    "interpretation": "Official-schema verdict and selected normative prose differ"
+  }
+]

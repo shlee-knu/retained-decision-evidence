@@ -1,0 +1,10 @@
+{
+  "command": ".venv/bin/python -m pytest tests/test_public_procurement_change.py -q",
+  "exit_code": 0,
+  "stdout": "...........                                                              [100%]\n11 passed in 0.04s\n",
+  "stderr": "",
+  "protocol_sha256": "2f64afca2f582ac1f1a8566236499cfaf92528937580c4ca9859bddb6c16e139",
+  "script_sha256": "7a68e1f32faacac60f3e9f72fca23ee0f84d1faa600025e91c9e1c48b412d4eb",
+  "tests_sha256": "346057168fb7837f6cd098244d830d8de8391d5e93e0229ca2360f1ec5ca51ca",
+  "source_manifest_sha256": "cd3b0f7a9085a9aecf4805d26c12ce34decd15e85ab64daef335c0d54a892405"
+}

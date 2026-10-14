@@ -1,0 +1,192 @@
+{
+  "files": [
+    {
+      "path": "REPRODUCE.txt",
+      "bytes": 5161,
+      "sha256": "941e31357230dd1afd178bfddc088c69dc454e644c2b3815ab99a4903dde3d57"
+    },
+    {
+      "path": "after_test_result.json",
+      "bytes": 216,
+      "sha256": "4a533e1227af2dd85da0c79d6a98615325d59e78aa6df7de8801b9f67950e550"
+    },
+    {
+      "path": "after_trace.jsonl",
+      "bytes": 75394,
+      "sha256": "4f1ade65da5dccb707d6f6c2632fa010b5f816661c74f265c11d06affed25eaa"
+    },
+    {
+      "path": "before_test_result.json",
+      "bytes": 218,
+      "sha256": "38875af59aa53a2a4612a852ca854d4007a4b93a025a684c73802385b1cddc1c"
+    },
+    {
+      "path": "before_trace.jsonl",
+      "bytes": 53333,
+      "sha256": "5b67a55ade6c8426f00fe4df16892ee73d2b3887c4f8d50e1c4552589573328f"
+    },
+    {
+      "path": "database_snapshot.json",
+      "bytes": 221,
+      "sha256": "234796bb920838b92bcba1398e37fc3e24af1a78778a97dafa918b3ba798a7ca"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 717,
+      "sha256": "ef8c9d04fbfaefda4aed36d86b8b9d873758b97b0d57089eedcdb0a4bab2e905"
+    },
+    {
+      "path": "execution.json",
+      "bytes": 1145,
+      "sha256": "5a831a2e56bcd819df04d174e6dd68baaa3731585724d494e481156ff96ad7d2"
+    },
+    {
+      "path": "logs/bench_init.log",
+      "bytes": 1078,
+      "sha256": "e98a00c37e192bc276591813a0137b98cd55b01fa16663bca2f0a8e4054c515a"
+    },
+    {
+      "path": "logs/checkout_after.log",
+      "bytes": 379,
+      "sha256": "440fbc7742cd6a87a5fb3839070ab8858ae013ebaef695a09b25440f1c63a443"
+    },
+    {
+      "path": "logs/checkout_before.log",
+      "bytes": 205,
+      "sha256": "f376cd4ba0c387eddf5a9e8e48a820c152967fe4b6753ff96ed081371bc9f15f"
+    },
+    {
+      "path": "logs/pull_bench.log",
+      "bytes": 1020,
+      "sha256": "22d7b72fb64723f789bb589380a69cb3064ff717e6f57d1454ac52e500346c20"
+    },
+    {
+      "path": "logs/pull_mariadb.log",
+      "bytes": 986,
+      "sha256": "03e56edf90da7d6bd20fc62f29a9ab025af1442bb02f13601e08981d7c20c4c1"
+    },
+    {
+      "path": "logs/pull_redis.log",
+      "bytes": 898,
+      "sha256": "b81d1acaf4ef14ff14ca42b4476a65b067093a749d81e2fa203b36047e132abb"
+    },
+    {
+      "path": "logs/setup_attempts/loader_import_all_tests.log",
+      "bytes": 2087,
+      "sha256": "9ef796fab96b7d2455f52855bebcc64d1e1b1032a6dfeb9e7f227e3710b3729b"
+    },
+    {
+      "path": "logs/setup_attempts/loader_import_all_tests_trace.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/site_install.log",
+      "bytes": 113498,
+      "sha256": "36afffe1dee61012286ce0bc13fb44b10c331278bab5fb2af5ef52ddc1056261"
+    },
+    {
+      "path": "logs/test_after.log",
+      "bytes": 570,
+      "sha256": "9e78d372f325ebe47706f9f71d12524d6d1e6592337abd5748bf970c968af3cb"
+    },
+    {
+      "path": "logs/test_before.log",
+      "bytes": 3685,
+      "sha256": "eeceaff78d584e0649e30b5cf5750944cc15a172c1118537ce6eb462211ac208"
+    },
+    {
+      "path": "logs/verify_dependency_lock.log",
+      "bytes": 3313,
+      "sha256": "048bf87c6e32d02849fe8fe5b04c3ab0557a57d942bc6dae5d1d30463f00de10"
+    },
+    {
+      "path": "manuscript_insert.txt",
+      "bytes": 984,
+      "sha256": "b6c41ee1ab63e2cbd256945d571b5ba2a9c9832a1e114da9ccb0e8c1ae601b43"
+    },
+    {
+      "path": "pins.json",
+      "bytes": 476,
+      "sha256": "f28df59388d28d7451b22a09c4e285554d1f428c66d8573292ccafbf7ac307ad"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 2893,
+      "sha256": "b29f83bdad273f3603f908ced2a49018b70bc8a657bf28f1f90afdcf6b4ff139"
+    },
+    {
+      "path": "python_freeze.txt",
+      "bytes": 3211,
+      "sha256": "c9ce70d7a97837f6e58f40d20d6bac26ccea168322a23ffa18565d22968165ee"
+    },
+    {
+      "path": "python_requirements_lock.txt",
+      "bytes": 3041,
+      "sha256": "b1956832276c7df1ba00efaf9a40564d331bc0f6d652f0c30f9195d41a67ae37"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 8958,
+      "sha256": "b2ff64cca5c56ee2dc0972b858cee280ddb476bfdf3e6438f7c1865241b99338"
+    },
+    {
+      "path": "run_upstream_traced.py",
+      "bytes": 4603,
+      "sha256": "02ebb3721523d48836e39040f2b5cb7beb5285e497c88f2d0261888fac1e121f"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 7773,
+      "sha256": "1c5fb800c0c566e8da37a9326fa06f63ce66df9edc1f952091be7d55edac54c0"
+    },
+    {
+      "path": "sources/erpnext/.github/workflows/run-individual-tests.yml",
+      "bytes": 4145,
+      "sha256": "f91f9220b0d082ba84f01f87b88f97a7922bffd1d5b6c0d0178e119a01fbce33"
+    },
+    {
+      "path": "sources/erpnext/.github/workflows/server-tests-mariadb-faux.yml",
+      "bytes": 554,
+      "sha256": "cd5e7e912cbefa5d817495ab3eef3f830008d93cf79ea1f655b388af813c397f"
+    },
+    {
+      "path": "sources/erpnext/.github/workflows/server-tests-mariadb.yml",
+      "bytes": 8703,
+      "sha256": "08c5b0f5af51da8e47bb3377ae12908f910b31e837dddde005083a006bbe35be"
+    },
+    {
+      "path": "sources/erpnext/.github/workflows/server-tests-postgres.yml",
+      "bytes": 8150,
+      "sha256": "13eef64423e4be642aa442c681b82988440af8483f785867681b71450f4a461c"
+    },
+    {
+      "path": "sources/frappe/.github/workflows/run-indinvidual-tests.yml",
+      "bytes": 4044,
+      "sha256": "8c9becf0a5212520521d8bd4ffbebc8612577bbe95eea338a9e251b22593e4c6"
+    },
+    {
+      "path": "sources/frappe/.github/workflows/server-tests.yml",
+      "bytes": 8032,
+      "sha256": "2368cd4a312ea20a37a7273665437d3df24acdfcc96447b16fe6ccd730048231"
+    },
+    {
+      "path": "sources/frappe/.github/workflows/ui-tests.yml",
+      "bytes": 5001,
+      "sha256": "38d3e9dc1fb23a04b3d6e606680c227bc1238925fc2f1a829a49d0528812cd15"
+    },
+    {
+      "path": "summarize.py",
+      "bytes": 5042,
+      "sha256": "c3b021546b2cd984fea1aae0bf0569ccb9967192ec7c7e91fb57fd25e62660dc"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 5332,
+      "sha256": "75af1cbb3c9980d18975cc87c5c991cf2ae1aa2e97b0b40f27bd877ef3e42469"
+    }
+  ],
+  "file_count": 37,
+  "total_bytes": 345066,
+  "scope": "Public source metadata, scripts, test traces and logs only; no SQL dump, user credentials or external runtime environment."
+}

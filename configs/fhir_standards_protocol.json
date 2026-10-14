@@ -1,0 +1,17 @@
+{
+  "protocol_version": "1.0",
+  "selection_status": "Fixed before extension outcome computation; lab us-core-22 and us-core-3 expression changes were inspected during feasibility research.",
+  "fhir_version": "4.0.1",
+  "versions": {"6.1.0": "STU6.1", "7.0.0": "STU7"},
+  "profiles": ["observation-lab", "observation-clinical-result", "simple-observation"],
+  "transitions": [["6.1.0", "7.0.0"], ["6.1.0", "6.1.0"]],
+  "supported_invariant_keys": ["obs-6", "obs-7", "us-core-2", "us-core-3", "obs-3", "us-core-22"],
+  "block_names": ["value", "dataAbsentReason", "component", "hasMember", "referenceRange"],
+  "validator_version": "6.7.0",
+  "fhirpath_js_version": "4.6.0",
+  "completion_domain": "Complete immutable Observation resources with fixed code; supported value choices absent, string or Quantity; fully observed root arrays. All array lengths are covered by existential/universal predicates, not by a length cutoff.",
+  "cost_boundary": "Initial full-resource parsing, structural verification, old validation, synthetic fixture generation and projection preparation are setup/sunk costs. No previously unread source claim is made. Retained-fragment evidence and subsequent logical root-field retrieval are measured separately; this study does not measure network requests.",
+  "oracle_boundary": "Exact versioned machine-readable supported invariant fragment, not all FHIR/profile conformance or clinical correctness. Complete resources only are sent to standard engines. Full-validator issues and unresolved terminology/reference issues remain separate.",
+  "dataset_boundary": "Published specification examples and exhaustive synthetic structural categories; neither a hospital log nor a clinical prevalence sample.",
+  "authoritative_old_verdict": "Not used as an independent completion-domain restriction. Retained observations must themselves certify the old fragment verdict."
+}

@@ -1,0 +1,28 @@
+{
+  "retrieved_utc": "2026-10-07T12:37:45.507240+00:00",
+  "metadata_url": "https://api.figshare.com/v2/articles/12683249/versions/1",
+  "metadata_sha256": "1e9dc63a865c98c40094318cf4c46ee0f8580161725ed87485be18c344985b34",
+  "doi": "10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5",
+  "citation": "de Leoni, M. (Massimiliano); Mannhardt, Felix (2015). Road Traffic Fine Management Process. 4TU.ResearchData. Dataset. https://doi.org/10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5",
+  "license": {
+    "value": 98,
+    "name": "4TU General Terms of Use",
+    "url": "https://doi.org/10.4121/resource:terms_of_use"
+  },
+  "files": [
+    {
+      "name": "DATA.xml",
+      "url": "https://ndownloader.figshare.com/files/24018143",
+      "size_bytes": 6128,
+      "md5": "9ab41266e9d6d75fa4fe612bd140fbbf",
+      "sha256": "e5eff40c95f3ea59eda8c255c7d8f86000b45f9caa001161f43520ffb2fbc652"
+    },
+    {
+      "name": "Road_Traffic_Fine_Management_Process.xes.gz",
+      "url": "https://ndownloader.figshare.com/files/24018146",
+      "size_bytes": 3454978,
+      "md5": "dc4cae9a592938af92932ca6c043baeb",
+      "sha256": "dc9e0e65c964c8ce2a720687ecf17d8204a5cced5db2267c717ed39ada665da8"
+    }
+  ]
+}
